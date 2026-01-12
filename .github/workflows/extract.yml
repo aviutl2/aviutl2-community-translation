@@ -15,33 +15,19 @@ defaults:
 
 jobs:
   update:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    runs-on: windows-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - name: Prevent auto line ending conversion
+        run: git config --global core.autocrlf false
 
-      - name: Set up Bun
-        uses: oven-sh/setup-bun@v2
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Set up mise
+        uses: jdx/mise-action@v3
         with:
-          bun-version-file: "scripts/.bun-version"
+          install: true
+          experimental: true
 
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          working-directory: "scripts"
-
-      - name: Update
-        run: |
-          rake
-
-      - name: Commit changes
-        working-directory: ${{ github.workspace }}
-        run: |
-          git config --local user.name "GitHub Action"
-          git config --local user.email "actions@github.com"
-
-          git add .
-          git commit -m "feat: 内容を更新" || echo "No changes to commit"
-          git push origin main || echo "No changes to push"
+      - name: Run check
+        run: mise run check
