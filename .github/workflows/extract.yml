@@ -11,7 +11,6 @@ on:
 defaults:
   run:
     shell: bash
-    working-directory: scripts
 
 jobs:
   update:
@@ -29,5 +28,6 @@ jobs:
           install: true
           experimental: true
 
-      - name: Run check
-        run: mise run check
+      - name: Run extraction
+        working-directory: "./extract"
+        run: rake
