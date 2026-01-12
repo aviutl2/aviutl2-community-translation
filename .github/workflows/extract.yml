@@ -32,4 +32,6 @@ jobs:
 
       - name: Run extraction
         working-directory: "./extract"
-        run: rake
+        run: |
+          bundle install
+          rake
