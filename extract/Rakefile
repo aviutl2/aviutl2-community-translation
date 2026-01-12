@@ -7,11 +7,12 @@ task default: %i[
        extract_locale
        extract_effects
        list_effects
+       update_source
+       update_aul2
      ]
 
 task :clean do
-  rm_rf "tmp/aviutl2"
-  rm_rf "tmp/aviutl2.zip"
+  rm_rf "tmp"
   puts "Cleaned up temporary files."
 end
 task :prepare do
@@ -26,7 +27,7 @@ task :build_plugin do
 end
 
 task :download_innounp do
-  if File.exist?("tmp/innounp/innonup.exe")
+  if File.exist?("tmp/innounp/innounp.exe")
     puts "innounp.exe already exists."
     next
   end
@@ -92,6 +93,7 @@ task :extract_locale do
 
   puts "Extracting locale data..."
   puts "Running AviUtl2 installer to extract locale data..."
+  rm_rf "./tmp/installer_decompressed"
   sh "./tmp/innounp/innounp.exe -x -d./tmp/installer_decompressed ./tmp/aviutl2_setup.exe"
   locale_source =
     "./tmp/installer_decompressed/{commonappdata}/aviutl2/Language/English.aul2"
@@ -138,58 +140,205 @@ task :list_effects do
   require "inifile"
   puts "Listing extracted effects..."
   effects_dir = "./tmp/extracted_effects"
-  effects =
-    Dir
-      .glob("#{effects_dir}/*.object")
-      .to_h do |path|
-        ini = IniFile.load(path)
-        object_0 = ini["Object.0"].to_h
-        effect_name = object_0.delete("effect.name")
-        object_0.delete("Group") # TODO: なにこれ
-        [effect_name, object_0.keys]
-      end
+  common_effects = {}
+  effects = {}
+  Dir
+    .glob("#{effects_dir}/*.object")
+    .each do |path|
+      ini = IniFile.load(path)
+      object_0 = ini["Object.0"].to_h
+      effect_name = object_0.delete("effect.name")
+      object_0.delete("Group") # TODO: なにこれ
+      effects[effect_name] = object_0.keys
 
-  File.write("./effects.json", JSON.pretty_generate(effects) + "\n")
+      object_1 = ini["Object.1"]
+      unless object_1.empty?
+        effect_name_1 = object_1.delete("effect.name")
+        object_1.delete("Group") # TODO: なにこれ
+        effects[effect_name_1] = object_1.keys
+      end
+    end
+
+  File.write(
+    "./effects.json",
+    JSON.pretty_generate({ **common_effects, **effects })
+  )
   puts "Wrote effects list to ./tmp/effects.json."
 end
 
-task :upload do
-  require "http"
-  require "dotenv/load"
-  require "inifile"
+languages = %i[en]
+TRANSLATE_PLACEHOLDER = "(translate here)"
 
-  puts "Uploading translations"
-  keys = []
-  main_translations = IniFile.load("../locales/original_english.aul2")
-  main_translations.each do |section, key, value|
-    # valueは完全に無視する
-    keys << {
-      name: key,
-      namespace: "editor.#{section}",
-      translations: {
-        ja: key
-      }
-    }
-  end
-  effects = JSON.parse(File.read("./effects.json"))
-  effects.each do |effect_name, effect_keys|
-    keys << {
-      name: effect_name,
-      namespace: "effect.#{effect_name}",
-      translations: {
-        ja: effect_name
-      }
-    }
-    effect_keys.each do |key|
-      keys << {
-        name: key,
-        namespace: "effect.#{effect_name}",
-        translations: {
-          ja: key
-        }
-      }
+task :update_source do
+  require "inifile"
+  require "yaml"
+  require "json"
+
+  languages.each do |lang|
+    unless Dir.exist?("../translations/#{lang}")
+      mkdir_p "../translations/#{lang}"
     end
   end
 
-  raise "TODO: ホスト先を決める"
+  puts "Updating translation source..."
+
+  main_translations = IniFile.load("../locales/original_english.aul2")
+  effects = JSON.parse(File.read("./effects.json"))
+  effect_keys = effects.values.flatten.uniq + effects.keys
+  languages.each do |lang|
+    editor_file_path = "../translations/#{lang}/editor.yml"
+    current_translations =
+      (File.exist?(editor_file_path) ? YAML.load_file(editor_file_path) : {})
+    translations = {}
+    main_translations.each_section do |section|
+      translations[section] = {}
+      main_translations[section].each do |key, value|
+        translate_in_effect = section == "Effect" && effect_keys.include?(key)
+        if translate_in_effect
+          next
+        elsif is_translated?(current_translations.dig(section, key))
+          translations[section][key] = current_translations.dig(section, key)
+        else
+          translations[section][key] = nil
+        end
+      end
+    end
+    File.open(editor_file_path, "w") do |file|
+      translations.each do |section_name, section_content|
+        file.puts "#{section_name}:"
+        section_content.each do |key, value|
+          main_translations[section_name][key].lines.each do |line|
+            file.puts "  # #{line.chomp}".rstrip
+          end
+          file.puts "  '#{key}': |"
+          if value.nil?
+            file.puts "    #{TRANSLATE_PLACEHOLDER}"
+          else
+            value.lines.each { |line| file.puts "    #{line.chomp}".rstrip }
+          end
+          file.puts
+        end
+      end
+    end
+
+    puts "Updated translation source for #{lang} at #{editor_file_path}."
+
+    effect_file_path = "../translations/#{lang}/effects.yml"
+    current_effect_translations =
+      (File.exist?(effect_file_path) ? YAML.load_file(effect_file_path) : {})
+    effect_translations = {}
+    effects.each do |effect_name, keys|
+      effect_translations[effect_name] = { effect_name => nil }
+      keys.each do |key|
+        if is_translated?(current_effect_translations.dig(effect_name, key))
+          effect_translations[effect_name][
+            key
+          ] = current_effect_translations.dig(effect_name, key)
+        else
+          effect_translations[effect_name][key] = nil
+        end
+      end
+    end
+
+    File.open(effect_file_path, "w") do |file|
+      effect_translations.each do |effect_name, section_content|
+        file.puts "'#{effect_name}':"
+        section_content.each do |key, value|
+          if main_translations["Effect"].key?(key)
+            main_translations["Effect"][key].lines.each do |line|
+              file.puts "  # #{line.chomp}".rstrip
+            end
+          else
+            file.puts "  # (No default text available)"
+          end
+          file.puts "  '#{key}': |"
+          if value.nil?
+            file.puts "    #{TRANSLATE_PLACEHOLDER}"
+          else
+            value.lines.each { |line| file.puts "    #{line.chomp}" }
+          end
+          file.puts
+        end
+      end
+    end
+    puts "Updated effect translation source for #{lang} at #{effect_file_path}."
+  end
+end
+
+task :update_aul2 do
+  require "yaml"
+  require "inifile"
+
+  main_translations = IniFile.load("../locales/original_english.aul2")
+  languages.each do |lang|
+    puts "Building localized .aul2 for #{lang}..."
+    editor_file_path = "../translations/#{lang}/editor.yml"
+    effect_file_path = "../translations/#{lang}/effects.yml"
+    editor_translations = YAML.load_file(editor_file_path)
+    effect_translations = YAML.load_file(effect_file_path)
+
+    sections = {}
+    num_translated = 0
+    num_total = 0
+    main_translations.each_section do |section|
+      sections[section] = {}
+      main_translations[section].each do |key, value|
+        translated_value = editor_translations.dig(section, key)
+        if section == "Effect" && effect_translations.dig(key, key)
+          translated_value = effect_translations.dig(key, key)
+        end
+        num_total += 1
+        if is_translated?(translated_value&.chomp)
+          num_translated += 1
+          sections[section][key] = translated_value.chomp
+        else
+          sections[section][key] = value
+        end
+      end
+    end
+    effect_translations.each do |effect_name, effect_params|
+      sections[effect_name] ||= {}
+      effect_params.each do |key, translated_value|
+        num_total += 1
+        if is_translated?(translated_value&.chomp)
+          num_translated += 1
+          sections[effect_name][key] = translated_value.chomp
+        end
+      end
+    end
+    output_path = "../locales/community_#{lang}.aul2"
+    File.open(output_path, "w") do |file|
+      file.puts "; AviUtl2 Community Translation (#{lang})"
+      file.puts "; Generated automatically. Do not edit directly."
+      file.puts "; Translated #{num_translated} of #{num_total} entries (#{
+                  (num_translated.to_f / num_total * 100).round(2)
+                }%)."
+      file.puts "; Source:"
+      file.puts ";   https://github.com/aviutl2/aviutl2_community_translation"
+      file.puts
+      sections.each do |section_name, section_content|
+        next if section_content.empty?
+        file.puts "[#{section_name}]"
+        section_content.each do |key, value|
+          escaped_value = value.gsub("\n", "\\n")
+          file.puts "#{key}=#{escaped_value}"
+        end
+        file.puts
+      end
+    end
+    puts "Wrote localized .aul2 to #{output_path}."
+    puts "Translation progress: #{num_translated}/#{num_total} (#{
+           (num_translated.to_f / num_total * 100).round(2)
+         }%)."
+  end
+end
+
+def is_translated?(text)
+  return false if text.nil?
+
+  stripped = text.strip
+  return false if stripped.empty?
+  return false if stripped == TRANSLATE_PLACEHOLDER
+
+  true
 end
