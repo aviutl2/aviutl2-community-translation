@@ -2,7 +2,8 @@ task default: %i[
        clean
        prepare
        build_plugin
-       download
+       download_aviutl2
+       download_innounp
        extract_locale
        extract_effects
        list_effects
@@ -50,7 +51,7 @@ task :download_innounp do
   end
 end
 
-task :download do
+task :download_aviutl2 do
   require "open-uri"
   require "zip"
 
@@ -92,7 +93,8 @@ task :extract_locale do
   puts "Extracting locale data..."
   puts "Running AviUtl2 installer to extract locale data..."
   sh "./tmp/innounp/innounp.exe -x -d./tmp/installer_decompressed ./tmp/aviutl2_setup.exe"
-  locale_source = "./tmp/installer_decompressed/{commonappdata}/aviutl2/Language/English.aul2"
+  locale_source =
+    "./tmp/installer_decompressed/{commonappdata}/aviutl2/Language/English.aul2"
   locale_dest = "../locales/original_english.aul2"
   cp locale_source, locale_dest
 end
