@@ -1,12 +1,11 @@
 task default: %i[
        clean
        prepare
-       build_reboot_plugin
+       build_plugin
        download
        extract_locale
        extract_effects
        list_effects
-       convert_locale
      ]
 
 ENABLE_EXTRACTION_KEY = "DANGEROUSLY_ENABLE_EXTRACTION"
@@ -23,9 +22,9 @@ task :prepare do
   puts "Prepared temporary directory."
 end
 
-task :build_reboot_plugin do
-  sh "cmake -S . -B build -D CMAKE_BUILD_TYPE=Release", chdir: "./reboot_plugin"
-  sh "cmake --build build --config Release", chdir: "./reboot_plugin"
+task :build_plugin do
+  sh "cmake -S . -B build -D CMAKE_BUILD_TYPE=Release", chdir: "./plugin"
+  sh "cmake --build build --config Release", chdir: "./plugin"
 end
 
 task :download do
@@ -72,26 +71,16 @@ task :extract_locale do
 
     mkdir_p data_dir
     mkdir_p "#{data_dir}/Plugin"
-    cp "./reboot_plugin/build/Release/RebootPlugin.dll",
-       "#{data_dir}/Plugin/RebootPlugin.aux2"
+    cp "./plugin/build/Release/ExtractPlugin.dll",
+       "#{data_dir}/Plugin/ExtractPlugin.aux2"
+    mkdir_p "#{data_dir}/extract"
+    File.write("#{data_dir}/extract/mode.txt", "reboot")
     File.write("#{data_dir}/module.ini", <<~INI)
-      [RebootPlugin.aux2]
+      [ExtractPlugin.aux2]
       trust=1
     INI
 
-    _, _, _, spawned = Open3.popen3("./tmp/aviutl2/AviUtl2.exe")
-    current_time = Time.now
-    rm_rf "./tmp/aviutl2/data"
-    while Time.now - current_time < 60
-      if File.exist?(eng_path)
-        puts "Locale data extracted to #{eng_path}."
-        spawned.each { |s| s.close }
-        break
-      end
-      sleep 1
-    end
-
-    Process.kill("TERM", spawned.pid) if spawned.alive?
+    sh "tmp/aviutl2/AviUtl2.exe"
   end
 
   cp eng_path, "../locales/original_english.aul2"
@@ -100,46 +89,94 @@ end
 task :extract_effects do
   require "open3"
   puts "Extracting effects..."
-  aviutl2_ini_path = "tmp/aviutl2/data/aviutl2.ini"
-  # unless ENABLE_EXTRACTION
-  #   puts "Effect extraction is disabled. Set #{ENABLE_EXTRACTION_KEY}=1 to enable."
-  #   next
-  # end
-  _, _, _, spawned = Open3.popen3("./tmp/aviutl2/AviUtl2.exe")
-  current_time = Time.now
+
   rm_rf "./tmp/aviutl2/data"
   mkdir_p "./tmp/aviutl2/data/Plugin"
-  cp "./reboot_plugin/build/Release/RebootPlugin.dll",
-     "./tmp/aviutl2/data/Plugin/RebootPlugin.aux2"
+  cp "./plugin/build/Release/ExtractPlugin.dll",
+     "./tmp/aviutl2/data/Plugin/ExtractPlugin.aux2"
+  mkdir_p "./tmp/aviutl2/data/extract"
+
+  mode_path = "./tmp/aviutl2/data/extract/mode.txt"
+  File.write(mode_path, "extract")
+
+  puts "Trusting ExtractPlugin.aux2 for effect extraction."
   File.write("./tmp/aviutl2/data/module.ini", <<~INI)
-    [RebootPlugin.aux2]
+    [ExtractPlugin.aux2]
     trust=1
   INI
+  puts "Launching AviUtl2 to extract effects..."
+
+  current_time = Time.now
+  spawn("tmp/aviutl2/AviUtl2.exe")
   while Time.now - current_time < 60
-    if File.exist?(aviutl2_ini_path)
-      puts "aviutl2.ini created to #{aviutl2_ini_path}."
+    sleep 1
+    unless File.exist?(mode_path)
+      puts "Effect extraction completed."
       break
     end
-    sleep 1
   end
-  Process.kill("TERM", spawned.pid) if spawned.alive?
 
-  cp aviutl2_ini_path, "./tmp/default_aviutl2.ini"
+  rm_rf "./tmp/extracted_effects"
+  cp_r "./tmp/aviutl2/data/extract/effects", "./tmp/extracted_effects"
 end
 
 task :list_effects do
+  require "json"
   require "inifile"
+  puts "Listing extracted effects..."
+  effects_dir = "./tmp/extracted_effects"
+  effects =
+    Dir
+      .glob("#{effects_dir}/*.object")
+      .to_h do |path|
+        ini = IniFile.load(path)
+        object_0 = ini["Object.0"].to_h
+        effect_name = object_0.delete("effect.name")
+        object_0.delete("Group") # TODO: なにこれ
+        [effect_name, object_0.keys]
+      end
 
-  puts "Listing effects from ini file..."
-  ini = IniFile.load("./tmp/default_aviutl2.ini")
-  effects = ini.sections.select { |s| s.start_with?("Effect.") }
-  effects.each do |effect_section|
-    effect_name = effect_section.sub("Effect.", "")
-    effect_path = ini[effect_section]["path"]
-    puts "Effect: #{effect_name}, Path: #{effect_path}"
-  end
+  File.write("./effects.json", JSON.pretty_generate(effects))
+  puts "Wrote effects list to ./tmp/effects.json."
 end
 
-task :convert_locale do
-  puts "TODO"
+task :upload do
+  require "http"
+  require "dotenv/load"
+  require "inifile"
+
+  puts "Uploading translations"
+  keys = []
+  main_translations = IniFile.load("../locales/original_english.aul2")
+  main_translations.each do |section, key, value|
+    # valueは完全に無視する
+    keys << {
+      name: key,
+      namespace: "editor.#{section}",
+      translations: {
+        ja: key
+      }
+    }
+  end
+  effects = JSON.parse(File.read("./effects.json"))
+  effects.each do |effect_name, effect_keys|
+    keys << {
+      name: effect_name,
+      namespace: "effect.#{effect_name}",
+      translations: {
+        ja: effect_name
+      }
+    }
+    effect_keys.each do |key|
+      keys << {
+        name: key,
+        namespace: "effect.#{effect_name}",
+        translations: {
+          ja: key
+        }
+      }
+    end
+  end
+
+  raise "TODO: ホスト先を決める"
 end
