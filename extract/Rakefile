@@ -90,6 +90,7 @@ task :extract_locale do
         break
       end
     end
+    sh "tree #{data_dir}"
   end
 
   cp eng_path, "../locales/original_english.aul2"
