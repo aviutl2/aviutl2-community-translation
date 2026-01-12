@@ -32,11 +32,19 @@ jobs:
           install: true
           experimental: true
 
+      - name: Update dotenv
+        run: |
+          cat <<EOF >> ./extract/.env
+          ${{ secrets.DOTENV_CONTENTS }}
+          EOF
+
       - name: Run extraction
         working-directory: "./extract"
         run: |
           bundle install
-          rake
+          rake default
+          rake crowdin:sync
+          rake update_aul2
 
       - name: Commit changes
         working-directory: ${{ github.workspace }}

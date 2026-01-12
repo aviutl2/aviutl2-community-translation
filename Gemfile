@@ -13,3 +13,5 @@ gem "syntax_tree", "~> 6.3"
 gem "inifile", "~> 3.0"
 
 gem "dotenv", "~> 3.2"
+
+gem "crowdin-api", "~> 1.13"

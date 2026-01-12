@@ -1,0 +1,3243 @@
+'動画ファイル':
+  # VideoFile
+  '動画ファイル': |
+    動画ファイル
+
+  # PlaybackPosition
+  '再生位置': |
+    再生位置
+
+  # PlaybackSpeed
+  '再生速度': |
+    再生速度
+
+  # File
+  'ファイル': |
+    ファイル
+
+  # Track
+  'トラック': |
+    トラック
+
+  # Loop
+  'ループ再生': |
+    ループ再生
+
+  # (No default text available)
+  '音声付き': |
+    音声付き
+
+  # (No default text available)
+  'YUV': |
+    YUV
+
+'映像再生':
+  # MovieOutput
+  '映像再生': |
+    映像再生
+
+  # (No default text available)
+  'X': |
+    X
+
+  # (No default text available)
+  'Y': |
+    Y
+
+  # (No default text available)
+  'Z': |
+    Z
+
+  # CenterX
+  '中心X': |
+    中心X
+
+  # CenterY
+  '中心Y': |
+    中心Y
+
+  # CenterZ
+  '中心Z': |
+    中心Z
+
+  # RotateX
+  'X軸回転': |
+    X軸回転
+
+  # RotateY
+  'Y軸回転': |
+    Y軸回転
+
+  # RotateZ
+  'Z軸回転': |
+    Z軸回転
+
+  # Zoom
+  '拡大率': |
+    拡大率
+
+  # Aspect
+  '縦横比': |
+    縦横比
+
+  # Transparent
+  '透明度': |
+    透明度
+
+  # Blend
+  '合成モード': |
+    合成モード
+
+  # Volume
+  '音量': |
+    音量
+
+  # Balance
+  '左右': |
+    左右
+
+'直前オブジェクト':
+  # BeforeObject
+  '直前オブジェクト': |
+    直前オブジェクト
+
+'標準描画':
+  # ImageOutput
+  '標準描画': |
+    標準描画
+
+  # (No default text available)
+  'X': |
+    X
+
+  # (No default text available)
+  'Y': |
+    Y
+
+  # (No default text available)
+  'Z': |
+    Z
+
+  # CenterX
+  '中心X': |
+    中心X
+
+  # CenterY
+  '中心Y': |
+    中心Y
+
+  # CenterZ
+  '中心Z': |
+    中心Z
+
+  # RotateX
+  'X軸回転': |
+    X軸回転
+
+  # RotateY
+  'Y軸回転': |
+    Y軸回転
+
+  # RotateZ
+  'Z軸回転': |
+    Z軸回転
+
+  # Zoom
+  '拡大率': |
+    拡大率
+
+  # Aspect
+  '縦横比': |
+    縦横比
+
+  # Transparent
+  '透明度': |
+    透明度
+
+  # Blend
+  '合成モード': |
+    合成モード
+
+'座標の回転(個別オブジェクト)':
+  # RotateCoordinate(Individual)
+  '座標の回転(個別オブジェクト)': |
+    座標の回転(個別オブジェクト)
+
+  # Angle
+  '角度': |
+    角度
+
+  # CenterX
+  '中心X': |
+    中心X
+
+  # CenterY
+  '中心Y': |
+    中心Y
+
+'立方体(カメラ制御)':
+  # Cube(Camera)
+  '立方体(カメラ制御)': |
+    立方体(カメラ制御)
+
+  # Size
+  'サイズ': |
+    サイズ
+
+'球体(カメラ制御)':
+  # Sphere(Camera)
+  '球体(カメラ制御)': |
+    球体(カメラ制御)
+
+  # Size
+  'サイズ': |
+    サイズ
+
+'砕け散る':
+  # Shatter
+  '砕け散る': |
+    砕け散る
+
+  # StartTime
+  '開始時間': |
+    開始時間
+
+  # PlaybackSpeed
+  '再生速度': |
+    再生速度
+
+  # CenterX
+  '中心X': |
+    中心X
+
+  # CenterY
+  '中心Y': |
+    中心Y
+
+  # CenterZ
+  '中心Z': |
+    中心Z
+
+  # FragmentSize
+  '破片サイズ': |
+    破片サイズ
+
+  # Speed
+  '速度': |
+    速度
+
+  # Gravity
+  '重力': |
+    重力
+
+  # TimeLag
+  '時間差': |
+    時間差
+
+  # DistanceEffect
+  '距離影響': |
+    距離影響
+
+  # RandomRotate
+  'ランダム回転': |
+    ランダム回転
+
+  # RandomDirection
+  'ランダム方向': |
+    ランダム方向
+
+'点滅':
+  # Blink
+  '点滅': |
+    点滅
+
+  # Speed
+  '速さ': |
+    速さ
+
+  # BlinkRatio
+  '点滅割合': |
+    点滅割合
+
+  # LightOnSpeed
+  '点灯速度': |
+    点灯速度
+
+  # LightOffSpeed
+  '消灯速度': |
+    消灯速度
+
+'点滅して登場':
+  # FromBlinking
+  '点滅して登場': |
+    点滅して登場
+
+  # Time
+  '時間': |
+    時間
+
+  # BlinkCycle
+  '点滅間隔': |
+    点滅間隔
+
+  # FixedBlinkInterval
+  '点滅間隔を一定にする': |
+    点滅間隔を一定にする
+
+'簡易変形':
+  # Transformation
+  '簡易変形': |
+    簡易変形
+
+  # TimePassage
+  '時間経過': |
+    時間経過
+
+  # Position
+  '座標': |
+    座標
+
+  # DivideNum
+  '分割数': |
+    分割数
+
+'簡易変形(カメラ制御)':
+  # Transformation(Camera)
+  '簡易変形(カメラ制御)': |
+    簡易変形(カメラ制御)
+
+  # TimePassage
+  '時間経過': |
+    時間経過
+
+  # Position
+  '座標': |
+    座標
+
+  # DivideNum
+  '分割数': |
+    分割数
+
+'リール回転':
+  # ReelRotation
+  'リール回転': |
+    リール回転
+
+  # RotateNum
+  '回転数': |
+    回転数
+
+  # Blur
+  'ブラー': |
+    ブラー
+
+  # HorizontalRotate
+  '横回転': |
+    横回転
+
+'万華鏡':
+  # Kaleidoscope
+  '万華鏡': |
+    万華鏡
+
+  # CenterX
+  '中心X': |
+    中心X
+
+  # CenterY
+  '中心Y': |
+    中心Y
+
+  # Length
+  '長さ': |
+    長さ
+
+  # Rotate
+  '回転': |
+    回転
+
+  # CornerNum(Even)
+  '角数(偶数)': |
+    角数(偶数)
+
+  # RepeatNum
+  '繰り返し回数': |
+    繰り返し回数
+
+  # FixedSize
+  '固定サイズ': |
+    固定サイズ
+
+  # RoundMask
+  '円形マスク': |
+    円形マスク
+
+  # SyncRotate
+  '回転同期': |
+    回転同期
+
+  # TransparentOutside
+  '領域外を透過': |
+    領域外を透過
+
+  # DisplayPosition
+  '表示位置確認': |
+    表示位置確認
+
+'音声波形表示':
+  # AudioWaveform
+  '音声波形表示': |
+    音声波形表示
+
+  # Width
+  '横幅': |
+    横幅
+
+  # Height
+  '高さ': |
+    高さ
+
+  # PlaybackPosition
+  '再生位置': |
+    再生位置
+
+  # PlaybackSpeed
+  '再生速度': |
+    再生速度
+
+  # Volume
+  '音量': |
+    音量
+
+  # File
+  'ファイル': |
+    ファイル
+
+  # Color
+  '波形の色': |
+    波形の色
+
+  # Preset
+  '波形のプリセット': |
+    波形のプリセット
+
+  # Spectrum
+  'スペクトラム表示': |
+    スペクトラム表示
+
+  # Mirror
+  'ミラー表示': |
+    ミラー表示
+
+  # ResolutionX
+  '横解像度': |
+    横解像度
+
+  # ResolutionY
+  '縦解像度': |
+    縦解像度
+
+  # MarginX
+  '横スペース': |
+    横スペース
+
+  # MarginY
+  '縦スペース': |
+    縦スペース
+
+'円形配置':
+  # CircleLayout
+  '円形配置': |
+    円形配置
+
+  # Circumference
+  '円周': |
+    円周
+
+  # Radius
+  '半径': |
+    半径
+
+  # Rotate
+  '回転': |
+    回転
+
+  # Shift
+  'ずらし': |
+    ずらし
+
+  # Num
+  '数': |
+    数
+
+  # HorizontalLayout(Camera)
+  '水平配置(カメラ制御)': |
+    水平配置(カメラ制御)
+
+  # TurnAround
+  '向き反転': |
+    向き反転
+
+  # NoRotate
+  '回転無し': |
+    回転無し
+
+'ランダム配置':
+  # RandomLayout
+  'ランダム配置': |
+    ランダム配置
+
+  # Num
+  '数': |
+    数
+
+  # Range
+  '範囲': |
+    範囲
+
+  # Rotate
+  '回転': |
+    回転
+
+  # Diffusion
+  '拡散': |
+    拡散
+
+  # 3DLayout(Camera)
+  '3D配置(カメラ制御)': |
+    3D配置(カメラ制御)
+
+  # RandomAngle
+  'ランダム角度': |
+    ランダム角度
+
+  # Billboard
+  'カメラの方向を向く': |
+    カメラの方向を向く
+
+'ミラー':
+  # Mirror
+  'ミラー': |
+    ミラー
+
+  # Transparent
+  '透明度': |
+    透明度
+
+  # Decay
+  '減衰': |
+    減衰
+
+  # BoarderAdjust
+  '境目調整': |
+    境目調整
+
+  # MirrorDirection
+  'ミラーの方向': |
+    ミラーの方向
+
+  # AdjustCenter
+  '中心の位置を変更': |
+    中心の位置を変更
+
+'粒子化':
+  # Particulate
+  '粒子化': |
+    粒子化
+
+  # StartTime
+  '開始時間': |
+    開始時間
+
+  # PlaybackSpeed
+  '再生速度': |
+    再生速度
+
+  # BaseX
+  '起点X': |
+    起点X
+
+  # BaseY
+  '起点Y': |
+    起点Y
+
+  # Speed
+  '速度': |
+    速度
+
+  # Angle
+  '角度': |
+    角度
+
+  # ParticleSpeed
+  '粒子速度': |
+    粒子速度
+
+  # ZoomSpeed
+  '拡大速度': |
+    拡大速度
+
+  # fluctuation
+  'ゆらぎ': |
+    ゆらぎ
+
+  # Distortion
+  'ゆがみ': |
+    ゆがみ
+
+  # Blur
+  'ぼかし': |
+    ぼかし
+
+'発光(シーンチェンジ)':
+  # Bloom(SceneChange)
+  '発光(シーンチェンジ)': |
+    発光(シーンチェンジ)
+
+  # Brightness
+  '明るさ': |
+    明るさ
+
+'レンズブラー(シーンチェンジ)':
+  # LensBlur(SceneChange)
+  'レンズブラー(シーンチェンジ)': |
+    レンズブラー(シーンチェンジ)
+
+'ドア(シーンチェンジ)':
+  # Door(SceneChange)
+  'ドア(シーンチェンジ)': |
+    ドア(シーンチェンジ)
+
+  # OpenFront
+  '手前に開く': |
+    手前に開く
+
+'起き上がる(シーンチェンジ)':
+  # Rising(SceneChange)
+  '起き上がる(シーンチェンジ)': |
+    起き上がる(シーンチェンジ)
+
+  # Force
+  '勢い': |
+    勢い
+
+'リール回転(シーンチェンジ)':
+  # ReelRotation(SceneChange)
+  'リール回転(シーンチェンジ)': |
+    リール回転(シーンチェンジ)
+
+  # RotateNum
+  '回転数': |
+    回転数
+
+  # Blur
+  'ブラー': |
+    ブラー
+
+  # HorizontalRotate
+  '横回転': |
+    横回転
+
+'図形ワイプ(シーンチェンジ)':
+  # Wipe(SceneChange)
+  '図形ワイプ(シーンチェンジ)': |
+    図形ワイプ(シーンチェンジ)
+
+  # Size
+  'サイズ': |
+    サイズ
+
+  # Direction
+  '方向': |
+    方向
+
+  # Zoom
+  '拡大率': |
+    拡大率
+
+  # Angle
+  '角度': |
+    角度
+
+  # RotateSpeed
+  '回転速度': |
+    回転速度
+
+  # DelayTime
+  'ディレイ時間': |
+    ディレイ時間
+
+  # Figure
+  '図形名': |
+    図形名
+
+'色調補正':
+  # ColorCorrect
+  '色調補正': |
+    色調補正
+
+  # Brightness
+  '明るさ': |
+    明るさ
+
+  # Contrast
+  'コントラスト': |
+    コントラスト
+
+  # Hue
+  '色相': |
+    色相
+
+  # Luminance
+  '輝度': |
+    輝度
+
+  # Chroma
+  '彩度': |
+    彩度
+
+  # Saturate
+  '飽和する': |
+    飽和する
+
+'図形で隠す(シーンチェンジ)':
+  # HideFigure(SceneChange)
+  '図形で隠す(シーンチェンジ)': |
+    図形で隠す(シーンチェンジ)
+
+  # Direction
+  '方向': |
+    方向
+
+  # Zoom
+  '拡大率': |
+    拡大率
+
+  # Angle
+  '角度': |
+    角度
+
+  # RotateSpeed
+  '回転速度': |
+    回転速度
+
+  # Num
+  '数': |
+    数
+
+  # EdgeAngle
+  'エッジ角度': |
+    エッジ角度
+
+  # EdgeWidth
+  'エッジ幅': |
+    エッジ幅
+
+  # EdgeHeight
+  'エッジ高さ': |
+    エッジ高さ
+
+  # Figure
+  '図形名': |
+    図形名
+
+  # Color
+  '色': |
+    色
+
+'図形で隠す(放射)(シーンチェンジ)':
+  # HideFigureRadial(SceneChange)
+  '図形で隠す(放射)(シーンチェンジ)': |
+    図形で隠す(放射)(シーンチェンジ)
+
+  # Zoom
+  '拡大率': |
+    拡大率
+
+  # Angle
+  '角度': |
+    角度
+
+  # RotateSpeed
+  '回転速度': |
+    回転速度
+
+  # Num
+  '数': |
+    数
+
+  # Speed
+  '速度': |
+    速度
+
+  # EdgeAngle
+  'エッジ角度': |
+    エッジ角度
+
+  # EdgeWidth
+  'エッジ幅': |
+    エッジ幅
+
+  # EdgeHeight
+  'エッジ高さ': |
+    エッジ高さ
+
+  # Figure
+  '図形名': |
+    図形名
+
+  # Color
+  '色': |
+    色
+
+'砕け散る(シーンチェンジ)':
+  # Shatter(SceneChange)
+  '砕け散る(シーンチェンジ)': |
+    砕け散る(シーンチェンジ)
+
+  # Size
+  'サイズ': |
+    サイズ
+
+  # CenterX
+  '中心X': |
+    中心X
+
+  # CenterY
+  '中心Y': |
+    中心Y
+
+  # CenterZ
+  '中心Z': |
+    中心Z
+
+  # Speed
+  '速度': |
+    速度
+
+  # Gravity
+  '重力': |
+    重力
+
+  # TimeLag
+  '時間差': |
+    時間差
+
+  # DistanceEffect
+  '距離影響': |
+    距離影響
+
+  # RandomRotate
+  'ランダム回転': |
+    ランダム回転
+
+  # RandomDirection
+  'ランダム方向': |
+    ランダム方向
+
+  # PlaybackSpeed
+  '再生速度': |
+    再生速度
+
+'ページめくり(シーンチェンジ)':
+  # Page(SceneChange)
+  'ページめくり(シーンチェンジ)': |
+    ページめくり(シーンチェンジ)
+
+  # Shadow
+  '陰影': |
+    陰影
+
+  # Depth
+  '奥行き': |
+    奥行き
+
+'グラデーション':
+  # Gradient
+  'グラデーション': |
+    グラデーション
+
+  # Level
+  '強さ': |
+    強さ
+
+  # CenterX
+  '中心X': |
+    中心X
+
+  # CenterY
+  '中心Y': |
+    中心Y
+
+  # Angle
+  '角度': |
+    角度
+
+  # Width
+  '幅': |
+    幅
+
+  # Blend
+  '合成モード': |
+    合成モード
+
+  # Form
+  '形状': |
+    形状
+
+  # StartColor
+  '開始色': |
+    開始色
+
+  # EndColor
+  '終了色': |
+    終了色
+
+'単色化':
+  # Monochrome
+  '単色化': |
+    単色化
+
+  # Level
+  '強さ': |
+    強さ
+
+  # Color
+  '色': |
+    色
+
+  # HoldLuminance
+  '輝度を保持する': |
+    輝度を保持する
+
+'特定色域変換':
+  # ColorConversion
+  '特定色域変換': |
+    特定色域変換
+
+  # HueRange
+  '色相範囲': |
+    色相範囲
+
+  # ChromaRange
+  '彩度範囲': |
+    彩度範囲
+
+  # BorderCorrect
+  '境界補正': |
+    境界補正
+
+  # BeforeColor
+  '変換前の色': |
+    変換前の色
+
+  # AfterColor
+  '変換後の色': |
+    変換後の色
+
+  # ChromaCorrect
+  '色彩補正': |
+    色彩補正
+
+'拡張色設定':
+  # ExtendedColorSetting
+  '拡張色設定': |
+    拡張色設定
+
+  # (No default text available)
+  'R': |
+    R
+
+  # (No default text available)
+  'G': |
+    G
+
+  # (No default text available)
+  'B': |
+    B
+
+'クリッピング':
+  # Clipping
+  'クリッピング': |
+    クリッピング
+
+  # Top
+  '上': |
+    上
+
+  # Bottom
+  '下': |
+    下
+
+  # Left
+  '左': |
+    左
+
+  # Right
+  '右': |
+    右
+
+  # AdjustCenter
+  '中心の位置を変更': |
+    中心の位置を変更
+
+'斜めクリッピング':
+  # Clipping(Angle)
+  '斜めクリッピング': |
+    斜めクリッピング
+
+  # CenterX
+  '中心X': |
+    中心X
+
+  # CenterY
+  '中心Y': |
+    中心Y
+
+  # Angle
+  '角度': |
+    角度
+
+  # Blur
+  'ぼかし': |
+    ぼかし
+
+  # Width
+  '幅': |
+    幅
+
+'扇クリッピング':
+  # Clipping(Fan)
+  '扇クリッピング': |
+    扇クリッピング
+
+  # CenterX
+  '中心X': |
+    中心X
+
+  # CenterY
+  '中心Y': |
+    中心Y
+
+  # BaseAngle
+  '基準角': |
+    基準角
+
+  # RangeAngle
+  '範囲角': |
+    範囲角
+
+  # Blur
+  'ぼかし': |
+    ぼかし
+
+  # CenterBaseAngle
+  '基準角を中央にする': |
+    基準角を中央にする
+
+'画像ファイル':
+  # ImageFile
+  '画像ファイル': |
+    画像ファイル
+
+  # File
+  'ファイル': |
+    ファイル
+
+  # ViewNumber
+  '表示番号': |
+    表示番号
+
+  # SerialNumberFile
+  '連番ファイル': |
+    連番ファイル
+
+'マスク':
+  # Mask
+  'マスク': |
+    マスク
+
+  # (No default text available)
+  'X': |
+    X
+
+  # (No default text available)
+  'Y': |
+    Y
+
+  # Rotate
+  '回転': |
+    回転
+
+  # Size
+  'サイズ': |
+    サイズ
+
+  # Aspect
+  '縦横比': |
+    縦横比
+
+  # Blur
+  'ぼかし': |
+    ぼかし
+
+  # MaskType
+  'マスクの種類': |
+    マスクの種類
+
+  # FitSceneLength
+  'シーンの長さを合わせる': |
+    シーンの長さを合わせる
+
+  # InvertMask
+  'マスクの反転': |
+    マスクの反転
+
+  # FitSize
+  '元のサイズに合わせる': |
+    元のサイズに合わせる
+
+'ぼかし':
+  # Blur
+  'ぼかし': |
+    ぼかし
+
+  # Range
+  '範囲': |
+    範囲
+
+  # Aspect
+  '縦横比': |
+    縦横比
+
+  # LuminanceLevel
+  '光の強さ': |
+    光の強さ
+
+  # FixedSize
+  'サイズ固定': |
+    サイズ固定
+
+'レンズブラー':
+  # LensBlur
+  'レンズブラー': |
+    レンズブラー
+
+  # Range
+  '範囲': |
+    範囲
+
+  # LuminanceLevel
+  '光の強さ': |
+    光の強さ
+
+  # Form
+  '形状': |
+    形状
+
+  # FixedSize
+  'サイズ固定': |
+    サイズ固定
+
+'放射ブラー':
+  # RadialBlur
+  '放射ブラー': |
+    放射ブラー
+
+  # Range
+  '範囲': |
+    範囲
+
+  # (No default text available)
+  'X': |
+    X
+
+  # (No default text available)
+  'Y': |
+    Y
+
+  # FixedSize
+  'サイズ固定': |
+    サイズ固定
+
+'方向ブラー':
+  # DirectionBlur
+  '方向ブラー': |
+    方向ブラー
+
+  # Range
+  '範囲': |
+    範囲
+
+  # Angle
+  '角度': |
+    角度
+
+  # FixedSize
+  'サイズ固定': |
+    サイズ固定
+
+'モーションブラー':
+  # MotionBlur
+  'モーションブラー': |
+    モーションブラー
+
+  # Interval
+  '間隔': |
+    間隔
+
+  # Resolution
+  '分解能': |
+    分解能
+
+  # Afterimage
+  '残像': |
+    残像
+
+'境界ぼかし':
+  # BorderBlur
+  '境界ぼかし': |
+    境界ぼかし
+
+  # Range
+  '範囲': |
+    範囲
+
+  # Aspect
+  '縦横比': |
+    縦横比
+
+  # BlurTransparencyEdge
+  '透明度の境界をぼかす': |
+    透明度の境界をぼかす
+
+'グロー':
+  # Glow
+  'グロー': |
+    グロー
+
+  # Level
+  '強さ': |
+    強さ
+
+  # Diffusion
+  '拡散': |
+    拡散
+
+  # Angle
+  '角度': |
+    角度
+
+  # Threshold
+  'しきい値': |
+    しきい値
+
+  # Ratio
+  '比率': |
+    比率
+
+  # Blur
+  'ぼかし': |
+    ぼかし
+
+  # Form
+  '形状': |
+    形状
+
+  # LightColor
+  '光色': |
+    光色
+
+  # OnlyLightComponent
+  '光成分のみ': |
+    光成分のみ
+
+  # FixedSize
+  'サイズ固定': |
+    サイズ固定
+
+'発光':
+  # Bloom
+  '発光': |
+    発光
+
+  # Level
+  '強さ': |
+    強さ
+
+  # Diffusion
+  '拡散': |
+    拡散
+
+  # Threshold
+  'しきい値': |
+    しきい値
+
+  # SpreadSpeed
+  '拡散速度': |
+    拡散速度
+
+  # LightColor
+  '光色': |
+    光色
+
+  # FixedSize
+  'サイズ固定': |
+    サイズ固定
+
+'閃光':
+  # Flash
+  '閃光': |
+    閃光
+
+  # Level
+  '強さ': |
+    強さ
+
+  # (No default text available)
+  'X': |
+    X
+
+  # (No default text available)
+  'Y': |
+    Y
+
+  # Blend
+  '合成モード': |
+    合成モード
+
+  # LightColor
+  '光色': |
+    光色
+
+  # FixedSize
+  'サイズ固定': |
+    サイズ固定
+
+'音声ファイル':
+  # AudioFile
+  '音声ファイル': |
+    音声ファイル
+
+  # PlaybackPosition
+  '再生位置': |
+    再生位置
+
+  # PlaybackSpeed
+  '再生速度': |
+    再生速度
+
+  # File
+  'ファイル': |
+    ファイル
+
+  # Track
+  'トラック': |
+    トラック
+
+  # Loop
+  'ループ再生': |
+    ループ再生
+
+'音声再生':
+  # AudioOutput
+  '音声再生': |
+    音声再生
+
+  # Volume
+  '音量': |
+    音量
+
+  # Balance
+  '左右': |
+    左右
+
+'拡散光':
+  # Diffusion
+  '拡散光': |
+    拡散光
+
+  # Level
+  '強さ': |
+    強さ
+
+  # Diffusion
+  '拡散': |
+    拡散
+
+  # FixedSize
+  'サイズ固定': |
+    サイズ固定
+
+'ライト':
+  # Light
+  'ライト': |
+    ライト
+
+  # Level
+  '強さ': |
+    強さ
+
+  # Diffusion
+  '拡散': |
+    拡散
+
+  # Ratio
+  '比率': |
+    比率
+
+  # (No default text available)
+  '逆光': |
+    逆光
+
+  # Color
+  '色': |
+    色
+
+'色ずれ':
+  # ColorShift
+  '色ずれ': |
+    色ずれ
+
+  # ShiftSize
+  'ずれ幅': |
+    ずれ幅
+
+  # Angle
+  '角度': |
+    角度
+
+  # Level
+  '強さ': |
+    強さ
+
+  # ShiftType
+  '色ずれの種類': |
+    色ずれの種類
+
+'縁取り':
+  # Border
+  '縁取り': |
+    縁取り
+
+  # Size
+  'サイズ': |
+    サイズ
+
+  # Blur
+  'ぼかし': |
+    ぼかし
+
+  # BorderColor
+  '縁色': |
+    縁色
+
+  # PatternImage
+  'パターン画像': |
+    パターン画像
+
+'枠線':
+  # FrameLine
+  '枠線': |
+    枠線
+
+  # (No default text available)
+  'X': |
+    X
+
+  # (No default text available)
+  'Y': |
+    Y
+
+  # Size
+  'サイズ': |
+    サイズ
+
+  # Round
+  '丸み': |
+    丸み
+
+  # FrameColor
+  '枠色': |
+    枠色
+
+  # PatternImage
+  'パターン画像': |
+    パターン画像
+
+'ドロップシャドウ':
+  # DropShadow
+  'ドロップシャドウ': |
+    ドロップシャドウ
+
+  # (No default text available)
+  'X': |
+    X
+
+  # (No default text available)
+  'Y': |
+    Y
+
+  # Strong
+  '濃さ': |
+    濃さ
+
+  # Diffusion
+  '拡散': |
+    拡散
+
+  # ShadowColor
+  '影色': |
+    影色
+
+  # IndividualShadow
+  '影を別オブジェクトで描画': |
+    影を別オブジェクトで描画
+
+'凸エッジ':
+  # Bevel
+  '凸エッジ': |
+    凸エッジ
+
+  # Width
+  '幅': |
+    幅
+
+  # Height
+  '高さ': |
+    高さ
+
+  # Angle
+  '角度': |
+    角度
+
+'クロマキー':
+  # ChromaKey
+  'クロマキー': |
+    クロマキー
+
+  # HueRange
+  '色相範囲': |
+    色相範囲
+
+  # ChromaRange
+  '彩度範囲': |
+    彩度範囲
+
+  # BorderCorrect
+  '境界補正': |
+    境界補正
+
+  # BaseColor
+  '基準色': |
+    基準色
+
+  # ChromaCorrect
+  '色彩補正': |
+    色彩補正
+
+  # TransparentCorrect
+  '透過補正': |
+    透過補正
+
+'ルミナンスキー':
+  # LuminanceKey
+  'ルミナンスキー': |
+    ルミナンスキー
+
+  # BaseLuminance
+  '基準輝度': |
+    基準輝度
+
+  # LuminanceRange
+  '輝度範囲': |
+    輝度範囲
+
+  # Mode
+  'モード': |
+    モード
+
+'カラーキー':
+  # ColorKey
+  'カラーキー': |
+    カラーキー
+
+  # LuminanceRange
+  '輝度範囲': |
+    輝度範囲
+
+  # ColorRange
+  '色差範囲': |
+    色差範囲
+
+  # BorderCorrect
+  '境界補正': |
+    境界補正
+
+  # BaseColor
+  '基準色': |
+    基準色
+
+'モデルファイル':
+  # ModelFile
+  'モデルファイル': |
+    モデルファイル
+
+  # File
+  'ファイル': |
+    ファイル
+
+  # AdjustCoordinateSystem
+  '座標系を調整': |
+    座標系を調整
+
+'エッジ抽出':
+  # EdgeExtract
+  'エッジ抽出': |
+    エッジ抽出
+
+  # Level
+  '強さ': |
+    強さ
+
+  # Threshold
+  'しきい値': |
+    しきい値
+
+  # Color
+  '色': |
+    色
+
+  # LuminanceEdge
+  '輝度エッジを抽出': |
+    輝度エッジを抽出
+
+  # TransparentCorrectEdge
+  '透明度エッジを抽出': |
+    透明度エッジを抽出
+
+'波紋':
+  # Ripple
+  '波紋': |
+    波紋
+
+  # CenterX
+  '中心X': |
+    中心X
+
+  # CenterY
+  '中心Y': |
+    中心Y
+
+  # Width
+  '幅': |
+    幅
+
+  # Height
+  '高さ': |
+    高さ
+
+  # Speed
+  '速度': |
+    速度
+
+  # RippleNum
+  '波紋数': |
+    波紋数
+
+  # RippleInterval
+  '波紋間隔': |
+    波紋間隔
+
+  # FluctuationNum
+  '増幅減衰回数': |
+    増幅減衰回数
+
+'ラスター':
+  # Raster
+  'ラスター': |
+    ラスター
+
+  # Width
+  '横幅': |
+    横幅
+
+  # Height
+  '高さ': |
+    高さ
+
+  # Cycle
+  '周期': |
+    周期
+
+  # Vertical
+  '縦ラスター': |
+    縦ラスター
+
+  # RandomAmplitude
+  'ランダム振幅': |
+    ランダム振幅
+
+'極座標変換':
+  # PolarTransform
+  '極座標変換': |
+    極座標変換
+
+  # CenterWidth
+  '中心幅': |
+    中心幅
+
+  # Zoom
+  '拡大率': |
+    拡大率
+
+  # Rotate
+  '回転': |
+    回転
+
+  # Spiral
+  '渦巻': |
+    渦巻
+
+'ディスプレイスメントマップ':
+  # Displacement
+  'ディスプレイスメントマップ': |
+    ディスプレイスメントマップ
+
+  # (No default text available)
+  'X': |
+    X
+
+  # (No default text available)
+  'Y': |
+    Y
+
+  # Rotate
+  '回転': |
+    回転
+
+  # Size
+  'サイズ': |
+    サイズ
+
+  # Aspect
+  '縦横比': |
+    縦横比
+
+  # Blur
+  'ぼかし': |
+    ぼかし
+
+  # TransformX
+  '変形X': |
+    変形X
+
+  # TransformY
+  '変形Y': |
+    変形Y
+
+  # ZoomTransform
+  '拡大変形': |
+    拡大変形
+
+  # ZoomAspect
+  '拡大縦横': |
+    拡大縦横
+
+  # RotateTransform
+  '回転変形': |
+    回転変形
+
+  # TransformType
+  '変形方法': |
+    変形方法
+
+  # MapType
+  'マップの種類': |
+    マップの種類
+
+  # FitSceneLength
+  'シーンの長さを合わせる': |
+    シーンの長さを合わせる
+
+  # FitSize
+  '元のサイズに合わせる': |
+    元のサイズに合わせる
+
+'リサイズ':
+  # Resize
+  'リサイズ': |
+    リサイズ
+
+  # Zoom
+  '拡大率': |
+    拡大率
+
+  # (No default text available)
+  'X': |
+    X
+
+  # (No default text available)
+  'Y': |
+    Y
+
+  # NoInterpolation
+  '補間なし': |
+    補間なし
+
+  # SpecifyPixelNum
+  'ピクセル数でサイズ指定': |
+    ピクセル数でサイズ指定
+
+'画像合成':
+  # ImageComposite
+  '画像合成': |
+    画像合成
+
+  # (No default text available)
+  'X': |
+    X
+
+  # (No default text available)
+  'Y': |
+    Y
+
+  # Zoom
+  '拡大率': |
+    拡大率
+
+  # Blend
+  '合成モード': |
+    合成モード
+
+  # Image
+  '画像': |
+    画像
+
+  # LoopImage
+  'ループ画像': |
+    ループ画像
+
+  # Loop
+  'ループ再生': |
+    ループ再生
+
+'シャープ':
+  # Sharpe
+  'シャープ': |
+    シャープ
+
+  # Level
+  '強さ': |
+    強さ
+
+  # Range
+  '範囲': |
+    範囲
+
+'ノイズ除去':
+  # NoiseReduction
+  'ノイズ除去': |
+    ノイズ除去
+
+  # Level
+  '強さ': |
+    強さ
+
+  # Range
+  '範囲': |
+    範囲
+
+  # Threshold
+  'しきい値': |
+    しきい値
+
+'インターレース解除':
+  # Deinterlace
+  'インターレース解除': |
+    インターレース解除
+
+  # Method
+  '解除方法': |
+    解除方法
+
+'テキスト':
+  # Text
+  'テキスト': |
+    テキスト
+
+  # Size
+  'サイズ': |
+    サイズ
+
+  # CharSpacing
+  '字間': |
+    字間
+
+  # LineSpacing
+  '行間': |
+    行間
+
+  # ViewSpeed
+  '表示速度': |
+    表示速度
+
+  # Font
+  'フォント': |
+    フォント
+
+  # TextColor
+  '文字色': |
+    文字色
+
+  # BorderColor
+  '影・縁色': |
+    影・縁色
+
+  # TextDecoration
+  '文字装飾': |
+    文字装飾
+
+  # TextAlignment
+  '文字揃え': |
+    文字揃え
+
+  # (No default text available)
+  'B': |
+    B
+
+  # (No default text available)
+  'I': |
+    I
+
+  # IndividualText
+  '文字毎に個別オブジェクト': |
+    文字毎に個別オブジェクト
+
+  # AutoScroll
+  '自動スクロール': |
+    自動スクロール
+
+  # DisplayMovingPosition
+  '移動座標上に表示': |
+    移動座標上に表示
+
+  # AutoAdjustObject
+  'オブジェクトの長さを自動調節': |
+    オブジェクトの長さを自動調節
+
+'ノイズ':
+  # Noise
+  'ノイズ': |
+    ノイズ
+
+  # Level
+  '強さ': |
+    強さ
+
+  # SpeedX
+  '速度X': |
+    速度X
+
+  # SpeedY
+  '速度Y': |
+    速度Y
+
+  # ChangeSpeed
+  '変化速度': |
+    変化速度
+
+  # CycleX
+  '周期X': |
+    周期X
+
+  # CycleY
+  '周期Y': |
+    周期Y
+
+  # Threshold
+  'しきい値': |
+    しきい値
+
+  # Seed
+  'シード': |
+    シード
+
+  # Blend
+  '合成モード': |
+    合成モード
+
+  # NoiseType
+  'ノイズの種類': |
+    ノイズの種類
+
+'モザイク':
+  # Mosaic
+  'モザイク': |
+    モザイク
+
+  # Size
+  'サイズ': |
+    サイズ
+
+  # Tile
+  'タイル風': |
+    タイル風
+
+'オフスクリーン描画':
+  # OffscreenDraw
+  'オフスクリーン描画': |
+    オフスクリーン描画
+
+'画像ループ':
+  # ImageLoop
+  '画像ループ': |
+    画像ループ
+
+  # CountX
+  '横回数': |
+    横回数
+
+  # CountY
+  '縦回数': |
+    縦回数
+
+  # OffsetX
+  'オフセットX': |
+    オフセットX
+
+  # OffsetY
+  'オフセットY': |
+    オフセットY
+
+  # Individual
+  '個別オブジェクト': |
+    個別オブジェクト
+
+'オブジェクト分割':
+  # ObjectDivide
+  'オブジェクト分割': |
+    オブジェクト分割
+
+  # DivideNumX
+  '横分割数': |
+    横分割数
+
+  # DivideNumY
+  '縦分割数': |
+    縦分割数
+
+'フェード':
+  # Fade
+  'フェード': |
+    フェード
+
+  # In
+  'イン': |
+    イン
+
+  # Out
+  'アウト': |
+    アウト
+
+'ワイプ':
+  # Wipe
+  'ワイプ': |
+    ワイプ
+
+  # In
+  'イン': |
+    イン
+
+  # Out
+  'アウト': |
+    アウト
+
+  # Blur
+  'ぼかし': |
+    ぼかし
+
+  # WipeType
+  'ワイプの種類': |
+    ワイプの種類
+
+  # FixedAspect
+  '縦横比固定': |
+    縦横比固定
+
+  # Invert(In)
+  '反転(イン)': |
+    反転(イン)
+
+  # Invert(Out)
+  '反転(アウト)': |
+    反転(アウト)
+
+'シーンチェンジ':
+  # SceneChange
+  'シーンチェンジ': |
+    シーンチェンジ
+
+  # Type
+  '種類': |
+    種類
+
+  # Angle
+  '角度': |
+    角度
+
+  # DivideNum
+  '分割数': |
+    分割数
+
+  # Blur
+  'ぼかし': |
+    ぼかし
+
+  # Vertical
+  '縦方向': |
+    縦方向
+
+  # Invert
+  '反転': |
+    反転
+
+  # FixedAspect
+  '縦横比固定': |
+    縦横比固定
+
+'振動':
+  # Quake
+  '振動': |
+    振動
+
+  # (No default text available)
+  'X': |
+    X
+
+  # (No default text available)
+  'Y': |
+    Y
+
+  # (No default text available)
+  'Z': |
+    Z
+
+  # Cycle
+  '周期': |
+    周期
+
+  # RandomLevel
+  'ランダムに強さを変える': |
+    ランダムに強さを変える
+
+  # ComplicatedQuake
+  '複雑に振動': |
+    複雑に振動
+
+'スクリプト制御':
+  # ScriptControl
+  'スクリプト制御': |
+    スクリプト制御
+
+  # (No default text available)
+  'スクリプト': |
+    スクリプト
+
+'図形':
+  # Figure
+  '図形': |
+    図形
+
+  # FigureType
+  '図形の種類': |
+    図形の種類
+
+  # Size
+  'サイズ': |
+    サイズ
+
+  # Aspect
+  '縦横比': |
+    縦横比
+
+  # LineSize
+  'ライン幅': |
+    ライン幅
+
+  # Color
+  '色': |
+    色
+
+  # RoundCorner
+  '角を丸くする': |
+    角を丸くする
+
+'材質設定(カメラ制御)':
+  # Material(Camera)
+  '材質設定(カメラ制御)': |
+    材質設定(カメラ制御)
+
+  # Shiny
+  '光沢度': |
+    光沢度
+
+'カメラ制御オプション':
+  # CameraOption
+  'カメラ制御オプション': |
+    カメラ制御オプション
+
+  # BillboardType
+  'オブジェクトの向き': |
+    オブジェクトの向き
+
+  # Culling
+  '裏面を表示しない': |
+    裏面を表示しない
+
+'座標':
+  # Position
+  '座標': |
+    座標
+
+  # (No default text available)
+  'X': |
+    X
+
+  # (No default text available)
+  'Y': |
+    Y
+
+  # (No default text available)
+  'Z': |
+    Z
+
+'拡大率':
+  # Zoom
+  '拡大率': |
+    拡大率
+
+  # (No default text available)
+  'X': |
+    X
+
+  # (No default text available)
+  'Y': |
+    Y
+
+  # (No default text available)
+  'Z': |
+    Z
+
+'透明度':
+  # Transparent
+  '透明度': |
+    透明度
+
+'回転':
+  # Rotate
+  '回転': |
+    回転
+
+  # (No default text available)
+  'X': |
+    X
+
+  # (No default text available)
+  'Y': |
+    Y
+
+  # (No default text available)
+  'Z': |
+    Z
+
+'領域拡張':
+  # ExtendArea
+  '領域拡張': |
+    領域拡張
+
+  # Top
+  '上': |
+    上
+
+  # Bottom
+  '下': |
+    下
+
+  # Left
+  '左': |
+    左
+
+  # Right
+  '右': |
+    右
+
+  # Fill
+  '塗りつぶし': |
+    塗りつぶし
+
+'ローテーション':
+  # Rotate
+  'ローテーション': |
+    ローテーション
+
+  # Rotate90
+  '90度回転': |
+    90度回転
+
+'反転':
+  # Invert
+  '反転': |
+    反転
+
+  # InvertUpDown
+  '上下反転': |
+    上下反転
+
+  # InvertLeftRight
+  '左右反転': |
+    左右反転
+
+  # InvertLuminance
+  '輝度反転': |
+    輝度反転
+
+  # InvertHue
+  '色相反転': |
+    色相反転
+
+  # InvertTransparent
+  '透明度反転': |
+    透明度反転
+
+'音量フェード':
+  # Fade(Audio)
+  '音量フェード': |
+    音量フェード
+
+  # In
+  'イン': |
+    イン
+
+  # Out
+  'アウト': |
+    アウト
+
+'シーン':
+  # Scene
+  'シーン': |
+    シーン
+
+  # PlaybackPosition
+  '再生位置': |
+    再生位置
+
+  # PlaybackSpeed
+  '再生速度': |
+    再生速度
+
+  # Loop
+  'ループ再生': |
+    ループ再生
+
+'モノラル化':
+  # AudioMono
+  'モノラル化': |
+    モノラル化
+
+  # Ratio
+  '比率': |
+    比率
+
+'音量調整':
+  # Volume
+  '音量調整': |
+    音量調整
+
+  # Volume
+  '音量': |
+    音量
+
+  # Balance
+  '左右': |
+    左右
+
+'集中線':
+  # ConcentrationLine
+  '集中線': |
+    集中線
+
+  # Strong
+  '濃さ': |
+    濃さ
+
+  # Speed
+  '速さ': |
+    速さ
+
+  # CenterWidth
+  '中心幅': |
+    中心幅
+
+  # Color
+  '色': |
+    色
+
+'走査線':
+  # ScanLine
+  '走査線': |
+    走査線
+
+  # Strong
+  '濃さ': |
+    濃さ
+
+  # LineSize
+  'ライン幅': |
+    ライン幅
+
+  # AdsustCycle
+  '間隔補正': |
+    間隔補正
+
+  # Color
+  '色': |
+    色
+
+'カウンター':
+  # Counter
+  'カウンター': |
+    カウンター
+
+  # InitialValue
+  '初期値': |
+    初期値
+
+  # Speed
+  '速度': |
+    速度
+
+  # Size
+  'サイズ': |
+    サイズ
+
+  # DisplayFormat
+  '表示形式': |
+    表示形式
+
+  # (No default text available)
+  'フォント名': |
+    フォント名
+
+  # DecorationType
+  '装飾タイプ': |
+    装飾タイプ
+
+  # TextColor
+  '文字色': |
+    文字色
+
+  # BorderColor
+  '影・縁色': |
+    影・縁色
+
+'レンズフレア':
+  # LensFlare
+  'レンズフレア': |
+    レンズフレア
+
+  # DirectionX
+  '方向X': |
+    方向X
+
+  # DirectionY
+  '方向Y': |
+    方向Y
+
+  # Size
+  'サイズ': |
+    サイズ
+
+  # BeamLevel
+  '光芒強さ': |
+    光芒強さ
+
+  # BeamLength
+  '光芒長さ': |
+    光芒長さ
+
+  # BeamNum
+  '光芒数': |
+    光芒数
+
+  # BeamZoom
+  '光芒拡大率': |
+    光芒拡大率
+
+  # BeamSpeed
+  '光芒変化速度': |
+    光芒変化速度
+
+  # RingLevel
+  '虹輪強さ': |
+    虹輪強さ
+
+  # RingZoom
+  '虹輪拡大率': |
+    虹輪拡大率
+
+  # RingOpenRate
+  '虹輪開閉率': |
+    虹輪開閉率
+
+  # RingNum
+  '虹輪数': |
+    虹輪数
+
+  # HaloLevel
+  '光輪強さ': |
+    光輪強さ
+
+  # HaloZoom
+  '光輪拡大率': |
+    光輪拡大率
+
+  # Blink
+  '点滅': |
+    点滅
+
+  # FormAngle
+  '形状角度': |
+    形状角度
+
+  # Form
+  '形状': |
+    形状
+
+  # BeamColor
+  '光芒色': |
+    光芒色
+
+  # HaloScreenComposition
+  '光輪ｽｸﾘｰﾝ合成': |
+    光輪ｽｸﾘｰﾝ合成
+
+'雲':
+  # Cloud
+  '雲': |
+    雲
+
+  # Speed
+  '速度': |
+    速度
+
+  # Direction
+  '方向': |
+    方向
+
+  # Strong
+  '濃さ': |
+    濃さ
+
+  # Tilt
+  '傾き': |
+    傾き
+
+  # AtmosphericPerspective
+  '空気遠近': |
+    空気遠近
+
+  # Form
+  '形状': |
+    形状
+
+  # ChangeSpeed
+  '変化速度': |
+    変化速度
+
+  # Resolution
+  '解像度': |
+    解像度
+
+  # PositionCorrect
+  '位置補正': |
+    位置補正
+
+  # Color
+  '色': |
+    色
+
+'星':
+  # Star
+  '星': |
+    星
+
+  # Num
+  '個数': |
+    個数
+
+  # Speed
+  '速度': |
+    速度
+
+  # Spread
+  '広がり': |
+    広がり
+
+  # Depth
+  '奥行き': |
+    奥行き
+
+  # Size
+  'サイズ': |
+    サイズ
+
+  # Color
+  '色': |
+    色
+
+  # Form
+  '形状': |
+    形状
+
+  # FadeInTime
+  'フェードイン時間': |
+    フェードイン時間
+
+  # FadeOutTime
+  'フェードアウト時間': |
+    フェードアウト時間
+
+'雪':
+  # Snow
+  '雪': |
+    雪
+
+  # Num
+  '個数': |
+    個数
+
+  # Speed
+  '速度': |
+    速度
+
+  # Direction
+  '方向': |
+    方向
+
+  # FluctuationWidth
+  'ゆらぎ幅': |
+    ゆらぎ幅
+
+  # FluctuationSpeed
+  'ゆらぎ速度': |
+    ゆらぎ速度
+
+  # Depth
+  '奥行き': |
+    奥行き
+
+  # Size
+  'サイズ': |
+    サイズ
+
+  # Color
+  '色': |
+    色
+
+  # Form
+  '形状': |
+    形状
+
+  # SingleObject
+  '単一オブジェクト化': |
+    単一オブジェクト化
+
+'雨':
+  # Rain
+  '雨': |
+    雨
+
+  # Num
+  '個数': |
+    個数
+
+  # Speed
+  '速度': |
+    速度
+
+  # Direction
+  '方向': |
+    方向
+
+  # Diffusion
+  '拡散': |
+    拡散
+
+  # Depth
+  '奥行き': |
+    奥行き
+
+  # Length
+  '長さ': |
+    長さ
+
+  # Color
+  '色': |
+    色
+
+  # SingleObject
+  '単一オブジェクト化': |
+    単一オブジェクト化
+
+'フレームバッファ':
+  # FrameBuffer
+  'フレームバッファ': |
+    フレームバッファ
+
+  # KeepAlpha
+  'アルファチャンネルを維持': |
+    アルファチャンネルを維持
+
+  # ClearFrameBuffer
+  'フレームバッファをクリア': |
+    フレームバッファをクリア
+
+'基本出力':
+  # BasicOutput
+  '基本出力': |
+    基本出力
+
+  # (No default text available)
+  'X': |
+    X
+
+  # (No default text available)
+  'Y': |
+    Y
+
+  # Zoom
+  '拡大率': |
+    拡大率
+
+  # Transparent
+  '透明度': |
+    透明度
+
+  # Blend
+  '合成モード': |
+    合成モード
+
+'ランダム小物配置(カメラ制御)':
+  # RandomItem(Camera)
+  'ランダム小物配置(カメラ制御)': |
+    ランダム小物配置(カメラ制御)
+
+  # Num
+  '数': |
+    数
+
+  # Range
+  '範囲': |
+    範囲
+
+  # Size
+  'サイズ': |
+    サイズ
+
+  # RotateSpeed
+  '回転速度': |
+    回転速度
+
+  # Color
+  '色': |
+    色
+
+  # Form
+  '形状': |
+    形状
+
+  # RandomColor
+  'ランダム色': |
+    ランダム色
+
+'ライン(移動軌跡)':
+  # LineTrace
+  'ライン(移動軌跡)': |
+    ライン(移動軌跡)
+
+  # LineSize
+  'ライン幅': |
+    ライン幅
+
+  # Tip
+  '先端': |
+    先端
+
+  # TipAngle
+  '先端角度': |
+    先端角度
+
+  # TipPosition
+  '先端位置補正': |
+    先端位置補正
+
+  # TipFigure
+  '先端図形': |
+    先端図形
+
+  # FixedSpeed
+  '固定速度': |
+    固定速度
+
+  # DrawInterval
+  '描画間隔': |
+    描画間隔
+
+  # MinimumSpacing
+  '最小間隔': |
+    最小間隔
+
+  # MainLine(%)
+  '主線描画(%)': |
+    主線描画(%)
+
+  # AuxLine(%)
+  '補助描画(%)': |
+    補助描画(%)
+
+  # Color
+  '色': |
+    色
+
+'扇型':
+  # FanShape
+  '扇型': |
+    扇型
+
+  # CenterAngle
+  '中心角': |
+    中心角
+
+  # Size
+  'サイズ': |
+    サイズ
+
+  # LineSize
+  'ライン幅': |
+    ライン幅
+
+  # Color
+  '色': |
+    色
+
+'多角形':
+  # Polygon
+  '多角形': |
+    多角形
+
+  # Color
+  '色': |
+    色
+
+  # LineSize
+  'ライン幅': |
+    ライン幅
+
+  # (No default text available)
+  '頂点数': |
+    頂点数
+
+  # (No default text available)
+  '固定ｻｲｽﾞ': |
+    固定ｻｲｽﾞ
+
+  # Aspect
+  '縦横比': |
+    縦横比
+
+  # (No default text available)
+  '繰り返し描画数': |
+    繰り返し描画数
+
+  # (No default text available)
+  '繰り返し分周': |
+    繰り返し分周
+
+  # Position
+  '座標': |
+    座標
+
+  # (No default text available)
+  '簡易塗り潰し': |
+    簡易塗り潰し
+
+'周辺ボケ光量':
+  # BokehLightAmount
+  '周辺ボケ光量': |
+    周辺ボケ光量
+
+  # Bokeh
+  'ボケ': |
+    ボケ
+
+  # LightLevel
+  '光量': |
+    光量
+
+  # Radius
+  '半径': |
+    半径
+
+  # Border
+  '境界': |
+    境界
+
+  # LuminanceLevel
+  '光の強さ': |
+    光の強さ
+
+  # ColorShift
+  '色ずれ量': |
+    色ずれ量
+
+  # AdjustAspect
+  '縦横比補正': |
+    縦横比補正
+
+'フレア':
+  # Flare
+  'フレア': |
+    フレア
+
+  # Size
+  'サイズ': |
+    サイズ
+
+  # BeamLength
+  '光芒長さ': |
+    光芒長さ
+
+  # BeamNum
+  '光芒数': |
+    光芒数
+
+  # BeamLevel
+  '光芒強さ': |
+    光芒強さ
+
+  # BeamSpeed
+  '光芒変化速度': |
+    光芒変化速度
+
+  # HorizontalBeam
+  '水平光芒': |
+    水平光芒
+
+  # HorizontalBeamHeight
+  '水平光芒高さ': |
+    水平光芒高さ
+
+  # (No default text available)
+  '水平光芒数': |
+    水平光芒数
+
+  # Blink
+  '点滅': |
+    点滅
+
+  # BeamColor
+  '光芒色': |
+    光芒色
+
+'水面':
+  # WaterSurface
+  '水面': |
+    水面
+
+  # Speed
+  '速度': |
+    速度
+
+  # Direction
+  '方向': |
+    方向
+
+  # Ripple
+  '波紋': |
+    波紋
+
+  # Tilt
+  '傾き': |
+    傾き
+
+  # RippleWidth
+  '波紋幅': |
+    波紋幅
+
+  # RipplePosition
+  '波紋位置': |
+    波紋位置
+
+  # RippleSpeed
+  '波紋速度': |
+    波紋速度
+
+  # HorizontalBorderBlur
+  '水平境界ぼかし': |
+    水平境界ぼかし
+
+  # Resolution
+  '解像度': |
+    解像度
+
+  # PositionCorrect
+  '位置補正': |
+    位置補正
+
+  # Color
+  '色': |
+    色
+
+'震える':
+  # Tremble
+  '震える': |
+    震える
+
+  # Amplitude
+  '振幅': |
+    振幅
+
+  # Angle
+  '角度': |
+    角度
+
+  # Interval
+  '間隔': |
+    間隔
+
+'振り子':
+  # Pendulum
+  '振り子': |
+    振り子
+
+  # Speed
+  '速さ': |
+    速さ
+
+  # Angle
+  '角度': |
+    角度
+
+  # Shift
+  'ずらし': |
+    ずらし
+
+'弾む':
+  # Bound
+  '弾む': |
+    弾む
+
+  # Speed
+  '速さ': |
+    速さ
+
+  # Height
+  '高さ': |
+    高さ
+
+  # Angle
+  '角度': |
+    角度
+
+  # Shift
+  'ずらし': |
+    ずらし
+
+'オーディオバッファ':
+  # AudioBuffer
+  'オーディオバッファ': |
+    オーディオバッファ
+
+  # ClearAudioBuffer
+  'オーディオバッファをクリア': |
+    オーディオバッファをクリア
+
+'座標の拡大縮小(個別オブジェクト)':
+  # ZoomCoordinate(Individual)
+  '座標の拡大縮小(個別オブジェクト)': |
+    座標の拡大縮小(個別オブジェクト)
+
+  # Zoom
+  '拡大率': |
+    拡大率
+
+  # CenterX
+  '中心X': |
+    中心X
+
+  # CenterY
+  '中心Y': |
+    中心Y
+
+'画面外から登場':
+  # FromOffscreen
+  '画面外から登場': |
+    画面外から登場
+
+  # Time
+  '時間': |
+    時間
+
+  # Angle
+  '角度': |
+    角度
+
+  # Num
+  '数': |
+    数
+
+  # RandomDirection
+  'ランダム方向': |
+    ランダム方向
+
+'ランダム方向から登場':
+  # FromRandom
+  'ランダム方向から登場': |
+    ランダム方向から登場
+
+  # Time
+  '時間': |
+    時間
+
+  # Rotate
+  '回転': |
+    回転
+
+  # Light
+  'ライト': |
+    ライト
+
+  # EaseInOut
+  '加減速': |
+    加減速
+
+'拡大縮小して登場':
+  # FromReducing
+  '拡大縮小して登場': |
+    拡大縮小して登場
+
+  # Time
+  '時間': |
+    時間
+
+  # Zoom
+  '拡大率': |
+    拡大率
+
+  # EaseInOut
+  '加減速': |
+    加減速
+
+'ランダム間隔で落ちながら登場':
+  # FromAbove
+  'ランダム間隔で落ちながら登場': |
+    ランダム間隔で落ちながら登場
+
+  # Time
+  '時間': |
+    時間
+
+  # Interval
+  '間隔': |
+    間隔
+
+  # Distance
+  '距離': |
+    距離
+
+  # EaseInOut
+  '加減速': |
+    加減速
+
+'弾んで登場':
+  # FromBouncing
+  '弾んで登場': |
+    弾んで登場
+
+  # Time
+  '時間': |
+    時間
+
+  # Height
+  '高さ': |
+    高さ
+
+  # Count
+  '回数': |
+    回数
+
+'広がって登場':
+  # FromSpreading
+  '広がって登場': |
+    広がって登場
+
+  # Time
+  '時間': |
+    時間
+
+  # Vertical
+  '縦方向': |
+    縦方向
+
+'起き上がって登場':
+  # FromRising
+  '起き上がって登場': |
+    起き上がって登場
+
+  # Time
+  '時間': |
+    時間
+
+  # Force
+  '勢い': |
+    勢い
+
+'何処からともなく登場':
+  # FromNowhere
+  '何処からともなく登場': |
+    何処からともなく登場
+
+  # Time
+  '時間': |
+    時間
+
+  # Blur
+  'ぼかし': |
+    ぼかし
+
+  # Place
+  '位置': |
+    位置
+
+'反復移動':
+  # RepeatMove
+  '反復移動': |
+    反復移動
+
+  # Speed
+  '速さ': |
+    速さ
+
+  # Distance
+  '距離': |
+    距離
+
+  # Angle
+  '角度': |
+    角度
+
+  # Shift
+  'ずらし': |
+    ずらし
+

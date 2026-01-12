@@ -166,7 +166,7 @@ task :list_effects do
   puts "Wrote effects list to ./tmp/effects.json."
 end
 
-languages = %i[en]
+languages = %i[ja en]
 TRANSLATE_PLACEHOLDER = "(translate here)"
 
 task :update_source do
@@ -184,7 +184,7 @@ task :update_source do
 
   main_translations = IniFile.load("../locales/original_english.aul2")
   effects = JSON.parse(File.read("./effects.json"))
-  effect_keys = effects.values.flatten.uniq + effects.keys
+  effect_keys = effects.keys.to_set
   languages.each do |lang|
     editor_file_path = "../translations/#{lang}/editor.yml"
     current_translations =
@@ -196,6 +196,8 @@ task :update_source do
         translate_in_effect = section == "Effect" && effect_keys.include?(key)
         if translate_in_effect
           next
+        elsif lang == :ja
+          translations[section][key] = key
         elsif is_translated?(current_translations.dig(section, key))
           translations[section][key] = current_translations.dig(section, key)
         else
@@ -229,8 +231,19 @@ task :update_source do
     effect_translations = {}
     effects.each do |effect_name, keys|
       effect_translations[effect_name] = { effect_name => nil }
+      if lang == :ja
+        effect_translations[effect_name][effect_name] = effect_name
+      elsif is_translated?(
+            current_effect_translations.dig(effect_name, effect_name)
+          )
+        effect_translations[effect_name][
+          effect_name
+        ] = current_effect_translations.dig(effect_name, effect_name)
+      end
       keys.each do |key|
-        if is_translated?(current_effect_translations.dig(effect_name, key))
+        if lang == :ja
+          effect_translations[effect_name][key] = key
+        elsif is_translated?(current_effect_translations.dig(effect_name, key))
           effect_translations[effect_name][
             key
           ] = current_effect_translations.dig(effect_name, key)
@@ -341,4 +354,99 @@ def is_translated?(text)
   return false if stripped == TRANSLATE_PLACEHOLDER
 
   true
+end
+
+namespace :crowdin do
+  task :list_projects do
+    require "crowdin-api"
+    require "dotenv/load"
+
+    client =
+      Crowdin::Client.new { |config| config.api_token = ENV["CROWDIN_TOKEN"] }
+    projects = client.list_projects
+
+    projects["data"].each do |project|
+      puts "Project ID: #{project["data"]["id"]}, Name: #{project["data"]["name"]}"
+    end
+  end
+
+  task :upload_source do
+    require "crowdin-api"
+    require "dotenv/load"
+
+    crowdin =
+      Crowdin::Client.new do |config|
+        config.api_token = ENV["CROWDIN_TOKEN"]
+        config.project_id = ENV["CROWDIN_PROJECT_ID"]
+      end
+
+    editor_file_path = "../translations/ja/editor.yml"
+    effect_file_path = "../translations/ja/effects.yml"
+
+    files = crowdin.list_files
+    [editor_file_path, effect_file_path].each do |path|
+      puts "Uploading #{path} to Crowdin..."
+      storage_id = crowdin.add_storage(File.open(path, "r"))["data"]["id"]
+      existing_file_id =
+        files["data"]
+          .find { |f| f["data"]["name"] == File.basename(path).to_s }
+          &.dig("data", "id")
+
+      if existing_file_id
+        response =
+          crowdin.update_or_restore_file(
+            existing_file_id,
+            storageId: storage_id
+          )
+        raise "Failed to update file on Crowdin" unless response["data"]
+        puts "Updated #{path} on Crowdin."
+      else
+        response =
+          crowdin.add_file(storageId: storage_id, name: File.basename(path))
+        raise "Failed to add file to Crowdin" unless response["data"]
+        puts "Added #{path} as a new file on Crowdin."
+      end
+    end
+  end
+  task :download_translations do
+    require "crowdin-api"
+    require "open-uri"
+    require "zip"
+    require "dotenv/load"
+
+    crowdin =
+      Crowdin::Client.new do |config|
+        config.api_token = ENV["CROWDIN_TOKEN"]
+        config.project_id = ENV["CROWDIN_PROJECT_ID"]
+      end
+
+    puts "Downloading translations from Crowdin..."
+    build_id = crowdin.build_project_translation["data"]["id"]
+    status_response = nil
+    loop do
+      status_response = crowdin.check_project_build_status(build_id)
+      if status_response["data"]["status"] == "finished"
+        break
+      else
+        puts "Translation build status: #{status_response["data"]["status"]}. Waiting..."
+        sleep 5
+      end
+    end
+    download_url = crowdin.download_project_translations(build_id)["data"]["url"]
+    zip_path = "tmp/crowdin_translations.zip"
+    URI.open(download_url) do |remote_file|
+      File.open(zip_path, "wb") { |file| file.write(remote_file.read) }
+    end
+
+    Zip::File.open(zip_path) do |zip_file|
+      zip_file.each do |entry|
+        dest_path = File.join("..", "translations", entry.name)
+        mkdir_p File.dirname(dest_path) unless Dir.exist?(File.dirname(dest_path))
+        puts "Extracting #{entry.name} to #{dest_path}..."
+        zip_file.extract(entry, dest_path) unless File.exist?(dest_path)
+      end
+    end
+  end
+
+  task :sync => [:upload_source, :download_translations]
 end

@@ -1,0 +1,4164 @@
+Effect:
+  # ParticleOutput
+  'パーティクル出力': |
+    パーティクル出力
+
+  # PartEffect
+  '部分フィルタ': |
+    部分フィルタ
+
+  # GroupControl
+  'グループ制御': |
+    グループ制御
+
+  # GroupControl(Audio)
+  'グループ制御(音声)': |
+    グループ制御(音声)
+
+  # CameraControl
+  'カメラ制御': |
+    カメラ制御
+
+  # Light(Camera)
+  '並行光源(カメラ制御)': |
+    並行光源(カメラ制御)
+
+  # AmbientLight(Camera)
+  '環境光(カメラ制御)': |
+    環境光(カメラ制御)
+
+  # LightBloom(Camera)
+  'ライトブルーム(カメラ制御)': |
+    ライトブルーム(カメラ制御)
+
+  # TimeControl(Object)
+  '時間制御(オブジェクト)': |
+    時間制御(オブジェクト)
+
+  # CameraShake
+  '手ぶれ': |
+    手ぶれ
+
+  # RotateBaseTarget
+  '目標中心回転': |
+    目標中心回転
+
+  # ViewAngleBaseTarget
+  '目標サイズ固定視野角': |
+    目標サイズ固定視野角
+
+  # BasicEffect
+  '基本効果': |
+    基本効果
+
+  # AudioEffect
+  '音声効果': |
+    音声効果
+
+  # Transform
+  '変形': |
+    変形
+
+  # LightEffect
+  '光効果': |
+    光効果
+
+  # Decoration
+  '装飾': |
+    装飾
+
+  # Extract
+  '抽出': |
+    抽出
+
+  # Color
+  '色調整': |
+    色調整
+
+  # Process
+  '加工': |
+    加工
+
+  # Layout
+  '配置': |
+    配置
+
+  # Transition
+  '切り替え効果': |
+    切り替え効果
+
+  # Animation
+  'アニメーション効果': |
+    アニメーション効果
+
+  # CustomObject
+  'カスタムオブジェクト': |
+    カスタムオブジェクト
+
+  # CameraEffect
+  'カメラ効果': |
+    カメラ効果
+
+  # ScreenEffect
+  '画面効果': |
+    画面効果
+
+  # ObjectControl
+  'オブジェクト制御': |
+    オブジェクト制御
+
+  # NoMove
+  '移動無し': |
+    移動無し
+
+  # PlayRange
+  '再生範囲': |
+    再生範囲
+
+  # Linear
+  '直線移動': |
+    直線移動
+
+  # Linear(Time)
+  '直線移動(時間制御)': |
+    直線移動(時間制御)
+
+  # Interpolation
+  '補間移動': |
+    補間移動
+
+  # Interpolation(Time)
+  '補間移動(時間制御)': |
+    補間移動(時間制御)
+
+  # Random
+  'ランダム移動': |
+    ランダム移動
+
+  # Teleportation
+  '瞬間移動': |
+    瞬間移動
+
+  # CenterX
+  '中心X': |
+    中心X
+
+  # CenterY
+  '中心Y': |
+    中心Y
+
+  # CenterZ
+  '中心Z': |
+    中心Z
+
+  # RotateX
+  'X軸回転': |
+    X軸回転
+
+  # RotateY
+  'Y軸回転': |
+    Y軸回転
+
+  # RotateZ
+  'Z軸回転': |
+    Z軸回転
+
+  # TargetX
+  '目標X': |
+    目標X
+
+  # TargetY
+  '目標Y': |
+    目標Y
+
+  # TargetZ
+  '目標Z': |
+    目標Z
+
+  # Aspect
+  '縦横比': |
+    縦横比
+
+  # Width
+  '幅': |
+    幅
+
+  # Width
+  '横幅': |
+    横幅
+
+  # Height
+  '高さ': |
+    高さ
+
+  # Angle
+  '角度': |
+    角度
+
+  # Range
+  '範囲': |
+    範囲
+
+  # Time
+  '時間': |
+    時間
+
+  # Mode
+  'モード': |
+    モード
+
+  # Size
+  'サイズ': |
+    サイズ
+
+  # LineSize
+  'ライン幅': |
+    ライン幅
+
+  # Volume
+  '音量': |
+    音量
+
+  # Balance
+  '左右': |
+    左右
+
+  # Level
+  '強さ': |
+    強さ
+
+  # Threshold
+  'しきい値': |
+    しきい値
+
+  # Speed
+  '速度': |
+    速度
+
+  # Direction
+  '方向': |
+    方向
+
+  # Acceleration
+  '加速度': |
+    加速度
+
+  # Gravity
+  '重力': |
+    重力
+
+  # Form
+  '形状': |
+    形状
+
+  # Diffusion
+  '拡散': |
+    拡散
+
+  # Cycle
+  '周期': |
+    周期
+
+  # Ratio
+  '比率': |
+    比率
+
+  # Amplitude
+  '振幅': |
+    振幅
+
+  # Interval
+  '間隔': |
+    間隔
+
+  # Length
+  '長さ': |
+    長さ
+
+  # Shift
+  'ずらし': |
+    ずらし
+
+  # RandomDirection
+  'ランダム方向': |
+    ランダム方向
+
+  # RandomRotate
+  'ランダム回転': |
+    ランダム回転
+
+  # RandomAngle
+  'ランダム角度': |
+    ランダム角度
+
+  # Num
+  '数': |
+    数
+
+  # Num
+  '個数': |
+    個数
+
+  # Place
+  '位置': |
+    位置
+
+  # Type
+  '種類': |
+    種類
+
+  # Random
+  'ランダム': |
+    ランダム
+
+  # TargetLayer
+  '目標レイヤー': |
+    目標レイヤー
+
+  # LayerRange
+  '対象レイヤー数': |
+    対象レイヤー数
+
+  # CurrentSceneAudio
+  '現在のシーンの音声': |
+    現在のシーンの音声
+
+  # Blend
+  '合成モード': |
+    合成モード
+
+  # Undefined
+  '未指定': |
+    未指定
+
+  # Default
+  '既定値': |
+    既定値
+
+  # File
+  'ファイル': |
+    ファイル
+
+  # RoundCorner
+  '角を丸くする': |
+    角を丸くする
+
+  # SerialNumberFile
+  '連番ファイル': |
+    連番ファイル
+
+  # ViewNumber
+  '表示番号': |
+    表示番号
+
+  # PlaybackSpeed
+  '再生速度': |
+    再生速度
+
+  # PlaybackPosition
+  '再生位置': |
+    再生位置
+
+  # ViewSpeed
+  '表示速度': |
+    表示速度
+
+  # Loop
+  'ループ再生': |
+    ループ再生
+
+  # Color
+  '色': |
+    色
+
+  # Saturate
+  '飽和する': |
+    飽和する
+
+  # ViewAngle
+  '視野角': |
+    視野角
+
+  # FigureType
+  '図形の種類': |
+    図形の種類
+
+  # MaskType
+  'マスクの種類': |
+    マスクの種類
+
+  # FitSceneLength
+  'シーンの長さを合わせる': |
+    シーンの長さを合わせる
+
+  # InvertMask
+  'マスクの反転': |
+    マスクの反転
+
+  # FitSize
+  '元のサイズに合わせる': |
+    元のサイズに合わせる
+
+  # FixedSize
+  'サイズ固定': |
+    サイズ固定
+
+  # Font
+  'フォント': |
+    フォント
+
+  # CharSpacing
+  '字間': |
+    字間
+
+  # LineSpacing
+  '行間': |
+    行間
+
+  # TextColor
+  '文字色': |
+    文字色
+
+  # BorderColor
+  '影・縁色': |
+    影・縁色
+
+  # TextDecoration
+  '文字装飾': |
+    文字装飾
+
+  # TextAlignment
+  '文字揃え': |
+    文字揃え
+
+  # IndividualText
+  '文字毎に個別オブジェクト': |
+    文字毎に個別オブジェクト
+
+  # DisplayMovingPosition
+  '移動座標上に表示': |
+    移動座標上に表示
+
+  # AutoAdjustObject
+  'オブジェクトの長さを自動調節': |
+    オブジェクトの長さを自動調節
+
+  # ClearFrameBuffer
+  'フレームバッファをクリア': |
+    フレームバッファをクリア
+
+  # KeepAlpha
+  'アルファチャンネルを維持': |
+    アルファチャンネルを維持
+
+  # Frequency
+  '出力頻度': |
+    出力頻度
+
+  # Speed
+  '出力速度': |
+    出力速度
+
+  # Direction
+  '出力方向': |
+    出力方向
+
+  # SpreadAngle
+  '拡散角度': |
+    拡散角度
+
+  # Transparent
+  '透過率': |
+    透過率
+
+  # TransparentRate
+  '透過速度': |
+    透過速度
+
+  # ZoomSpeed
+  '拡大速度': |
+    拡大速度
+
+  # RotateAngle
+  '回転角': |
+    回転角
+
+  # RotateSpeed
+  '回転速度': |
+    回転速度
+
+  # LiveTime
+  '生存時間': |
+    生存時間
+
+  # RandomOutputMovingPosition
+  '移動範囲の座標からランダムに出力': |
+    移動範囲の座標からランダムに出力
+
+  # OutputToMovingDirection
+  '出力方向の基準を移動方向にする': |
+    出力方向の基準を移動方向にする
+
+  # RotateToMovingDirection
+  '回転角の基準を移動方向にする': |
+    回転角の基準を移動方向にする
+
+  # RandomRotation
+  '3Dランダム回転': |
+    3Dランダム回転
+
+  # Color
+  '波形の色': |
+    波形の色
+
+  # Preset
+  '波形のプリセット': |
+    波形のプリセット
+
+  # Spectrum
+  'スペクトラム表示': |
+    スペクトラム表示
+
+  # Mirror
+  'ミラー表示': |
+    ミラー表示
+
+  # Resolution
+  '解像度': |
+    解像度
+
+  # ResolutionX
+  '横解像度': |
+    横解像度
+
+  # ResolutionY
+  '縦解像度': |
+    縦解像度
+
+  # MarginX
+  '横スペース': |
+    横スペース
+
+  # MarginY
+  '縦スペース': |
+    縦スペース
+
+  # Strong
+  '濃さ': |
+    濃さ
+
+  # Brightness
+  '明るさ': |
+    明るさ
+
+  # Contrast
+  'コントラスト': |
+    コントラスト
+
+  # Hue
+  '色相': |
+    色相
+
+  # Luminance
+  '輝度': |
+    輝度
+
+  # Chroma
+  '彩度': |
+    彩度
+
+  # StartColor
+  '開始色': |
+    開始色
+
+  # EndColor
+  '終了色': |
+    終了色
+
+  # HoldLuminance
+  '輝度を保持する': |
+    輝度を保持する
+
+  # HueRange
+  '色相範囲': |
+    色相範囲
+
+  # ChromaRange
+  '彩度範囲': |
+    彩度範囲
+
+  # LuminanceRange
+  '輝度範囲': |
+    輝度範囲
+
+  # ColorRange
+  '色差範囲': |
+    色差範囲
+
+  # BorderCorrect
+  '境界補正': |
+    境界補正
+
+  # ChromaCorrect
+  '色彩補正': |
+    色彩補正
+
+  # TransparentCorrect
+  '透過補正': |
+    透過補正
+
+  # BeforeColor
+  '変換前の色': |
+    変換前の色
+
+  # AfterColor
+  '変換後の色': |
+    変換後の色
+
+  # BaseColor
+  '基準色': |
+    基準色
+
+  # BaseLuminance
+  '基準輝度': |
+    基準輝度
+
+  # Top
+  '上': |
+    上
+
+  # Bottom
+  '下': |
+    下
+
+  # Left
+  '左': |
+    左
+
+  # Right
+  '右': |
+    右
+
+  # AdjustCenter
+  '中心の位置を変更': |
+    中心の位置を変更
+
+  # BaseAngle
+  '基準角': |
+    基準角
+
+  # RangeAngle
+  '範囲角': |
+    範囲角
+
+  # CenterBaseAngle
+  '基準角を中央にする': |
+    基準角を中央にする
+
+  # LuminanceLevel
+  '光の強さ': |
+    光の強さ
+
+  # BlurTransparencyEdge
+  '透明度の境界をぼかす': |
+    透明度の境界をぼかす
+
+  # LightColor
+  '光色': |
+    光色
+
+  # OnlyLightComponent
+  '光成分のみ': |
+    光成分のみ
+
+  # SpreadSpeed
+  '拡散速度': |
+    拡散速度
+
+  # ShiftSize
+  'ずれ幅': |
+    ずれ幅
+
+  # ShiftType
+  '色ずれの種類': |
+    色ずれの種類
+
+  # BorderColor
+  '縁色': |
+    縁色
+
+  # ShadowColor
+  '影色': |
+    影色
+
+  # IndividualShadow
+  '影を別オブジェクトで描画': |
+    影を別オブジェクトで描画
+
+  # LuminanceEdge
+  '輝度エッジを抽出': |
+    輝度エッジを抽出
+
+  # TransparentCorrectEdge
+  '透明度エッジを抽出': |
+    透明度エッジを抽出
+
+  # RippleNum
+  '波紋数': |
+    波紋数
+
+  # RippleInterval
+  '波紋間隔': |
+    波紋間隔
+
+  # RippleWidth
+  '波紋幅': |
+    波紋幅
+
+  # RipplePosition
+  '波紋位置': |
+    波紋位置
+
+  # RippleSpeed
+  '波紋速度': |
+    波紋速度
+
+  # FluctuationNum
+  '増幅減衰回数': |
+    増幅減衰回数
+
+  # Vertical
+  '縦ラスター': |
+    縦ラスター
+
+  # RandomAmplitude
+  'ランダム振幅': |
+    ランダム振幅
+
+  # Spiral
+  '渦巻': |
+    渦巻
+
+  # TransformX
+  '変形X': |
+    変形X
+
+  # TransformY
+  '変形Y': |
+    変形Y
+
+  # ZoomTransform
+  '拡大変形': |
+    拡大変形
+
+  # ZoomAspect
+  '拡大縦横': |
+    拡大縦横
+
+  # RotateTransform
+  '回転変形': |
+    回転変形
+
+  # TransformType
+  '変形方法': |
+    変形方法
+
+  # NoInterpolation
+  '補間なし': |
+    補間なし
+
+  # SpecifyPixelNum
+  'ピクセル数でサイズ指定': |
+    ピクセル数でサイズ指定
+
+  # Method
+  '解除方法': |
+    解除方法
+
+  # CycleX
+  '周期X': |
+    周期X
+
+  # CycleY
+  '周期Y': |
+    周期Y
+
+  # SpeedX
+  '速度X': |
+    速度X
+
+  # SpeedY
+  '速度Y': |
+    速度Y
+
+  # ChangeSpeed
+  '変化速度': |
+    変化速度
+
+  # NoiseType
+  'ノイズの種類': |
+    ノイズの種類
+
+  # Count
+  '回数': |
+    回数
+
+  # CountX
+  '横回数': |
+    横回数
+
+  # CountY
+  '縦回数': |
+    縦回数
+
+  # OffsetX
+  'オフセットX': |
+    オフセットX
+
+  # OffsetY
+  'オフセットY': |
+    オフセットY
+
+  # Individual
+  '個別オブジェクト': |
+    個別オブジェクト
+
+  # DivideNum
+  '分割数': |
+    分割数
+
+  # DivideNumX
+  '横分割数': |
+    横分割数
+
+  # DivideNumY
+  '縦分割数': |
+    縦分割数
+
+  # In
+  'イン': |
+    イン
+
+  # Out
+  'アウト': |
+    アウト
+
+  # WipeType
+  'ワイプの種類': |
+    ワイプの種類
+
+  # FixedAspect
+  '縦横比固定': |
+    縦横比固定
+
+  # Invert(In)
+  '反転(イン)': |
+    反転(イン)
+
+  # Invert(Out)
+  '反転(アウト)': |
+    反転(アウト)
+
+  # Vertical
+  '縦方向': |
+    縦方向
+
+  # RandomLevel
+  'ランダムに強さを変える': |
+    ランダムに強さを変える
+
+  # ComplicatedQuake
+  '複雑に振動': |
+    複雑に振動
+
+  # Latitude
+  '緯度': |
+    緯度
+
+  # Longitude
+  '経度': |
+    経度
+
+  # Tilt
+  '傾き': |
+    傾き
+
+  # Shiny
+  '光沢度': |
+    光沢度
+
+  # BillboardType
+  'オブジェクトの向き': |
+    オブジェクトの向き
+
+  # Culling
+  '裏面を表示しない': |
+    裏面を表示しない
+
+  # Fill
+  '塗りつぶし': |
+    塗りつぶし
+
+  # EaseInOut
+  '加減速': |
+    加減速
+
+  # Force
+  '勢い': |
+    勢い
+
+  # FragmentSize
+  '破片サイズ': |
+    破片サイズ
+
+  # TimeLag
+  '時間差': |
+    時間差
+
+  # DistanceEffect
+  '距離影響': |
+    距離影響
+
+  # BlinkRatio
+  '点滅割合': |
+    点滅割合
+
+  # LightOnSpeed
+  '点灯速度': |
+    点灯速度
+
+  # LightOffSpeed
+  '消灯速度': |
+    消灯速度
+
+  # BlinkCycle
+  '点滅間隔': |
+    点滅間隔
+
+  # FixedBlinkInterval
+  '点滅間隔を一定にする': |
+    点滅間隔を一定にする
+
+  # TimePassage
+  '時間経過': |
+    時間経過
+
+  # RotateNum
+  '回転数': |
+    回転数
+
+  # Blur
+  'ブラー': |
+    ブラー
+
+  # HorizontalRotate
+  '横回転': |
+    横回転
+
+  # CornerNum(Even)
+  '角数(偶数)': |
+    角数(偶数)
+
+  # RepeatNum
+  '繰り返し回数': |
+    繰り返し回数
+
+  # FixedSize
+  '固定サイズ': |
+    固定サイズ
+
+  # RoundMask
+  '円形マスク': |
+    円形マスク
+
+  # SyncRotate
+  '回転同期': |
+    回転同期
+
+  # DisplayPosition
+  '表示位置確認': |
+    表示位置確認
+
+  # Radius
+  '半径': |
+    半径
+
+  # HorizontalLayout(Camera)
+  '水平配置(カメラ制御)': |
+    水平配置(カメラ制御)
+
+  # TurnAround
+  '向き反転': |
+    向き反転
+
+  # NoRotate
+  '回転無し': |
+    回転無し
+
+  # 3DLayout(Camera)
+  '3D配置(カメラ制御)': |
+    3D配置(カメラ制御)
+
+  # Billboard
+  'カメラの方向を向く': |
+    カメラの方向を向く
+
+  # Decay
+  '減衰': |
+    減衰
+
+  # BoarderAdjust
+  '境目調整': |
+    境目調整
+
+  # MirrorDirection
+  'ミラーの方向': |
+    ミラーの方向
+
+  # StartTime
+  '開始時間': |
+    開始時間
+
+  # ParticleSpeed
+  '粒子速度': |
+    粒子速度
+
+  # CenterWidth
+  '中心幅': |
+    中心幅
+
+  # AdsustCycle
+  '間隔補正': |
+    間隔補正
+
+  # DisplayFormat
+  '表示形式': |
+    表示形式
+
+  # InitialValue
+  '初期値': |
+    初期値
+
+  # DecorationType
+  '装飾タイプ': |
+    装飾タイプ
+
+  # DirectionX
+  '方向X': |
+    方向X
+
+  # DirectionY
+  '方向Y': |
+    方向Y
+
+  # BeamLevel
+  '光芒強さ': |
+    光芒強さ
+
+  # BeamLength
+  '光芒長さ': |
+    光芒長さ
+
+  # BeamNum
+  '光芒数': |
+    光芒数
+
+  # BeamZoom
+  '光芒拡大率': |
+    光芒拡大率
+
+  # BeamSpeed
+  '光芒変化速度': |
+    光芒変化速度
+
+  # HorizontalBeam
+  '水平光芒': |
+    水平光芒
+
+  # HorizontalBeamHeight
+  '水平光芒高さ': |
+    水平光芒高さ
+
+  # RingLevel
+  '虹輪強さ': |
+    虹輪強さ
+
+  # RingZoom
+  '虹輪拡大率': |
+    虹輪拡大率
+
+  # RingOpenRate
+  '虹輪開閉率': |
+    虹輪開閉率
+
+  # RingNum
+  '虹輪数': |
+    虹輪数
+
+  # HaloLevel
+  '光輪強さ': |
+    光輪強さ
+
+  # HaloZoom
+  '光輪拡大率': |
+    光輪拡大率
+
+  # FormAngle
+  '形状角度': |
+    形状角度
+
+  # BeamColor
+  '光芒色': |
+    光芒色
+
+  # HaloScreenComposition
+  '光輪ｽｸﾘｰﾝ合成': |
+    光輪ｽｸﾘｰﾝ合成
+
+  # AtmosphericPerspective
+  '空気遠近': |
+    空気遠近
+
+  # PositionCorrect
+  '位置補正': |
+    位置補正
+
+  # Spread
+  '広がり': |
+    広がり
+
+  # Depth
+  '奥行き': |
+    奥行き
+
+  # FadeInTime
+  'フェードイン時間': |
+    フェードイン時間
+
+  # FadeOutTime
+  'フェードアウト時間': |
+    フェードアウト時間
+
+  # FluctuationWidth
+  'ゆらぎ幅': |
+    ゆらぎ幅
+
+  # FluctuationSpeed
+  'ゆらぎ速度': |
+    ゆらぎ速度
+
+  # SingleObject
+  '単一オブジェクト化': |
+    単一オブジェクト化
+
+  # RandomColor
+  'ランダム色': |
+    ランダム色
+
+  # Tip
+  '先端': |
+    先端
+
+  # TipAngle
+  '先端角度': |
+    先端角度
+
+  # TipPosition
+  '先端位置補正': |
+    先端位置補正
+
+  # TipFigure
+  '先端図形': |
+    先端図形
+
+  # FixedSpeed
+  '固定速度': |
+    固定速度
+
+  # DrawInterval
+  '描画間隔': |
+    描画間隔
+
+  # MinimumSpacing
+  '最小間隔': |
+    最小間隔
+
+  # MainLine(%)
+  '主線描画(%)': |
+    主線描画(%)
+
+  # AuxLine(%)
+  '補助描画(%)': |
+    補助描画(%)
+
+  # CenterAngle
+  '中心角': |
+    中心角
+
+  # Bokeh
+  'ボケ': |
+    ボケ
+
+  # LightLevel
+  '光量': |
+    光量
+
+  # Border
+  '境界': |
+    境界
+
+  # ColorShift
+  '色ずれ量': |
+    色ずれ量
+
+  # AdjustAspect
+  '縦横比補正': |
+    縦横比補正
+
+  # HorizontalBorderBlur
+  '水平境界ぼかし': |
+    水平境界ぼかし
+
+  # OpenFront
+  '手前に開く': |
+    手前に開く
+
+  # DelayTime
+  'ディレイ時間': |
+    ディレイ時間
+
+  # Figure
+  '図形名': |
+    図形名
+
+  # EdgeAngle
+  'エッジ角度': |
+    エッジ角度
+
+  # EdgeWidth
+  'エッジ幅': |
+    エッジ幅
+
+  # EdgeHeight
+  'エッジ高さ': |
+    エッジ高さ
+
+  # Normal
+  '通常': |
+    通常
+
+  # Add
+  '加算': |
+    加算
+
+  # Subtract
+  '減算': |
+    減算
+
+  # Multiply
+  '乗算': |
+    乗算
+
+  # Screen
+  'スクリーン': |
+    スクリーン
+
+  # Overlay
+  'オーバーレイ': |
+    オーバーレイ
+
+  # Compare(Light)
+  '比較(明)': |
+    比較(明)
+
+  # Compare(Dark)
+  '比較(暗)': |
+    比較(暗)
+
+  # ColorDiff
+  '色差': |
+    色差
+
+  # Shadow
+  '陰影': |
+    陰影
+
+  # LightDark
+  '明暗': |
+    明暗
+
+  # Diff
+  '差分': |
+    差分
+
+  # Background
+  '背景': |
+    背景
+
+  # Circle
+  '円': |
+    円
+
+  # Square
+  '四角形': |
+    四角形
+
+  # Triangle
+  '三角形': |
+    三角形
+
+  # Pentagon
+  '五角形': |
+    五角形
+
+  # Hexagon
+  '六角形': |
+    六角形
+
+  # Star
+  '星型': |
+    星型
+
+  # Heart
+  'ハート': |
+    ハート
+
+  # Normal
+  '標準': |
+    標準
+
+  # ToCamera(X)
+  'カメラの方を向く(横方向のみ)': |
+    カメラの方を向く(横方向のみ)
+
+  # ToCamera(XY)
+  'カメラの方を向く(縦横方向のみ)': |
+    カメラの方を向く(縦横方向のみ)
+
+  # ToCamera
+  'カメラの方を向く': |
+    カメラの方を向く
+
+  # RedGreenA
+  '赤緑A': |
+    赤緑A
+
+  # RedBlueA
+  '赤青A': |
+    赤青A
+
+  # GreenBlueA
+  '緑青A': |
+    緑青A
+
+  # RedGreenB
+  '赤緑B': |
+    赤緑B
+
+  # RedBlueB
+  '赤青B': |
+    赤青B
+
+  # GreenBlueB
+  '緑青B': |
+    緑青B
+
+  # Odd
+  '奇数': |
+    奇数
+
+  # Even
+  '偶数': |
+    偶数
+
+  # Duplex
+  '二重化': |
+    二重化
+
+  # MoveTransform
+  '移動変形': |
+    移動変形
+
+  # CompositeFront
+  '前方に合成': |
+    前方に合成
+
+  # CompositeBack
+  '後方に合成': |
+    後方に合成
+
+  # Cross(4Line)
+  'クロス(4本)': |
+    クロス(4本)
+
+  # Cross(6Line)
+  'クロス(6本)': |
+    クロス(6本)
+
+  # Cross(8Line)
+  'クロス(8本)': |
+    クロス(8本)
+
+  # Cross(10Line)
+  'クロス(10本)': |
+    クロス(10本)
+
+  # Cross(12Line)
+  'クロス(12本)': |
+    クロス(12本)
+
+  # Line
+  'ライン': |
+    ライン
+
+  # Linear
+  '線形': |
+    線形
+
+  # Circular
+  '円形': |
+    円形
+
+  # Rectangular
+  '矩形': |
+    矩形
+
+  # Convex
+  '凸形': |
+    凸形
+
+  # TransparentDark
+  '暗い部分を透過': |
+    暗い部分を透過
+
+  # TransparentLight
+  '明るい部分を透過': |
+    明るい部分を透過
+
+  # TransparentLightDark
+  '明暗部分を透過': |
+    明暗部分を透過
+
+  # TransparentLightDark(NoInterpolation)
+  '明暗部分を透過(補間無し)': |
+    明暗部分を透過(補間無し)
+
+  # TransparentStandard
+  '基準部分を透過': |
+    基準部分を透過
+
+  # TransparentStandard(NoInterpolation)
+  '基準部分を透過(補間無し)': |
+    基準部分を透過(補間無し)
+
+  # MultiplyAlpha
+  'アルファ値と乗算': |
+    アルファ値と乗算
+
+  # MultiplyBrightness
+  '明るさと乗算': |
+    明るさと乗算
+
+  # Normal
+  '標準文字': |
+    標準文字
+
+  # Shadow
+  '影付き文字': |
+    影付き文字
+
+  # Shadow(Light)
+  '影付き文字(薄)': |
+    影付き文字(薄)
+
+  # Border
+  '縁取り文字': |
+    縁取り文字
+
+  # Border(Thin)
+  '縁取り文字(細)': |
+    縁取り文字(細)
+
+  # Border(Bold)
+  '縁取り文字(太)': |
+    縁取り文字(太)
+
+  # Border(Sharp)
+  '縁取り文字(角)': |
+    縁取り文字(角)
+
+  # Left[Top]
+  '左寄せ[上]': |
+    左寄せ[上]
+
+  # Center[Top]
+  '中央揃え[上]': |
+    中央揃え[上]
+
+  # Right[Top]
+  '右寄せ[上]': |
+    右寄せ[上]
+
+  # Left[Middle]
+  '左寄せ[中]': |
+    左寄せ[中]
+
+  # Center[Middle]
+  '中央揃え[中]': |
+    中央揃え[中]
+
+  # Right[Middle]
+  '右寄せ[中]': |
+    右寄せ[中]
+
+  # Left[Bottom]
+  '左寄せ[下]': |
+    左寄せ[下]
+
+  # Center[Bottom]
+  '中央揃え[下]': |
+    中央揃え[下]
+
+  # Right[Bottom]
+  '右寄せ[下]': |
+    右寄せ[下]
+
+  # Vertical Top[Right]
+  '縦書 上寄[右]': |
+    縦書 上寄[右]
+
+  # Vertical Middle[Right]
+  '縦書 中央[右]': |
+    縦書 中央[右]
+
+  # Vertical Bottom[Right]
+  '縦書 下寄[右]': |
+    縦書 下寄[右]
+
+  # Vertical Top[Center]
+  '縦書 上寄[中]': |
+    縦書 上寄[中]
+
+  # Vertical Middle[Center]
+  '縦書 中央[中]': |
+    縦書 中央[中]
+
+  # Vertical Bottom[Center]
+  '縦書 下寄[中]': |
+    縦書 下寄[中]
+
+  # Vertical Top[Left]
+  '縦書 上寄[左]': |
+    縦書 上寄[左]
+
+  # Vertical Middle[Left]
+  '縦書 中央[左]': |
+    縦書 中央[左]
+
+  # Vertical Bottom[Left]
+  '縦書 下寄[左]': |
+    縦書 下寄[左]
+
+  # Wipe(Circle)
+  'ワイプ(円)': |
+    ワイプ(円)
+
+  # Wipe(Square)
+  'ワイプ(四角)': |
+    ワイプ(四角)
+
+  # Wipe(Clock)
+  'ワイプ(時計)': |
+    ワイプ(時計)
+
+  # Wipe(Horizontal)
+  'ワイプ(横)': |
+    ワイプ(横)
+
+  # Wipe(Vertical)
+  'ワイプ(縦)': |
+    ワイプ(縦)
+
+  # Wipe(Star)
+  'ワイプ(星型)': |
+    ワイプ(星型)
+
+  # Wipe(Heart)
+  'ワイプ(ハート)': |
+    ワイプ(ハート)
+
+  # CrossFade
+  'クロスフェード': |
+    クロスフェード
+
+  # Blackout
+  '暗転': |
+    暗転
+
+  # Whiteout
+  'ホワイトアウト': |
+    ホワイトアウト
+
+  # Slice
+  'スライス': |
+    スライス
+
+  # RandomLine
+  'ランダムライン': |
+    ランダムライン
+
+  # Slide
+  'スライド': |
+    スライド
+
+  # PushOut
+  '押し出し': |
+    押し出し
+
+  # Swap
+  'スワップ': |
+    スワップ
+
+  # ReduceRotate
+  '縮小回転': |
+    縮小回転
+
+  # CubeRotate
+  'キューブ回転': |
+    キューブ回転
+
+  # Unselected
+  '未選択': |
+    未選択
+
+  # MapType
+  'マップの種類': |
+    マップの種類
+
+  # Circumference
+  '円周': |
+    円周
+
+  # Seed
+  'シード': |
+    シード
+
+  # Distance
+  '距離': |
+    距離
+
+  # Speed
+  '速さ': |
+    速さ
+
+  # InvertUpDown
+  '上下反転': |
+    上下反転
+
+  # InvertLeftRight
+  '左右反転': |
+    左右反転
+
+  # InvertLuminance
+  '輝度反転': |
+    輝度反転
+
+  # InvertHue
+  '色相反転': |
+    色相反転
+
+  # InvertTransparent
+  '透明度反転': |
+    透明度反転
+
+  # Track
+  'トラック': |
+    トラック
+
+  # Repeat
+  '繰り返し': |
+    繰り返し
+
+  # DropFrame
+  'コマ落ち': |
+    コマ落ち
+
+  # ClearAudioBuffer
+  'オーディオバッファをクリア': |
+    オーディオバッファをクリア
+
+  # AdjustCoordinateSystem
+  '座標系を調整': |
+    座標系を調整
+
+  # FrameColor
+  '枠色': |
+    枠色
+
+  # Round
+  '丸み': |
+    丸み
+
+  # Multiple
+  '複数': |
+    複数
+
+  # PatternImage
+  'パターン画像': |
+    パターン画像
+
+  # AddShadow
+  '影を付ける': |
+    影を付ける
+
+  # ShadowRange
+  '影の範囲': |
+    影の範囲
+
+  # AutoScroll
+  '自動スクロール': |
+    自動スクロール
+
+  # fluctuation
+  'ゆらぎ': |
+    ゆらぎ
+
+  # Distortion
+  'ゆがみ': |
+    ゆがみ
+
+  # BaseX
+  '起点X': |
+    起点X
+
+  # BaseY
+  '起点Y': |
+    起点Y
+
+  # Rendering
+  '描画': |
+    描画
+
+  # Audio
+  '音声': |
+    音声
+
+  # LoopImage
+  'ループ画像': |
+    ループ画像
+
+  # CompositeFromFront
+  '前方から合成': |
+    前方から合成
+
+  # CompositeFromBack
+  '後方から合成': |
+    後方から合成
+
+  # OverwriteColor
+  '色情報を上書き': |
+    色情報を上書き
+
+  # OverwriteLuminanceAsAlpha
+  '輝度をアルファ値として上書き': |
+    輝度をアルファ値として上書き
+
+  # MultiplyLuminanceAsAlpha
+  '輝度をアルファ値として乗算': |
+    輝度をアルファ値として乗算
+
+  # Image
+  '画像': |
+    画像
+
+  # TransparentOutside
+  '領域外を透過': |
+    領域外を透過
+
+  # Resolution
+  '分解能': |
+    分解能
+
+  # Afterimage
+  '残像': |
+    残像
+
+  # Particle
+  'パーティクル': |
+    パーティクル
+
+  # AdjustEnd
+  '出力終了調整': |
+    出力終了調整
+
+  # FocusLayer
+  '焦点レイヤー': |
+    焦点レイヤー
+
+  # DepthBlur
+  '深度ぼけ': |
+    深度ぼけ
+
+  # RotateHorizontal
+  '水平回転': |
+    水平回転
+
+  # RoteteVertical
+  '垂直回転': |
+    垂直回転
+
+  # Rotate90
+  '90度回転': |
+    90度回転
+
+  # Tile
+  'タイル風': |
+    タイル風
+
+Menu:
+  # File
+  'ファイル': |
+    ファイル
+
+  # NewProject
+  'プロジェクトを新規作成': |
+    プロジェクトを新規作成
+
+  # OpenProject
+  'プロジェクトを開く': |
+    プロジェクトを開く
+
+  # RecentProject
+  '最近使ったプロジェクト': |
+    最近使ったプロジェクト
+
+  # BackupProject
+  'バックアップしたプロジェクト': |
+    バックアップしたプロジェクト
+
+  # SaveProject
+  'プロジェクトを保存': |
+    プロジェクトを保存
+
+  # SaveAsProject
+  'プロジェクトを別名で保存': |
+    プロジェクトを別名で保存
+
+  # ExportFile
+  'ファイル出力': |
+    ファイル出力
+
+  # SaveQuit
+  'プロジェクトを保存して終了': |
+    プロジェクトを保存して終了
+
+  # Quit
+  '終了': |
+    終了
+
+  # Edit
+  '編集': |
+    編集
+
+  # Move
+  '移動': |
+    移動
+
+  # NextFrame
+  '次のフレームに移動': |
+    次のフレームに移動
+
+  # PreviousFrame
+  '前のフレームに移動': |
+    前のフレームに移動
+
+  # NextSection
+  '次のセクションに移動': |
+    次のセクションに移動
+
+  # PreviousSection
+  '前のセクションに移動': |
+    前のセクションに移動
+
+  # FirstFrame
+  '先頭のフレームに移動': |
+    先頭のフレームに移動
+
+  # LastFrame
+  '最後のフレームに移動': |
+    最後のフレームに移動
+
+  # CutObject
+  'オブジェクトを切り取り': |
+    オブジェクトを切り取り
+
+  # CopyObject
+  'オブジェクトをコピー': |
+    オブジェクトをコピー
+
+  # PasteObject
+  'オブジェクトを貼り付け': |
+    オブジェクトを貼り付け
+
+  # DeleteObject
+  'オブジェクトを削除': |
+    オブジェクトを削除
+
+  # SplitObject
+  'オブジェクトを分割': |
+    オブジェクトを分割
+
+  # ChangeObjectLength
+  'オブジェクトの長さを変更': |
+    オブジェクトの長さを変更
+
+  # CopyImageToClipboard
+  'クリップボードにイメージをコピー': |
+    クリップボードにイメージをコピー
+
+  # CopyImageToClipboard(Transparent)
+  'クリップボードにイメージをコピー(背景透過)': |
+    クリップボードにイメージをコピー(背景透過)
+
+  # AddObjectPoint
+  'オブジェクトの中間点を追加': |
+    オブジェクトの中間点を追加
+
+  # DeleteObjectPoint
+  'オブジェクトの中間点を削除': |
+    オブジェクトの中間点を削除
+
+  # GroupingObject
+  'オブジェクトのグループ化': |
+    オブジェクトのグループ化
+
+  # UngroupObject
+  'オブジェクトのグループ解除': |
+    オブジェクトのグループ解除
+
+  # SelectCurrentFrameObject
+  '現在のフレームのオブジェクトを選択': |
+    現在のフレームのオブジェクトを選択
+
+  # Cut
+  '切り取り': |
+    切り取り
+
+  # Copy
+  'コピー': |
+    コピー
+
+  # Paste
+  '貼り付け': |
+    貼り付け
+
+  # Delete
+  '削除': |
+    削除
+
+  # SelectAll
+  'すべてを選択': |
+    すべてを選択
+
+  # Split
+  '分割': |
+    分割
+
+  # Grouping
+  'グループ化': |
+    グループ化
+
+  # Ungroup
+  'グループ解除': |
+    グループ解除
+
+  # Undo
+  '元に戻す': |
+    元に戻す
+
+  # Redo
+  'やり直し': |
+    やり直し
+
+  # Option
+  'オプション': |
+    オプション
+
+  # Zoom
+  '拡大表示': |
+    拡大表示
+
+  # RefreshCache
+  'キャッシュを破棄': |
+    キャッシュを破棄
+
+  # View
+  '表示': |
+    表示
+
+  # Play
+  '再生': |
+    再生
+
+  # Stop
+  '停止': |
+    停止
+
+  # MoveTimePosition
+  '指定時間に移動': |
+    指定時間に移動
+
+  # LayerEdit
+  'レイヤー編集': |
+    レイヤー編集
+
+  # ObjectSetting
+  'オブジェクト設定': |
+    オブジェクト設定
+
+  # ColorSetting
+  '色設定': |
+    色設定
+
+  # TimeControl
+  '時間制御編集': |
+    時間制御編集
+
+  # TimeControl
+  '時間制御': |
+    時間制御
+
+  # TextEditor
+  'テキスト編集': |
+    テキスト編集
+
+  # SceneList
+  'シーンリスト': |
+    シーンリスト
+
+  # ObjectList
+  'オブジェクトリスト': |
+    オブジェクトリスト
+
+  # LogViewer
+  'ログ表示': |
+    ログ表示
+
+  # Log
+  'ログ': |
+    ログ
+
+  # PreviewEdit
+  'プレビュー編集': |
+    プレビュー編集
+
+  # MediaExplore
+  'メディアエクスプローラー': |
+    メディアエクスプローラー
+
+  # MediaExplore:1
+  'メディアエクスプローラー:1': |
+    メディアエクスプローラー:1
+
+  # MediaExplore:2
+  'メディアエクスプローラー:2': |
+    メディアエクスプローラー:2
+
+  # MediaExplore:3
+  'メディアエクスプローラー:3': |
+    メディアエクスプローラー:3
+
+  # MediaExplore:4
+  'メディアエクスプローラー:4': |
+    メディアエクスプローラー:4
+
+  # ShowGrid(BPM)
+  'グリッド(BPM)の表示': |
+    グリッド(BPM)の表示
+
+  # ShowGrid(Camera)
+  'グリッド(カメラ制御)の表示': |
+    グリッド(カメラ制御)の表示
+
+  # EditView(Camera)
+  '編集視点(カメラ制御)表示': |
+    編集視点(カメラ制御)表示
+
+  # ViewClippingObject
+  'クリッピングオブジェクトの視覚化': |
+    クリッピングオブジェクトの視覚化
+
+  # Play/Stop
+  'プレビュー再生・停止': |
+    プレビュー再生・停止
+
+  # Setting
+  '設定': |
+    設定
+
+  # ShortcutKey
+  'ショートカットキーの設定': |
+    ショートカットキーの設定
+
+  # ObjectMenu
+  'オブジェクト追加メニューの設定': |
+    オブジェクト追加メニューの設定
+
+  # MoveModeMenu
+  'トラックバー移動メニューの設定': |
+    トラックバー移動メニューの設定
+
+  # TimeControlMenu
+  '時間制御メニューの設定': |
+    時間制御メニューの設定
+
+  # ColorMenu
+  'プリセット色メニューの設定': |
+    プリセット色メニューの設定
+
+  # FontMenu
+  'フォントメニューの設定': |
+    フォントメニューの設定
+
+  # InputPlugin
+  '入力プラグインの設定': |
+    入力プラグインの設定
+
+  # BackupHistory
+  'バックアップ履歴の設定': |
+    バックアップ履歴の設定
+
+  # CacheSize
+  'キャッシュサイズの設定': |
+    キャッシュサイズの設定
+
+  # Language
+  '言語の設定': |
+    言語の設定
+
+  # Log
+  'ログの設定': |
+    ログの設定
+
+  # CopyLog
+  'ログをコピー': |
+    ログをコピー
+
+  # Etc
+  'その他': |
+    その他
+
+  # PluginInfo
+  'プラグイン情報': |
+    プラグイン情報
+
+  # ScriptInfo
+  'スクリプト情報': |
+    スクリプト情報
+
+  # VersionInfo
+  'バージョン情報': |
+    バージョン情報
+
+  # Acceleration
+  '加速': |
+    加速
+
+  # Deceleration
+  '減速': |
+    減速
+
+  # IgnoreObjectPoint
+  '中間点無視': |
+    中間点無視
+
+  # LockLayer
+  'レイヤーをロック': |
+    レイヤーをロック
+
+  # VisibleLayer
+  'レイヤーの表示': |
+    レイヤーの表示
+
+  # ChangeLayerName
+  'レイヤー名を変更': |
+    レイヤー名を変更
+
+  # VisibleOtherLayer
+  '他のレイヤーを表示/非表示': |
+    他のレイヤーを表示/非表示
+
+  # InsertLayer
+  'レイヤーを挿入': |
+    レイヤーを挿入
+
+  # DeleteLayer
+  'レイヤーを削除': |
+    レイヤーを削除
+
+  # AddObjectPoint
+  '中間点を追加': |
+    中間点を追加
+
+  # DeleteObjectPoint
+  '中間点を削除': |
+    中間点を削除
+
+  # ChangeLength
+  '長さを変更': |
+    長さを変更
+
+  # CreateAlias
+  'エイリアスを作成': |
+    エイリアスを作成
+
+  # AddObject
+  'オブジェクトを追加': |
+    オブジェクトを追加
+
+  # AddFilter
+  'フィルタ効果を追加': |
+    フィルタ効果を追加
+
+  # DeleteFilter
+  'フィルタ効果を削除': |
+    フィルタ効果を削除
+
+  # InsertEmptyFrame
+  '空のフレームを挿入': |
+    空のフレームを挿入
+
+  # SettingGrid(BPM)
+  'グリッド(BPM)の設定': |
+    グリッド(BPM)の設定
+
+  # SelectFocusObjectOnSingleClick(Layer)
+  'シングルクリックでオブジェクトをフォーカス(レイヤー)': |
+    シングルクリックでオブジェクトをフォーカス(レイヤー)
+
+  # SelectGroupObjectOnClick(Layer)
+  'クリック時にオブジェクトのグループを選択(レイヤー)': |
+    クリック時にオブジェクトのグループを選択(レイヤー)
+
+  # SnapObject(Layer)
+  'オブジェクトのスナップ(レイヤー)': |
+    オブジェクトのスナップ(レイヤー)
+
+  # ShowTimeOnObjectMove
+  'オブジェクトの区間変更時に時間を表示': |
+    オブジェクトの区間変更時に時間を表示
+
+  # ShowTargetLayerRange
+  '対象レイヤー範囲を表示': |
+    対象レイヤー範囲を表示
+
+  # AdjustTargetLayerRange
+  '対象レイヤー範囲を調整': |
+    対象レイヤー範囲を調整
+
+  # SetCurrentColor
+  '現在の色を登録': |
+    現在の色を登録
+
+  # SetPresetName
+  'プリセット名を設定': |
+    プリセット名を設定
+
+  # ClearPresetName
+  'プリセット名を解除': |
+    プリセット名を解除
+
+  # ColorCircleAngle
+  'カラーサークルの基準角度': |
+    カラーサークルの基準角度
+
+  # AddControlPoint
+  '制御点を追加': |
+    制御点を追加
+
+  # DeleteControlPoint
+  '制御点を削除': |
+    制御点を削除
+
+  # ShowObjectPoint
+  '中間点の位置を表示': |
+    中間点の位置を表示
+
+  # OpenWindowWhenChangeItemToTimeControl
+  '時間制御の設定対象へ変更した時にウィンドウを表示': |
+    時間制御の設定対象へ変更した時にウィンドウを表示
+
+  # ControlColor(&C)
+  '色変更(&C)': |
+    色変更(&C)
+
+  # ControlSize(&S)
+  'サイズ変更(&S)': |
+    サイズ変更(&S)
+
+  # ControlFont(&F)
+  'フォント変更(&F)': |
+    フォント変更(&F)
+
+  # ControlSpeed(&R)
+  '表示速度変更(&R)': |
+    表示速度変更(&R)
+
+  # ControlWait(&W)
+  '表示ウェイト(&W)': |
+    表示ウェイト(&W)
+
+  # ControlErase(&E)
+  '表示クリア(&E)': |
+    表示クリア(&E)
+
+  # ControlPosition(&P)
+  '座標指定(&P)': |
+    座標指定(&P)
+
+  # OpenWindowWhenFocusTextObject
+  'テキストオブジェクトのフォーカス時にウィンドウを表示': |
+    テキストオブジェクトのフォーカス時にウィンドウを表示
+
+  # AddBookmark
+  'ブックマークに追加': |
+    ブックマークに追加
+
+  # DeleteBookmark
+  'ブックマークから削除': |
+    ブックマークから削除
+
+  # ShowMediaObject
+  'メディアオブジェクトを表示する': |
+    メディアオブジェクトを表示する
+
+  # ShowFilterObject
+  'フィルタオブジェクトを表示する': |
+    フィルタオブジェクトを表示する
+
+  # ShowControlObject
+  '制御オブジェクトを表示する': |
+    制御オブジェクトを表示する
+
+  # ShowMediaObject
+  '映像(画像)系のオブジェクトを表示する': |
+    映像(画像)系のオブジェクトを表示する
+
+  # ShowAudioObject
+  '音声系のオブジェクトを表示する': |
+    音声系のオブジェクトを表示する
+
+  # SettingGrid(Camera)
+  'グリッド(カメラ制御)の設定': |
+    グリッド(カメラ制御)の設定
+
+  # SelectFocusObjectOnSingleClick(Preview)
+  'シングルクリックでオブジェクトをフォーカス(プレビュー)': |
+    シングルクリックでオブジェクトをフォーカス(プレビュー)
+
+  # SelectGroupObjectOnClick(Preview)
+  'クリック時にオブジェクトのグループを選択(プレビュー)': |
+    クリック時にオブジェクトのグループを選択(プレビュー)
+
+  # SnapObject(Preview)
+  'オブジェクトのスナップ(プレビュー)': |
+    オブジェクトのスナップ(プレビュー)
+
+  # HideUnrelatedAnchorOnHover
+  'マウスホバー時に対象以外のアンカーを非表示': |
+    マウスホバー時に対象以外のアンカーを非表示
+
+  # ShowPointOnObjectMove
+  'オブジェクトの移動軌跡に点を表示': |
+    オブジェクトの移動軌跡に点を表示
+
+  # CenterAnchorOnObject
+  '区間のアンカー表示をオブジェクトの中心位置にする': |
+    区間のアンカー表示をオブジェクトの中心位置にする
+
+  # CreateNewScene
+  'シーンを新規作成': |
+    シーンを新規作成
+
+  # DeleteScene
+  'シーンを削除': |
+    シーンを削除
+
+  # ChangeSceneName
+  'シーン名を変更': |
+    シーン名を変更
+
+  # SettingScene
+  'シーンの設定': |
+    シーンの設定
+
+  # ChangeObjectInput
+  'オブジェクトの入力切替': |
+    オブジェクトの入力切替
+
+  # ChangeObjectOutput
+  'オブジェクトの出力切替': |
+    オブジェクトの出力切替
+
+  # InitializeSetting
+  '設定を初期化': |
+    設定を初期化
+
+  # SaveSetting
+  '設定を保存': |
+    設定を保存
+
+  # SaveInitializeSetting
+  '現在の設定を初期値にする': |
+    現在の設定を初期値にする
+
+  # ResetInitializeSetting
+  '初期値を標準に戻す': |
+    初期値を標準に戻す
+
+  # OpenAllItem
+  '全ての項目を折りたたみ/展開': |
+    全ての項目を折りたたみ/展開
+
+  # DisplaySection
+  '区間表示': |
+    区間表示
+
+  # None
+  '区間表示しない': |
+    区間表示しない
+
+  # DisplaySection
+  '区間表示する': |
+    区間表示する
+
+  # OnlyTwoPointSection
+  '2点間のみ表示': |
+    2点間のみ表示
+
+  # ShowSliderButton
+  'スライダーの増減ボタンを表示': |
+    スライダーの増減ボタンを表示
+
+  # ShowSliderValuePosition
+  'スライダーの値の位置を表示': |
+    スライダーの値の位置を表示
+
+  # NoMoveMouseOnSlide
+  'スライド時にマウスを移動しない': |
+    スライド時にマウスを移動しない
+
+  # WindowLayout
+  'ウィンドウ配置': |
+    ウィンドウ配置
+
+  # LeftGroup
+  '左側エリア': |
+    左側エリア
+
+  # RightGroup
+  '右側エリア': |
+    右側エリア
+
+  # TopGroup
+  '上側エリア': |
+    上側エリア
+
+  # BottonGroup
+  '下側エリア': |
+    下側エリア
+
+  # CenterGroup
+  '中央エリア': |
+    中央エリア
+
+  # MoveWindow
+  'ウィンドウの移動': |
+    ウィンドウの移動
+
+  # MoveFirst
+  '先頭に移動': |
+    先頭に移動
+
+  # MoveBack
+  '上に移動': |
+    上に移動
+
+  # MoveNext
+  '下に移動': |
+    下に移動
+
+  # MoveLast
+  '最後に移動': |
+    最後に移動
+
+  # CloseWindow
+  'ウィンドウを閉じる': |
+    ウィンドウを閉じる
+
+  # RevertExtension
+  '拡張子を標準に戻す': |
+    拡張子を標準に戻す
+
+  # SettingPlugin
+  'プラグインの設定': |
+    プラグインの設定
+
+  # MoveFirstWithSameLabel
+  '同じラベルの項目を全て先頭に移動': |
+    同じラベルの項目を全て先頭に移動
+
+  # MoveLastWithSameLabel
+  '同じラベルの項目を全て最後に移動': |
+    同じラベルの項目を全て最後に移動
+
+  # GroupAllItemByLabel
+  '全ての項目をラベルのグループで纏める': |
+    全ての項目をラベルのグループで纏める
+
+  # EnableAllItem
+  '全ての項目の表示を有効にする': |
+    全ての項目の表示を有効にする
+
+  # DisableAllItem
+  '全ての項目の表示を無効にする': |
+    全ての項目の表示を無効にする
+
+  # NewPalette
+  '新しいパレットを作成': |
+    新しいパレットを作成
+
+  # Linear
+  '等速移動': |
+    等速移動
+
+  # EaseIn
+  '加速移動': |
+    加速移動
+
+  # EaseOut
+  '減速移動': |
+    減速移動
+
+  # EaseInOut
+  '加減速移動': |
+    加減速移動
+
+  # CreatePresetWithCurrentSetting
+  '現在の設定でプリセットを作成': |
+    現在の設定でプリセットを作成
+
+  # ExportAviFile
+  'AVIファイル出力': |
+    AVIファイル出力
+
+  # ExportPngFile
+  'PNGファイル出力': |
+    PNGファイル出力
+
+  # ExportJpegFile
+  'JPEGファイル出力': |
+    JPEGファイル出力
+
+  # PngFile(Transparent)
+  'PNGファイル(透過付き)': |
+    PNGファイル(透過付き)
+
+  # PngFile(NoTransparent)
+  'PNGファイル(透過無し)': |
+    PNGファイル(透過無し)
+
+  # RevertShortcutKey
+  'ショートカットキーを標準に戻す': |
+    ショートカットキーを標準に戻す
+
+  # RevertAllShortcutKey
+  '全てのショートカットキーを標準に戻す': |
+    全てのショートカットキーを標準に戻す
+
+  # EnableObject
+  'オブジェクトの表示・非表示': |
+    オブジェクトの表示・非表示
+
+  # SelectNextObject
+  '次のオブジェクトを選択': |
+    次のオブジェクトを選択
+
+  # SelectPreviousObject
+  '前のオブジェクトを選択': |
+    前のオブジェクトを選択
+
+  # PreviewEditDisplay
+  'プレビュー編集の拡大表示': |
+    プレビュー編集の拡大表示
+
+  # LayerEditZoomDisplay
+  'レイヤー編集の拡大表示': |
+    レイヤー編集の拡大表示
+
+  # ZoomIn
+  'ズームイン': |
+    ズームイン
+
+  # ZoomOut
+  'ズームアウト': |
+    ズームアウト
+
+  # ApplicationData
+  'アプリケーションデータ': |
+    アプリケーションデータ
+
+  # ApplicationDataFolder
+  'アプリケーションデータフォルダ': |
+    アプリケーションデータフォルダ
+
+  # ScriptFolder
+  'スクリプトフォルダ': |
+    スクリプトフォルダ
+
+  # PluginFolder
+  'プラグインフォルダ': |
+    プラグインフォルダ
+
+  # AliasFileFolder
+  'エイリアスファイルフォルダ': |
+    エイリアスファイルフォルダ
+
+  # FigureFolder
+  '図形ファイルフォルダ': |
+    図形ファイルフォルダ
+
+  # TransitionFolder
+  '遷移画像ファイルフォルダ': |
+    遷移画像ファイルフォルダ
+
+  # DefaultPresetFolder
+  '初期値・プリセットフォルダ': |
+    初期値・プリセットフォルダ
+
+  # BackupFileFolder
+  'バックアップファイルフォルダ': |
+    バックアップファイルフォルダ
+
+  # LogFileFolder
+  'ログファイルフォルダ': |
+    ログファイルフォルダ
+
+  # LanguageFileFolder
+  '言語ファイルフォルダ': |
+    言語ファイルフォルダ
+
+  # DuplicateObject
+  'オブジェクトを複製': |
+    オブジェクトを複製
+
+  # AddObjectPointAndSplitByCursorFrame
+  '中間点追加・分割を現在のフレームで行う': |
+    中間点追加・分割を現在のフレームで行う
+
+  # AddObjectPointAtCursorFrame
+  'カーソル位置に中間点を追加': |
+    カーソル位置に中間点を追加
+
+  # SelectObject
+  'オブジェクト選択': |
+    オブジェクト選択
+
+  # SelectAllObject
+  '全てのオブジェクトを選択': |
+    全てのオブジェクトを選択
+
+  # SelectObjectAfterCursorFrame
+  '現在のフレーム以降に開始するオブジェクトを選択': |
+    現在のフレーム以降に開始するオブジェクトを選択
+
+  # SelectObjectBeforeCursorFrame
+  '現在のフレーム以前に終了するオブジェクトを選択': |
+    現在のフレーム以前に終了するオブジェクトを選択
+
+  # SetStartFrameRangeAtCursorFrame
+  '現在のフレームを選択開始フレームにする': |
+    現在のフレームを選択開始フレームにする
+
+  # SetEndFrameRangeAtCursorFrame
+  '現在のフレームを選択終了フレームにする': |
+    現在のフレームを選択終了フレームにする
+
+  # DeselectFrameRange
+  'フレーム範囲選択を解除': |
+    フレーム範囲選択を解除
+
+  # SelectFrameRange
+  'フレーム範囲選択': |
+    フレーム範囲選択
+
+  # VerticalScrollWithMouseWheel(Layer)
+  'マウスホイールで縦スクロール(レイヤー)': |
+    マウスホイールで縦スクロール(レイヤー)
+
+  # SeparateAudio
+  '音声を分離': |
+    音声を分離
+
+  # DisplayObjectNameFromHead
+  'オブジェクト名を常に先頭から表示': |
+    オブジェクト名を常に先頭から表示
+
+  # GeneralOperateSetting
+  '共通操作の設定': |
+    共通操作の設定
+
+  # CustomFrameMoveNextA
+  'カスタムフレーム次移動A': |
+    カスタムフレーム次移動A
+
+  # CustomFrameMovePreviousA
+  'カスタムフレーム前移動A': |
+    カスタムフレーム前移動A
+
+  # CustomFrameMoveNextB
+  'カスタムフレーム次移動B': |
+    カスタムフレーム次移動B
+
+  # CustomFrameMovePreviousB
+  'カスタムフレーム前移動B': |
+    カスタムフレーム前移動B
+
+  # CustomFrameMoveNextC
+  'カスタムフレーム次移動C': |
+    カスタムフレーム次移動C
+
+  # CustomFrameMovePreviousC
+  'カスタムフレーム前移動C': |
+    カスタムフレーム前移動C
+
+  # CustomFrameMoveNextD
+  'カスタムフレーム次移動D': |
+    カスタムフレーム次移動D
+
+  # CustomFrameMovePreviousD
+  'カスタムフレーム前移動D': |
+    カスタムフレーム前移動D
+
+  # MoveToStartFrameRange
+  '選択開始フレームに移動': |
+    選択開始フレームに移動
+
+  # MoveToEndFrameRange
+  '選択終了フレームに移動': |
+    選択終了フレームに移動
+
+  # PreviwPlay
+  'プレビュー再生': |
+    プレビュー再生
+
+  # Play/Pause
+  'プレビュー再生・一時停止': |
+    プレビュー再生・一時停止
+
+  # Pause
+  '一時停止': |
+    一時停止
+
+  # SliderMoveSetting
+  'スライダーの移動量の設定': |
+    スライダーの移動量の設定
+
+  # ClearLog
+  'ログをクリア': |
+    ログをクリア
+
+  # ShowAudioWaveform
+  '音声波形の表示': |
+    音声波形の表示
+
+  # HideObjectNameWhenDisplayAudioWaveform
+  '音声波形表示時はオブジェクト名を非表示': |
+    音声波形表示時はオブジェクト名を非表示
+
+  # Duplicate
+  '複製': |
+    複製
+
+  # CutAndRemoveGap
+  '切り取りして詰める': |
+    切り取りして詰める
+
+  # CutObjectAndRemoveGap
+  'オブジェクトを切り取りして詰める': |
+    オブジェクトを切り取りして詰める
+
+  # Trim
+  '切り出し': |
+    切り出し
+
+  # TrimObject
+  'オブジェクトを切り出し': |
+    オブジェクトを切り出し
+
+  # RemoveLeftSideGap
+  '左側に詰める': |
+    左側に詰める
+
+  # RemoveObjectLeftSideGap
+  'オブジェクトを左側に詰める': |
+    オブジェクトを左側に詰める
+
+  # PlayWhenBufferFull
+  '再生バッファの最大まで取得して再生': |
+    再生バッファの最大まで取得して再生
+
+  # ZoomIn(Layer)
+  'ズームイン(レイヤー)': |
+    ズームイン(レイヤー)
+
+  # ZoomOut(Layer)
+  'ズームアウト(レイヤー)': |
+    ズームアウト(レイヤー)
+
+  # CutFollowing
+  '以降を切り取り': |
+    以降を切り取り
+
+  # CopyFollowing
+  '以降をコピー': |
+    以降をコピー
+
+  # Website
+  'ウェブサイト': |
+    ウェブサイト
+
+  # ShowVolumeLevelMeter
+  '音量レベルメーターの表示': |
+    音量レベルメーターの表示
+
+  # VolumeLevelMeterSetting
+  '音量レベルメーターの設定': |
+    音量レベルメーターの設定
+
+  # SpaceEvenlyObjectPoint
+  '中間点を均等配置': |
+    中間点を均等配置
+
+  # ChangeSectionLength
+  '選択区間の長さを変更': |
+    選択区間の長さを変更
+
+  # EnableLevelMeterOnlyDuringPlayback
+  '再生中のみ音量レベルメーターを反映': |
+    再生中のみ音量レベルメーターを反映
+
+  # YUVColorSpace
+  'YUV色空間': |
+    YUV色空間
+
+  # YUVColorRange
+  'YUVレンジ': |
+    YUVレンジ
+
+  # Auto
+  '自動': |
+    自動
+
+  # DisplayPlaybackPositionByFrameNumber
+  '再生位置をフレーム番号で表示': |
+    再生位置をフレーム番号で表示
+
+  # MoveSliderToClickPosition
+  'スライダーをクリックした位置に移動': |
+    スライダーをクリックした位置に移動
+
+  # ShowGrid(XY)
+  'グリッド(XY軸)の表示': |
+    グリッド(XY軸)の表示
+
+  # SettingGrid(XY)
+  'グリッド(XY軸)の設定': |
+    グリッド(XY軸)の設定
+
+  # SelectFile
+  'ファイルから選択': |
+    ファイルから選択
+
+  # ExportSerialNumberFile
+  '連番ファイル出力': |
+    連番ファイル出力
+
+  # DisplaySetting
+  '画面の設定': |
+    画面の設定
+
+  # ExportFileSetting
+  'ファイル出力の設定': |
+    ファイル出力の設定
+
+  # DuplicateScene
+  'シーンを複製': |
+    シーンを複製
+
+  # FollowSelectedObject
+  '選択オブジェクトの追従': |
+    選択オブジェクトの追従
+
+  # ShowObjectPointTime
+  '中間点の時間を表示': |
+    中間点の時間を表示
+
+  # DisplayScrollBarTop
+  'スクロールバーを上側に表示': |
+    スクロールバーを上側に表示
+
+  # FloatingWindow
+  'ウィンドウを分離': |
+    ウィンドウを分離
+
+  # DockingWindow
+  'ウィンドウを統合': |
+    ウィンドウを統合
+
+  # GroupingWindow
+  'ウィンドウのグループ化': |
+    ウィンドウのグループ化
+
+  # DisplayAudioWaveformAsAbsoluteValue
+  '音声波形を絶対値で表示': |
+    音声波形を絶対値で表示
+
+  # SeparateAudioWhenDragAndDropVideoFile
+  '動画ファイルのドラッグ＆ドロップ時に音声を分離': |
+    動画ファイルのドラッグ＆ドロップ時に音声を分離
+
+  # AdjustSceneWhenDragAndDropToEmptyScene
+  '空のシーンへのドラッグ＆ドロップ時にシーン設定を合わせる': |
+    空のシーンへのドラッグ＆ドロップ時にシーン設定を合わせる
+
+  # Plugin
+  'プラグイン': |
+    プラグイン
+
+  # LockLayer
+  'レイヤーのロック': |
+    レイヤーのロック
+
+  # SettingLayer
+  'レイヤーを設定': |
+    レイヤーを設定
+
+  # LayerSetting
+  'レイヤー設定': |
+    レイヤー設定
+
+  # ChangeTargetWhenSelectLayer
+  'レイヤー選択時に設定対象レイヤーを変更': |
+    レイヤー選択時に設定対象レイヤーを変更
+
+  # Small
+  '小': |
+    小
+
+  # Medium
+  '中': |
+    中
+
+  # Large
+  '大': |
+    大
+
+  # IncreaseLayerHeight
+  'レイヤーの縦幅を大きく': |
+    レイヤーの縦幅を大きく
+
+  # DecreaseLayerHeight
+  'レイヤーの縦幅を小さく': |
+    レイヤーの縦幅を小さく
+
+  # ObjectPresetFolder
+  'オブジェクトプリセットフォルダ': |
+    オブジェクトプリセットフォルダ
+
+  # RenamePalette
+  'パレット名を変更': |
+    パレット名を変更
+
+  # CutSelectRange
+  '選択範囲を切り取り': |
+    選択範囲を切り取り
+
+  # CutSelectRangeAndRemoveGap
+  '選択範囲を切り取りして詰める': |
+    選択範囲を切り取りして詰める
+
+  # DisplaySubGroupLabel
+  'サブグループ項目を表示': |
+    サブグループ項目を表示
+
+  # SelectImageFile
+  '画像ファイルから選択': |
+    画像ファイルから選択
+
+  # SelectVideoFile
+  '動画ファイルから選択': |
+    動画ファイルから選択
+
+  # Scene
+  'シーン': |
+    シーン
+
+  # CloseProject
+  'プロジェクトを閉じる': |
+    プロジェクトを閉じる
+
+  # CreateSceneFromFile
+  'シーンをファイルから作成': |
+    シーンをファイルから作成
+
+  # SaveSceneFile
+  'シーンをファイルに保存': |
+    シーンをファイルに保存
+
+  # Import
+  'インポート': |
+    インポート
+
+  # Export
+  'エクスポート': |
+    エクスポート
+
+  # Plugin
+  'プラグイン設定': |
+    プラグイン設定
+
+  # ChangeObjectName
+  'オブジェクト名を変更': |
+    オブジェクト名を変更
+
+  # AddMediaObject
+  'メディアオブジェクトを追加': |
+    メディアオブジェクトを追加
+
+  # AddFilterObject
+  'フィルタオブジェクトを追加': |
+    フィルタオブジェクトを追加
+
+  # Media
+  'メディア操作': |
+    メディア操作
+
+  # MoveMediaUp
+  'メディアを上に移動': |
+    メディアを上に移動
+
+  # MoveMediaDown
+  'メディアを下に移動': |
+    メディアを下に移動
+
+  # MoveMediaLeft
+  'メディアを左に移動': |
+    メディアを左に移動
+
+  # MoveMediaRight
+  'メディアを右に移動': |
+    メディアを右に移動
+
+  # ZoomInMedia
+  'メディアを拡大': |
+    メディアを拡大
+
+  # ZoomOutMedia
+  'メディアを縮小': |
+    メディアを縮小
+
+  # RotateMediaLeft
+  'メディアを左回転': |
+    メディアを左回転
+
+  # RotateMediaRight
+  'メディアを右回転': |
+    メディアを右回転
+
+  # EditText
+  'テキストを編集': |
+    テキストを編集
+
+  # SnapCursorMove(Layer)
+  'カーソル移動のスナップ(レイヤー)': |
+    カーソル移動のスナップ(レイヤー)
+
+  # ScenePlayback
+  'シーン再生': |
+    シーン再生
+
+  # ShowVolumeLevelMeter(Preview)
+  '音量レベルメーターの表示(プレビュー)': |
+    音量レベルメーターの表示(プレビュー)
+
+  # ShowVolumeLevelMeter(ScenePlayback)
+  '音量レベルメーターの表示(シーン再生)': |
+    音量レベルメーターの表示(シーン再生)
+
+  # PlayScene/Stop
+  'シーン再生・停止': |
+    シーン再生・停止
+
+  # PlayScene/Pause
+  'シーン再生・一時停止': |
+    シーン再生・一時停止
+
+  # PlaySceneWhenBufferFull
+  '再生バッファの最大まで取得してシーン再生': |
+    再生バッファの最大まで取得してシーン再生
+
+  # ShortcutKeyPlaybackPrioritizesScenePlayback
+  'ショートカットキー操作の再生はシーン再生を優先': |
+    ショートカットキー操作の再生はシーン再生を優先
+
+  # SelectMultipleObjects
+  'オブジェクト複数選択': |
+    オブジェクト複数選択
+
+  # MoveRelatedObjectWhenMoveStartEndPoint
+  '開始終了点移動時に隣接オブジェクトを移動': |
+    開始終了点移動時に隣接オブジェクトを移動
+
+  # DisplayFrameCursorWide
+  'カーソルをフレーム範囲で表示': |
+    カーソルをフレーム範囲で表示
+
+  # MouseWheelZoomByCursorFrame
+  'マウスホイールの拡大縮小を現在のフレーム基準にする': |
+    マウスホイールの拡大縮小を現在のフレーム基準にする
+
+  # LinkedToSameSceneFrameMove
+  '同じシーンのフレーム移動に連動': |
+    同じシーンのフレーム移動に連動
+
+  # LinkedToReferenceSceneFrameMove
+  '参照シーンのフレーム移動に連動': |
+    参照シーンのフレーム移動に連動
+
+  # Histogram
+  'ヒストグラム': |
+    ヒストグラム
+
+Message:
+  # outputting file
+  'ファイル出力中': |
+    ファイル出力中
+
+  # change palette
+  'パレットを切替': |
+    パレットを切替
+
+  # get color from screen
+  '画面上から色を取得': |
+    画面上から色を取得
+
+  # get color with mouse click
+  'マウスクリックで色を取得': |
+    マウスクリックで色を取得
+
+  # edit color
+  '色を編集': |
+    色を編集
+
+  # load preset
+  '制御点のプリセットを読込': |
+    制御点のプリセットを読込
+
+  # back
+  '前に戻る': |
+    前に戻る
+
+  # next
+  '次に移動': |
+    次に移動
+
+  # move parent
+  '親のフォルダに移動': |
+    親のフォルダに移動
+
+  # show bookmark
+  'ブックマークを表示': |
+    ブックマークを表示
+
+  # enable object
+  'オブジェクトの表示・非表示': |
+    オブジェクトの表示・非表示
+
+  # enable filter
+  'フィルタ効果の有効・無効': |
+    フィルタ効果の有効・無効
+
+  # enable camera
+  'カメラ制御の対象': |
+    カメラ制御の対象
+
+  # enable clipping object
+  'クリッピングオブジェクトの有効・無効\n下位レイヤーのオブジェクトを切り抜きする': |
+    クリッピングオブジェクトの有効・無効\n下位レイヤーのオブジェクトを切り抜きする
+
+  # change filter
+  'フィルタ効果を切替\n同じラベルのフィルタに切り替えます': |
+    フィルタ効果を切替\n同じラベルのフィルタに切り替えます
+
+  # change object
+  'オブジェクトの切替\n同じラベルのオブジェクトに切り替えます': |
+    オブジェクトの切替\n同じラベルのオブジェクトに切り替えます
+
+  # disable preview edit
+  'プレビュー編集の操作をロック': |
+    プレビュー編集の操作をロック
+
+  # move previous frame
+  '前のフレームに移動': |
+    前のフレームに移動
+
+  # move next frame
+  '次のフレームに移動': |
+    次のフレームに移動
+
+  # move previous section
+  '前のセクションに移動': |
+    前のセクションに移動
+
+  # move next section
+  '次のセクションに移動': |
+    次のセクションに移動
+
+  # change preview volume
+  'プレビュー再生の音量を変更': |
+    プレビュー再生の音量を変更
+
+  # change preview zoom
+  'プレビュー表示の拡大率を変更': |
+    プレビュー表示の拡大率を変更
+
+  # add filter
+  'フィルタ効果を追加': |
+    フィルタ効果を追加
+
+  # edit view
+  # Green:camera
+  # White:camera(no edit)
+  # Gray:edit
+  'カメラ制御の視点モードを切り替え\n緑色:カメラ視点\n白色:カメラ視点(編集不可)\n灰色:編集用視点(自由移動)': |
+    カメラ制御の視点モードを切り替え\n緑色:カメラ視点\n白色:カメラ視点(編集不可)\n灰色:編集用視点(自由移動)
+
+  # view clipping object
+  'クリッピングオブジェクトの視覚化': |
+    クリッピングオブジェクトの視覚化
+
+  # preset
+  'プリセット名': |
+    プリセット名
+
+  # palette
+  'パレット': |
+    パレット
+
+  # invalid character
+  '使用できない文字が含まれています': |
+    使用できない文字が含まれています
+
+  # invalid value
+  '値が不正です': |
+    値が不正です
+
+  # required
+  '必須項目です': |
+    必須項目です
+
+  # no item to color setting
+  '色の設定対象項目がありません': |
+    色の設定対象項目がありません
+
+  # no target to focus object
+  '設定対象のオブジェクトをフォーカスすると表示されます': |
+    設定対象のオブジェクトをフォーカスすると表示されます
+
+  # no item to time control
+  '時間制御の設定対象の項目がありません': |
+    時間制御の設定対象の項目がありません
+
+  # no target to time control
+  '時間制御の設定対象を選択すると表示されます': |
+    時間制御の設定対象を選択すると表示されます
+
+  # no bookmark
+  'ブックマークを追加すると表示されます': |
+    ブックマークを追加すると表示されます
+
+  # no scene
+  'シーンを追加すると表示されます': |
+    シーンを追加すると表示されます
+
+  # change layer zoom
+  'レイヤー表示の拡大率を変更': |
+    レイヤー表示の拡大率を変更
+
+  # exist same name palette
+  # overwrite?
+  '同名のパレットが存在しています\n上書きしますか？': |
+    同名のパレットが存在しています\n上書きしますか？
+
+  # exist same name preset
+  # overwrite?
+  '同名のプリセットが存在しています\n変更しますか？': |
+    同名のプリセットが存在しています\n変更しますか？
+
+  # exist same name alias
+  # overwrite?
+  '同名のエイリアスが存在しています\n上書きしますか？': |
+    同名のエイリアスが存在しています\n上書きしますか？
+
+  # can not add bookmark this folder
+  'このフォルダはブックマークに追加できません': |
+    このフォルダはブックマークに追加できません
+
+  # failed save preset
+  'プリセットの保存に失敗しました': |
+    プリセットの保存に失敗しました
+
+  # failed save alias
+  'エイリアスの保存に失敗しました': |
+    エイリアスの保存に失敗しました
+
+  # failed load alias
+  'エイリアスの読み込みに失敗しました': |
+    エイリアスの読み込みに失敗しました
+
+  # failed save palette
+  'パレットの保存に失敗しました': |
+    パレットの保存に失敗しました
+
+  # delete current scene?
+  '現在のシーンを削除しますか？': |
+    現在のシーンを削除しますか？
+
+  # delete scene?
+  'シーンを削除しますか？': |
+    シーンを削除しますか？
+
+  # interrupt file output?
+  'ファイル出力を中断しますか？': |
+    ファイル出力を中断しますか？
+
+  # file output is complete
+  'ファイル出力が完了しました': |
+    ファイル出力が完了しました
+
+  # project file path has changed
+  # adjust file path specification?
+  'プロジェクトファイルのパスが変更されています。\n\n以前のプロジェクトパスの配下の指定ファイルが存在しない場合は\n現在のプロジェクトパスの配下に変更しますか？': |
+    プロジェクトファイルのパスが変更されています。\n\n以前のプロジェクトパスの配下の指定ファイルが存在しない場合は\n現在のプロジェクトパスの配下に変更しますか？
+
+  # file not found
+  '指定のファイルが存在しません': |
+    指定のファイルが存在しません
+
+  # failed load project
+  'プロジェクトの読み込みに失敗しました': |
+    プロジェクトの読み込みに失敗しました
+
+  # failed save project
+  'プロジェクトの保存に失敗しました': |
+    プロジェクトの保存に失敗しました
+
+  # failed load some objects
+  '一部のオブジェクトの読み込みに失敗しました': |
+    一部のオブジェクトの読み込みに失敗しました
+
+  # file is not supported
+  'このファイルには対応していません': |
+    このファイルには対応していません
+
+  # add to layer
+  'レイヤーに追加': |
+    レイヤーに追加
+
+  # open project
+  'プロジェクトを開く': |
+    プロジェクトを開く
+
+  # create scene
+  'シーンを作成': |
+    シーンを作成
+
+  # set file
+  'ファイルを設定': |
+    ファイルを設定
+
+  # edit time control
+  '時間制御を編集': |
+    時間制御を編集
+
+  # edit value
+  '設定値を変更': |
+    設定値を変更
+
+  # change zoom
+  '拡大率の変更': |
+    拡大率の変更
+
+  # change size
+  'サイズの変更': |
+    サイズの変更
+
+  # language file is set
+  '言語ファイルを設定しました': |
+    言語ファイルを設定しました
+
+  # set language file
+  '言語ファイルを設定': |
+    言語ファイルを設定
+
+  # set start frame range
+  '範囲選択の開始フレームに設定': |
+    範囲選択の開始フレームに設定
+
+  # set end frame range
+  '範囲選択の終了フレームに設定': |
+    範囲選択の終了フレームに設定
+
+  # preview play
+  'プレビュー再生': |
+    プレビュー再生
+
+  # preview stop
+  'プレビュー停止': |
+    プレビュー停止
+
+  # preview pause
+  'プレビュー一時停止': |
+    プレビュー一時停止
+
+  # add text
+  'テキストを追加': |
+    テキストを追加
+
+  # failed load file
+  'ファイルの読み込みに失敗しました': |
+    ファイルの読み込みに失敗しました
+
+  # setting YUV
+  'YUVの設定': |
+    YUVの設定
+
+  # invalid format
+  'フォーマットが正しくありません': |
+    フォーマットが正しくありません
+
+  # select file/scene
+  'ファイル・シーンから選択': |
+    ファイル・シーンから選択
+
+  # select file
+  'ファイルから選択': |
+    ファイルから選択
+
+  # unsupported file extension
+  '対応していないファイル拡張子です': |
+    対応していないファイル拡張子です
+
+  # exist same name file
+  # overwrite?
+  '同名のファイルが存在しています\n上書きしますか？': |
+    同名のファイルが存在しています\n上書きしますか？
+
+  # Install Script/Plugin
+  'プラグイン・スクリプトのインストール': |
+    プラグイン・スクリプトのインストール
+
+  # Application not exit normally last time
+  #
+  # Restore project?
+  '前回アプリケーションが正常に終了しませんでした\n\nプロジェクトを復元しますか？': |
+    前回アプリケーションが正常に終了しませんでした\n\nプロジェクトを復元しますか？
+
+  # interrupt file output
+  'ファイル出力を中断': |
+    ファイル出力を中断
+
+  # buffering
+  'バッファリング中': |
+    バッファリング中
+
+  # apply preset
+  'プリセットを適用': |
+    プリセットを適用
+
+  # failed load preset
+  'プリセットの読み込みに失敗しました': |
+    プリセットの読み込みに失敗しました
+
+  # edit data is updated
+  # save project file?
+  '現在の編集データは更新されています\nプロジェクトを保存しますか？': |
+    現在の編集データは更新されています\nプロジェクトを保存しますか？
+
+  # failed load scene
+  'シーンの読み込みに失敗しました': |
+    シーンの読み込みに失敗しました
+
+  # failed save scene
+  'シーンの保存に失敗しました': |
+    シーンの保存に失敗しました
+
+  # select scene
+  'シーンを選択': |
+    シーンを選択
+
+Dialog:
+  # NewScene
+  'シーンを作成': |
+    シーンを作成
+
+  # Scene
+  'シーンの設定': |
+    シーンの設定
+
+  # Name
+  '名前': |
+    名前
+
+  # Resolution
+  '解像度': |
+    解像度
+
+  # FrameRate
+  'フレームレート': |
+    フレームレート
+
+  # SamplingRate
+  'サンプリングレート': |
+    サンプリングレート
+
+  # BackupHistory
+  'バックアップ履歴の設定': |
+    バックアップ履歴の設定
+
+  # EditResume
+  '編集レジューム': |
+    編集レジューム
+
+  # AutoBackup
+  '自動バックアップ': |
+    自動バックアップ
+
+  # BackupInterval(min)
+  'バックアップの間隔(分)': |
+    バックアップの間隔(分)
+
+  # MaxBackupFile
+  'バックアップファイルの最大数': |
+    バックアップファイルの最大数
+
+  # MaxFileHistory
+  'ファイル履歴の最大数': |
+    ファイル履歴の最大数
+
+  # Enable
+  '有効': |
+    有効
+
+  # Disable
+  '無効': |
+    無効
+
+  # CacheSize
+  'キャッシュサイズの設定': |
+    キャッシュサイズの設定
+
+  # VideoCacheSize[MB]
+  '画像キャッシュサイズ [MB]': |
+    画像キャッシュサイズ [MB]
+
+  # AudioCacheSize[MB]
+  '音声キャッシュサイズ [MB]': |
+    音声キャッシュサイズ [MB]
+
+  # FileHandleCacheNum
+  'ファイルハンドルキャッシュ数': |
+    ファイルハンドルキャッシュ数
+
+  # PreviewBufferSize[ms]
+  'プレビュー再生のバッファリング時間 [ms]': |
+    プレビュー再生のバッファリング時間 [ms]
+
+  # InsertEmptyFrame
+  '空のフレームを挿入': |
+    空のフレームを挿入
+
+  # ChangeObjectLength
+  'オブジェクトの長さを変更': |
+    オブジェクトの長さを変更
+
+  # MoveTimePosition
+  '指定時間に移動': |
+    指定時間に移動
+
+  # Second
+  '秒数指定': |
+    秒数指定
+
+  # Frame
+  'フレーム数指定': |
+    フレーム数指定
+
+  # Grid(Camera)
+  'グリッド(カメラ制御)の設定': |
+    グリッド(カメラ制御)の設定
+
+  # Interval
+  '表示間隔': |
+    表示間隔
+
+  # Range
+  '表示範囲': |
+    表示範囲
+
+  # Grid(BPM)
+  'グリッド(BPM)の設定': |
+    グリッド(BPM)の設定
+
+  # Tempo
+  'テンポ': |
+    テンポ
+
+  # Beat
+  '拍子': |
+    拍子
+
+  # BaseTime
+  '基準時間': |
+    基準時間
+
+  # InputPlugin
+  '入力プラグインの設定': |
+    入力プラグインの設定
+
+  # Plugin(Priority)
+  'プラグイン(優先順位)': |
+    プラグイン(優先順位)
+
+  # Extension
+  '拡張子': |
+    拡張子
+
+  # Language
+  '言語の設定': |
+    言語の設定
+
+  # Language
+  '言語': |
+    言語
+
+  # Log
+  'ログの設定': |
+    ログの設定
+
+  # ViewLogLevel
+  'ログウィンドウの表示対象レベル': |
+    ログウィンドウの表示対象レベル
+
+  # FileLogLevel
+  'ログファイルの記録対象レベル': |
+    ログファイルの記録対象レベル
+
+  # OutputDebugStringLogLevel
+  'OutputDebugStringの出力対象レベル': |
+    OutputDebugStringの出力対象レベル
+
+  # MaxViewLogLine
+  'ログウィンドウの最大行数': |
+    ログウィンドウの最大行数
+
+  # MaxFileLogNum
+  'ログファイルの最大ファイル数': |
+    ログファイルの最大ファイル数
+
+  # Item(DisplayOrder)
+  '項目(表示順)': |
+    項目(表示順)
+
+  # Label
+  'ラベル': |
+    ラベル
+
+  # ColorCircleAngle
+  'カラーサークルの基準角度': |
+    カラーサークルの基準角度
+
+  # BaseAngle
+  '基準角度': |
+    基準角度
+
+  # ObjectMenu
+  'オブジェクト追加メニューの設定': |
+    オブジェクト追加メニューの設定
+
+  # MoveModeMenu
+  'トラックバー移動メニューの設定': |
+    トラックバー移動メニューの設定
+
+  # TimeControlMenu
+  '時間制御メニューの設定': |
+    時間制御メニューの設定
+
+  # ColorMenu
+  'プリセット色メニューの設定': |
+    プリセット色メニューの設定
+
+  # FontMenu
+  'フォントメニューの設定': |
+    フォントメニューの設定
+
+  # ShortcutKey
+  'ショートカットキーの設定': |
+    ショートカットキーの設定
+
+  # Operation
+  '操作': |
+    操作
+
+  # ShortcutKey
+  'ショートカットキー': |
+    ショートカットキー
+
+  # ResetAllShortcutKey
+  '全てのショートカットキーを標準に戻す': |
+    全てのショートカットキーを標準に戻す
+
+  # NewPalette(Color)
+  'パレットを作成 - 色設定': |
+    パレットを作成 - 色設定
+
+  # PaletteName
+  'パレット名': |
+    パレット名
+
+  # Preset(Color)
+  'プリセット名を設定 - 色設定': |
+    プリセット名を設定 - 色設定
+
+  # PresetName
+  'プリセット名': |
+    プリセット名
+
+  # NewPreset(Time)
+  'プリセットを作成 - 時間制御': |
+    プリセットを作成 - 時間制御
+
+  # CreateAlias
+  'エイリアスを作成': |
+    エイリアスを作成
+
+  # AliasName
+  'エイリアス名': |
+    エイリアス名
+
+  # Object
+  'オブジェクト': |
+    オブジェクト
+
+  # All
+  '全体': |
+    全体
+
+  # Setting
+  '設定': |
+    設定
+
+  # Type
+  '種別': |
+    種別
+
+  # Value
+  '設定値': |
+    設定値
+
+  # ExportAviFile
+  'AVIファイル出力': |
+    AVIファイル出力
+
+  # ExportPngFile
+  'PNGファイル出力': |
+    PNGファイル出力
+
+  # ExportJpegFile
+  'JPEGファイル出力': |
+    JPEGファイル出力
+
+  # JpegQuality
+  'JPEG品質': |
+    JPEG品質
+
+  # PluginInfo
+  'プラグイン情報': |
+    プラグイン情報
+
+  # Plugin
+  'プラグイン': |
+    プラグイン
+
+  # InputPlugin
+  '入力プラグイン': |
+    入力プラグイン
+
+  # OutputPlugin
+  '出力プラグイン': |
+    出力プラグイン
+
+  # ScriptInfo
+  'スクリプト情報': |
+    スクリプト情報
+
+  # FilterEffect
+  'フィルタ効果': |
+    フィルタ効果
+
+  # CameraEffect
+  'カメラ効果': |
+    カメラ効果
+
+  # Trackbar
+  'トラックバー': |
+    トラックバー
+
+  # ChangeSceneName
+  'シーン名を変更': |
+    シーン名を変更
+
+  # Auto
+  '自動': |
+    自動
+
+  # HighDpiDisplay
+  '高DPI表示': |
+    高DPI表示
+
+  # FixedSize
+  '固定サイズ表示': |
+    固定サイズ表示
+
+  # ScaleSize
+  '拡大サイズ表示': |
+    拡大サイズ表示
+
+  # Reflected after application restart
+  'アプリケーションの再起動後に反映されます': |
+    アプリケーションの再起動後に反映されます
+
+  # GeneralOperateSetting
+  '共通操作の設定': |
+    共通操作の設定
+
+  # SelectRangeWhenMoveFrame
+  'フレーム移動時の範囲選択': |
+    フレーム移動時の範囲選択
+
+  # Do
+  'する': |
+    する
+
+  # DoNot
+  'しない': |
+    しない
+
+  # MoveFrameWithShiftKeyDown
+  'Shiftキーを押しながらフレーム移動した時': |
+    Shiftキーを押しながらフレーム移動した時
+
+  # CustomFrameMoveA
+  'カスタムフレーム移動A': |
+    カスタムフレーム移動A
+
+  # CustomFrameMoveB
+  'カスタムフレーム移動B': |
+    カスタムフレーム移動B
+
+  # CustomFrameMoveC
+  'カスタムフレーム移動C': |
+    カスタムフレーム移動C
+
+  # CustomFrameMoveD
+  'カスタムフレーム移動D': |
+    カスタムフレーム移動D
+
+  # Move amount specified in seconds or frames("5f")
+  '移動量は秒数もしくはフレーム数("5f")で指定出来ます': |
+    移動量は秒数もしくはフレーム数("5f")で指定出来ます
+
+  # SliderMoveSetting
+  'スライダーの移動量の設定': |
+    スライダーの移動量の設定
+
+  # SliderMoveCriteria
+  'スライダーの移動量の基準': |
+    スライダーの移動量の基準
+
+  # FixedMoveValue
+  '固定の移動量': |
+    固定の移動量
+
+  # ValueRangeAndScreenWidth
+  '数値の範囲とスクリーンの幅': |
+    数値の範囲とスクリーンの幅
+
+  # ValueRangeAndSliderWidth
+  '数値の範囲とスライダーの幅': |
+    数値の範囲とスライダーの幅
+
+  # SliderMoveSensitivity
+  'スライダーの移動量の感度': |
+    スライダーの移動量の感度
+
+  # VideoCacheSize[MB]
+  '音声波形キャッシュサイズ [MB]': |
+    音声波形キャッシュサイズ [MB]
+
+  # VolumeLevelMeterSetting
+  '音量レベルメーターの設定': |
+    音量レベルメーターの設定
+
+  # VolumeLevel(Red)Threshold[dB]
+  '音量レベル(赤)のしきい値 [dB]': |
+    音量レベル(赤)のしきい値 [dB]
+
+  # VolumeLevel(Yellow)Threshold[dB]
+  '音量レベル(黄)のしきい値 [dB]': |
+    音量レベル(黄)のしきい値 [dB]
+
+  # YUVColorSpace
+  'YUV色空間': |
+    YUV色空間
+
+  # YUVColorRange
+  'YUVレンジ': |
+    YUVレンジ
+
+  # Setting for YUV file output
+  'ファイル出力時にYUVが利用される場合の設定です': |
+    ファイル出力時にYUVが利用される場合の設定です
+
+  # NewProject
+  'プロジェクトを新規作成': |
+    プロジェクトを新規作成
+
+  # Add Script/Plugin
+  'スクリプト・プラグインの追加': |
+    スクリプト・プラグインの追加
+
+  # The following plugin or script files have been added
+  '下記のプラグインまたはスクリプトのファイルが追加されています': |
+    下記のプラグインまたはスクリプトのファイルが追加されています
+
+  # Plugin and script are useful, but they carry the risk of containing malware
+  'プラグインやスクリプトは有用ですがマルウェア等のプログラムが含まれるリスクがあります': |
+    プラグインやスクリプトは有用ですがマルウェア等のプログラムが含まれるリスクがあります
+
+  # Please make sure that it is provided by a trusted developer before using it
+  '信頼できる開発元から提供されていることを確認して使用してください': |
+    信頼できる開発元から提供されていることを確認して使用してください
+
+  # *If you do not use it, please delete the file
+  '※使用しない場合はファイルを削除してください': |
+    ※使用しない場合はファイルを削除してください
+
+  # Trust and use this plugin/script
+  'このプラグイン・スクリプトを信頼して使用する': |
+    このプラグイン・スクリプトを信頼して使用する
+
+  # Do not use
+  '使用しない': |
+    使用しない
+
+  # Grid(XY)
+  'グリッド(XY軸)の設定': |
+    グリッド(XY軸)の設定
+
+  # Width
+  '横幅': |
+    横幅
+
+  # Height
+  '縦幅': |
+    縦幅
+
+  # CustomX
+  '任意X軸': |
+    任意X軸
+
+  # CustomY
+  '任意Y軸': |
+    任意Y軸
+
+  # ExportSerialNumberFile
+  '連番ファイル出力': |
+    連番ファイル出力
+
+  # PngTransparent
+  'PNG透明色': |
+    PNG透明色
+
+  # Yes
+  'あり': |
+    あり
+
+  # No
+  'なし': |
+    なし
+
+  # ModelDataCacheSize[MB]
+  'モデルデータキャッシュサイズ [MB]': |
+    モデルデータキャッシュサイズ [MB]
+
+  # VramDataCacheSize[MB]
+  'VRAMデータキャッシュサイズ [MB]': |
+    VRAMデータキャッシュサイズ [MB]
+
+  # DisplaySetting
+  '画面の設定': |
+    画面の設定
+
+  # ExportFileSetting
+  'ファイル出力の設定': |
+    ファイル出力の設定
+
+  # SoundWhenExportFileComplete
+  'ファイル出力完了時のサウンド': |
+    ファイル出力完了時のサウンド
+
+  # File
+  'ファイル': |
+    ファイル
+
+  # When no OK button
+  '決定ボタンが無い時のみ': |
+    決定ボタンが無い時のみ
+
+  # ConfirmDialogEnterKey
+  'ダイアログをEnterキーで決定': |
+    ダイアログをEnterキーで決定
+
+  # DuplicateScene
+  'シーンを複製': |
+    シーンを複製
+
+  # Alt+LeftClickDragToRghtClickDrag
+  'Alt+左クリックドラックで右クリックドラック操作': |
+    Alt+左クリックドラックで右クリックドラック操作
+
+  # Please enter key
+  'キーを入力してください': |
+    キーを入力してください
+
+  # FilterPlugin
+  'フィルタプラグイン': |
+    フィルタプラグイン
+
+  # ScriptModule
+  'スクリプトモジュール': |
+    スクリプトモジュール
+
+  # Plugin setting from right click menu
+  'プラグイン項目の右クリックメニューから設定が出来ます': |
+    プラグイン項目の右クリックメニューから設定が出来ます
+
+  # SelectRange
+  '選択範囲': |
+    選択範囲
+
+  # UniversalPlugin
+  '汎用プラグイン': |
+    汎用プラグイン
+
+  # Install Script/Plugin
+  'プラグイン・スクリプトのインストール': |
+    プラグイン・スクリプトのインストール
+
+  # The following plugin or script files install
+  '下記のプラグインまたはスクリプトのファイルをインストールします': |
+    下記のプラグインまたはスクリプトのファイルをインストールします
+
+  # *Restart application after install
+  '※インストール後にアプリケーションを再起動します': |
+    ※インストール後にアプリケーションを再起動します
+
+  # Do not install
+  'インストールしない': |
+    インストールしない
+
+  # NewPreset
+  'プリセットを作成': |
+    プリセットを作成
+
+  # Scope
+  '対象範囲': |
+    対象範囲
+
+  # OwnItemOnly
+  '自身の項目のみ': |
+    自身の項目のみ
+
+  # IncludeFilterAfterSelf
+  '自身以降のフィルタ効果を含める': |
+    自身以降のフィルタ効果を含める
+
+  # TargetItem
+  '対象項目': |
+    対象項目
+
+  # When uncheck, original value remains
+  '対象項目から外すとプリセット適用時に元の値が維持されます': |
+    対象項目から外すとプリセット適用時に元の値が維持されます
+
+  # BackgroundColor
+  '背景色': |
+    背景色
+
+  # RenamePalette
+  'パレット名を変更': |
+    パレット名を変更
+
+  # ChangeLayerName
+  'レイヤー名を変更': |
+    レイヤー名を変更
+
+  # ChangeObjectName
+  'オブジェクト名を変更': |
+    オブジェクト名を変更
+
+  # MediaMoveAmount(ShortcutKey)
+  'メディア移動量(ショートカットキー)': |
+    メディア移動量(ショートカットキー)
+
+  # MediaZoomAmount(ShortcutKey)
+  'メディア拡大量(ショートカットキー)': |
+    メディア拡大量(ショートカットキー)
+
+  # MediaRotateAmount(ShortcutKey)
+  'メディア回転量(ショートカットキー)': |
+    メディア回転量(ショートカットキー)
+
+  # AutoScrollSpeedWhenDrag
+  'ドラッグ時の自動スクロール速度': |
+    ドラッグ時の自動スクロール速度
+
+Name:
+  # Min
+  '最小': |
+    最小
+
+  # Max
+  '最大': |
+    最大
+
+  # Avg
+  '平均': |
+    平均
+
+  # Med
+  '中央': |
+    中央
+
