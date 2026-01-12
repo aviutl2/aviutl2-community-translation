@@ -1,6 +1,12 @@
 ; 言語の定義
 ; UTF-8で記述する
 ; ProgramData\aviutl2\Languageに配置すると言語の設定に追加される
+;
+; ファイル名をマルチピリオドにすると差分として読み込まれる
+; "English.xxx.aul2" は「English」の設定として上書き結合される
+;
+; フィルタ名やスクリプト名のセクションが存在すると優先して参照される
+; 「ぼかし」フィルタの名称や設定項目名は [ぼかし] セクションを先に参照する
 
 [Effect]
 ; オブジェクト、フィルタ効果の名称
@@ -926,6 +932,7 @@ YUVレンジ=YUVColorRange
 マウスホイールの拡大縮小を現在のフレーム基準にする=MouseWheelZoomByCursorFrame
 同じシーンのフレーム移動に連動=LinkedToSameSceneFrameMove
 参照シーンのフレーム移動に連動=LinkedToReferenceSceneFrameMove
+ヒストグラム=Histogram
 
 [Message]
 ; ツールチップ、メッセージボックス等のメッセージ
@@ -984,7 +991,6 @@ YUVレンジ=YUVColorRange
 プロジェクトの読み込みに失敗しました=failed load project
 プロジェクトの保存に失敗しました=failed save project
 一部のオブジェクトの読み込みに失敗しました=failed load some objects
-シーンの読み込みに失敗しました=failed load scene
 このファイルには対応していません=file is not supported
 レイヤーに追加=add to layer
 プロジェクトを開く=open project
@@ -1189,3 +1195,7 @@ Alt+左クリックドラックで右クリックドラック操作=Alt+LeftClic
 ;Root=Root
 ;Layer=Layer
 ;Scene=Scene
+最小=Min
+最大=Max
+平均=Avg
+中央=Med
