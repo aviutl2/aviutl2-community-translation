@@ -4,9 +4,3 @@ lockfile = true
 [tools]
 cmake = "latest"
 ruby = "4"
-
-[tools."github:WhatTheBlock/innounp"]
-version = "latest"
-
-[tools."github:WhatTheBlock/innounp".platforms]
-windows-x86_64 = { asset_pattern = "innounp.exe" }

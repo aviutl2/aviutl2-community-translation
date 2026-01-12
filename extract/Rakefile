@@ -8,9 +8,6 @@ task default: %i[
        list_effects
      ]
 
-ENABLE_EXTRACTION_KEY = "DANGEROUSLY_ENABLE_EXTRACTION"
-ENABLE_EXTRACTION = ENV["CI"] || (ENV[ENABLE_EXTRACTION_KEY] == "1")
-
 task :clean do
   rm_rf "tmp/aviutl2"
   rm_rf "tmp/aviutl2.zip"
@@ -25,6 +22,32 @@ end
 task :build_plugin do
   sh "cmake -S . -B build -D CMAKE_BUILD_TYPE=Release", chdir: "./plugin"
   sh "cmake --build build --config Release", chdir: "./plugin"
+end
+
+task :download_innounp do
+  if File.exist?("tmp/innounp/innonup.exe")
+    puts "innounp.exe already exists."
+    next
+  end
+
+  require "open-uri"
+  require "zip"
+
+  innounp_url = "https://www.rathlev-home.de/tools/download/innounp-2.zip"
+  innounp_zip_path = "tmp/innounp.zip"
+  puts "Downloading innounp from #{innounp_url}..."
+  URI.open(innounp_url) do |remote_file|
+    File.open(innounp_zip_path, "wb") { |file| file.write(remote_file.read) }
+  end
+  puts "Downloaded innounp to #{innounp_zip_path}."
+
+  Zip::File.open(innounp_zip_path) do |zip_file|
+    zip_file.each do |entry|
+      dest_path = File.join("tmp", "innounp", entry.name)
+      mkdir_p File.dirname(dest_path) unless Dir.exist?(File.dirname(dest_path))
+      zip_file.extract(entry, dest_path) unless File.exist?(dest_path)
+    end
+  end
 end
 
 task :download do
@@ -67,22 +90,11 @@ task :extract_locale do
   require "fileutils"
 
   puts "Extracting locale data..."
-  data_dir = "C:/ProgramData/aviutl2"
-  eng_path = "#{data_dir}/Language/English.aul2"
-
-  if File.exist?(eng_path)
-    puts "Locale data already exists at #{eng_path}."
-  else
-    puts "Running AviUtl2 installer to extract locale data..."
-    unless ENABLE_EXTRACTION
-      puts "Locale extraction is disabled. Set #{ENABLE_EXTRACTION_KEY}=1 to enable."
-      next
-    end
-    installer_path = "tmp/aviutl2_setup.exe"
-    sh "#{installer_path} /SILENT /DIR=\"#{File.expand_path("tmp/aviutl2_installer")}\""
-  end
-
-  cp eng_path, "../locales/original_english.aul2"
+  puts "Running AviUtl2 installer to extract locale data..."
+  sh "./tmp/innounp/innounp.exe -x -d./tmp/installer_decompressed ./tmp/aviutl2_setup.exe"
+  locale_source = "./tmp/installer_decompressed/{commonappdata}/aviutl2/Language/English.aul2"
+  locale_dest = "../locales/original_english.aul2"
+  cp locale_source, locale_dest
 end
 
 task :extract_effects do
