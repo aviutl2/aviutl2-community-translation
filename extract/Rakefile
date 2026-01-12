@@ -80,7 +80,15 @@ task :extract_locale do
       trust=1
     INI
 
-    sh "tmp/aviutl2/AviUtl2.exe"
+    current_time = Time.now
+    spawn("tmp/aviutl2/AviUtl2.exe")
+    while Time.now - current_time < 60
+      sleep 1
+      unless File.exist?("#{data_dir}/extract/mode.txt")
+        puts "Locale extraction completed."
+        break
+      end
+    end
   end
 
   cp eng_path, "../locales/original_english.aul2"
