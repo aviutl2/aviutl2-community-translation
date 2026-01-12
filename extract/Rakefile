@@ -1,4 +1,16 @@
-task default: %i[clean prepare download convert_locale]
+task default: %i[
+       clean
+       prepare
+       build_reboot_plugin
+       download
+       extract_locale
+       extract_effects
+       list_effects
+       convert_locale
+     ]
+
+ENABLE_EXTRACTION_KEY = "DANGEROUSLY_ENABLE_EXTRACTION"
+ENABLE_EXTRACTION = ENV["CI"] || (ENV[ENABLE_EXTRACTION_KEY] == "1")
 
 task :clean do
   rm_rf "tmp/aviutl2"
@@ -9,6 +21,11 @@ task :prepare do
   mkdir_p "tmp"
   File.write("tmp/.gitignore", "*\n")
   puts "Prepared temporary directory."
+end
+
+task :build_reboot_plugin do
+  sh "cmake -S . -B build -D CMAKE_BUILD_TYPE=Release", chdir: "./reboot_plugin"
+  sh "cmake --build build --config Release", chdir: "./reboot_plugin"
 end
 
 task :download do
@@ -28,12 +45,99 @@ task :download do
 
   Zip::File.open(zip_path) do |zip_file|
     zip_file.each do |entry|
-      dest_path = File.join("tmp", entry.name)
-      FileUtils.mkdir_p(File.dirname(dest_path))
+      dest_path = File.join("tmp", "aviutl2", entry.name)
+      mkdir_p File.dirname(dest_path) unless Dir.exist?(File.dirname(dest_path))
       zip_file.extract(entry, dest_path) unless File.exist?(dest_path)
     end
   end
   puts "Extracted ZIP to tmp/aviutl2."
+end
+
+task :extract_locale do
+  require "open3"
+  require "fileutils"
+
+  puts "Extracting locale data..."
+  data_dir = "C:/ProgramData/aviutl2"
+  eng_path = "#{data_dir}/Language/English.aul2"
+
+  if File.exist?(eng_path)
+    puts "Locale data already exists at #{eng_path}."
+  else
+    puts "Launching AviUtl2 to extract locale data..."
+    unless ENABLE_EXTRACTION
+      puts "Locale extraction is disabled. Set #{ENABLE_EXTRACTION_KEY}=1 to enable."
+      next
+    end
+
+    mkdir_p data_dir
+    mkdir_p "#{data_dir}/Plugin"
+    cp "./reboot_plugin/build/Release/RebootPlugin.dll",
+       "#{data_dir}/Plugin/RebootPlugin.aux2"
+    File.write("#{data_dir}/module.ini", <<~INI)
+      [RebootPlugin.aux2]
+      trust=1
+    INI
+
+    _, _, _, spawned = Open3.popen3("./tmp/aviutl2/AviUtl2.exe")
+    current_time = Time.now
+    rm_rf "./tmp/aviutl2/data"
+    while Time.now - current_time < 60
+      if File.exist?(eng_path)
+        puts "Locale data extracted to #{eng_path}."
+        spawned.each { |s| s.close }
+        break
+      end
+      sleep 1
+    end
+
+    Process.kill("TERM", spawned.pid) if spawned.alive?
+  end
+
+  cp eng_path, "../locales/original_english.aul2"
+end
+
+task :extract_effects do
+  require "open3"
+  puts "Extracting effects..."
+  aviutl2_ini_path = "tmp/aviutl2/data/aviutl2.ini"
+  # unless ENABLE_EXTRACTION
+  #   puts "Effect extraction is disabled. Set #{ENABLE_EXTRACTION_KEY}=1 to enable."
+  #   next
+  # end
+  _, _, _, spawned = Open3.popen3("./tmp/aviutl2/AviUtl2.exe")
+  current_time = Time.now
+  rm_rf "./tmp/aviutl2/data"
+  mkdir_p "./tmp/aviutl2/data/Plugin"
+  cp "./reboot_plugin/build/Release/RebootPlugin.dll",
+     "./tmp/aviutl2/data/Plugin/RebootPlugin.aux2"
+  File.write("./tmp/aviutl2/data/module.ini", <<~INI)
+    [RebootPlugin.aux2]
+    trust=1
+  INI
+  while Time.now - current_time < 60
+    if File.exist?(aviutl2_ini_path)
+      puts "aviutl2.ini created to #{aviutl2_ini_path}."
+      break
+    end
+    sleep 1
+  end
+  Process.kill("TERM", spawned.pid) if spawned.alive?
+
+  cp aviutl2_ini_path, "./tmp/default_aviutl2.ini"
+end
+
+task :list_effects do
+  require "inifile"
+
+  puts "Listing effects from ini file..."
+  ini = IniFile.load("./tmp/default_aviutl2.ini")
+  effects = ini.sections.select { |s| s.start_with?("Effect.") }
+  effects.each do |effect_section|
+    effect_name = effect_section.sub("Effect.", "")
+    effect_path = ini[effect_section]["path"]
+    puts "Effect: #{effect_name}, Path: #{effect_path}"
+  end
 end
 
 task :convert_locale do

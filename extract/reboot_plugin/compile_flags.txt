@@ -1,0 +1,2 @@
+-I./external/aviutl2_sdk_mirror/include
+-std=c++23

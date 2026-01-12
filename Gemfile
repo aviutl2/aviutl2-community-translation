@@ -9,3 +9,5 @@ gem "rubyzip", "~> 3.2"
 
 gem "rake", "~> 13.3"
 gem "syntax_tree", "~> 6.3"
+
+gem "inifile", "~> 3.0"
