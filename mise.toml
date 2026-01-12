@@ -1,2 +1,6 @@
+[settings]
+lockfile = true
+
 [tools]
+cmake = "latest"
 ruby = "4"

@@ -1,0 +1,10 @@
+[[tools.cmake]]
+version = "4.2.1"
+backend = "aqua:Kitware/CMake"
+"platforms.macos-arm64" = { checksum = "sha256:0bb18f295e52d7e9309980e361e79e76a1d8da67a1587255cbe3696ea998f597", url = "https://github.com/Kitware/CMake/releases/download/v4.2.1/cmake-4.2.1-macos-universal.tar.gz"}
+"platforms.macos-x64" = { checksum = "sha256:0bb18f295e52d7e9309980e361e79e76a1d8da67a1587255cbe3696ea998f597", url = "https://github.com/Kitware/CMake/releases/download/v4.2.1/cmake-4.2.1-macos-universal.tar.gz"}
+"platforms.windows-x64" = { checksum = "sha256:dfc2b2afac257555e3b9ce375b12b2883964283a366c17fec96cf4d17e4f1677", url = "https://github.com/Kitware/CMake/releases/download/v4.2.1/cmake-4.2.1-windows-x86_64.zip"}
+
+[[tools.ruby]]
+version = "4.0.0"
+backend = "core:ruby"
