@@ -1,223 +1,223 @@
 Effect:
   # ParticleOutput
   'パーティクル出力': |
-    (translate here)
+    Particle Output
 
   # PartEffect
   '部分フィルタ': |
-    (translate here)
+    Partial Filter
 
   # GroupControl
   'グループ制御': |
-    (translate here)
+    Group Control
 
   # GroupControl(Audio)
   'グループ制御(音声)': |
-    (translate here)
+    Group Control (Audio)
 
   # CameraControl
   'カメラ制御': |
-    (translate here)
+    Camera Control
 
   # Light(Camera)
   '並行光源(カメラ制御)': |
-    (translate here)
+    Parallel Light (Camera)
 
   # AmbientLight(Camera)
   '環境光(カメラ制御)': |
-    (translate here)
+    Ambient Light (Camera)
 
   # LightBloom(Camera)
   'ライトブルーム(カメラ制御)': |
-    (translate here)
+    Light Bloom (Camera)
 
   # TimeControl(Object)
   '時間制御(オブジェクト)': |
-    (translate here)
+    Time Control (Object)
 
   # CameraShake
   '手ぶれ': |
-    (translate here)
+    Camera Shake
 
   # RotateBaseTarget
   '目標中心回転': |
-    (translate here)
+    Rotate Around Target
 
   # ViewAngleBaseTarget
   '目標サイズ固定視野角': |
-    (translate here)
+    View Angle Based on Target Size
 
   # BasicEffect
   '基本効果': |
-    (translate here)
+    Basic Effect
 
   # AudioEffect
   '音声効果': |
-    (translate here)
+    Audio Effect
 
   # Transform
   '変形': |
-    (translate here)
+    Transform
 
   # LightEffect
   '光効果': |
-    (translate here)
+    Light Effect
 
   # Decoration
   '装飾': |
-    (translate here)
+    Decoration
 
   # Extract
   '抽出': |
-    (translate here)
+    Extract
 
   # Color
   '色調整': |
-    (translate here)
+    Color Adjustment
 
   # Process
   '加工': |
-    (translate here)
+    Processing
 
   # Layout
   '配置': |
-    (translate here)
+    Layout
 
   # Transition
   '切り替え効果': |
-    (translate here)
+    Transition
 
   # Animation
   'アニメーション効果': |
-    (translate here)
+    Animation Effect
 
   # CustomObject
   'カスタムオブジェクト': |
-    (translate here)
+    Custom Object
 
   # CameraEffect
   'カメラ効果': |
-    (translate here)
+    Camera Effect
 
   # ScreenEffect
   '画面効果': |
-    (translate here)
+    Screen Effect
 
   # ObjectControl
   'オブジェクト制御': |
-    (translate here)
+    Object Control
 
   # NoMove
   '移動無し': |
-    (translate here)
+    No Movement
 
   # PlayRange
   '再生範囲': |
-    (translate here)
+    Play Range
 
   # Linear
   '直線移動': |
-    (translate here)
+    Linear
 
   # Linear(Time)
   '直線移動(時間制御)': |
-    (translate here)
+    Linear (Easing)
 
   # Interpolation
   '補間移動': |
-    (translate here)
+    Interpolation
 
   # Interpolation(Time)
   '補間移動(時間制御)': |
-    (translate here)
+    Interpolation (Easing)
 
   # Random
   'ランダム移動': |
-    (translate here)
+    Random
 
   # Teleportation
   '瞬間移動': |
-    (translate here)
+    Instant
 
   # TargetX
   '目標X': |
-    (translate here)
+    Target X
 
   # TargetY
   '目標Y': |
-    (translate here)
+    Target Y
 
   # TargetZ
   '目標Z': |
-    (translate here)
+    Target Z
 
   # Acceleration
   '加速度': |
-    (translate here)
+    Acceleration
 
   # Random
   'ランダム': |
-    (translate here)
+    Random
 
   # TargetLayer
   '目標レイヤー': |
-    (translate here)
+    Target Layer
 
   # LayerRange
   '対象レイヤー数': |
-    (translate here)
+    Target Layer Range
 
   # CurrentSceneAudio
   '現在のシーンの音声': |
-    (translate here)
+    Current Scene's Audio
 
   # Undefined
   '未指定': |
-    (translate here)
+    Unspecified
 
   # Default
   '既定値': |
-    (translate here)
+    Default
 
   # ViewAngle
   '視野角': |
-    (translate here)
+    View Angle
 
   # Frequency
   '出力頻度': |
-    (translate here)
+    Output Frequency
 
   # Speed
   '出力速度': |
-    (translate here)
+    Output Speed
 
   # Direction
   '出力方向': |
-    (translate here)
+    Output Direction
 
   # SpreadAngle
   '拡散角度': |
-    (translate here)
+    Spread Angle
 
   # Transparent
   '透過率': |
-    (translate here)
+    Transparency
 
   # TransparentRate
   '透過速度': |
-    (translate here)
+    Transparency Rate
 
   # RotateAngle
   '回転角': |
-    (translate here)
+    Rotation Angle
 
   # LiveTime
   '生存時間': |
-    (translate here)
+    Lifetime
 
   # RandomOutputMovingPosition
   '移動範囲の座標からランダムに出力': |
-    (translate here)
+    Random Output from Moving Range Coordinates
 
   # OutputToMovingDirection
   '出力方向の基準を移動方向にする': |
@@ -481,39 +481,39 @@ Effect:
 
   # Left[Top]
   '左寄せ[上]': |
-    (translate here)
+    Left [Top]
 
   # Center[Top]
   '中央揃え[上]': |
-    (translate here)
+    Center [Top]
 
   # Right[Top]
   '右寄せ[上]': |
-    (translate here)
+    Right [Top]
 
   # Left[Middle]
   '左寄せ[中]': |
-    (translate here)
+    Left [Middle]
 
   # Center[Middle]
   '中央揃え[中]': |
-    (translate here)
+    Center [Middle]
 
   # Right[Middle]
   '右寄せ[中]': |
-    (translate here)
+    Right [Middle]
 
   # Left[Bottom]
   '左寄せ[下]': |
-    (translate here)
+    Left [Bottom]
 
   # Center[Bottom]
   '中央揃え[下]': |
-    (translate here)
+    Center [Bottom]
 
   # Right[Bottom]
   '右寄せ[下]': |
-    (translate here)
+    Right [Bottom]
 
   # Vertical Top[Right]
   '縦書 上寄[右]': |
@@ -698,67 +698,67 @@ Effect:
 Menu:
   # File
   'ファイル': |
-    (translate here)
+    File
 
   # NewProject
   'プロジェクトを新規作成': |
-    (translate here)
+    New Project
 
   # OpenProject
   'プロジェクトを開く': |
-    (translate here)
+    Open Project
 
   # RecentProject
   '最近使ったプロジェクト': |
-    (translate here)
+    Recently Used Projects
 
   # BackupProject
   'バックアップしたプロジェクト': |
-    (translate here)
+    Backup Projects
 
   # SaveProject
   'プロジェクトを保存': |
-    (translate here)
+    Save Project
 
   # SaveAsProject
   'プロジェクトを別名で保存': |
-    (translate here)
+    Save Project As
 
   # ExportFile
   'ファイル出力': |
-    (translate here)
+    Export File
 
   # SaveQuit
   'プロジェクトを保存して終了': |
-    (translate here)
+    Save Project and Quit
 
   # Quit
   '終了': |
-    (translate here)
+    Quit
 
   # Edit
   '編集': |
-    (translate here)
+    Edit
 
   # Move
   '移動': |
-    (translate here)
+    Move
 
   # NextFrame
   '次のフレームに移動': |
-    (translate here)
+    Move to Next Frame
 
   # PreviousFrame
   '前のフレームに移動': |
-    (translate here)
+    Move to Previous Frame
 
   # NextSection
   '次のセクションに移動': |
-    (translate here)
+    Move to Next Section
 
   # PreviousSection
   '前のセクションに移動': |
-    (translate here)
+    Move to Previous Section
 
   # FirstFrame
   '先頭のフレームに移動': |
@@ -902,11 +902,11 @@ Menu:
 
   # TimeControl
   '時間制御編集': |
-    (translate here)
+    Edit Easing
 
   # TimeControl
   '時間制御': |
-    (translate here)
+    Easing
 
   # TextEditor
   'テキスト編集': |
