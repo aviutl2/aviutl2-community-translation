@@ -11,17 +11,8 @@ Open the `.aul2` file in the `./locales/` folder and download the translation fi
 
 ## How to Translate
 
-> [!NOTE]
-> We plan to migrate to a translation platform like Crowdin in the future.
-
-1. Fork this repository.
-2. Navigate to the folder of the language you want to translate within the `translations/` directory.
-3. Edit the files you want to translate.
-4. Commit your changes and create a pull request.
-
-> [!TIP]
-> The `editor.yml` file contains translations for the AviUtl2 main program.
-> The `effects.yml` file contains translations for the included effects.
+Please use <https://crowdin.com/project/aviutl2-community-translation>.
+The repository is synchronized with Crowdin periodically.
 
 ## License
 
