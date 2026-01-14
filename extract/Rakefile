@@ -166,7 +166,7 @@ task :list_effects do
   puts "Wrote effects list to ./tmp/effects.json."
 end
 
-languages = %i[ja en]
+languages = %i[ja en de]
 TRANSLATE_PLACEHOLDER = "(translate here)"
 
 task :update_source do
