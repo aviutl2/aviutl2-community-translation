@@ -130,11 +130,11 @@
 フレア=Flare
 水面=WaterSurface
 発光(シーンチェンジ)=Bloom(SceneChange)
-レンズブラー(シーンチェンジ)=LensBlur(SceneChange)
-ドア(シーンチェンジ)=Door(SceneChange)
-起き上がる(シーンチェンジ)=Rising(SceneChange)
-リール回転(シーンチェンジ)=ReelRotation(SceneChange)
-図形ワイプ(シーンチェンジ)=Wipe(SceneChange)
+レンズブラー(シーンチェンジ)=Lens Blur (Transition)
+ドア(シーンチェンジ)=Door (Transition)
+起き上がる(シーンチェンジ)=Pop Up (Transition)
+リール回転(シーンチェンジ)=Reel Rotation (Transition)
+図形ワイプ(シーンチェンジ)=Wipe (Transition)
 図形で隠す(シーンチェンジ)=HideFigure(SceneChange)
 図形で隠す(放射)(シーンチェンジ)=HideFigureRadial(SceneChange)
 砕け散る(シーンチェンジ)=Shatter(SceneChange)

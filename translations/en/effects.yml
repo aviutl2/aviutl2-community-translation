@@ -17,6 +17,12 @@
   # Loop
   'ループ再生': |
     Loop
+  # (No default text available)
+  '音声付き': |
+    Include audio
+  # (No default text available)
+  'YUV': |
+    YUV
 '映像再生':
   # MovieOutput
   '映像再生': |
@@ -39,12 +45,33 @@
   # CenterZ
   '中心Z': |
     Z Offset
+  # RotateX
+  'X軸回転': |
+    X Rotation
+  # RotateY
+  'Y軸回転': |
+    Y Rotation
+  # RotateZ
+  'Z軸回転': |
+    Z Rotation
   # Zoom
   '拡大率': |
     Size
   # Aspect
   '縦横比': |
     Compression
+  # Transparent
+  '透明度': |
+    Transparency
+  # Blend
+  '合成モード': |
+    Blend Mode
+  # Volume
+  '音量': |
+    Volume
+  # Balance
+  '左右': |
+    Panning Left/Right
 '直前オブジェクト':
   # BeforeObject
   '直前オブジェクト': |
@@ -53,19 +80,122 @@
   # ImageOutput
   '標準描画': |
     Standard Mode
+  # (No default text available)
+  'X': |
+    X Position
+  # (No default text available)
+  'Y': |
+    Y Position
+  # (No default text available)
+  'Z': |
+    Z Position
+  # CenterX
+  '中心X': |
+    X Offset
+  # CenterY
+  '中心Y': |
+    Y Offset
+  # CenterZ
+  '中心Z': |
+    Z Offset
+  # RotateX
+  'X軸回転': |
+    X Rotation
+  # RotateY
+  'Y軸回転': |
+    Y Rotation
+  # RotateZ
+  'Z軸回転': |
+    Z Rotation
+  # Zoom
+  '拡大率': |
+    Size
+  # Aspect
+  '縦横比': |
+    Compression
+  # Transparent
+  '透明度': |
+    Transparency
+  # Blend
+  '合成モード': |
+    Blend Mode
 '座標の回転(個別オブジェクト)':
   # CenterX
   '中心X': |
     X Offset
+  # CenterY
+  '中心Y': |
+    Y Offset
+'立方体(カメラ制御)':
+  # Size
+  'サイズ': |
+    Size
 '砕け散る':
   # Shatter
   '砕け散る': |
     Shatter
+  # StartTime
+  '開始時間': |
+    Time Offset
+  # PlaybackSpeed
+  '再生速度': |
+    Animation Speed
+  # CenterX
+  '中心X': |
+    X Offset
+  # CenterY
+  '中心Y': |
+    Y Offset
+  # CenterZ
+  '中心Z': |
+    Z Offset
   # FragmentSize
   '破片サイズ': |
     Size of Shards
+  # Speed
+  '速度': |
+    Speed
+  # Gravity
+  '重力': |
+    Gravity
+'点滅':
+  # Blink
+  '点滅': |
+    Blink
+  # Speed
+  '速さ': |
+    Blink Speed
+  # BlinkRatio
+  '点滅割合': |
+    Display Ratio
 '点滅して登場':
   # FromBlinking
   '点滅して登場': |
     Blink In/Out
+  # Time
+  '時間': |
+    Duration
+'レンズブラー(シーンチェンジ)':
+  # LensBlur(SceneChange)
+  'レンズブラー(シーンチェンジ)': |
+    Lens Blur (Transition)
+'ドア(シーンチェンジ)':
+  # Door(SceneChange)
+  'ドア(シーンチェンジ)': |
+    Door (Transition)
+'起き上がる(シーンチェンジ)':
+  # Rising(SceneChange)
+  '起き上がる(シーンチェンジ)': |
+    Pop Up (Transition)
+'リール回転(シーンチェンジ)':
+  # ReelRotation(SceneChange)
+  'リール回転(シーンチェンジ)': |
+    Reel Rotation (Transition)
+'図形ワイプ(シーンチェンジ)':
+  # Wipe(SceneChange)
+  '図形ワイプ(シーンチェンジ)': |
+    Wipe (Transition)
+  # Size
+  'サイズ': |
+    Size
 

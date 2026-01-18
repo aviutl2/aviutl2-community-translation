@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1017 of 1195 entries (85.1%).
+; Translated 1064 of 1236 entries (86.08%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -130,11 +130,11 @@
 フレア=Flare
 水面=WaterSurface
 発光(シーンチェンジ)=Bloom(SceneChange)
-レンズブラー(シーンチェンジ)=LensBlur(SceneChange)
-ドア(シーンチェンジ)=Door(SceneChange)
-起き上がる(シーンチェンジ)=Rising(SceneChange)
-リール回転(シーンチェンジ)=ReelRotation(SceneChange)
-図形ワイプ(シーンチェンジ)=Wipe(SceneChange)
+レンズブラー(シーンチェンジ)=Lens Blur (Transition)
+ドア(シーンチェンジ)=Door (Transition)
+起き上がる(シーンチェンジ)=Pop Up (Transition)
+リール回転(シーンチェンジ)=Reel Rotation (Transition)
+図形ワイプ(シーンチェンジ)=Wipe (Transition)
 図形で隠す(シーンチェンジ)=HideFigure(SceneChange)
 図形で隠す(放射)(シーンチェンジ)=HideFigureRadial(SceneChange)
 砕け散る(シーンチェンジ)=Shatter(SceneChange)
@@ -1195,6 +1195,8 @@ Alt+左クリックドラックで右クリックドラック操作=Assign right
 ファイル=File
 トラック=Track
 ループ再生=Loop
+音声付き=Include audio
+YUV=YUV
 
 [映像再生]
 映像再生=Video Mode
@@ -1204,22 +1206,75 @@ Z=Z Position
 中心X=X Offset
 中心Y=Y Offset
 中心Z=Z Offset
+X軸回転=X Rotation
+Y軸回転=Y Rotation
+Z軸回転=Z Rotation
 拡大率=Size
 縦横比=Compression
+透明度=Transparency
+合成モード=Blend Mode
+音量=Volume
+左右=Panning Left/Right
 
 [直前オブジェクト]
 直前オブジェクト=Above Object
 
 [標準描画]
 標準描画=Standard Mode
+X=X Position
+Y=Y Position
+Z=Z Position
+中心X=X Offset
+中心Y=Y Offset
+中心Z=Z Offset
+X軸回転=X Rotation
+Y軸回転=Y Rotation
+Z軸回転=Z Rotation
+拡大率=Size
+縦横比=Compression
+透明度=Transparency
+合成モード=Blend Mode
 
 [座標の回転(個別オブジェクト)]
 中心X=X Offset
+中心Y=Y Offset
+
+[立方体(カメラ制御)]
+サイズ=Size
 
 [砕け散る]
 砕け散る=Shatter
+開始時間=Time Offset
+再生速度=Animation Speed
+中心X=X Offset
+中心Y=Y Offset
+中心Z=Z Offset
 破片サイズ=Size of Shards
+速度=Speed
+重力=Gravity
+
+[点滅]
+点滅=Blink
+速さ=Blink Speed
+点滅割合=Display Ratio
 
 [点滅して登場]
 点滅して登場=Blink In/Out
+時間=Duration
+
+[レンズブラー(シーンチェンジ)]
+レンズブラー(シーンチェンジ)=Lens Blur (Transition)
+
+[ドア(シーンチェンジ)]
+ドア(シーンチェンジ)=Door (Transition)
+
+[起き上がる(シーンチェンジ)]
+起き上がる(シーンチェンジ)=Pop Up (Transition)
+
+[リール回転(シーンチェンジ)]
+リール回転(シーンチェンジ)=Reel Rotation (Transition)
+
+[図形ワイプ(シーンチェンジ)]
+図形ワイプ(シーンチェンジ)=Wipe (Transition)
+サイズ=Size
 
