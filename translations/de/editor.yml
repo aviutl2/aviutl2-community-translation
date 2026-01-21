@@ -110,4 +110,146 @@ Effect:
   # Aspect
   '縦横比': |
     Seitenverhältnis
+  # Distortion
+  'ゆがみ': |
+    Verzerrung
+  # BaseX
+  '起点X': |
+    X-Basis
+  # BaseY
+  '起点Y': |
+    Y-Basis
+  # LoopImage
+  'ループ画像': |
+    Bild Wiederholen
+  # Image
+  '画像': |
+    Bild
+  # DepthBlur
+  '深度ぼけ': |
+    Tiefenunschärfe
+  # RotateHorizontal
+  '水平回転': |
+    Horizontal rotieren
+  # RoteteVertical
+  '垂直回転': |
+    Vertikal rotieren
+  # Rotate90
+  '90度回転': |
+    Um 90° drehen
+  # Tile
+  'タイル風': |
+    Kacheln
+Menu:
+  # Duplicate
+  '複製': |
+    Duplizieren
+  # DisplayPlaybackPositionByFrameNumber
+  '再生位置をフレーム番号で表示': |
+    Video/Audioposition in Frames anzeigen
+  # Plugin
+  'プラグイン': |
+    Plug-in
+  # LockLayer
+  'レイヤーのロック': |
+    Schicht sperren
+  # SettingLayer
+  'レイヤーを設定': |
+    Schichteinstellungen
+  # LayerSetting
+  'レイヤー設定': |
+    Schichteinstellungen
+  # Small
+  '小': |
+    Schmal
+  # Medium
+  '中': |
+    Mittel
+  # Large
+  '大': |
+    Breit
+  # ObjectPresetFolder
+  'オブジェクトプリセットフォルダ': |
+    Objektvorgabenordner
+  # RenamePalette
+  'パレット名を変更': |
+    Palette umbenennen
+  # DisplaySubGroupLabel
+  'サブグループ項目を表示': |
+    Gruppenobjekteinstellungen
+  # SelectImageFile
+  '画像ファイルから選択': |
+    Aus Bilddatei auswählen
+  # SelectVideoFile
+  '動画ファイルから選択': |
+    Aus Videodatei auswählen
+  # Scene
+  'シーン': |
+    Szene
+  # CloseProject
+  'プロジェクトを閉じる': |
+    Projekt schließen
+  # CreateSceneFromFile
+  'シーンをファイルから作成': |
+    Szene aus Datei erstellen
+  # SaveSceneFile
+  'シーンをファイルに保存': |
+    Als Datei speichern
+  # Import
+  'インポート': |
+    Importieren
+  # Export
+  'エクスポート': |
+    Exportieren
+  # Plugin
+  'プラグイン設定': |
+    Plug-in Einstellungen
+  # ChangeObjectName
+  'オブジェクト名を変更': |
+    Objektnamen ändern
+  # AddMediaObject
+  'メディアオブジェクトを追加': |
+    Medienobjekt hinzufügen
+  # AddFilterObject
+  'フィルタオブジェクトを追加': |
+    Filter hinzufügen
+  # Media
+  'メディア操作': |
+    Gegenstand anpassen
+  # MoveMediaUp
+  'メディアを上に移動': |
+    Gegenstand nach oben bewegen
+  # MoveMediaDown
+  'メディアを下に移動': |
+    Gegenstand nach unten bewegen
+  # MoveMediaLeft
+  'メディアを左に移動': |
+    Gegenstand nach links bewegen
+  # MoveMediaRight
+  'メディアを右に移動': |
+    Gegenstand nach rechts bewegen
+  # ZoomInMedia
+  'メディアを拡大': |
+    Gegenstand vergrößern
+  # ZoomOutMedia
+  'メディアを縮小': |
+    Gegenstand verkleinern
+  # RotateMediaLeft
+  'メディアを左回転': |
+    Gegenstand gegen den Uhrzeigersinn rotieren
+  # RotateMediaRight
+  'メディアを右回転': |
+    Gegenstand im Uhrzeigersinn rotieren
+  # EditText
+  'テキストを編集': |
+    Text bearbeiten
+  # ScenePlayback
+  'シーン再生': |
+    Szeneplayer
+  # ShowVolumeLevelMeter(Preview)
+  '音量レベルメーターの表示(プレビュー)': |
+    Lautstärke im Hauptplayer anzeigen
+  # ShowVolumeLevelMeter(ScenePlayback)
+  '音量レベルメーターの表示(シーン再生)': |
+    Lautstärke im Szenenplayer anzeigen
 
