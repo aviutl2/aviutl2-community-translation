@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (de)
 ; Generated automatically. Do not edit directly.
-; Translated 84 of 1174 entries (7.16%).
+; Translated 84 of 1179 entries (7.12%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -924,6 +924,9 @@ YUVレンジ=YUV Range
 オブジェクトの開始点を揃える=AlignObjectStartPoint
 オブジェクトの終了点を揃える=AlignObjectEndPoint
 オブジェクトの開始終了点を揃える=AlignObjectStartEndPoint
+オブジェクトを詰めて開始位置を揃える=RemoveGapAndAlignObjectStartPosition
+オブジェクトを詰めて終了位置を揃える=RemoveGapAndAlignObjectEndPosition
+オブジェクトを均等配置=SpaceEvenlyObject
 
 [Message]
 ファイル出力中=Exporting File
@@ -1015,6 +1018,8 @@ YUVの設定=YUV Settings
 シーンの読み込みに失敗しました=Failed to load scene
 シーンの保存に失敗しました=failed save scene
 シーンを選択=select scene
+グループ制御の対象=enable group control
+上位のグループ制御の対象=enable upper group control
 
 [Dialog]
 シーンを作成=Create Scene

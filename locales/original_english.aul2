@@ -938,6 +938,9 @@ YUVレンジ=YUVColorRange
 オブジェクトの開始点を揃える=AlignObjectStartPoint
 オブジェクトの終了点を揃える=AlignObjectEndPoint
 オブジェクトの開始終了点を揃える=AlignObjectStartEndPoint
+オブジェクトを詰めて開始位置を揃える=RemoveGapAndAlignObjectStartPosition
+オブジェクトを詰めて終了位置を揃える=RemoveGapAndAlignObjectEndPosition
+オブジェクトを均等配置=SpaceEvenlyObject
 
 [Message]
 ; ツールチップ、メッセージボックス等のメッセージ
@@ -1030,6 +1033,8 @@ YUVの設定=setting YUV
 シーンの読み込みに失敗しました=failed load scene
 シーンの保存に失敗しました=failed save scene
 シーンを選択=select scene
+グループ制御の対象=enable group control
+上位のグループ制御の対象=enable upper group control
 
 [Dialog]
 ; ダイアログ内の名称

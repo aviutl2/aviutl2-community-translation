@@ -3160,6 +3160,18 @@ Menu:
   'オブジェクトの開始終了点を揃える': |
     オブジェクトの開始終了点を揃える
 
+  # RemoveGapAndAlignObjectStartPosition
+  'オブジェクトを詰めて開始位置を揃える': |
+    オブジェクトを詰めて開始位置を揃える
+
+  # RemoveGapAndAlignObjectEndPosition
+  'オブジェクトを詰めて終了位置を揃える': |
+    オブジェクトを詰めて終了位置を揃える
+
+  # SpaceEvenlyObject
+  'オブジェクトを均等配置': |
+    オブジェクトを均等配置
+
 Message:
   # outputting file
   'ファイル出力中': |
@@ -3527,6 +3539,14 @@ Message:
   # select scene
   'シーンを選択': |
     シーンを選択
+
+  # enable group control
+  'グループ制御の対象': |
+    グループ制御の対象
+
+  # enable upper group control
+  '上位のグループ制御の対象': |
+    上位のグループ制御の対象
 
 Dialog:
   # NewScene
