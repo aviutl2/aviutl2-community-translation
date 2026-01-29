@@ -1310,6 +1310,12 @@ Effect:
   # LoopImage
   'ループ画像': |
     Loop Image
+  # CompositeFromFront
+  '前方から合成': |
+    Composite from the front
+  # CompositeFromBack
+  '後方から合成': |
+    Composite from the back
   # OverwriteColor
   '色情報を上書き': |
     Override Color
@@ -1322,9 +1328,24 @@ Effect:
   # Image
   '画像': |
     Image
+  # TransparentOutside
+  '領域外を透過': |
+    Transparent outside the area
+  # Resolution
+  '分解能': |
+    Resolution
+  # Afterimage
+  '残像': |
+    Afterimage
   # Particle
   'パーティクル': |
     Particle
+  # AdjustEnd
+  '出力終了調整': |
+    Adjust ending output
+  # FocusLayer
+  '焦点レイヤー': |
+    Focus Layer
   # DepthBlur
   '深度ぼけ': |
     Depth Blur
@@ -2127,6 +2148,9 @@ Menu:
   # DisplayPlaybackPositionByFrameNumber
   '再生位置をフレーム番号で表示': |
     Display video/audio position in frames
+  # MoveSliderToClickPosition
+  'スライダーをクリックした位置に移動': |
+    Move slider to the clicked position
   # ShowGrid(XY)
   'グリッド(XY軸)の表示': |
     Show Grid (X/Y Axis)
@@ -2187,6 +2211,9 @@ Menu:
   # LayerSetting
   'レイヤー設定': |
     Layer Settings
+  # ChangeTargetWhenSelectLayer
+  'レイヤー選択時に設定対象レイヤーを変更': |
+    Change the target layer when selecting layers
   # Small
   '小': |
     Small
@@ -2196,12 +2223,24 @@ Menu:
   # Large
   '大': |
     Large
+  # IncreaseLayerHeight
+  'レイヤーの縦幅を大きく': |
+    Increase Layer Height
+  # DecreaseLayerHeight
+  'レイヤーの縦幅を小さく': |
+    Decrease Layer Height
   # ObjectPresetFolder
   'オブジェクトプリセットフォルダ': |
     Object Preset Folder
   # RenamePalette
   'パレット名を変更': |
     Rename Palette
+  # CutSelectRange
+  '選択範囲を切り取り': |
+    Cut Selected Range
+  # CutSelectRangeAndRemoveGap
+  '選択範囲を切り取りして詰める': |
+    Cut Selected Range and Remove Gap
   # DisplaySubGroupLabel
   'サブグループ項目を表示': |
     Group object settings
@@ -2271,6 +2310,9 @@ Menu:
   # EditText
   'テキストを編集': |
     Edit Text
+  # SnapCursorMove(Layer)
+  'カーソル移動のスナップ(レイヤー)': |
+    Snap Cursor Movement (Layers)
   # ScenePlayback
   'シーン再生': |
     Scene Player
@@ -2289,12 +2331,54 @@ Menu:
   # PlaySceneWhenBufferFull
   '再生バッファの最大まで取得してシーン再生': |
     Fill playback buffer then play
+  # ShortcutKeyPlaybackPrioritizesScenePlayback
+  'ショートカットキー操作の再生はシーン再生を優先': |
+    Prioritize scene playback over shortcut key operations
+  # SelectMultipleObjects
+  'オブジェクト複数選択': |
+    Select Multiple Objects
+  # MoveRelatedObjectWhenMoveStartEndPoint
+  '開始終了点移動時に隣接オブジェクトを移動': |
+    Move adjacent objects when moving start/end points
+  # DisplayFrameCursorWide
+  'カーソルをフレーム範囲で表示': |
+    Display cursor within frame range
+  # MouseWheelZoomByCursorFrame
+  'マウスホイールの拡大縮小を現在のフレーム基準にする': |
+    Set mouse wheel zoom to current frame
+  # LinkedToSameSceneFrameMove
+  '同じシーンのフレーム移動に連動': |
+    Linked to frame movement of the same scene
+  # LinkedToReferenceSceneFrameMove
+  '参照シーンのフレーム移動に連動': |
+    Linked to frame movement of the reference scene
   # Histogram
   'ヒストグラム': |
     Histogram
+  # Align
+  '整列': |
+    Align
   # AlignObject
   'オブジェクト整列': |
     Align Object
+  # AlignObjectStartPoint
+  'オブジェクトの開始点を揃える': |
+    Align objects to the start position
+  # AlignObjectEndPoint
+  'オブジェクトの終了点を揃える': |
+    Align objects to the end position
+  # AlignObjectStartEndPoint
+  'オブジェクトの開始終了点を揃える': |
+    Align objects to the start & end position
+  # RemoveGapAndAlignObjectStartPosition
+  'オブジェクトを詰めて開始位置を揃える': |
+    Remove gap and align objects to the start position
+  # RemoveGapAndAlignObjectEndPosition
+  'オブジェクトを詰めて終了位置を揃える': |
+    Remove gap and align objects to the end position
+  # SpaceEvenlyObject
+  'オブジェクトを均等配置': |
+    Space objects evenly
 Message:
   # outputting file
   'ファイル出力中': |
@@ -2371,6 +2455,12 @@ Message:
   # add filter
   'フィルタ効果を追加': |
     Add Filter Effect
+  # edit view
+  # Green:camera
+  # White:camera(no edit)
+  # Gray:edit
+  'カメラ制御の視点モードを切り替え\n緑色:カメラ視点\n白色:カメラ視点(編集不可)\n灰色:編集用視点(自由移動)': |
+    Switch camera control view modes\nGreen: Camera view\nWhite: Camera view (non-editable)\nGray: Editing view (free movement)
   # view clipping object
   'クリッピングオブジェクトの視覚化': |
     Visualize Clipping Objects
@@ -2452,6 +2542,10 @@ Message:
   # file output is complete
   'ファイル出力が完了しました': |
     File export completed
+  # project file path has changed
+  # adjust file path specification?
+  'プロジェクトファイルのパスが変更されています。\n\n以前のプロジェクトパスの配下の指定ファイルが存在しない場合は\n現在のプロジェクトパスの配下に変更しますか？': |
+    The project file path has been changed.\n\nIf specified files under the previous project path do not exist,\ndo you want to move them to the current project path?
   # file not found
   '指定のファイルが存在しません': |
     Specified file does not exist
@@ -2512,6 +2606,9 @@ Message:
   # preview pause
   'プレビュー一時停止': |
     Pause
+  # add text
+  'テキストを追加': |
+    Add text
   # failed load file
   'ファイルの読み込みに失敗しました': |
     Failed to load file
@@ -2547,9 +2644,34 @@ Message:
   # interrupt file output
   'ファイル出力を中断': |
     Abort Export File
+  # buffering
+  'バッファリング中': |
+    Buffering
+  # apply preset
+  'プリセットを適用': |
+    Apply preset
+  # failed load preset
+  'プリセットの読み込みに失敗しました': |
+    Failed to load preset
+  # edit data is updated
+  # save project file?
+  '現在の編集データは更新されています\nプロジェクトを保存しますか？': |
+    The current editing data has been updated.\nDo you want to save the project?
   # failed load scene
   'シーンの読み込みに失敗しました': |
     Failed to load scene
+  # failed save scene
+  'シーンの保存に失敗しました': |
+    Failed to save the scene
+  # select scene
+  'シーンを選択': |
+    Select Scene
+  # enable group control
+  'グループ制御の対象': |
+    Enable Group Control
+  # enable upper group control
+  '上位のグループ制御の対象': |
+    Enable Upper Group Control
 Dialog:
   # NewScene
   'シーンを作成': |
@@ -2986,6 +3108,24 @@ Dialog:
   # Do not install
   'インストールしない': |
     Don't Install
+  # NewPreset
+  'プリセットを作成': |
+    New preset
+  # Scope
+  '対象範囲': |
+    Scope
+  # OwnItemOnly
+  '自身の項目のみ': |
+    Only your own items
+  # IncludeFilterAfterSelf
+  '自身以降のフィルタ効果を含める': |
+    Include filter effects applied after itself
+  # TargetItem
+  '対象項目': |
+    Target Items
+  # When uncheck, original value remains
+  '対象項目から外すとプリセット適用時に元の値が維持されます': |
+    When unchecked, the original value remains when applying presets.
   # BackgroundColor
   '背景色': |
     Background Color
@@ -2998,7 +3138,44 @@ Dialog:
   # ChangeObjectName
   'オブジェクト名を変更': |
     Rename Object
+  # MediaMoveAmount(ShortcutKey)
+  'メディア移動量(ショートカットキー)': |
+    Media Move Amount (Shortcut Key)
+  # MediaZoomAmount(ShortcutKey)
+  'メディア拡大量(ショートカットキー)': |
+    Media Zoom Amount (Shortcut Key)
+  # MediaRotateAmount(ShortcutKey)
+  'メディア回転量(ショートカットキー)': |
+    Media Rotation Amount (Shortcut Key)
+  # AutoScrollSpeedWhenDrag
+  'ドラッグ時の自動スクロール速度': |
+    Auto-scroll speed when dragging
+  # Transparent
+  '透明': |
+    Transparent
+  # OutputResize
+  '出力リサイズ': |
+    Resize output
   # AudioOutput
   '音声出力': |
     Audio Output
+  # Output setting apply when export file
+  '出力設定はファイル出力時に適用されます': |
+    Apply output settings when exporting file
+  # Stretch object on base frame
+  '基準フレーム上のオブジェクトを伸長する': |
+    Stretch objects on base frame
+Name:
+  # Min
+  '最小': |
+    Minimum
+  # Max
+  '最大': |
+    Maximum
+  # Avg
+  '平均': |
+    Average
+  # Med
+  '中央': |
+    Medium
 
