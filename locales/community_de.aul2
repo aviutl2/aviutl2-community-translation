@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (de)
 ; Generated automatically. Do not edit directly.
-; Translated 84 of 1179 entries (7.12%).
+; Translated 84 of 1181 entries (7.11%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -927,6 +927,7 @@ YUVレンジ=YUV Range
 オブジェクトを詰めて開始位置を揃える=Remove gap and align objects to the start position
 オブジェクトを詰めて終了位置を揃える=Remove gap and align objects to the end position
 オブジェクトを均等配置=Space objects evenly
+システム情報=SystemInfo
 
 [Message]
 ファイル出力中=Exporting File
@@ -1186,6 +1187,7 @@ Alt+左クリックドラックで右クリックドラック操作=Assign right
 音声出力=Audio Output
 出力設定はファイル出力時に適用されます=Apply output settings when exporting file
 基準フレーム上のオブジェクトを伸長する=Stretch objects on base frame
+上書き=Overwrite
 
 [Name]
 最小=Minimum

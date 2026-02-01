@@ -941,6 +941,7 @@ YUVレンジ=YUVColorRange
 オブジェクトを詰めて開始位置を揃える=RemoveGapAndAlignObjectStartPosition
 オブジェクトを詰めて終了位置を揃える=RemoveGapAndAlignObjectEndPosition
 オブジェクトを均等配置=SpaceEvenlyObject
+システム情報=SystemInfo
 
 [Message]
 ; ツールチップ、メッセージボックス等のメッセージ
@@ -1202,6 +1203,7 @@ Alt+左クリックドラックで右クリックドラック操作=Alt+LeftClic
 音声出力=AudioOutput
 出力設定はファイル出力時に適用されます=Output setting apply when export file
 基準フレーム上のオブジェクトを伸長する=Stretch object on base frame
+上書き=Overwrite
 ;OK=OK
 ;Cancel=Cancel
 

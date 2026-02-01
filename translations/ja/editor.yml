@@ -3172,6 +3172,10 @@ Menu:
   'オブジェクトを均等配置': |
     オブジェクトを均等配置
 
+  # SystemInfo
+  'システム情報': |
+    システム情報
+
 Message:
   # outputting file
   'ファイル出力中': |
@@ -4204,6 +4208,10 @@ Dialog:
   # Stretch object on base frame
   '基準フレーム上のオブジェクトを伸長する': |
     基準フレーム上のオブジェクトを伸長する
+
+  # Overwrite
+  '上書き': |
+    上書き
 
 Name:
   # Min
