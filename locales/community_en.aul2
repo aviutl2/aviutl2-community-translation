@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1181 of 1289 entries (91.62%).
+; Translated 1181 of 1299 entries (90.92%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -928,6 +928,8 @@ YUVレンジ=YUV Range
 オブジェクトを詰めて終了位置を揃える=Remove gap and align objects to the end position
 オブジェクトを均等配置=Space objects evenly
 システム情報=SystemInfo
+パッケージ情報=PackageInfo
+アンインストール=Uninstall
 
 [Message]
 ファイル出力中=Exporting File
@@ -1188,6 +1190,14 @@ Alt+左クリックドラックで右クリックドラック操作=Assign right
 出力設定はファイル出力時に適用されます=Apply output settings when exporting file
 基準フレーム上のオブジェクトを伸長する=Stretch objects on base frame
 上書き=Overwrite
+日付=Date
+パッケージ情報=PackageInfo
+パッケージ項目の右クリックメニューからアンインストールが出来ます=Uninstall package from right click menu
+プラグイン・スクリプトのアンインストール=Uninstall Script/Plugin
+下記のプラグインまたはスクリプトのファイルをアンインストールします=The following plugin or script files uninstall
+※アンインストール後にアプリケーションを再起動します=*Restart application after uninstall
+このプラグイン・スクリプトをアンインストールする=Uninstall plugin/script
+アンインストールしない=Do not uninstall
 
 [Name]
 最小=Minimum

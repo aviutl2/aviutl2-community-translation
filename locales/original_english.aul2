@@ -942,6 +942,8 @@ YUVレンジ=YUVColorRange
 オブジェクトを詰めて終了位置を揃える=RemoveGapAndAlignObjectEndPosition
 オブジェクトを均等配置=SpaceEvenlyObject
 システム情報=SystemInfo
+パッケージ情報=PackageInfo
+アンインストール=Uninstall
 
 [Message]
 ; ツールチップ、メッセージボックス等のメッセージ
@@ -1204,6 +1206,14 @@ Alt+左クリックドラックで右クリックドラック操作=Alt+LeftClic
 出力設定はファイル出力時に適用されます=Output setting apply when export file
 基準フレーム上のオブジェクトを伸長する=Stretch object on base frame
 上書き=Overwrite
+日付=Date
+パッケージ情報=PackageInfo
+パッケージ項目の右クリックメニューからアンインストールが出来ます=Uninstall package from right click menu
+プラグイン・スクリプトのアンインストール=Uninstall Script/Plugin
+下記のプラグインまたはスクリプトのファイルをアンインストールします=The following plugin or script files uninstall
+※アンインストール後にアプリケーションを再起動します=*Restart application after uninstall
+このプラグイン・スクリプトをアンインストールする=Uninstall plugin/script
+アンインストールしない=Do not uninstall
 ;OK=OK
 ;Cancel=Cancel
 

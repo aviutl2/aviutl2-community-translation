@@ -3176,6 +3176,14 @@ Menu:
   'システム情報': |
     システム情報
 
+  # PackageInfo
+  'パッケージ情報': |
+    パッケージ情報
+
+  # Uninstall
+  'アンインストール': |
+    アンインストール
+
 Message:
   # outputting file
   'ファイル出力中': |
@@ -4212,6 +4220,38 @@ Dialog:
   # Overwrite
   '上書き': |
     上書き
+
+  # Date
+  '日付': |
+    日付
+
+  # PackageInfo
+  'パッケージ情報': |
+    パッケージ情報
+
+  # Uninstall package from right click menu
+  'パッケージ項目の右クリックメニューからアンインストールが出来ます': |
+    パッケージ項目の右クリックメニューからアンインストールが出来ます
+
+  # Uninstall Script/Plugin
+  'プラグイン・スクリプトのアンインストール': |
+    プラグイン・スクリプトのアンインストール
+
+  # The following plugin or script files uninstall
+  '下記のプラグインまたはスクリプトのファイルをアンインストールします': |
+    下記のプラグインまたはスクリプトのファイルをアンインストールします
+
+  # *Restart application after uninstall
+  '※アンインストール後にアプリケーションを再起動します': |
+    ※アンインストール後にアプリケーションを再起動します
+
+  # Uninstall plugin/script
+  'このプラグイン・スクリプトをアンインストールする': |
+    このプラグイン・スクリプトをアンインストールする
+
+  # Do not uninstall
+  'アンインストールしない': |
+    アンインストールしない
 
 Name:
   # Min
