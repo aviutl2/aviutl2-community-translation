@@ -299,12 +299,24 @@
   '範囲': |
     Range
 '音声ファイル':
+  # AudioFile
+  '音声ファイル': |
+    Audio File
+  # PlaybackPosition
+  '再生位置': |
+    Playback Position
+  # PlaybackSpeed
+  '再生速度': |
+    Playback Speed
   # File
   'ファイル': |
     File
   # Track
   'トラック': |
     Track
+  # Loop
+  'ループ再生': |
+    Loop Playback
 '音声再生':
   # Volume
   '音量': |

@@ -2385,6 +2385,9 @@ Menu:
   # PackageInfo
   'パッケージ情報': |
     Package Information
+  # Uninstall
+  'アンインストール': |
+    Uninstall
 Message:
   # outputting file
   'ファイル出力中': |
@@ -3171,9 +3174,18 @@ Dialog:
   # Stretch object on base frame
   '基準フレーム上のオブジェクトを伸長する': |
     Stretch objects on base frame
+  # Overwrite
+  '上書き': |
+    Overwrite
   # PackageInfo
   'パッケージ情報': |
     Package Information
+  # Uninstall plugin/script
+  'このプラグイン・スクリプトをアンインストールする': |
+    Uninstall this Plugin/Script
+  # Do not uninstall
+  'アンインストールしない': |
+    Don't Uninstall
 Name:
   # Min
   '最小': |

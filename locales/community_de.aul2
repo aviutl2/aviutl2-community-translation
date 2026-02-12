@@ -7,7 +7,7 @@
 [Effect]
 動画ファイル=Video File
 画像ファイル=Image File
-音声ファイル=AudioFile
+音声ファイル=Audio File
 テキスト=Text
 図形=Figure
 シーン=Scene
@@ -1196,8 +1196,8 @@ Alt+左クリックドラックで右クリックドラック操作=Assign right
 プラグイン・スクリプトのアンインストール=Uninstall Script/Plugin
 下記のプラグインまたはスクリプトのファイルをアンインストールします=The following plugin or script files uninstall
 ※アンインストール後にアプリケーションを再起動します=*Restart application after uninstall
-このプラグイン・スクリプトをアンインストールする=Uninstall plugin/script
-アンインストールしない=Do not uninstall
+このプラグイン・スクリプトをアンインストールする=Uninstall this Plugin/Script
+アンインストールしない=Don't Uninstall
 
 [Name]
 最小=Minimum
