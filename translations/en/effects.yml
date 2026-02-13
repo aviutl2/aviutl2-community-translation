@@ -120,6 +120,9 @@
   '合成モード': |
     Blend Mode
 '座標の回転(個別オブジェクト)':
+  # RotateCoordinate(Individual)
+  '座標の回転(個別オブジェクト)': |
+    Rotate Coordinate (Individual)
   # Angle
   '角度': |
     Angle
@@ -193,6 +196,12 @@
   # BlinkRatio
   '点滅割合': |
     Display Ratio
+  # LightOnSpeed
+  '点灯速度': |
+    Light On Speed
+  # LightOffSpeed
+  '消灯速度': |
+    Light Off Speed
 '点滅して登場':
   # FromBlinking
   '点滅して登場': |
@@ -200,6 +209,12 @@
   # Time
   '時間': |
     Duration
+  # BlinkCycle
+  '点滅間隔': |
+    Blink Cycle
+  # FixedBlinkInterval
+  '点滅間隔を一定にする': |
+    Fixed Blink Interval
 '簡易変形':
   # Position
   '座標': |
@@ -209,10 +224,19 @@
   '座標': |
     Coordinates
 'リール回転':
+  # ReelRotation
+  'リール回転': |
+    Reel Rotation
   # Blur
   'ブラー': |
     Blur
 '万華鏡':
+  # CenterX
+  '中心X': |
+    Center X
+  # CenterY
+  '中心Y': |
+    Center Y
   # Length
   '長さ': |
     Length
@@ -229,12 +253,35 @@
   # Height
   '高さ': |
     Height
+  # PlaybackPosition
+  '再生位置': |
+    Playback Position
+  # PlaybackSpeed
+  '再生速度': |
+    Playback Speed
   # Volume
   '音量': |
     Volume
   # File
   'ファイル': |
     File
+'ミラー':
+  # BoarderAdjust
+  '境目調整': |
+    Boundary Adjustment
+  # MirrorDirection
+  'ミラーの方向': |
+    Mirror Direction
+'粒子化':
+  # PlaybackSpeed
+  '再生速度': |
+    Playback Speed
+  # BaseX
+  '起点X': |
+    Origin X
+  # BaseY
+  '起点Y': |
+    Origin Y
 'レンズブラー(シーンチェンジ)':
   # LensBlur(SceneChange)
   'レンズブラー(シーンチェンジ)': |
@@ -261,13 +308,35 @@
   # Size
   'サイズ': |
     Size
+  # RotateSpeed
+  '回転速度': |
+    Rotation Speed
+  # DelayTime
+  'ディレイ時間': |
+    Delay Time
 '色調補正':
+  # ColorCorrect
+  '色調補正': |
+    Color Correction
   # Contrast
   'コントラスト': |
     Contrast
   # Hue
   '色相': |
     Hue
+'図形で隠す(シーンチェンジ)':
+  # RotateSpeed
+  '回転速度': |
+    Rotation Speed
+  # EdgeAngle
+  'エッジ角度': |
+    Edge Angle
+  # EdgeWidth
+  'エッジ幅': |
+    Edge Width
+  # EdgeHeight
+  'エッジ高さ': |
+    Edge Height
 '画像ファイル':
   # ImageFile
   '画像ファイル': |
@@ -321,6 +390,10 @@
   # Volume
   '音量': |
     Volume
+'極座標変換':
+  # PolarTransform
+  '極座標変換': |
+    Polar Transform
 'リサイズ':
   # Resize
   'リサイズ': |

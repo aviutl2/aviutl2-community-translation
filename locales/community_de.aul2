@@ -23,7 +23,7 @@
 グループ制御(音声)=Gruppensteuerung (Audio)
 カメラ制御=Camera Control
 音声波形表示=AudioWaveform
-色調補正=ColorCorrect
+色調補正=Color Correction
 グラデーション=Gradient
 単色化=Monochrome
 特定色域変換=ColorConversion
@@ -50,7 +50,7 @@
 エッジ抽出=EdgeExtract
 波紋=Ripple
 ラスター=Raster
-極座標変換=PolarTransform
+極座標変換=Polar Transform
 ディスプレイスメントマップ=Displacement
 リサイズ=Resize
 シャープ=Sharpe
@@ -100,7 +100,7 @@
 起き上がって登場=FromRising
 何処からともなく登場=FromNowhere
 反復移動=RepeatMove
-座標の回転(個別オブジェクト)=RotateCoordinate(Individual)
+座標の回転(個別オブジェクト)=Rotate Coordinate (Individual)
 立方体(カメラ制御)=Cube (camera controlled)
 球体(カメラ制御)=Sphere (camera controlled)
 砕け散る=Shatter
@@ -108,7 +108,7 @@
 点滅して登場=Blink In/Out
 簡易変形=Transformation
 簡易変形(カメラ制御)=Transformation(Camera)
-リール回転=ReelRotation
+リール回転=Reel Rotation
 万華鏡=Kaleidoscope
 円形配置=CircleLayout
 ランダム配置=RandomLayout
