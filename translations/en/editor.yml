@@ -2388,6 +2388,9 @@ Menu:
   # Uninstall
   'アンインストール': |
     Uninstall
+  # ShowSliderThumb
+  'スライダーのつまみを表示': |
+    Show knob of sliders
 Message:
   # outputting file
   'ファイル出力中': |
@@ -2681,6 +2684,9 @@ Message:
   # enable upper group control
   '上位のグループ制御の対象': |
     Enable Upper Group Control
+  # Plugin not support current app version.
+  'プラグインはこの本体バージョンをサポートしていません': |
+    The plugin does not support this AviUtl2 version.
 Dialog:
   # NewScene
   'シーンを作成': |
@@ -3177,9 +3183,24 @@ Dialog:
   # Overwrite
   '上書き': |
     Overwrite
+  # Date
+  '日付': |
+    Date
   # PackageInfo
   'パッケージ情報': |
     Package Information
+  # Uninstall package from right click menu
+  'パッケージ項目の右クリックメニューからアンインストールが出来ます': |
+    Right-click the entry to uninstall.
+  # Uninstall Script/Plugin
+  'プラグイン・スクリプトのアンインストール': |
+    Uninstall plugins and scripts
+  # The following plugin or script files uninstall
+  '下記のプラグインまたはスクリプトのファイルをアンインストールします': |
+    You are about to uninstall the following plugin or script files.
+  # *Restart application after uninstall
+  '※アンインストール後にアプリケーションを再起動します': |
+    Application restarts after uninstallation.
   # Uninstall plugin/script
   'このプラグイン・スクリプトをアンインストールする': |
     Uninstall this Plugin/Script

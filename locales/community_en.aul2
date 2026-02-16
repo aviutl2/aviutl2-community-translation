@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1219 of 1330 entries (91.65%).
+; Translated 1226 of 1330 entries (92.18%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -930,7 +930,7 @@ YUVレンジ=YUV Range
 システム情報=System Information
 パッケージ情報=Package Information
 アンインストール=Uninstall
-スライダーのつまみを表示=ShowSliderThumb
+スライダーのつまみを表示=Show knob of sliders
 
 [Message]
 ファイル出力中=Exporting File
@@ -1024,7 +1024,7 @@ YUVの設定=YUV Settings
 シーンを選択=Select Scene
 グループ制御の対象=Enable Group Control
 上位のグループ制御の対象=Enable Upper Group Control
-プラグインはこの本体バージョンをサポートしていません=Plugin not support current app version.
+プラグインはこの本体バージョンをサポートしていません=The plugin does not support this AviUtl2 version.
 
 [Dialog]
 シーンを作成=Create Scene
@@ -1194,10 +1194,10 @@ Alt+左クリックドラックで右クリックドラック操作=Assign right
 上書き=Overwrite
 日付=Date
 パッケージ情報=Package Information
-パッケージ項目の右クリックメニューからアンインストールが出来ます=Uninstall package from right click menu
-プラグイン・スクリプトのアンインストール=Uninstall Script/Plugin
-下記のプラグインまたはスクリプトのファイルをアンインストールします=The following plugin or script files uninstall
-※アンインストール後にアプリケーションを再起動します=*Restart application after uninstall
+パッケージ項目の右クリックメニューからアンインストールが出来ます=Right-click the entry to uninstall.
+プラグイン・スクリプトのアンインストール=Uninstall plugins and scripts
+下記のプラグインまたはスクリプトのファイルをアンインストールします=You are about to uninstall the following plugin or script files.
+※アンインストール後にアプリケーションを再起動します=Application restarts after uninstallation.
 このプラグイン・スクリプトをアンインストールする=Uninstall this Plugin/Script
 アンインストールしない=Don't Uninstall
 増減ボタンの移動単位=SliderButtonMoveStep
