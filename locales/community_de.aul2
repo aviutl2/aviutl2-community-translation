@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (de)
 ; Generated automatically. Do not edit directly.
-; Translated 84 of 1221 entries (6.88%).
+; Translated 84 of 1226 entries (6.85%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -145,6 +145,7 @@
 手ぶれ=Wackeln (Kamera)
 目標中心回転=Rotation der Zielmitte
 目標サイズ固定視野角=Fixed FOV for Target Size
+メッシュ変形=MeshTransformation
 基本効果=Basiseffekte
 音声効果=Audioeffekte
 変形=Deformation
@@ -589,6 +590,10 @@ Z軸回転=Z Rotation
 垂直回転=Vertikal rotieren
 90度回転=Um 90° drehen
 タイル風=Kacheln
+詳細設定=Preferences
+変形率=TransformRatio
+横格子点=GridPointX
+縦格子点=GridPointY
 
 [Menu]
 ファイル=File

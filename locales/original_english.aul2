@@ -152,6 +152,7 @@
 手ぶれ=CameraShake
 目標中心回転=RotateBaseTarget
 目標サイズ固定視野角=ViewAngleBaseTarget
+メッシュ変形=MeshTransformation
 
 ; ラベルの名称 ※ポップアップメニューのみ変換される
 基本効果=BasicEffect
@@ -602,6 +603,10 @@ Z軸回転=RotateZ
 垂直回転=RoteteVertical
 90度回転=Rotate90
 タイル風=Tile
+詳細設定=Preferences
+変形率=TransformRatio
+横格子点=GridPointX
+縦格子点=GridPointY
 
 [Menu]
 ; ウィンドウメニュー、ポップアップメニューの項目名

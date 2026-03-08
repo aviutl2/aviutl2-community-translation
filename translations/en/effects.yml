@@ -278,13 +278,6 @@
   # Rising(SceneChange)
   '起き上がる(シーンチェンジ)': |
     Pop Up (Transition)
-'リール回転(シーンチェンジ)':
-  # ReelRotation(SceneChange)
-  'リール回転(シーンチェンジ)': |
-    Reel Rotation (Transition)
-  # Blur
-  'ブラー': |
-    Blur
 '音声波形表示':
   # Height
   '高さ': |
@@ -301,6 +294,13 @@
   # File
   'ファイル': |
     File
+'リール回転(シーンチェンジ)':
+  # ReelRotation(SceneChange)
+  'リール回転(シーンチェンジ)': |
+    Reel Rotation (Transition)
+  # Blur
+  'ブラー': |
+    Blur
 '図形ワイプ(シーンチェンジ)':
   # Wipe(SceneChange)
   '図形ワイプ(シーンチェンジ)': |

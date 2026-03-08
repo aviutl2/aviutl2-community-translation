@@ -314,13 +314,17 @@
   '時間経過': |
     時間経過
 
-  # Position
-  '座標': |
-    座標
+  # (No default text available)
+  '詳細設定.hide': |
+    詳細設定.hide
 
   # DivideNum
   '分割数': |
     分割数
+
+  # Position
+  '座標': |
+    座標
 
 '簡易変形(カメラ制御)':
   # Transformation(Camera)
@@ -331,13 +335,17 @@
   '時間経過': |
     時間経過
 
-  # Position
-  '座標': |
-    座標
+  # (No default text available)
+  '詳細設定.hide': |
+    詳細設定.hide
 
   # DivideNum
   '分割数': |
     分割数
+
+  # Position
+  '座標': |
+    座標
 
 'リール回転':
   # ReelRotation
@@ -558,6 +566,35 @@
   'ぼかし': |
     ぼかし
 
+'メッシュ変形':
+  # MeshTransformation
+  'メッシュ変形': |
+    メッシュ変形
+
+  # TransformRatio
+  '変形率': |
+    変形率
+
+  # GridPointX
+  '横格子点': |
+    横格子点
+
+  # GridPointY
+  '縦格子点': |
+    縦格子点
+
+  # (No default text available)
+  '詳細設定.hide': |
+    詳細設定.hide
+
+  # DivideNum
+  '分割数': |
+    分割数
+
+  # Position
+  '座標': |
+    座標
+
 '発光(シーンチェンジ)':
   # Bloom(SceneChange)
   '発光(シーンチェンジ)': |
@@ -589,23 +626,6 @@
   # Force
   '勢い': |
     勢い
-
-'リール回転(シーンチェンジ)':
-  # ReelRotation(SceneChange)
-  'リール回転(シーンチェンジ)': |
-    リール回転(シーンチェンジ)
-
-  # RotateNum
-  '回転数': |
-    回転数
-
-  # Blur
-  'ブラー': |
-    ブラー
-
-  # HorizontalRotate
-  '横回転': |
-    横回転
 
 '音声波形表示':
   # AudioWaveform
@@ -667,6 +687,23 @@
   # MarginY
   '縦スペース': |
     縦スペース
+
+'リール回転(シーンチェンジ)':
+  # ReelRotation(SceneChange)
+  'リール回転(シーンチェンジ)': |
+    リール回転(シーンチェンジ)
+
+  # RotateNum
+  '回転数': |
+    回転数
+
+  # Blur
+  'ブラー': |
+    ブラー
+
+  # HorizontalRotate
+  '横回転': |
+    横回転
 
 '図形ワイプ(シーンチェンジ)':
   # Wipe(SceneChange)

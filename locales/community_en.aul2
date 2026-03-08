@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1235 of 1356 entries (91.08%).
+; Translated 1235 of 1361 entries (90.74%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -145,6 +145,7 @@
 手ぶれ=Camera Shake
 目標中心回転=Target Center Rotation
 目標サイズ固定視野角=Fixed FOV for Target Size
+メッシュ変形=MeshTransformation
 基本効果=Basic Effects
 音声効果=Audio Effects
 変形=Deformation
@@ -589,6 +590,10 @@ Z軸回転=Z Rotation
 垂直回転=Rotate Vertical
 90度回転=Rotate 90 Degrees
 タイル風=Tile
+詳細設定=Preferences
+変形率=TransformRatio
+横格子点=GridPointX
+縦格子点=GridPointY
 
 [Menu]
 ファイル=File
@@ -1360,16 +1365,16 @@ Z軸回転=Z Rotation
 [起き上がる(シーンチェンジ)]
 起き上がる(シーンチェンジ)=Pop Up (Transition)
 
-[リール回転(シーンチェンジ)]
-リール回転(シーンチェンジ)=Reel Rotation (Transition)
-ブラー=Blur
-
 [音声波形表示]
 高さ=Height
 再生位置=Playback Position
 再生速度=Playback Speed
 音量=Volume
 ファイル=File
+
+[リール回転(シーンチェンジ)]
+リール回転(シーンチェンジ)=Reel Rotation (Transition)
+ブラー=Blur
 
 [図形ワイプ(シーンチェンジ)]
 図形ワイプ(シーンチェンジ)=Wipe (Transition)
