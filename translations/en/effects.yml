@@ -119,6 +119,22 @@
   # Blend
   '合成モード': |
     Blend Mode
+'反復移動':
+  # RepeatMove
+  '反復移動': |
+    Repeat movement
+  # Speed
+  '速さ': |
+    Speed
+  # Distance
+  '距離': |
+    Distance
+  # Angle
+  '角度': |
+    Angle
+  # Shift
+  'ずらし': |
+    Offset
 '座標の回転(個別オブジェクト)':
   # RotateCoordinate(Individual)
   '座標の回転(個別オブジェクト)': |
@@ -216,10 +232,34 @@
   '点滅間隔を一定にする': |
     Fixed Blink Interval
 '簡易変形':
+  # Transformation
+  '簡易変形': |
+    Simple variant
+  # TimePassage
+  '時間経過': |
+    Elapsed Time
+  # (No default text available)
+  '詳細設定.hide': |
+    Hide advanced settings
+  # DivideNum
+  '分割数': |
+    Division Count
   # Position
   '座標': |
     Coordinates
 '簡易変形(カメラ制御)':
+  # Transformation(Camera)
+  '簡易変形(カメラ制御)': |
+    Simple variant (camera control)
+  # TimePassage
+  '時間経過': |
+    Elapsed Time
+  # (No default text available)
+  '詳細設定.hide': |
+    Hide advanced settings
+  # DivideNum
+  '分割数': |
+    Segment count
   # Position
   '座標': |
     Coordinates
@@ -227,10 +267,26 @@
   # ReelRotation
   'リール回転': |
     Reel Rotation
+  # RotateNum
+  '回転数': |
+    Rotation Count
   # Blur
   'ブラー': |
     Blur
+  # HorizontalRotate
+  '横回転': |
+    Horizontal Rotation
+'画像合成(オブジェクト)':
+  # ImageComposite(Object)
+  '画像合成(オブジェクト)': |
+    Image composition (object)
+  # LayerRange
+  '対象レイヤー数': |
+    Number of Target Layers
 '万華鏡':
+  # Kaleidoscope
+  '万華鏡': |
+    Kaleidoscopes
   # CenterX
   '中心X': |
     Center X
@@ -249,6 +305,74 @@
   # RepeatNum
   '繰り返し回数': |
     Repetition steps
+  # FixedSize
+  '固定サイズ': |
+    Fixed Size
+  # RoundMask
+  '円形マスク': |
+    Circular Mask
+  # SyncRotate
+  '回転同期': |
+    Rotation Sync
+  # TransparentOutside
+  '領域外を透過': |
+    Outer area transparency
+  # DisplayPosition
+  '表示位置確認': |
+    Display Position Check
+'円形配置':
+  # CircleLayout
+  '円形配置': |
+    Circular arrangement
+  # Circumference
+  '円周': |
+    Circumference
+  # Radius
+  '半径': |
+    Radius
+  # Rotate
+  '回転': |
+    Rotation
+  # Shift
+  'ずらし': |
+    Offset
+  # Num
+  '数': |
+    Qty
+  # HorizontalLayout(Camera)
+  '水平配置(カメラ制御)': |
+    Horizontal Arrangement (Camera Control)
+  # TurnAround
+  '向き反転': |
+    Reverse Direction
+  # NoRotate
+  '回転無し': |
+    No Rotation
+'ランダム配置':
+  # RandomLayout
+  'ランダム配置': |
+    Random arrangement
+  # Num
+  '数': |
+    Qty
+  # Range
+  '範囲': |
+    Range
+  # Rotate
+  '回転': |
+    Rotation
+  # Diffusion
+  '拡散': |
+    Diffusion
+  # 3DLayout(Camera)
+  '3D配置(カメラ制御)': |
+    3D Arrangement (Camera Control)
+  # RandomAngle
+  'ランダム角度': |
+    Random Angle
+  # Billboard
+  'カメラの方向を向く': |
+    Face Camera Direction
 'ミラー':
   # BoarderAdjust
   '境目調整': |

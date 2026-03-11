@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1235 of 1361 entries (90.74%).
+; Translated 1282 of 1401 entries (91.51%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -87,7 +87,7 @@
 画像合成=ImageComposite
 モーションブラー=MotionBlur
 ローテーション=Rotate
-画像合成(オブジェクト)=ImageComposite(Object)
+画像合成(オブジェクト)=Image composition (object)
 仮想バッファ=TempBuffer
 仮想バッファ出力=TempBufferOutput
 震える=Tremble
@@ -102,19 +102,19 @@
 広がって登場=FromSpreading
 起き上がって登場=FromRising
 何処からともなく登場=FromNowhere
-反復移動=RepeatMove
+反復移動=Repeat movement
 座標の回転(個別オブジェクト)=Rotate Coordinate (Individual)
 立方体(カメラ制御)=Cube (camera controlled)
 球体(カメラ制御)=Sphere (camera controlled)
 砕け散る=Shatter
 点滅=Blink
 点滅して登場=Blink In/Out
-簡易変形=Transformation
-簡易変形(カメラ制御)=Transformation(Camera)
+簡易変形=Simple variant
+簡易変形(カメラ制御)=Simple variant (camera control)
 リール回転=Reel Rotation
-万華鏡=Kaleidoscope
-円形配置=CircleLayout
-ランダム配置=RandomLayout
+万華鏡=Kaleidoscopes
+円形配置=Circular arrangement
+ランダム配置=Random arrangement
 ミラー=Mirror
 粒子化=Particulate
 集中線=ConcentrationLine
@@ -1287,6 +1287,13 @@ Z軸回転=Z Rotation
 透明度=Transparency
 合成モード=Blend Mode
 
+[反復移動]
+反復移動=Repeat movement
+速さ=Speed
+距離=Distance
+角度=Angle
+ずらし=Offset
+
 [座標の回転(個別オブジェクト)]
 座標の回転(個別オブジェクト)=Rotate Coordinate (Individual)
 角度=Angle
@@ -1330,22 +1337,63 @@ Z軸回転=Z Rotation
 点滅間隔を一定にする=Fixed Blink Interval
 
 [簡易変形]
+簡易変形=Simple variant
+時間経過=Elapsed Time
+詳細設定.hide=Hide advanced settings
+分割数=Division Count
 座標=Coordinates
 
 [簡易変形(カメラ制御)]
+簡易変形(カメラ制御)=Simple variant (camera control)
+時間経過=Elapsed Time
+詳細設定.hide=Hide advanced settings
+分割数=Segment count
 座標=Coordinates
 
 [リール回転]
 リール回転=Reel Rotation
+回転数=Rotation Count
 ブラー=Blur
+横回転=Horizontal Rotation
+
+[画像合成(オブジェクト)]
+画像合成(オブジェクト)=Image composition (object)
+対象レイヤー数=Number of Target Layers
 
 [万華鏡]
+万華鏡=Kaleidoscopes
 中心X=Center X
 中心Y=Center Y
 長さ=Length
 回転=Rotation
 角数(偶数)=The number of corners (even numbers)
 繰り返し回数=Repetition steps
+固定サイズ=Fixed Size
+円形マスク=Circular Mask
+回転同期=Rotation Sync
+領域外を透過=Outer area transparency
+表示位置確認=Display Position Check
+
+[円形配置]
+円形配置=Circular arrangement
+円周=Circumference
+半径=Radius
+回転=Rotation
+ずらし=Offset
+数=Qty
+水平配置(カメラ制御)=Horizontal Arrangement (Camera Control)
+向き反転=Reverse Direction
+回転無し=No Rotation
+
+[ランダム配置]
+ランダム配置=Random arrangement
+数=Qty
+範囲=Range
+回転=Rotation
+拡散=Diffusion
+3D配置(カメラ制御)=3D Arrangement (Camera Control)
+ランダム角度=Random Angle
+カメラの方向を向く=Face Camera Direction
 
 [ミラー]
 境目調整=Boundary Adjustment
