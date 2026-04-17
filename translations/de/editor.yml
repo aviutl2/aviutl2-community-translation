@@ -2,9 +2,18 @@ Effect:
   # ParticleOutput
   'パーティクル出力': |
     Partikelausgabe
+  # PartEffect
+  '部分フィルタ': |
+    Partieller Filter
+  # GroupControl
+  'グループ制御': |
+    Gruppensteuerung
   # GroupControl(Audio)
   'グループ制御(音声)': |
     Gruppensteuerung (Audio)
+  # CameraControl
+  'カメラ制御': |
+    Kamerasteuerung
   # Light(Camera)
   '並行光源(カメラ制御)': |
     Paralleles Licht (Kamerasteuerung)
@@ -23,6 +32,9 @@ Effect:
   # RotateBaseTarget
   '目標中心回転': |
     Rotation der Zielmitte
+  # ViewAngleBaseTarget
+  '目標サイズ固定視野角': |
+    Fixierte FOV für Zielgröße
   # BasicEffect
   '基本効果': |
     Basiseffekte
@@ -38,12 +50,18 @@ Effect:
   # Decoration
   '装飾': |
     Dekorieren
+  # Extract
+  '抽出': |
+    Extrahieren
   # Color
   '色調整': |
     Farbänderung
   # Process
   '加工': |
     Verarbeitung
+  # Layout
+  '配置': |
+    Anordnung
   # Transition
   '切り替え効果': |
     Übergangseffekte
@@ -74,6 +92,9 @@ Effect:
   # Linear(Time)
   '直線移動(時間制御)': |
     Lineare Bewegung (Zeitsteuerung)
+  # Interpolation
+  '補間移動': |
+    Interpolierte Bewegung
   # Interpolation(Time)
   '補間移動(時間制御)': |
     Interpolierte Bewegung (Zeitsteuerung)
@@ -98,6 +119,10 @@ Effect:
   # RotateY
   'Y軸回転': |
     Y Rotieren
+  # RotateZ
+  'Z軸回転': |
+    Z Rotieren
+
   # TargetX
   '目標X': |
     Ziel X
@@ -125,6 +150,18 @@ Effect:
   # Image
   '画像': |
     Bild
+  # TransparentOutside
+  '領域外を透過': |
+    Transparenz außerhalb des Bereiches
+  # Resolution
+  '分解能': |
+    Auflösung
+  # Afterimage
+  '残像': |
+    Nachbild
+  # FocusLayer
+  '焦点レイヤー': |
+    Schicht fokussieren
   # DepthBlur
   '深度ぼけ': |
     Tiefenunschärfe

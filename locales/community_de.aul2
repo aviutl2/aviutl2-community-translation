@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (de)
 ; Generated automatically. Do not edit directly.
-; Translated 84 of 1262 entries (6.66%).
+; Translated 96 of 1262 entries (7.61%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -18,10 +18,10 @@
 映像再生=Video Mode
 基本出力=BasicOutput
 パーティクル出力=Partikelausgabe
-部分フィルタ=Partial Filter
-グループ制御=Group Control
+部分フィルタ=Partieller Filter
+グループ制御=Gruppensteuerung
 グループ制御(音声)=Gruppensteuerung (Audio)
-カメラ制御=Camera Control
+カメラ制御=Kamerasteuerung
 音声波形表示=AudioWaveform
 色調補正=Color Correction
 グラデーション=Gradient
@@ -144,17 +144,17 @@
 ページめくり(シーンチェンジ)=Page(SceneChange)
 手ぶれ=Wackeln (Kamera)
 目標中心回転=Rotation der Zielmitte
-目標サイズ固定視野角=Fixed FOV for Target Size
+目標サイズ固定視野角=Fixierte FOV für Zielgröße
 メッシュ変形=MeshTransformation
 基本効果=Basiseffekte
 音声効果=Audioeffekte
 変形=Deformation
 光効果=Lichteffekte
 装飾=Dekorieren
-抽出=Extraction
+抽出=Extrahieren
 色調整=Farbänderung
 加工=Verarbeitung
-配置=Arrangement
+配置=Anordnung
 切り替え効果=Übergangseffekte
 アニメーション効果=Animationseffekte
 カスタムオブジェクト=Benutzerdefinierte Objekte
@@ -165,7 +165,7 @@
 再生範囲=Wiedergabebereich
 直線移動=Lineare Bewegung
 直線移動(時間制御)=Lineare Bewegung (Zeitsteuerung)
-補間移動=Interpolated Movement
+補間移動=Interpolierte Bewegung
 補間移動(時間制御)=Interpolierte Bewegung (Zeitsteuerung)
 ランダム移動=Zufällige Bewegung
 瞬間移動=Sofortige Bewegung
@@ -176,7 +176,7 @@
 中心Z=Z Zentrieren
 X軸回転=X Rotieren
 Y軸回転=Y Rotieren
-Z軸回転=Z Rotation
+Z軸回転=Z Rotieren
 目標X=Ziel X
 目標Y=Ziel Y
 目標Z=Ziel Z
@@ -581,12 +581,12 @@ Z軸回転=Z Rotation
 輝度をアルファ値として上書き=Override Luminance as Alpha
 輝度をアルファ値として乗算=Multiply Luminance with Alpha
 画像=Bild
-領域外を透過=Transparent outside the area
-分解能=Resolution
-残像=Afterimage
+領域外を透過=Transparenz außerhalb des Bereiches
+分解能=Auflösung
+残像=Nachbild
 パーティクル=Particle
 出力終了調整=Adjust ending output
-焦点レイヤー=Focus Layer
+焦点レイヤー=Schicht fokussieren
 深度ぼけ=Tiefenunschärfe
 水平回転=Horizontal rotieren
 垂直回転=Vertikal rotieren
