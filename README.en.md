@@ -6,7 +6,7 @@ Unofficial multilingual translation project for AviUtl2.
 This repository manages translation files for the AviUtl2 main program and its included effects.
 
 > [!NOTE]
-> If your language is not supported and you want to add your language, please let me know via Issue!
+> If your language is not supported and you want to add your language, please let me know by creating Issue!
 
 ## Usage
 
