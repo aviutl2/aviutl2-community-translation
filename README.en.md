@@ -5,6 +5,9 @@ Maintainer: [@sevenc-nanashi](https://github.com/sevenc-nanashi)
 Unofficial multilingual translation project for AviUtl2.
 This repository manages translation files for the AviUtl2 main program and its included effects.
 
+> [!NOTE]
+> If your language is not supported and you want to add your language, please let me know via Issue!
+
 ## Usage
 
 Open the `.aul2` file in the `./locales/` folder and download the translation files from the download button at the top right.
