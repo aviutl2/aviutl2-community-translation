@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (de)
 ; Generated automatically. Do not edit directly.
-; Translated 96 of 1262 entries (7.61%).
+; Translated 96 of 1267 entries (7.58%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -981,6 +981,8 @@ YUVレンジ=YUV Range
 再生速度=PlaybackSpeed
 フレーム移動時に音声を再生(プレビュー)=PlayAudioWhenMoveFrame(Preview)
 フレーム移動時に音声を再生(シーン再生)=PlayAudioWhenMoveFrame(ScenePlayback)
+フレーム範囲選択を再生範囲にする=PlaySelectFrameRange
+現在以外のレイヤーを表示/非表示=VisibleLayerOtherThanCursor
 
 [Message]
 ファイル出力中=Exporting File
@@ -1269,6 +1271,9 @@ Alt+左クリックドラックで右クリックドラック操作=Assign right
 重複=Duplicate
 キーの設定時にマウスの右クリックで設定を解除出来ます=While setting key, right click to clear setting.
 レイヤー編集のみ=LayerEditOnly
+入力補助のキーの組み合わせ=InputAssistKey
+Ctrlキーを押しながら=WithCtrlKeyDown
+Altキーを押しながら=WithAltKeyDown
 
 [Name]
 最小=Minimum

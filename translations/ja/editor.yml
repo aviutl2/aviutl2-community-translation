@@ -3380,6 +3380,14 @@ Menu:
   'フレーム移動時に音声を再生(シーン再生)': |
     フレーム移動時に音声を再生(シーン再生)
 
+  # PlaySelectFrameRange
+  'フレーム範囲選択を再生範囲にする': |
+    フレーム範囲選択を再生範囲にする
+
+  # VisibleLayerOtherThanCursor
+  '現在以外のレイヤーを表示/非表示': |
+    現在以外のレイヤーを表示/非表示
+
 Message:
   # outputting file
   'ファイル出力中': |
@@ -4528,6 +4536,18 @@ Dialog:
   # LayerEditOnly
   'レイヤー編集のみ': |
     レイヤー編集のみ
+
+  # InputAssistKey
+  '入力補助のキーの組み合わせ': |
+    入力補助のキーの組み合わせ
+
+  # WithCtrlKeyDown
+  'Ctrlキーを押しながら': |
+    Ctrlキーを押しながら
+
+  # WithAltKeyDown
+  'Altキーを押しながら': |
+    Altキーを押しながら
 
 Name:
   # Min

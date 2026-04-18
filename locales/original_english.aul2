@@ -996,6 +996,8 @@ YUVレンジ=YUVColorRange
 再生速度=PlaybackSpeed
 フレーム移動時に音声を再生(プレビュー)=PlayAudioWhenMoveFrame(Preview)
 フレーム移動時に音声を再生(シーン再生)=PlayAudioWhenMoveFrame(ScenePlayback)
+フレーム範囲選択を再生範囲にする=PlaySelectFrameRange
+現在以外のレイヤーを表示/非表示=VisibleLayerOtherThanCursor
 
 [Message]
 ; ツールチップ、メッセージボックス等のメッセージ
@@ -1286,7 +1288,9 @@ Alt+左クリックドラックで右クリックドラック操作=Alt+LeftClic
 重複=Duplicate
 キーの設定時にマウスの右クリックで設定を解除出来ます=While setting key, right click to clear setting.
 レイヤー編集のみ=LayerEditOnly
-
+入力補助のキーの組み合わせ=InputAssistKey
+Ctrlキーを押しながら=WithCtrlKeyDown
+Altキーを押しながら=WithAltKeyDown
 ;OK=OK
 ;Cancel=Cancel
 
