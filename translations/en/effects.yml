@@ -374,6 +374,9 @@
   'カメラの方向を向く': |
     Face Camera Direction
 'ミラー':
+  # Mirror
+  'ミラー': |
+    Mirror
   # Transparent
   '透明度': |
     Transparency
@@ -428,6 +431,9 @@
   # Blur
   'ブラー': |
     Blur
+  # HorizontalRotate
+  '横回転': |
+    Horizontal Rotation
 '図形ワイプ(シーンチェンジ)':
   # Wipe(SceneChange)
   '図形ワイプ(シーンチェンジ)': |
@@ -454,6 +460,9 @@
   # EdgeHeight
   'エッジ高さ': |
     Edge Height
+  # Color
+  '色': |
+    Color
 '色調補正':
   # ColorCorrect
   '色調補正': |

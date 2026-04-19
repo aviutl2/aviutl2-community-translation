@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1288 of 1443 entries (89.26%).
+; Translated 1298 of 1446 entries (89.76%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -956,9 +956,9 @@ YUVレンジ=YUV Range
 メディアオブジェクトの長さ補正時に開始位置を固定する=FixStartPositionWhenCorrectTheMediaObjectLength
 メディアを正面に向ける=FaceMediaForward
 回転アンカーの表示=ShowRotateAnchor
-アプリケーションを再起動=RestartApplication
+アプリケーションを再起動=Restart Application
 エイリアスをファイルに保存=SaveAliasFile
-プリセット=Preset
+プリセット=Presets
 色変更(&C)=Change &Color
 サイズ変更(&S)=Change &Size
 フォント変更(&F)=Change &Font
@@ -978,7 +978,7 @@ YUVレンジ=YUV Range
 角度指定(&T)=SetAngle(&T)
 コメント=Comment
 スクリプト=Script
-再生速度=PlaybackSpeed
+再生速度=Playback Speed
 フレーム移動時に音声を再生(プレビュー)=PlayAudioWhenMoveFrame(Preview)
 フレーム移動時に音声を再生(シーン再生)=PlayAudioWhenMoveFrame(ScenePlayback)
 フレーム範囲選択を再生範囲にする=PlaySelectFrameRange
@@ -1077,7 +1077,7 @@ YUVの設定=YUV Settings
 グループ制御の対象=Enable Group Control
 上位のグループ制御の対象=Enable Upper Group Control
 プラグインはこの本体バージョンをサポートしていません=The plugin does not support this AviUtl2 version.
-スクリプトはこの本体バージョンをサポートしていません=Script not support current app version.
+スクリプトはこの本体バージョンをサポートしていません=This plugin does not support the current version.
 テキストオブジェクト=Text Object
 図形オブジェクト=figure object
 モデルオブジェクト=Model Object
@@ -1437,6 +1437,7 @@ Z軸回転=Z Rotation
 カメラの方向を向く=Face Camera Direction
 
 [ミラー]
+ミラー=Mirror
 透明度=Transparency
 境目調整=Boundary Adjustment
 ミラーの方向=Mirror Direction
@@ -1465,6 +1466,7 @@ Z軸回転=Z Rotation
 [リール回転(シーンチェンジ)]
 リール回転(シーンチェンジ)=Reel Rotation (Transition)
 ブラー=Blur
+横回転=Horizontal Rotation
 
 [図形ワイプ(シーンチェンジ)]
 図形ワイプ(シーンチェンジ)=Wipe (Transition)
@@ -1477,6 +1479,7 @@ Z軸回転=Z Rotation
 エッジ角度=Edge Angle
 エッジ幅=Edge Width
 エッジ高さ=Edge Height
+色=Color
 
 [色調補正]
 色調補正=Color Correction

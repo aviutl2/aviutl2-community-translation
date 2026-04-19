@@ -2397,6 +2397,12 @@ Menu:
   # ChangeCurrentSceneName
   '現在のシーン名を変更': |
     Change Current Scene's Name
+  # RestartApplication
+  'アプリケーションを再起動': |
+    Restart Application
+  # Preset
+  'プリセット': |
+    Presets
   # ChangeColor(&C)
   '色変更(&C)': |
     Change &Color
@@ -2418,6 +2424,15 @@ Menu:
   # SetPosition(&P)
   '座標指定(&P)': |
     S&pecify Coordinates
+  # Comment
+  'コメント': |
+    Comment
+  # Script
+  'スクリプト': |
+    Script
+  # PlaybackSpeed
+  '再生速度': |
+    Playback Speed
 Message:
   # outputting file
   'ファイル出力中': |
@@ -2714,6 +2729,9 @@ Message:
   # Plugin not support current app version.
   'プラグインはこの本体バージョンをサポートしていません': |
     The plugin does not support this AviUtl2 version.
+  # Script not support current app version.
+  'スクリプトはこの本体バージョンをサポートしていません': |
+    This plugin does not support the current version.
   # text object
   'テキストオブジェクト': |
     Text Object
