@@ -2731,7 +2731,7 @@ Message:
     The plugin does not support this AviUtl2 version.
   # Script not support current app version.
   'スクリプトはこの本体バージョンをサポートしていません': |
-    This plugin does not support the current version.
+    This script does not support the current version.
   # text object
   'テキストオブジェクト': |
     Text Object
