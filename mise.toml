@@ -2,5 +2,5 @@
 lockfile = true
 
 [tools]
-cmake = "latest"
 ruby = "4"
+rust = "1.92.0"

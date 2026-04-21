@@ -1,3 +1,0 @@
-[submodule "extract/plugin/aviutl2_sdk_mirror"]
-	path = extract/plugin/external/aviutl2_sdk_mirror
-	url = https://github.com/aviutl2/aviutl2_sdk_mirror
