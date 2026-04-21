@@ -2,9 +2,9 @@ use std::io::Read;
 
 use anyhow::Context;
 
-pub(super) const FILES_INDEX_URL: &str = "https://raw.githubusercontent.com/aviutl2/aviutl2-community-translation/feat/companion/locales/files.json";
+pub(super) const FILES_INDEX_URL: &str = "https://raw.githubusercontent.com/aviutl2/aviutl2-community-translation/main/locales/files.json";
 
-const LOCALES_BASE_URL: &str = "https://raw.githubusercontent.com/aviutl2/aviutl2-community-translation/feat/companion/locales/";
+const LOCALES_BASE_URL: &str = "https://raw.githubusercontent.com/aviutl2/aviutl2-community-translation/main/locales/";
 
 pub(super) fn locale_file_url(file_name: &str) -> String {
     format!("{LOCALES_BASE_URL}{file_name}")
