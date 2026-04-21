@@ -33,9 +33,12 @@ jobs:
           experimental: true
 
       - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
+        uses: ruby/4etup-ruby@v1
         with:
           bundler-cache: true
+
+      - name: Cache rust
+        uses: Swatinem/rust-cache@v2
 
       - name: Update dotenv
         run: |
@@ -47,9 +50,9 @@ jobs:
         working-directory: "./extract"
         run: |
           bundle install
-          rake default
-          rake crowdin:sync
-          rake update_aul2
+          bundle exec rake default
+          bundle exec rake crowdin:sync
+          bundle exec rake update_aul2
 
       - name: Commit changes
         working-directory: ${{ github.workspace }}
