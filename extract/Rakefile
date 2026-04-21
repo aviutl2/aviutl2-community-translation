@@ -336,20 +336,24 @@ task :update_aul2 do
         end
       end
     end
-    effect_translations.each do |effect_name, effect_params|
+    effect_names = effect_translations.keys
+    effect_names |= english_effect_translations.keys if use_english_fallback
+    effect_names.each do |effect_name|
       sections[effect_name] ||= {}
-      effect_params.each do |key, translated_value|
+      effect_params = effect_translations.fetch(effect_name, {})
+      english_effect_params = english_effect_translations.fetch(effect_name, {})
+      effect_keys = effect_params.keys
+      effect_keys |= english_effect_params.keys if use_english_fallback
+      effect_keys.each do |key|
+        translated_value = effect_params[key]
+        english_fallback_value = english_effect_params[key]
         num_total += 1
         if is_translated?(translated_value&.chomp)
           num_translated += 1
           sections[effect_name][key] = translated_value.chomp
         elsif use_english_fallback &&
-              is_translated?(
-                english_effect_translations.dig(effect_name, key)&.chomp
-              )
-          sections[effect_name][
-            key
-          ] = english_effect_translations.dig(effect_name, key).chomp
+              is_translated?(english_fallback_value&.chomp)
+          sections[effect_name][key] = english_fallback_value.chomp
         end
       end
     end
@@ -370,7 +374,7 @@ task :update_aul2 do
           escaped_value = value.gsub("\n", "\\n")
           file.puts "#{key}=#{escaped_value}"
         end
-        # file.puts
+        file.puts
       end
     end
     puts "Wrote localized .aul2 to #{output_path}."
