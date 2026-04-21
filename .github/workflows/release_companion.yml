@@ -46,10 +46,10 @@ jobs:
 
       - name: Prepare release
         shell: bash
-        working-directory: companion
         run: |
-          mkdir release
           cargo set-version "${{ github.event.inputs.version }}"
+          cd companion
+          mkdir release
           au2 release --set-version "${{ github.event.inputs.version }}"
 
       - name: Commit version change
