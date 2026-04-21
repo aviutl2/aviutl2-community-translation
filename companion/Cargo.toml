@@ -1,0 +1,11 @@
+[package]
+name = "aviutl2-community-translation-companion"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+aviutl2 = "0.24.0"
+native-dialog = "0.9.6"

@@ -286,6 +286,8 @@ end
 task :update_aul2 do
   require "yaml"
   require "inifile"
+  require "json"
+  require "digest/xxhash"
 
   main_translations = IniFile.load("../locales/original_english.aul2")
   english_editor_translations =
@@ -382,6 +384,40 @@ task :update_aul2 do
            (num_translated.to_f / num_total * 100).round(2)
          }%)."
   end
+
+  hash_target_paths =
+    Dir
+      .glob("../locales/community_*.aul2")
+      .reject { |path| path.end_with?("community_ja.aul2") }
+      .sort
+  files = {}
+  hash_target_paths.each do |path|
+    files[File.basename(path)] = xxh3_64_hex(path)
+  end
+  files = files.sort.to_h
+  files_index_path = "../locales/files.json"
+  File.write(files_index_path, JSON.pretty_generate({ version: 1, files: files }) + "\n")
+  puts "Wrote locale hash index to #{files_index_path}."
+end
+
+def xxh3_64_hex(path)
+  data = File.binread(path)
+  xxh3_class = Digest.const_get(:XXH3_64bits) rescue nil
+  unless xxh3_class&.respond_to?(:hexdigest)
+    xxh3_class =
+      Digest
+        .constants
+        .map { |name| Digest.const_get(name) rescue nil }
+        .find do |klass|
+          klass.is_a?(Class) &&
+            klass.name.include?("XXH3_64") &&
+            klass.respond_to?(:hexdigest)
+        end
+  end
+  raise "digest-xxhash does not expose XXH3 hexdigest API." if xxh3_class.nil?
+
+  digest = xxh3_class.hexdigest(data).downcase
+  digest.rjust(16, "0")[-16..]
 end
 
 def is_translated?(text)
