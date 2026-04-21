@@ -1,0 +1,11 @@
+# Ignore Ruby logs
+.idea
+
+# Ignore MacOS logs
+.DS_Store
+
+# Ignore versioning files
+.ruby-version
+
+# Ignore tests coverage folder
+coverage

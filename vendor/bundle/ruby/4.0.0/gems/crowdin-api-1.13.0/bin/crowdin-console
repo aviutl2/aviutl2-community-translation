@@ -1,0 +1,54 @@
+#!/usr/bin/env ruby
+
+require 'crowdin-api'
+require 'optparse'
+
+#
+# You can specify your options while executing this script
+#
+# Type bundle exec crowdin-console --help for more available options
+#
+# Example:
+#
+#  bundle exec crowdin-console --enable-logger --api-token YOUR_API_TOKEN --project-id YOUR_PROJECT_ID
+#
+# or Enterprise API:
+#
+#  bundle exec crowdin-console --enterprise --api-token YOUR_ENTERPRISE_API_TOKEN --organization-domain YOUR_DOMAIN
+#
+
+include Crowdin::Errors::ClcErrorsRaiser
+
+options = {}
+
+OptionParser.new do |opts|
+  opts.banner = 'Usage: ./bin/crowdin-console --enable-logger --api-token YOUR_API_TOKEN ..'
+
+  opts.on('--enterprise', 'Enterprise API')                      { |v| options[:enterprise] = v }
+  opts.on('--api-token TOKEN', 'API Token')                      { |v| options[:api_token] = v }
+  opts.on('--organization-domain DOMAIN', 'Organization Domain') { |v| options[:organization_domain] = v }
+  opts.on('--project-id ID', 'Project ID')                       { |v| options[:project_id] = v }
+  opts.on('--enable-logger', 'Enable logger')                    { |v| options[:enable_logger] = v }
+end.parse!
+
+options[:api_token] || raise_api_token_is_required_error
+
+if options[:enterprise]
+  options[:organization_domain] || raise_organization_domain_is_required_error
+
+  @crowdin = Crowdin::Client.new do |config|
+    config.api_token           = options[:api_token]
+    config.organization_domain = options[:organization_domain]
+    config.enable_logger       = options[:enable_logger] || false
+    config.project_id          = options[:project_id]    || nil
+  end
+else
+  @crowdin = Crowdin::Client.new do |config|
+    config.api_token     = options[:api_token]
+    config.enable_logger = options[:enable_logger] || false
+    config.project_id    = options[:project_id]    || nil
+  end
+end
+
+require 'irb'
+IRB.start

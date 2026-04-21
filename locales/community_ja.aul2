@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (ja)
 ; Generated automatically. Do not edit directly.
-; Translated 2059 of 2059 entries (100.0%).
+; Translated 2060 of 2060 entries (100.0%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -2330,4 +2330,7 @@ Y=Y
 時間=時間
 ぼかし=ぼかし
 位置=位置
+
+[AviUtl2 Community Translation]
+翻訳ファイルが更新されました。AviUtl2を再起動すると反映されます。=翻訳ファイルが更新されました。AviUtl2を再起動すると反映されます。
 

@@ -1,0 +1,34 @@
+name: Docs
+
+on:
+  release:
+    types: [published]
+  repository_dispatch:
+    types: [publish]
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Ruby 3.0
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.0
+
+      - run: bundle install
+
+      - name: Cleanup the Readme
+        run: |
+          sed -i /\<div/d README.md
+          sed -i /\<\\/div/d README.md
+
+      - name: Generate Docs
+        run: yardoc lib/crowdin-api/api_resources/*.rb
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: doc

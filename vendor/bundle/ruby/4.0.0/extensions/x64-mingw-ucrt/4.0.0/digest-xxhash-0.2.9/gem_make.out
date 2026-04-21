@@ -1,0 +1,19 @@
+current directory: D:/a/aviutl2_community_translation/aviutl2_community_translation/vendor/bundle/ruby/4.0.0/gems/digest-xxhash-0.2.9/ext/digest/xxhash
+C:/hostedtoolcache/windows/Ruby/4.0.2/x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: D:/a/aviutl2_community_translation/aviutl2_community_translation/vendor/bundle/ruby/4.0.0/gems/digest-xxhash-0.2.9/ext/digest/xxhash
+make -j4 DESTDIR\= sitearchdir\=./.gem.20260421-8084-7pstwm sitelibdir\=./.gem.20260421-8084-7pstwm clean
+
+current directory: D:/a/aviutl2_community_translation/aviutl2_community_translation/vendor/bundle/ruby/4.0.0/gems/digest-xxhash-0.2.9/ext/digest/xxhash
+make -j4 DESTDIR\= sitearchdir\=./.gem.20260421-8084-7pstwm sitelibdir\=./.gem.20260421-8084-7pstwm
+generating xxhash-x64-mingw-ucrt.def
+compiling ext.c
+linking shared-object digest/xxhash.so
+
+current directory: D:/a/aviutl2_community_translation/aviutl2_community_translation/vendor/bundle/ruby/4.0.0/gems/digest-xxhash-0.2.9/ext/digest/xxhash
+make -j4 DESTDIR\= sitearchdir\=./.gem.20260421-8084-7pstwm sitelibdir\=./.gem.20260421-8084-7pstwm install
+/usr/bin/install -c -m 0755 xxhash.so ./.gem.20260421-8084-7pstwm/digest
+
+current directory: D:/a/aviutl2_community_translation/aviutl2_community_translation/vendor/bundle/ruby/4.0.0/gems/digest-xxhash-0.2.9/ext/digest/xxhash
+make DESTDIR\= sitearchdir\=./.gem.20260421-8084-7pstwm sitelibdir\=./.gem.20260421-8084-7pstwm clean
