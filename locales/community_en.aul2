@@ -1281,6 +1281,9 @@ Altキーを押しながら=WithAltKeyDown
 平均=Average
 中央=Medium
 
+[AviUtl2 Community Translation]
+翻訳ファイルが更新されました。AviUtl2を再起動すると反映されます。=Translation files have been updated. Restart AviUtl2 to apply the changes.
+
 [動画ファイル]
 動画ファイル=Video File
 再生位置=Playback Position

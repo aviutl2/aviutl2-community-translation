@@ -1,5 +1,6 @@
 LANGUAGES = %i[ja en de es-ES]
 TRANSLATE_PLACEHOLDER = "(translate here)"
+COMPANION_SECTION = "AviUtl2 Community Translation"
 
 task default: %i[
        clean
@@ -184,6 +185,7 @@ task :update_source do
   puts "Updating translation source..."
 
   main_translations = IniFile.load("../locales/original_english.aul2")
+  companion_texts = YAML.load_file("../companion/texts.yml")
   effects = JSON.parse(File.read("./effects.json"))
   effect_keys = effects.keys.to_set
   LANGUAGES.each do |lang|
@@ -227,6 +229,40 @@ task :update_source do
     end
 
     puts "Updated translation source for #{lang} at #{editor_file_path}."
+
+    companion_file_path = "../translations/#{lang}/companion.yml"
+    current_companion_translations =
+      (
+        File.exist?(companion_file_path) ? YAML.load_file(companion_file_path) : {}
+      ).to_h
+    companion_translations = { COMPANION_SECTION => {} }
+    companion_texts.each do |text|
+      if lang == :ja
+        companion_translations[COMPANION_SECTION][text] = text
+      elsif is_translated?(current_companion_translations.dig(COMPANION_SECTION, text))
+        companion_translations[COMPANION_SECTION][
+          text
+        ] = current_companion_translations.dig(COMPANION_SECTION, text)
+      else
+        companion_translations[COMPANION_SECTION][text] = nil
+      end
+    end
+
+    File.open(companion_file_path, "w") do |file|
+      companion_translations.each do |section_name, section_content|
+        file.puts "'#{section_name}':"
+        section_content.each do |key, value|
+          file.puts "  '#{key}': |"
+          if value.nil?
+            file.puts "    #{TRANSLATE_PLACEHOLDER}"
+          else
+            value.lines.each { |line| file.puts "    #{line.chomp}".rstrip }
+          end
+          file.puts
+        end
+      end
+    end
+    puts "Updated companion translation source for #{lang} at #{companion_file_path}."
 
     effect_file_path = "../translations/#{lang}/effects.yml"
     current_effect_translations =
@@ -302,12 +338,21 @@ task :update_aul2 do
         YAML.load_file("../translations/en/effects.yml") :
         {}
     ).to_h
+  english_companion_translations =
+    (
+      File.exist?("../translations/en/companion.yml") ?
+        YAML.load_file("../translations/en/companion.yml") :
+        {}
+    ).to_h
   LANGUAGES.each do |lang|
     puts "Building localized .aul2 for #{lang}..."
     editor_file_path = "../translations/#{lang}/editor.yml"
     effect_file_path = "../translations/#{lang}/effects.yml"
+    companion_file_path = "../translations/#{lang}/companion.yml"
     editor_translations = YAML.load_file(editor_file_path).to_h
     effect_translations = YAML.load_file(effect_file_path).to_h
+    companion_translations =
+      (File.exist?(companion_file_path) ? YAML.load_file(companion_file_path) : {}).to_h
     use_english_fallback = !%i[en ja].include?(lang)
 
     sections = {}
@@ -359,6 +404,30 @@ task :update_aul2 do
         end
       end
     end
+
+    companion_entries = companion_translations.fetch(COMPANION_SECTION, {})
+    english_companion_entries =
+      english_companion_translations.fetch(COMPANION_SECTION, {})
+    companion_keys = companion_entries.keys
+    companion_keys |= english_companion_entries.keys if use_english_fallback
+    unless companion_keys.empty?
+      sections[COMPANION_SECTION] ||= {}
+      companion_keys.each do |key|
+        translated_value = companion_entries[key]
+        english_fallback_value = english_companion_entries[key]
+        num_total += 1
+        if is_translated?(translated_value&.chomp)
+          num_translated += 1
+          sections[COMPANION_SECTION][key] = translated_value.chomp
+        elsif use_english_fallback &&
+              is_translated?(english_fallback_value&.chomp)
+          sections[COMPANION_SECTION][key] = english_fallback_value.chomp
+        else
+          sections[COMPANION_SECTION][key] = key
+        end
+      end
+    end
+
     output_path = "../locales/community_#{lang}.aul2"
     File.open(output_path, "w") do |file|
       file.puts "; AviUtl2 Community Translation (#{lang})"
@@ -455,10 +524,11 @@ namespace :crowdin do
       end
 
     editor_file_path = "../translations/ja/editor.yml"
+    companion_file_path = "../translations/ja/companion.yml"
     effect_file_path = "../translations/ja/effects.yml"
 
     files = crowdin.list_files
-    [editor_file_path, effect_file_path].each do |path|
+    [editor_file_path, companion_file_path, effect_file_path].each do |path|
       puts "Uploading #{path} to Crowdin..."
       storage_id = crowdin.add_storage(File.open(path, "r"))["data"]["id"]
       existing_file_id =

@@ -1,20 +1,14 @@
 use std::collections::BTreeMap;
 use std::fs;
-use std::io::Read;
 use std::path::{Path, PathBuf};
-use std::sync::Once;
 
+use notification::show_update_notification;
 use serde::Deserialize;
-use windows::Data::Xml::Dom::XmlDocument;
-use windows::UI::Notifications::{ToastNotification, ToastNotificationManager};
 
-const FILES_INDEX_URL: &str = "https://raw.githubusercontent.com/aviutl2/aviutl2-community-translation/main/locales/files.json";
-const LOCALES_BASE_URL: &str =
-    "https://raw.githubusercontent.com/aviutl2/aviutl2-community-translation/main/locales/";
+mod http;
+mod notification;
 
-static UPDATE_ONCE: Once = Once::new();
-
-type AppResult<T> = Result<T, Box<dyn std::error::Error + Send + Sync>>;
+static UPDATE_ONCE: std::sync::Once = std::sync::Once::new();
 
 #[derive(Debug, Deserialize)]
 struct RemoteFilesIndex {
@@ -27,6 +21,7 @@ struct TranslationCompanion {}
 
 impl aviutl2::generic::GenericPlugin for TranslationCompanion {
     fn new(_info: aviutl2::common::AviUtl2Info) -> aviutl2::common::AnyResult<Self> {
+        init_tracing();
         Ok(Self {})
     }
 
@@ -43,8 +38,7 @@ impl aviutl2::generic::GenericPlugin for TranslationCompanion {
         UPDATE_ONCE.call_once(|| {
             std::thread::spawn(|| {
                 if let Err(err) = run_update_task() {
-                    let _ =
-                        aviutl2::logger::write_warn_log(&format!("companion update failed: {err}"));
+                    tracing::warn!(?err, "companion update failed");
                 }
             });
         });
@@ -53,21 +47,33 @@ impl aviutl2::generic::GenericPlugin for TranslationCompanion {
 
 aviutl2::register_generic_plugin!(TranslationCompanion);
 
-fn run_update_task() -> AppResult<()> {
+fn init_tracing() {
+    let _ = aviutl2::tracing_subscriber::fmt()
+        .with_max_level(if cfg!(debug_assertions) {
+            tracing::Level::DEBUG
+        } else {
+            tracing::Level::INFO
+        })
+        .with_ansi(false)
+        .event_format(aviutl2::logger::AviUtl2Formatter)
+        .with_writer(aviutl2::logger::AviUtl2LogWriter)
+        .try_init();
+}
+
+fn run_update_task() -> anyhow::Result<()> {
     let language_dir = aviutl2::config::app_data_path().join("Language");
     fs::create_dir_all(&language_dir)?;
+    tracing::info!("checking for translation updates...");
 
     let index = fetch_remote_index()?;
     if index.version != 1 {
-        let _ = aviutl2::logger::write_warn_log(&format!(
-            "unsupported files index version: {}",
-            index.version
-        ));
+        tracing::warn!(version = index.version, "unsupported files index version");
         return Ok(());
     }
 
     let mut changed = false;
     for (file_name, remote_hash) in &index.files {
+        tracing::debug!(file_name, remote_hash, "checking locale file");
         if !file_name.ends_with(".aul2") {
             continue;
         }
@@ -75,54 +81,55 @@ fn run_update_task() -> AppResult<()> {
         let local_path = language_dir.join(file_name);
         let local_hash = hash_file_hex(&local_path).ok();
         if local_hash.as_deref() == Some(remote_hash.as_str()) {
+            tracing::debug!(file_name, "locale file is up to date");
             continue;
         }
 
-        let url = format!("{LOCALES_BASE_URL}{file_name}");
-        let file_bytes = fetch_url_bytes(&url)?;
+        let url = http::locale_file_url(file_name);
+        let file_bytes = http::fetch_url_bytes(&url)?;
         let fetched_hash = hash_bytes_hex(&file_bytes);
         if fetched_hash != *remote_hash {
-            let _ = aviutl2::logger::write_warn_log(&format!(
-                "hash mismatch for {file_name}: expected {remote_hash}, got {fetched_hash}"
-            ));
+            tracing::warn!(
+                file_name,
+                expected_hash = remote_hash,
+                actual_hash = fetched_hash,
+                "hash mismatch for locale file"
+            );
             continue;
         }
 
+        tracing::info!(file_name, "updating locale file");
         write_atomic(&local_path, &file_bytes)?;
         changed = true;
     }
 
-    if copy_english_files_if_needed(&language_dir)? {
+    if copy_language_overlay_files_if_needed(&language_dir)? {
         changed = true;
     }
 
-    if changed {
-        if let Err(err) = show_update_toast(
+    if changed
+        && let Err(err) = show_update_notification(
             "AviUtl2 Community Translation",
-            "翻訳ファイルが更新されました。",
-        ) {
-            let _ = aviutl2::logger::write_warn_log(&format!("failed to show toast: {err}"));
-        }
+            &aviutl2::config::get_language_text(
+                "AviUtl2 Community Translation",
+                "翻訳ファイルが更新されました。AviUtl2を再起動すると反映されます。",
+            )
+            .unwrap(),
+        )
+    {
+        tracing::warn!(?err, "failed to show update notification");
     }
 
     Ok(())
 }
 
-fn fetch_remote_index() -> AppResult<RemoteFilesIndex> {
-    let bytes = fetch_url_bytes(FILES_INDEX_URL)?;
+fn fetch_remote_index() -> anyhow::Result<RemoteFilesIndex> {
+    let bytes = http::fetch_url_bytes(http::FILES_INDEX_URL)?;
     let index = serde_json::from_slice::<RemoteFilesIndex>(&bytes)?;
     Ok(index)
 }
 
-fn fetch_url_bytes(url: &str) -> AppResult<Vec<u8>> {
-    let response = ureq::get(url).call()?;
-    let mut reader = response.into_reader();
-    let mut buf = Vec::new();
-    reader.read_to_end(&mut buf)?;
-    Ok(buf)
-}
-
-fn hash_file_hex(path: &Path) -> AppResult<String> {
+fn hash_file_hex(path: &Path) -> anyhow::Result<String> {
     let data = fs::read(path)?;
     Ok(hash_bytes_hex(&data))
 }
@@ -131,7 +138,7 @@ fn hash_bytes_hex(data: &[u8]) -> String {
     format!("{:016x}", xxhash_rust::xxh3::xxh3_64(data))
 }
 
-fn write_atomic(path: &Path, data: &[u8]) -> AppResult<()> {
+fn write_atomic(path: &Path, data: &[u8]) -> anyhow::Result<()> {
     let tmp_path = temp_path_for(path);
     fs::write(&tmp_path, data)?;
     if path.exists() {
@@ -146,7 +153,7 @@ fn temp_path_for(path: &Path) -> PathBuf {
     path.with_file_name(format!("{file_name}.tmp"))
 }
 
-fn copy_english_files_if_needed(language_dir: &Path) -> AppResult<bool> {
+fn copy_language_overlay_files_if_needed(language_dir: &Path) -> anyhow::Result<bool> {
     let mut copied = false;
     for entry in fs::read_dir(language_dir)? {
         let entry = entry?;
@@ -156,12 +163,13 @@ fn copy_english_files_if_needed(language_dir: &Path) -> AppResult<bool> {
 
         let file_name = entry.file_name();
         let file_name = file_name.to_string_lossy();
-        let Some(suffix) = parse_english_suffix(&file_name) else {
+        let Some((language_code, suffix)) = parse_language_overlay(&file_name) else {
             continue;
         };
 
         let source_path = entry.path();
-        let dest_path = language_dir.join(format!("community_en.{suffix}.copied.aul2"));
+        let dest_path =
+            language_dir.join(format!("community_{language_code}.{suffix}.copied.aul2"));
 
         let source_hash = hash_file_hex(&source_path)?;
         let dest_hash = hash_file_hex(&dest_path).ok();
@@ -177,44 +185,60 @@ fn copy_english_files_if_needed(language_dir: &Path) -> AppResult<bool> {
     Ok(copied)
 }
 
-fn parse_english_suffix(file_name: &str) -> Option<&str> {
-    if !file_name.starts_with("English.") || !file_name.ends_with(".aul2") {
+fn parse_language_overlay(file_name: &str) -> Option<(&'static str, &str)> {
+    if !file_name.ends_with(".aul2") {
         return None;
     }
 
-    let start = "English.".len();
     let end = file_name.len() - ".aul2".len();
+    let dot_index = file_name.find('.')?;
+    let language_name = &file_name[..dot_index];
+    let language_code = map_language_name_to_code(language_name)?;
+    let start = dot_index + ".".len();
+
     if start >= end {
         return None;
     }
 
-    Some(&file_name[start..end])
+    Some((language_code, &file_name[start..end]))
 }
 
-fn show_update_toast(title: &str, body: &str) -> AppResult<()> {
-    let _apartment = windows::core::initialize_mta()?;
-    let toast_xml = format!(
-        "<toast><visual><binding template=\"ToastGeneric\"><text>{}</text><text>{}</text></binding></visual></toast>",
-        escape_xml(title),
-        escape_xml(body)
-    );
-
-    let xml = XmlDocument::new()?;
-    xml.LoadXml(&toast_xml.into())?;
-
-    let toast = ToastNotification::CreateToastNotification(&xml)?;
-    let notifier = ToastNotificationManager::CreateToastNotifierWithId(
-        &"aviutl2-community-translation-companion".into(),
-    )?;
-    notifier.Show(&toast)?;
-    Ok(())
+fn map_language_name_to_code(language_name: &str) -> Option<&'static str> {
+    match language_name {
+        "English" => Some("en"),
+        "Japanese" => Some("ja"),
+        _ => None,
+    }
 }
 
-fn escape_xml(input: &str) -> String {
-    input
-        .replace('&', "&amp;")
-        .replace('<', "&lt;")
-        .replace('>', "&gt;")
-        .replace('"', "&quot;")
-        .replace('\'', "&apos;")
+#[cfg(test)]
+mod tests {
+    use super::{map_language_name_to_code, parse_language_overlay};
+
+    #[test]
+    fn parses_known_language_overlay() {
+        assert_eq!(
+            parse_language_overlay("English.script.aul2"),
+            Some(("en", "script"))
+        );
+        assert_eq!(
+            parse_language_overlay("German.plugin.patch.aul2"),
+            Some(("de", "plugin.patch"))
+        );
+    }
+
+    #[test]
+    fn rejects_unknown_or_invalid_overlay() {
+        assert_eq!(parse_language_overlay("French.script.aul2"), None);
+        assert_eq!(parse_language_overlay("English.aul2"), None);
+        assert_eq!(parse_language_overlay("English.script.txt"), None);
+    }
+
+    #[test]
+    fn maps_language_names_to_codes() {
+        assert_eq!(map_language_name_to_code("English"), Some("en"));
+        assert_eq!(map_language_name_to_code("Japanese"), Some("ja"));
+        assert_eq!(map_language_name_to_code("German"), Some("de"));
+        assert_eq!(map_language_name_to_code("Spanish"), Some("es-ES"));
+    }
 }
