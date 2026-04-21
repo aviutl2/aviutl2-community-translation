@@ -25,7 +25,7 @@ task :prepare do
 end
 
 task :build_plugin do
-  sh "cargo build --release", chdir: "./plugin"
+  sh "cargo build --release -p extract_plugin", chdir: "./plugin"
 end
 
 task :download_innounp do
@@ -109,7 +109,7 @@ task :extract_effects do
 
   rm_rf "./tmp/aviutl2/data"
   mkdir_p "./tmp/aviutl2/data/Plugin"
-  cp "./plugin/target/release/extract_plugin.dll",
+  cp "../target/release/extract_plugin.dll",
      "./tmp/aviutl2/data/Plugin/ExtractPlugin.aux2"
   mkdir_p "./tmp/aviutl2/data/extract"
 
