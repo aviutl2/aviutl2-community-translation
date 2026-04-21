@@ -27,7 +27,7 @@ impl aviutl2::generic::GenericPlugin for TranslationCompanion {
 
     fn plugin_info(&self) -> aviutl2::generic::GenericPluginTable {
         aviutl2::generic::GenericPluginTable {
-            name: "aviutl2-community-translation companion".to_string(),
+            name: "AviUtl2 Community Translation Companion".to_string(),
             information: "https://github.com/aviutl2/aviutl2-community-translation".to_string(),
         }
     }
@@ -160,10 +160,12 @@ fn copy_language_overlay_files_if_needed(language_dir: &Path) -> anyhow::Result<
         if !entry.file_type()?.is_file() {
             continue;
         }
+        tracing::debug!(file_name = ?entry.file_name(), "checking for language overlay file");
 
         let file_name = entry.file_name();
         let file_name = file_name.to_string_lossy();
         let Some((language_code, suffix)) = parse_language_overlay(&file_name) else {
+            tracing::debug!(?file_name, "not a recognized language overlay file, skipping");
             continue;
         };
 
@@ -174,9 +176,14 @@ fn copy_language_overlay_files_if_needed(language_dir: &Path) -> anyhow::Result<
         let source_hash = hash_file_hex(&source_path)?;
         let dest_hash = hash_file_hex(&dest_path).ok();
         if dest_hash.as_deref() == Some(source_hash.as_str()) {
+            tracing::debug!(
+                ?file_name,
+                "compatible language overlay file already exists, skipping copy"
+            );
             continue;
         }
 
+        tracing::info!(?file_name, "copying language overlay file");
         let source_bytes = fs::read(&source_path)?;
         write_atomic(&dest_path, &source_bytes)?;
         copied = true;

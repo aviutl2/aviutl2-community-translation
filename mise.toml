@@ -1,6 +1,12 @@
 [settings]
 lockfile = true
 
+[plugins]
+cargo-prebuilt = "https://github.com/sevenc-nanashi/mise-cargo-prebuilt"
+
 [tools]
+"github:sevenc-nanashi/aviutl2-cli" = "latest"
 ruby = "4"
 rust = "1.92.0"
+"github:EmbarkStudios/cargo-about" = { version = "latest" }
+"cargo-prebuilt:cargo-edit" = "latest"

@@ -33,6 +33,35 @@ checksum = "blake3:89fca1677ded0683124b0e523626dd63bff59c5f54cc1b10d6d56a93c5a7f
 url = "https://github.com/WhatTheBlock/innounp/releases/download/v0.50/innounp.exe"
 url_api = "https://api.github.com/repos/WhatTheBlock/innounp/releases/assets/44063987"
 
+[[tools."github:sevenc-nanashi/aviutl2-cli"]]
+version = "0.8.2"
+backend = "github:sevenc-nanashi/aviutl2-cli"
+
+[tools."github:sevenc-nanashi/aviutl2-cli"."platforms.linux-arm64"]
+checksum = "sha256:a975f0311a4dab46962fd96bddfdc5e4a178ca1cd6d43a32b76fd96e577832e8"
+url = "https://github.com/sevenc-nanashi/aviutl2-cli/releases/download/0.8.2/au2-v0.8.2-linux"
+url_api = "https://api.github.com/repos/sevenc-nanashi/aviutl2-cli/releases/assets/391520741"
+
+[tools."github:sevenc-nanashi/aviutl2-cli"."platforms.linux-arm64-musl"]
+checksum = "sha256:a975f0311a4dab46962fd96bddfdc5e4a178ca1cd6d43a32b76fd96e577832e8"
+url = "https://github.com/sevenc-nanashi/aviutl2-cli/releases/download/0.8.2/au2-v0.8.2-linux"
+url_api = "https://api.github.com/repos/sevenc-nanashi/aviutl2-cli/releases/assets/391520741"
+
+[tools."github:sevenc-nanashi/aviutl2-cli"."platforms.linux-x64"]
+checksum = "sha256:a975f0311a4dab46962fd96bddfdc5e4a178ca1cd6d43a32b76fd96e577832e8"
+url = "https://github.com/sevenc-nanashi/aviutl2-cli/releases/download/0.8.2/au2-v0.8.2-linux"
+url_api = "https://api.github.com/repos/sevenc-nanashi/aviutl2-cli/releases/assets/391520741"
+
+[tools."github:sevenc-nanashi/aviutl2-cli"."platforms.linux-x64-musl"]
+checksum = "sha256:a975f0311a4dab46962fd96bddfdc5e4a178ca1cd6d43a32b76fd96e577832e8"
+url = "https://github.com/sevenc-nanashi/aviutl2-cli/releases/download/0.8.2/au2-v0.8.2-linux"
+url_api = "https://api.github.com/repos/sevenc-nanashi/aviutl2-cli/releases/assets/391520741"
+
+[tools."github:sevenc-nanashi/aviutl2-cli"."platforms.windows-x64"]
+checksum = "sha256:a5ed78a19ebabb271864e6cd12b8294e5eb2c39ea7bd4cf2866f39687e9bab5e"
+url = "https://github.com/sevenc-nanashi/aviutl2-cli/releases/download/0.8.2/au2-v0.8.2-windows.exe"
+url_api = "https://api.github.com/repos/sevenc-nanashi/aviutl2-cli/releases/assets/391520740"
+
 [[tools.ruby]]
 version = "4.0.0"
 backend = "core:ruby"
