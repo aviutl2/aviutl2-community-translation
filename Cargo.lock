@@ -294,7 +294,7 @@ dependencies = [
 
 [[package]]
 name = "extract_plugin"
-version = "0.1.1"
+version = "0.1.0"
 dependencies = [
  "aviutl2",
  "process_path",
