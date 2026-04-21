@@ -50,7 +50,7 @@ jobs:
           cargo set-version "${{ github.event.inputs.version }}"
           cd companion
           mkdir release
-          au2 release --set-version "${{ github.event.inputs.version }}"
+          mise exec -- au2 release --set-version "${{ github.event.inputs.version }}"
 
       - name: Commit version change
         run: |
