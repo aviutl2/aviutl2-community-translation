@@ -6,6 +6,7 @@ GEM
     crowdin-api (1.13.0)
       open-uri (>= 0.1.0, < 0.2.0)
       rest-client (>= 2.0.0, < 2.2.0)
+    digest-xxhash (0.2.9)
     domain_name (0.6.20240107)
     dotenv (3.2.0)
     ffi (1.17.3)
@@ -71,6 +72,7 @@ PLATFORMS
 
 DEPENDENCIES
   crowdin-api (~> 1.13)
+  digest-xxhash
   dotenv (~> 3.2)
   http (~> 5.3)
   inifile (~> 3.0)
@@ -81,6 +83,7 @@ DEPENDENCIES
 CHECKSUMS
   addressable (2.8.8) sha256=7c13b8f9536cf6364c03b9d417c19986019e28f7c00ac8132da4eb0fe393b057
   crowdin-api (1.13.0) sha256=89437e113ec6d16bd15358bb4fa585e003d9a2fa6bde3af9fc683dbc454b9939
+  digest-xxhash (0.2.9) sha256=a989d8309c03c4136a4bea9981ec0a146a2750de7f3dfb7b5624a3038aa598d7
   domain_name (0.6.20240107) sha256=5f693b2215708476517479bf2b3802e49068ad82167bcd2286f899536a17d933
   dotenv (3.2.0) sha256=e375b83121ea7ca4ce20f214740076129ab8514cd81378161f11c03853fe619d
   ffi (1.17.3) sha256=0e9f39f7bb3934f77ad6feab49662be77e87eedcdeb2a3f5c0234c2938563d4c

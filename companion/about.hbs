@@ -1,0 +1,31 @@
+[ AviUtl2 Commnunity Translation Companion v{version} ]
+
+A plugin that automatically updates the translation files from AviUtl2 Community Translation Repository.
+
+[ License Information ]
+
+This plugin uses the following open source libraries:
+
+[[ Overview ]]
+
+{{#each overview}}
+- {{name}} x{{count}}
+{{/each}}
+
+[[ License List ]]
+
+{{#each licenses}}
+
+[[[ {{name}} ]]]
+
+Used by:
+
+{{#each used_by}}
+- {{crate.name}} {{crate.version}} ({{#if crate.repository}}{{crate.repository}}{{else}}https://crates.io/crates/{{crate.name}}{{/if}})
+{{/each}}
+
+```
+{{{text}}}
+```
+
+{{/each}}
