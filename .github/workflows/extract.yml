@@ -53,5 +53,5 @@ jobs:
           git config --local user.email "actions@github.com"
 
           git add .
-          git commit -m "feat: 内容を更新" || echo "No changes to commit"
+          git commit -m "feat: update contents" || echo "No changes to commit"
           git push origin main || echo "No changes to push"
