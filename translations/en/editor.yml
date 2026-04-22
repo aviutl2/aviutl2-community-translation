@@ -26,6 +26,12 @@ Effect:
   # TimeControl(Object)
   '時間制御(オブジェクト)': |
     Time Control (Object)
+  # TempBuffer
+  '仮想バッファ': |
+    Temporal Buffer
+  # TempBufferOutput
+  '仮想バッファ出力': |
+    Temporal Buffer Output
   # CameraShake
   '手ぶれ': |
     Camera Shake
@@ -104,6 +110,12 @@ Effect:
   # Teleportation
   '瞬間移動': |
     Instant Movement
+  # Linear(Rotate)
+  '直線移動(回転)': |
+    Linear Movement (Rotation)
+  # Interpolation(Rotate)
+  '補間移動(回転)': |
+    Interpolated Movement (Rotation)
   # CenterX
   '中心X': |
     Center X
@@ -1361,6 +1373,18 @@ Effect:
   # Tile
   'タイル風': |
     Tile
+  # Preferences
+  '詳細設定': |
+    Advanced Settings
+  # TransformRatio
+  '変形率': |
+    Application Rate
+  # GridPointX
+  '横格子点': |
+    # of Horizontal Points
+  # GridPointY
+  '縦格子点': |
+    # of Vertical Points
 Menu:
   # File
   'ファイル': |
@@ -2370,6 +2394,9 @@ Menu:
   # ShowSliderThumb
   'スライダーのつまみを表示': |
     Show knob of sliders
+  # Layer
+  'レイヤー操作': |
+    Layer Control
   # LockCursorLayer
   '現在のレイヤーをロック': |
     Lock Current Layer
@@ -2397,9 +2424,48 @@ Menu:
   # ChangeCurrentSceneName
   '現在のシーン名を変更': |
     Change Current Scene's Name
+  # SettingCurrentScene
+  '現在のシーンを設定': |
+    Configure Current Scene
+  # SelectObjectAboveCursorFrame
+  '現在のフレーム上にあるオブジェクトを選択': |
+    Select Object on Current Frame
+  # TempBuffer
+  '仮想バッファ': |
+    Temporal Buffer
+  # PrioritizeFocusObjectAnchor
+  '選択オブジェクトのアンカーを優先': |
+    Prefer Selected Objects' Anchors
+  # LockObjectAnchor
+  'オブジェクトのアンカー操作をロック': |
+    Lock Object Anchors
+  # MoveToSceneReferencedByObject
+  'オブジェクトが参照しているシーンに移動': |
+    Move to Scene Referenced by Object
+  # MoveToNextScene(DisplayHistory)
+  '次のシーンに進む(表示履歴)': |
+    Move to Following Scene (by Recently Used)
+  # MoveToPreviousScene(DisplayHistory)
+  '前のシーンに戻る(表示履歴)': |
+    Move to Previous Scene (by Recently Used)
+  # FitMediaToScreen
+  'メディアを画面にフィット': |
+    Scale Media to Screen
+  # FixStartPositionWhenCorrectTheMediaObjectLength
+  'メディアオブジェクトの長さ補正時に開始位置を固定する': |
+    Lock Starting Position when Modifying Length of Media Objects
+  # FaceMediaForward
+  'メディアを正面に向ける': |
+    Rotate Media to Screen
+  # ShowRotateAnchor
+  '回転アンカーの表示': |
+    Show Rotation Anchor
   # RestartApplication
   'アプリケーションを再起動': |
     Restart Application
+  # SaveAliasFile
+  'エイリアスをファイルに保存': |
+    Save Alias to File
   # Preset
   'プリセット': |
     Presets
@@ -2424,6 +2490,12 @@ Menu:
   # SetPosition(&P)
   '座標指定(&P)': |
     S&pecify Coordinates
+  # Bold(&B)
+  '太字(&B)': |
+    Bold (&B)
+  # Italic(&I)
+  '斜体(&I)': |
+    Italic (&I)
   # Comment
   'コメント': |
     Comment
