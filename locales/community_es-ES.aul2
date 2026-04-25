@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (es-ES)
 ; Generated automatically. Do not edit directly.
-; Translated 0 of 1476 entries (0.0%).
+; Translated 0 of 1477 entries (0.0%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -580,7 +580,7 @@ Z軸回転=Z Rotation
 色情報を上書き=Override Color
 輝度をアルファ値として上書き=Override Luminance as Alpha
 輝度をアルファ値として乗算=Multiply Luminance with Alpha
-画像=Image
+画像=Picture
 領域外を透過=Transparent outside the area
 分解能=Resolution
 残像=Afterimage
@@ -907,7 +907,7 @@ YUVレンジ=YUV Range
 メディアを左回転=Rotate item counter-clockwise
 メディアを右回転=Rotate item clockwise
 テキストを編集=Edit Text
-カーソル移動のスナップ(レイヤー)=Snap Cursor Movement (Layers)
+カーソル移動のスナップ(レイヤー)=Snap cursor to items
 シーン再生=ScenePlayback
 音量レベルメーターの表示(プレビュー)=Display volume level (in main player)
 音量レベルメーターの表示(シーン再生)=Display volume level (in scene player)
@@ -970,19 +970,19 @@ YUVレンジ=YUV Range
 斜体(&I)=Italic (&I)
 取り消し線(&S)=Strike-through(&S)
 プリセット適用(&P)=Apply Preset(&P)
-ふりがな(&R)=Ruby(&R)
-字間変更(&G)=ChangeLetterSpacing(&G)
-行間変更(&G)=ChangeLineSpacing(&G)
-横スケール指定(&T)=SetWidthScale(&T)
-縦スケール指定(&T)=SetHeightScale(&T)
-角度指定(&T)=SetAngle(&T)
+ふりがな(&R)=Furigana(&R)
+字間変更(&G)=Change letter spacing(&G)
+行間変更(&G)=Change line spacing(&G)
+横スケール指定(&T)=Change horizontal scale(&T)
+縦スケール指定(&T)=Change vertical scale(&T)
+角度指定(&T)=Change rotation(&T)
 コメント=Comment
 スクリプト=Script
 再生速度=Playback Speed
 フレーム移動時に音声を再生(プレビュー)=Play audio when moving seek bar (preview)
 フレーム移動時に音声を再生(シーン再生)=Play audio when moving seek bar (scene player)
 フレーム範囲選択を再生範囲にする=Play the selected frames
-現在以外のレイヤーを表示/非表示=VisibleLayerOtherThanCursor
+現在以外のレイヤーを表示/非表示=Show/hide Layers except selected
 
 [Message]
 ファイル出力中=Exporting File
@@ -1079,16 +1079,16 @@ YUVの設定=YUV Settings
 プラグインはこの本体バージョンをサポートしていません=The plugin does not support this AviUtl2 version.
 スクリプトはこの本体バージョンをサポートしていません=This script does not support the current version.
 テキストオブジェクト=Text Object
-図形オブジェクト=figure object
+図形オブジェクト=Shape Object
 モデルオブジェクト=Model Object
 ドラッグ=Drag
 クリック=Click
 ダブルクリック=Double Click
-Z軸回転の変更=change rotate z
+Z軸回転の変更=Change rotation on Z axis
 縦横軸回転=rotate vertical/horizontal axis
 奥行き軸回転=rotate depth axis
 正面に向ける=Face to the front
-既定のプリセットは変更出来ません=default preset can not change
+既定のプリセットは変更出来ません=Default presets cannot be changed
 
 [Dialog]
 シーンを作成=Create Scene
@@ -1252,7 +1252,7 @@ Alt+左クリックドラックで右クリックドラック操作=Assign right
 ドラッグ時の自動スクロール速度=Auto-scroll speed when dragging
 透明=Transparent
 出力リサイズ=Resize output
-音声出力=Audio Output
+音声出力=Export audio
 出力設定はファイル出力時に適用されます=Apply output settings when exporting file
 基準フレーム上のオブジェクトを伸長する=Stretch objects on base frame
 上書き=Overwrite
@@ -1270,7 +1270,7 @@ Alt+左クリックドラックで右クリックドラック操作=Assign right
 検索=Search
 重複=Duplicate
 キーの設定時にマウスの右クリックで設定を解除出来ます=While setting key, right click to clear setting.
-レイヤー編集のみ=LayerEditOnly
+レイヤー編集のみ=Only edit layers
 入力補助のキーの組み合わせ=InputAssistKey
 Ctrlキーを押しながら=While holding Ctrl
 Altキーを押しながら=While holding Alt
@@ -1585,4 +1585,7 @@ Y=Y Position
 
 [ローテーション]
 90度回転=Rotate 90°
+
+[AviUtl2 Community Translation]
+翻訳ファイルが更新されました。AviUtl2を再起動すると反映されます。=The translation files have been updated, restart AviUtl2 to apply.
 
