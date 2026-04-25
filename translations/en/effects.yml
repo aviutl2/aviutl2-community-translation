@@ -396,6 +396,17 @@
   # BaseY
   '起点Y': |
     Origin Y
+  # Blur
+  'ぼかし': |
+    Blur
+'メッシュ変形':
+  # MeshTransformation
+  'メッシュ変形': |
+    Mesh Distortion
+'発光(シーンチェンジ)':
+  # Brightness
+  '明るさ': |
+    Brightness
 'レンズブラー(シーンチェンジ)':
   # LensBlur(SceneChange)
   'レンズブラー(シーンチェンジ)': |
@@ -408,6 +419,9 @@
   # Rising(SceneChange)
   '起き上がる(シーンチェンジ)': |
     Pop Up (Transition)
+  # Force
+  '勢い': |
+    Elasticity
 '音声波形表示':
   # Height
   '高さ': |
@@ -473,6 +487,16 @@
   # Hue
   '色相': |
     Hue
+'斜めクリッピング':
+  # CenterX
+  '中心X': |
+    X Offset
+  # CenterY
+  '中心Y': |
+    Y Offset
+  # Angle
+  '角度': |
+    Angle
 '画像ファイル':
   # ImageFile
   '画像ファイル': |
@@ -480,6 +504,28 @@
   # File
   'ファイル': |
     File
+  # Loop
+  'ループ再生': |
+    Loop Playback
+  # SerialNumberFile
+  '連番ファイル': |
+    Read in Batch
+'扇クリッピング':
+  # Clipping(Fan)
+  '扇クリッピング': |
+    Circular Clipping
+  # CenterX
+  '中心X': |
+    X Offset
+  # CenterY
+  '中心Y': |
+    Y Offset
+  # BaseAngle
+  '基準角': |
+    Base Angle
+  # Blur
+  'ぼかし': |
+    Blur
 'マスク':
   # Mask
   'マスク': |
@@ -490,12 +536,24 @@
   # Size
   'サイズ': |
     Size
+  # Aspect
+  '縦横比': |
+    Compression
   # Blur
   'ぼかし': |
     Blur
   # MaskType
   'マスクの種類': |
     Mask Type
+  # FitSceneLength
+  'シーンの長さを合わせる': |
+    Match Scene Length
+  # InvertMask
+  'マスクの反転': |
+    Invert Mask
+  # FitSize
+  '元のサイズに合わせる': |
+    Match Original Size
 'ぼかし':
   # Blur
   'ぼかし': |
@@ -503,6 +561,26 @@
   # Range
   '範囲': |
     Range
+  # Aspect
+  '縦横比': |
+    Compression
+  # FixedSize
+  'サイズ固定': |
+    Lock Size
+'モーションブラー':
+  # MotionBlur
+  'モーションブラー': |
+    Motion Blur
+  # Interval
+  '間隔': |
+    Interval
+'グロー':
+  # Glow
+  'グロー': |
+    Glow
+  # Level
+  '強さ': |
+    Intensity
 '音声ファイル':
   # AudioFile
   '音声ファイル': |
@@ -526,6 +604,26 @@
   # Volume
   '音量': |
     Volume
+'枠線':
+  # PatternImage
+  'パターン画像': |
+    Pattern Image
+'ドロップシャドウ':
+  # DropShadow
+  'ドロップシャドウ': |
+    Drop shadow
+  # (No default text available)
+  'X': |
+    X Position
+  # (No default text available)
+  'Y': |
+    Y Position
+  # ShadowColor
+  '影色': |
+    Shadow Color
+  # IndividualShadow
+  '影を別オブジェクトで描画': |
+    Draw Shadow as Separate Object
 '極座標変換':
   # PolarTransform
   '極座標変換': |

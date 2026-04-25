@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (es-ES)
 ; Generated automatically. Do not edit directly.
-; Translated 0 of 1446 entries (0.0%).
+; Translated 0 of 1476 entries (0.0%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -29,7 +29,7 @@
 特定色域変換=ColorConversion
 クリッピング=Clipping
 斜めクリッピング=Clipping(Angle)
-扇クリッピング=Clipping(Fan)
+扇クリッピング=Circular Clipping
 マスク=Mask
 ぼかし=Blur
 レンズブラー=LensBlur
@@ -42,7 +42,7 @@
 拡散光=Diffusion
 色ずれ=ColorShift
 縁取り=Border
-ドロップシャドウ=DropShadow
+ドロップシャドウ=Drop shadow
 凸エッジ=Bevel
 クロマキー=ChromaKey
 ルミナンスキー=LuminanceKey
@@ -85,7 +85,7 @@
 枠線=FrameLine
 拡張色設定=ExtendedColorSetting
 画像合成=ImageComposite
-モーションブラー=MotionBlur
+モーションブラー=Motion Blur
 ローテーション=Rotate
 画像合成(オブジェクト)=Image composition (object)
 仮想バッファ=Temporal Buffer
@@ -145,7 +145,7 @@
 手ぶれ=Camera Shake
 目標中心回転=Target Center Rotation
 目標サイズ固定視野角=Fixed FOV for Target Size
-メッシュ変形=MeshTransformation
+メッシュ変形=Mesh Distortion
 基本効果=Basic Effects
 音声効果=Audio Effects
 変形=Deformation
@@ -968,8 +968,8 @@ YUVレンジ=YUV Range
 座標指定(&P)=S&pecify Coordinates
 太字(&B)=Bold (&B)
 斜体(&I)=Italic (&I)
-取り消し線(&S)=Strikethrough(&S)
-プリセット適用(&P)=ApplyPreset(&P)
+取り消し線(&S)=Strike-through(&S)
+プリセット適用(&P)=Apply Preset(&P)
 ふりがな(&R)=Ruby(&R)
 字間変更(&G)=ChangeLetterSpacing(&G)
 行間変更(&G)=ChangeLineSpacing(&G)
@@ -979,9 +979,9 @@ YUVレンジ=YUV Range
 コメント=Comment
 スクリプト=Script
 再生速度=Playback Speed
-フレーム移動時に音声を再生(プレビュー)=PlayAudioWhenMoveFrame(Preview)
-フレーム移動時に音声を再生(シーン再生)=PlayAudioWhenMoveFrame(ScenePlayback)
-フレーム範囲選択を再生範囲にする=PlaySelectFrameRange
+フレーム移動時に音声を再生(プレビュー)=Play audio when moving seek bar (preview)
+フレーム移動時に音声を再生(シーン再生)=Play audio when moving seek bar (scene player)
+フレーム範囲選択を再生範囲にする=Play the selected frames
 現在以外のレイヤーを表示/非表示=VisibleLayerOtherThanCursor
 
 [Message]
@@ -1087,7 +1087,7 @@ YUVの設定=YUV Settings
 Z軸回転の変更=change rotate z
 縦横軸回転=rotate vertical/horizontal axis
 奥行き軸回転=rotate depth axis
-正面に向ける=face forward
+正面に向ける=Face to the front
 既定のプリセットは変更出来ません=default preset can not change
 
 [Dialog]
@@ -1272,8 +1272,8 @@ Alt+左クリックドラックで右クリックドラック操作=Assign right
 キーの設定時にマウスの右クリックで設定を解除出来ます=While setting key, right click to clear setting.
 レイヤー編集のみ=LayerEditOnly
 入力補助のキーの組み合わせ=InputAssistKey
-Ctrlキーを押しながら=WithCtrlKeyDown
-Altキーを押しながら=WithAltKeyDown
+Ctrlキーを押しながら=While holding Ctrl
+Altキーを押しながら=While holding Alt
 
 [Name]
 最小=Minimum
@@ -1446,6 +1446,13 @@ Z軸回転=Z Rotation
 再生速度=Playback Speed
 起点X=Origin X
 起点Y=Origin Y
+ぼかし=Blur
+
+[メッシュ変形]
+メッシュ変形=Mesh Distortion
+
+[発光(シーンチェンジ)]
+明るさ=Brightness
 
 [レンズブラー(シーンチェンジ)]
 レンズブラー(シーンチェンジ)=Lens Blur (Transition)
@@ -1455,6 +1462,7 @@ Z軸回転=Z Rotation
 
 [起き上がる(シーンチェンジ)]
 起き上がる(シーンチェンジ)=Pop Up (Transition)
+勢い=Elasticity
 
 [音声波形表示]
 高さ=Height
@@ -1486,20 +1494,48 @@ Z軸回転=Z Rotation
 コントラスト=Contrast
 色相=Hue
 
+[斜めクリッピング]
+中心X=X Offset
+中心Y=Y Offset
+角度=Angle
+
 [画像ファイル]
 画像ファイル=Image File
 ファイル=File
+ループ再生=Loop Playback
+連番ファイル=Read in Batch
+
+[扇クリッピング]
+扇クリッピング=Circular Clipping
+中心X=X Offset
+中心Y=Y Offset
+基準角=Base Angle
+ぼかし=Blur
 
 [マスク]
 マスク=Mask
 回転=Rotation
 サイズ=Size
+縦横比=Compression
 ぼかし=Blur
 マスクの種類=Mask Type
+シーンの長さを合わせる=Match Scene Length
+マスクの反転=Invert Mask
+元のサイズに合わせる=Match Original Size
 
 [ぼかし]
 ぼかし=Blur
 範囲=Range
+縦横比=Compression
+サイズ固定=Lock Size
+
+[モーションブラー]
+モーションブラー=Motion Blur
+間隔=Interval
+
+[グロー]
+グロー=Glow
+強さ=Intensity
 
 [音声ファイル]
 音声ファイル=Audio File
@@ -1511,6 +1547,16 @@ Z軸回転=Z Rotation
 
 [音声再生]
 音量=Volume
+
+[枠線]
+パターン画像=Pattern Image
+
+[ドロップシャドウ]
+ドロップシャドウ=Drop shadow
+X=X Position
+Y=Y Position
+影色=Shadow Color
+影を別オブジェクトで描画=Draw Shadow as Separate Object
 
 [極座標変換]
 極座標変換=Polar Transform

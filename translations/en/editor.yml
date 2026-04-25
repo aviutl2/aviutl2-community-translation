@@ -2496,6 +2496,12 @@ Menu:
   # Italic(&I)
   '斜体(&I)': |
     Italic (&I)
+  # Strikethrough(&S)
+  '取り消し線(&S)': |
+    Strike-through(&S)
+  # ApplyPreset(&P)
+  'プリセット適用(&P)': |
+    Apply Preset(&P)
   # Comment
   'コメント': |
     Comment
@@ -2505,6 +2511,15 @@ Menu:
   # PlaybackSpeed
   '再生速度': |
     Playback Speed
+  # PlayAudioWhenMoveFrame(Preview)
+  'フレーム移動時に音声を再生(プレビュー)': |
+    Play audio when moving seek bar (preview)
+  # PlayAudioWhenMoveFrame(ScenePlayback)
+  'フレーム移動時に音声を再生(シーン再生)': |
+    Play audio when moving seek bar (scene player)
+  # PlaySelectFrameRange
+  'フレーム範囲選択を再生範囲にする': |
+    Play the selected frames
 Message:
   # outputting file
   'ファイル出力中': |
@@ -2819,6 +2834,9 @@ Message:
   # double click
   'ダブルクリック': |
     Double Click
+  # face forward
+  '正面に向ける': |
+    Face to the front
 Dialog:
   # NewScene
   'シーンを作成': |
@@ -3342,6 +3360,15 @@ Dialog:
   # PackageConflict
   'パッケージの競合': |
     Package Conflict
+  # Search
+  '検索': |
+    Search
+  # WithCtrlKeyDown
+  'Ctrlキーを押しながら': |
+    While holding Ctrl
+  # WithAltKeyDown
+  'Altキーを押しながら': |
+    While holding Alt
 Name:
   # Min
   '最小': |
