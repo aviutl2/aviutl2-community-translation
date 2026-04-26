@@ -1,4 +1,44 @@
 Effect:
+  # ImageFile
+  '画像ファイル': |
+    画像ファイル
+
+  # AudioFile
+  '音声ファイル': |
+    音声ファイル
+
+  # Text
+  'テキスト': |
+    テキスト
+
+  # Figure
+  '図形': |
+    図形
+
+  # Scene
+  'シーン': |
+    シーン
+
+  # FrameBuffer
+  'フレームバッファ': |
+    フレームバッファ
+
+  # BeforeObject
+  '直前オブジェクト': |
+    直前オブジェクト
+
+  # ImageOutput
+  '標準描画': |
+    標準描画
+
+  # AudioOutput
+  '音声再生': |
+    音声再生
+
+  # BasicOutput
+  '基本出力': |
+    基本出力
+
   # ParticleOutput
   'パーティクル出力': |
     パーティクル出力
@@ -19,6 +59,182 @@ Effect:
   'カメラ制御': |
     カメラ制御
 
+  # AudioWaveform
+  '音声波形表示': |
+    音声波形表示
+
+  # ColorCorrect
+  '色調補正': |
+    色調補正
+
+  # Gradient
+  'グラデーション': |
+    グラデーション
+
+  # Monochrome
+  '単色化': |
+    単色化
+
+  # ColorConversion
+  '特定色域変換': |
+    特定色域変換
+
+  # Clipping
+  'クリッピング': |
+    クリッピング
+
+  # Clipping(Angle)
+  '斜めクリッピング': |
+    斜めクリッピング
+
+  # Clipping(Fan)
+  '扇クリッピング': |
+    扇クリッピング
+
+  # Mask
+  'マスク': |
+    マスク
+
+  # Blur
+  'ぼかし': |
+    ぼかし
+
+  # LensBlur
+  'レンズブラー': |
+    レンズブラー
+
+  # RadialBlur
+  '放射ブラー': |
+    放射ブラー
+
+  # DirectionBlur
+  '方向ブラー': |
+    方向ブラー
+
+  # BorderBlur
+  '境界ぼかし': |
+    境界ぼかし
+
+  # Glow
+  'グロー': |
+    グロー
+
+  # Bloom
+  '発光': |
+    発光
+
+  # Flash
+  '閃光': |
+    閃光
+
+  # Diffusion
+  '拡散光': |
+    拡散光
+
+  # ColorShift
+  '色ずれ': |
+    色ずれ
+
+  # Border
+  '縁取り': |
+    縁取り
+
+  # DropShadow
+  'ドロップシャドウ': |
+    ドロップシャドウ
+
+  # Bevel
+  '凸エッジ': |
+    凸エッジ
+
+  # ChromaKey
+  'クロマキー': |
+    クロマキー
+
+  # LuminanceKey
+  'ルミナンスキー': |
+    ルミナンスキー
+
+  # ColorKey
+  'カラーキー': |
+    カラーキー
+
+  # EdgeExtract
+  'エッジ抽出': |
+    エッジ抽出
+
+  # Ripple
+  '波紋': |
+    波紋
+
+  # Raster
+  'ラスター': |
+    ラスター
+
+  # PolarTransform
+  '極座標変換': |
+    極座標変換
+
+  # Displacement
+  'ディスプレイスメントマップ': |
+    ディスプレイスメントマップ
+
+  # Resize
+  'リサイズ': |
+    リサイズ
+
+  # Sharpe
+  'シャープ': |
+    シャープ
+
+  # NoiseReduction
+  'ノイズ除去': |
+    ノイズ除去
+
+  # Deinterlace
+  'インターレース解除': |
+    インターレース解除
+
+  # Noise
+  'ノイズ': |
+    ノイズ
+
+  # Mosaic
+  'モザイク': |
+    モザイク
+
+  # OffscreenDraw
+  'オフスクリーン描画': |
+    オフスクリーン描画
+
+  # ImageLoop
+  '画像ループ': |
+    画像ループ
+
+  # ObjectDivide
+  'オブジェクト分割': |
+    オブジェクト分割
+
+  # Fade
+  'フェード': |
+    フェード
+
+  # Wipe
+  'ワイプ': |
+    ワイプ
+
+  # SceneChange
+  'シーンチェンジ': |
+    シーンチェンジ
+
+  # Quake
+  '振動': |
+    振動
+
+  # ScriptControl
+  'スクリプト制御': |
+    スクリプト制御
+
   # Light(Camera)
   '並行光源(カメラ制御)': |
     並行光源(カメラ制御)
@@ -31,9 +247,81 @@ Effect:
   'ライトブルーム(カメラ制御)': |
     ライトブルーム(カメラ制御)
 
+  # Material(Camera)
+  '材質設定(カメラ制御)': |
+    材質設定(カメラ制御)
+
+  # CameraOption
+  'カメラ制御オプション': |
+    カメラ制御オプション
+
+  # Position
+  '座標': |
+    座標
+
+  # Zoom
+  '拡大率': |
+    拡大率
+
+  # Transparent
+  '透明度': |
+    透明度
+
+  # Rotate
+  '回転': |
+    回転
+
+  # ExtendArea
+  '領域拡張': |
+    領域拡張
+
+  # Fade(Audio)
+  '音量フェード': |
+    音量フェード
+
+  # AudioMono
+  'モノラル化': |
+    モノラル化
+
+  # Volume
+  '音量調整': |
+    音量調整
+
   # TimeControl(Object)
   '時間制御(オブジェクト)': |
     時間制御(オブジェクト)
+
+  # AudioBuffer
+  'オーディオバッファ': |
+    オーディオバッファ
+
+  # ModelFile
+  'モデルファイル': |
+    モデルファイル
+
+  # FrameLine
+  '枠線': |
+    枠線
+
+  # ExtendedColorSetting
+  '拡張色設定': |
+    拡張色設定
+
+  # ImageComposite
+  '画像合成': |
+    画像合成
+
+  # MotionBlur
+  'モーションブラー': |
+    モーションブラー
+
+  # Rotate
+  'ローテーション': |
+    ローテーション
+
+  # ImageComposite(Object)
+  '画像合成(オブジェクト)': |
+    画像合成(オブジェクト)
 
   # TempBuffer
   '仮想バッファ': |
@@ -42,6 +330,214 @@ Effect:
   # TempBufferOutput
   '仮想バッファ出力': |
     仮想バッファ出力
+
+  # Tremble
+  '震える': |
+    震える
+
+  # Pendulum
+  '振り子': |
+    振り子
+
+  # Bound
+  '弾む': |
+    弾む
+
+  # ZoomCoordinate(Individual)
+  '座標の拡大縮小(個別オブジェクト)': |
+    座標の拡大縮小(個別オブジェクト)
+
+  # FromOffscreen
+  '画面外から登場': |
+    画面外から登場
+
+  # FromRandom
+  'ランダム方向から登場': |
+    ランダム方向から登場
+
+  # FromReducing
+  '拡大縮小して登場': |
+    拡大縮小して登場
+
+  # FromAbove
+  'ランダム間隔で落ちながら登場': |
+    ランダム間隔で落ちながら登場
+
+  # FromBouncing
+  '弾んで登場': |
+    弾んで登場
+
+  # FromSpreading
+  '広がって登場': |
+    広がって登場
+
+  # FromRising
+  '起き上がって登場': |
+    起き上がって登場
+
+  # FromNowhere
+  '何処からともなく登場': |
+    何処からともなく登場
+
+  # RepeatMove
+  '反復移動': |
+    反復移動
+
+  # RotateCoordinate(Individual)
+  '座標の回転(個別オブジェクト)': |
+    座標の回転(個別オブジェクト)
+
+  # Cube(Camera)
+  '立方体(カメラ制御)': |
+    立方体(カメラ制御)
+
+  # Sphere(Camera)
+  '球体(カメラ制御)': |
+    球体(カメラ制御)
+
+  # Shatter
+  '砕け散る': |
+    砕け散る
+
+  # Blink
+  '点滅': |
+    点滅
+
+  # FromBlinking
+  '点滅して登場': |
+    点滅して登場
+
+  # Transformation
+  '簡易変形': |
+    簡易変形
+
+  # Transformation(Camera)
+  '簡易変形(カメラ制御)': |
+    簡易変形(カメラ制御)
+
+  # ReelRotation
+  'リール回転': |
+    リール回転
+
+  # Kaleidoscope
+  '万華鏡': |
+    万華鏡
+
+  # CircleLayout
+  '円形配置': |
+    円形配置
+
+  # RandomLayout
+  'ランダム配置': |
+    ランダム配置
+
+  # Mirror
+  'ミラー': |
+    ミラー
+
+  # Particulate
+  '粒子化': |
+    粒子化
+
+  # ConcentrationLine
+  '集中線': |
+    集中線
+
+  # ScanLine
+  '走査線': |
+    走査線
+
+  # Counter
+  'カウンター': |
+    カウンター
+
+  # LensFlare
+  'レンズフレア': |
+    レンズフレア
+
+  # Cloud
+  '雲': |
+    雲
+
+  # Star
+  '星': |
+    星
+
+  # Snow
+  '雪': |
+    雪
+
+  # Rain
+  '雨': |
+    雨
+
+  # RandomItem(Camera)
+  'ランダム小物配置(カメラ制御)': |
+    ランダム小物配置(カメラ制御)
+
+  # LineTrace
+  'ライン(移動軌跡)': |
+    ライン(移動軌跡)
+
+  # FanShape
+  '扇型': |
+    扇型
+
+  # Polygon
+  '多角形': |
+    多角形
+
+  # BokehLightAmount
+  '周辺ボケ光量': |
+    周辺ボケ光量
+
+  # Flare
+  'フレア': |
+    フレア
+
+  # WaterSurface
+  '水面': |
+    水面
+
+  # Bloom(SceneChange)
+  '発光(シーンチェンジ)': |
+    発光(シーンチェンジ)
+
+  # LensBlur(SceneChange)
+  'レンズブラー(シーンチェンジ)': |
+    レンズブラー(シーンチェンジ)
+
+  # Door(SceneChange)
+  'ドア(シーンチェンジ)': |
+    ドア(シーンチェンジ)
+
+  # Rising(SceneChange)
+  '起き上がる(シーンチェンジ)': |
+    起き上がる(シーンチェンジ)
+
+  # ReelRotation(SceneChange)
+  'リール回転(シーンチェンジ)': |
+    リール回転(シーンチェンジ)
+
+  # Wipe(SceneChange)
+  '図形ワイプ(シーンチェンジ)': |
+    図形ワイプ(シーンチェンジ)
+
+  # HideFigure(SceneChange)
+  '図形で隠す(シーンチェンジ)': |
+    図形で隠す(シーンチェンジ)
+
+  # HideFigureRadial(SceneChange)
+  '図形で隠す(放射)(シーンチェンジ)': |
+    図形で隠す(放射)(シーンチェンジ)
+
+  # Shatter(SceneChange)
+  '砕け散る(シーンチェンジ)': |
+    砕け散る(シーンチェンジ)
+
+  # Page(SceneChange)
+  'ページめくり(シーンチェンジ)': |
+    ページめくり(シーンチェンジ)
 
   # CameraShake
   '手ぶれ': |
@@ -54,6 +550,10 @@ Effect:
   # ViewAngleBaseTarget
   '目標サイズ固定視野角': |
     目標サイズ固定視野角
+
+  # MeshTransformation
+  'メッシュ変形': |
+    メッシュ変形
 
   # BasicEffect
   '基本効果': |
@@ -867,6 +1367,10 @@ Effect:
   '縦横比固定': |
     縦横比固定
 
+  # Invert
+  '反転': |
+    反転
+
   # Invert(In)
   '反転(イン)': |
     反転(イン)
@@ -914,6 +1418,10 @@ Effect:
   # Fill
   '塗りつぶし': |
     塗りつぶし
+
+  # Light
+  'ライト': |
+    ライト
 
   # EaseInOut
   '加減速': |
@@ -3388,6 +3896,14 @@ Menu:
   '現在以外のレイヤーを表示/非表示': |
     現在以外のレイヤーを表示/非表示
 
+  # Layout
+  'レイアウト': |
+    レイアウト
+
+  # CreateLayout
+  'レイアウトを作成': |
+    レイアウトを作成
+
 Message:
   # outputting file
   'ファイル出力中': |
@@ -3815,6 +4331,19 @@ Message:
   # default preset can not change
   '既定のプリセットは変更出来ません': |
     既定のプリセットは変更出来ません
+
+  # exist same name layout
+  # overwrite?
+  '同名のレイアウトが存在しています\n変更しますか？': |
+    同名のレイアウトが存在しています\n変更しますか？
+
+  # failed save layout
+  'レイアウトの保存に失敗しました': |
+    レイアウトの保存に失敗しました
+
+  # failed load layout
+  'レイアウトの読み込みに失敗しました': |
+    レイアウトの読み込みに失敗しました
 
 Dialog:
   # NewScene
@@ -4549,6 +5078,14 @@ Dialog:
   'Altキーを押しながら': |
     Altキーを押しながら
 
+  # CreateLayout
+  'レイアウトを作成': |
+    レイアウトを作成
+
+  # LayoutName
+  'レイアウト名': |
+    レイアウト名
+
 Name:
   # Min
   '最小': |
@@ -4565,4 +5102,61 @@ Name:
   # Med
   '中央': |
     中央
+
+Setup:
+  # Update {app}
+  '{app}を更新インストールします': |
+    {app}を更新インストールします
+
+  # Install {app}
+  '{app}をインストールします': |
+    {app}をインストールします
+
+  # Are you sure you want to uninstall {app}?
+  '{app}をアンインストールしますか？': |
+    {app}をアンインストールしますか？
+
+  # Installation folder
+  'インストールフォルダ': |
+    インストールフォルダ
+
+  # Browse
+  '参照': |
+    参照
+
+  # Create a desttop icon
+  'ディスクトップにアイコンを作成する': |
+    ディスクトップにアイコンを作成する
+
+  # Associate {ext} files with the application
+  '{ext}ファイルをアプリケーションに関連付ける': |
+    {ext}ファイルをアプリケーションに関連付ける
+
+  # OK
+  'OK': |
+    OK
+
+  # Cancel
+  'キャンセル': |
+    キャンセル
+
+  # Are you sure you want to cancel the setup?
+  'セットアップを中止しますか？': |
+    セットアップを中止しますか？
+
+  # Installation is complete
+  'インストールが完了しました': |
+    インストールが完了しました
+
+  # Uninstallation is completed
+  'アンインストールが完了しました': |
+    アンインストールが完了しました
+
+  # The file is locked by another application
+  '別のアプリケーションにファイルがロックされています': |
+    別のアプリケーションにファイルがロックされています
+
+  # Please close the application and try again
+  '該当アプリケーションを終了して再試行してください': |
+    該当アプリケーションを終了して再試行してください
 
