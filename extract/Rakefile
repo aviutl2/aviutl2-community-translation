@@ -74,7 +74,7 @@ task :extract_locale do
   puts "Extracting locale data..."
   # ; ProgramData\aviutl2\Language
   installer_path = "tmp/aviutl2_setup.exe"
-  output = File.read(installer_path)
+  output = File.read(installer_path, mode: "rb")
   locale_pattern = "; ProgramData\\aviutl2\\Language"
   starting_index = output.index(locale_pattern)
   raise "Failed to find locale pattern in installer." unless starting_index
