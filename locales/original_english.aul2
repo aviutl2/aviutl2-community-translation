@@ -1,5 +1,3 @@
-; 言語の定義
-; UTF-8で記述する
 ; ProgramData\aviutl2\Languageに配置すると言語の設定に追加される
 ;
 ; ファイル名をマルチピリオドにすると差分として読み込まれる
@@ -998,6 +996,8 @@ YUVレンジ=YUVColorRange
 フレーム移動時に音声を再生(シーン再生)=PlayAudioWhenMoveFrame(ScenePlayback)
 フレーム範囲選択を再生範囲にする=PlaySelectFrameRange
 現在以外のレイヤーを表示/非表示=VisibleLayerOtherThanCursor
+レイアウト=Layout
+レイアウトを作成=CreateLayout
 
 [Message]
 ; ツールチップ、メッセージボックス等のメッセージ
@@ -1105,6 +1105,9 @@ Z軸回転の変更=change rotate z
 奥行き軸回転=rotate depth axis
 正面に向ける=face forward
 既定のプリセットは変更出来ません=default preset can not change
+同名のレイアウトが存在しています\n変更しますか？=exist same name layout\noverwrite?
+レイアウトの保存に失敗しました=failed save layout
+レイアウトの読み込みに失敗しました=failed load layout
 
 [Dialog]
 ; ダイアログ内の名称
@@ -1291,6 +1294,8 @@ Alt+左クリックドラックで右クリックドラック操作=Alt+LeftClic
 入力補助のキーの組み合わせ=InputAssistKey
 Ctrlキーを押しながら=WithCtrlKeyDown
 Altキーを押しながら=WithAltKeyDown
+レイアウトを作成=CreateLayout
+レイアウト名=LayoutName
 ;OK=OK
 ;Cancel=Cancel
 
@@ -1303,3 +1308,22 @@ Altキーを押しながら=WithAltKeyDown
 最大=Max
 平均=Avg
 中央=Med
+
+[Setup]
+; インストーラーのメッセージ、項目名
+; 初期インストール時はインストーラーと同じフォルダにある.aul2ファイルが参照される
+; インストール後は言語の設定で選択されている言語ファイルが参照される
+{app}を更新インストールします=Update {app}
+{app}をインストールします=Install {app}
+{app}をアンインストールしますか？=Are you sure you want to uninstall {app}?
+インストールフォルダ=Installation folder
+参照=Browse
+ディスクトップにアイコンを作成する=Create a desttop icon
+{ext}ファイルをアプリケーションに関連付ける=Associate {ext} files with the application
+OK=OK
+キャンセル=Cancel
+セットアップを中止しますか？=Are you sure you want to cancel the setup?
+インストールが完了しました=Installation is complete
+アンインストールが完了しました=Uninstallation is completed
+別のアプリケーションにファイルがロックされています=The file is locked by another application
+該当アプリケーションを終了して再試行してください=Please close the application and try again
