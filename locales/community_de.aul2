@@ -6,23 +6,23 @@
 
 [Effect]
 動画ファイル=Video File
-画像ファイル=ImageFile
-音声ファイル=AudioFile
+画像ファイル=Image File
+音声ファイル=Audio File
 テキスト=Text
-図形=Figure
+図形=Shape
 シーン=Scene
-フレームバッファ=FrameBuffer
-直前オブジェクト=BeforeObject
-標準描画=ImageOutput
-音声再生=AudioOutput
+フレームバッファ=Frame Buffer
+直前オブジェクト=Previous Object
+標準描画=Standard Mode
+音声再生=Audio Playback
 映像再生=Video Mode
-基本出力=BasicOutput
+基本出力=Basic Output
 パーティクル出力=Partikelausgabe
 部分フィルタ=Partieller Filter
 グループ制御=Gruppensteuerung
 グループ制御(音声)=Gruppensteuerung (Audio)
 カメラ制御=Kamerasteuerung
-音声波形表示=AudioWaveform
+音声波形表示=Show Audio Waveform
 色調補正=ColorCorrect
 グラデーション=Gradient
 単色化=Monochrome

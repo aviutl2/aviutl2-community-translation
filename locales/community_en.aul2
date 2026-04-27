@@ -1,28 +1,28 @@
 ; AviUtl2 Community Translation (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1156 of 1313 entries (88.04%).
+; Translated 1167 of 1313 entries (88.88%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
 [Effect]
 動画ファイル=Video File
-画像ファイル=ImageFile
-音声ファイル=AudioFile
+画像ファイル=Image File
+音声ファイル=Audio File
 テキスト=Text
-図形=Figure
+図形=Shape
 シーン=Scene
-フレームバッファ=FrameBuffer
-直前オブジェクト=BeforeObject
-標準描画=ImageOutput
-音声再生=AudioOutput
+フレームバッファ=Frame Buffer
+直前オブジェクト=Previous Object
+標準描画=Standard Mode
+音声再生=Audio Playback
 映像再生=Video Mode
-基本出力=BasicOutput
+基本出力=Basic Output
 パーティクル出力=Particle Output
 部分フィルタ=Partial Filter
 グループ制御=Group Control
 グループ制御(音声)=Group Control (Audio)
 カメラ制御=Camera Control
-音声波形表示=AudioWaveform
+音声波形表示=Show Audio Waveform
 色調補正=ColorCorrect
 グラデーション=Gradient
 単色化=Monochrome

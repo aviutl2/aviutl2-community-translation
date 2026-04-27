@@ -1,4 +1,34 @@
 Effect:
+  # ImageFile
+  '画像ファイル': |
+    Image File
+  # AudioFile
+  '音声ファイル': |
+    Audio File
+  # Text
+  'テキスト': |
+    Text
+  # Figure
+  '図形': |
+    Shape
+  # Scene
+  'シーン': |
+    Scene
+  # FrameBuffer
+  'フレームバッファ': |
+    Frame Buffer
+  # BeforeObject
+  '直前オブジェクト': |
+    Previous Object
+  # ImageOutput
+  '標準描画': |
+    Standard Mode
+  # AudioOutput
+  '音声再生': |
+    Audio Playback
+  # BasicOutput
+  '基本出力': |
+    Basic Output
   # ParticleOutput
   'パーティクル出力': |
     Particle Output
@@ -14,6 +44,9 @@ Effect:
   # CameraControl
   'カメラ制御': |
     Camera Control
+  # AudioWaveform
+  '音声波形表示': |
+    Show Audio Waveform
   # Light(Camera)
   '並行光源(カメラ制御)': |
     Parallel Light (Camera Control)
