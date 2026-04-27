@@ -1,11 +1,11 @@
 ; AviUtl2 Community Translation (de)
 ; Generated automatically. Do not edit directly.
-; Translated 96 of 1313 entries (7.31%).
+; Translated 123 of 1313 entries (9.37%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
 [Effect]
-動画ファイル=Video File
+動画ファイル=Videodatei
 画像ファイル=Image File
 音声ファイル=Audio File
 テキスト=Text
@@ -15,7 +15,7 @@
 直前オブジェクト=Previous Object
 標準描画=Standard Mode
 音声再生=Audio Playback
-映像再生=Video Mode
+映像再生=Videomodus
 基本出力=Basic Output
 パーティクル出力=Partikelausgabe
 部分フィルタ=Partieller Filter
@@ -1305,33 +1305,33 @@ OK=OK
 該当アプリケーションを終了して再試行してください=Please close the application and try again
 
 [動画ファイル]
-動画ファイル=Video File
-再生位置=Playback Position
-再生速度=Playback Speed
-ファイル=File
+動画ファイル=Videodatei
+再生位置=Wiedergabeposition
+再生速度=Wiedergabegeschwindigkeit
+ファイル=Datei
 トラック=Track
-ループ再生=Loop
-音声付き=Include audio
+ループ再生=Wiederholen
+音声付き=Audio einbeziehen
 YUV=YUV
 
 [映像再生]
-映像再生=Video Mode
-X=X Position
-Y=Y Position
-Z=Z Position
-中心X=X Offset
-中心Y=Y Offset
-中心Z=Z Offset
-X軸回転=X Rotation
-Y軸回転=Y Rotation
-Z軸回転=Z Rotation
-拡大率=Size
-縦横比=Compression
-透明度=Transparency
-合成モード=Blend Mode
-音量=Volume
-左右=Panning Left/Right
+映像再生=Videomodus
+X=X-Position
+Y=Y-Position
+Z=Z-Position
+中心X=X-Offset
+中心Y=Y-Offset
+中心Z=Z-Offset
+X軸回転=X-Rotation
+Y軸回転=Y-Rotation
+Z軸回転=Z-Rotation
+拡大率=Größe
+縦横比=Kompression
+透明度=Transparenz
+合成モード=Blend-Modus
+音量=Lautstärke
+左右=Panning Links/Rechts
 
 [AviUtl2 Community Translation]
-翻訳ファイルが更新されました。AviUtl2を再起動すると反映されます。=The translation files have been updated, restart AviUtl2 to apply.
+翻訳ファイルが更新されました。AviUtl2を再起動すると反映されます。=Die Übersetzungsdateien wurden aktualisiert. Bitte starte AviUtl2 neu, damit die Änderungen wirksam werden.
 

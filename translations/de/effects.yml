@@ -1,0 +1,74 @@
+'動画ファイル':
+  # VideoFile
+  '動画ファイル': |
+    Videodatei
+  # PlaybackPosition
+  '再生位置': |
+    Wiedergabeposition
+  # PlaybackSpeed
+  '再生速度': |
+    Wiedergabegeschwindigkeit
+  # File
+  'ファイル': |
+    Datei
+  # Track
+  'トラック': |
+    Track
+  # Loop
+  'ループ再生': |
+    Wiederholen
+  # (No default text available)
+  '音声付き': |
+    Audio einbeziehen
+  # (No default text available)
+  'YUV': |
+    YUV
+'映像再生':
+  # MovieOutput
+  '映像再生': |
+    Videomodus
+  # (No default text available)
+  'X': |
+    X-Position
+  # (No default text available)
+  'Y': |
+    Y-Position
+  # (No default text available)
+  'Z': |
+    Z-Position
+  # CenterX
+  '中心X': |
+    X-Offset
+  # CenterY
+  '中心Y': |
+    Y-Offset
+  # CenterZ
+  '中心Z': |
+    Z-Offset
+  # RotateX
+  'X軸回転': |
+    X-Rotation
+  # RotateY
+  'Y軸回転': |
+    Y-Rotation
+  # RotateZ
+  'Z軸回転': |
+    Z-Rotation
+  # Zoom
+  '拡大率': |
+    Größe
+  # Aspect
+  '縦横比': |
+    Kompression
+  # Transparent
+  '透明度': |
+    Transparenz
+  # Blend
+  '合成モード': |
+    Blend-Modus
+  # Volume
+  '音量': |
+    Lautstärke
+  # Balance
+  '左右': |
+    Panning Links/Rechts
