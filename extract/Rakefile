@@ -35,28 +35,20 @@ end
 task :download_aviutl2 do
   require "open-uri"
   require "zip"
+  require "json"
 
-  html_url = "https://spring-fragrance.mints.ne.jp/aviutl/"
-  html_content = URI.open(html_url).read
-  zip_filename = html_content.match(/<A HREF="(aviutl2beta[0-9a-z]+\.zip)">/)[1]
-  zip_url = html_url + zip_filename
-  zip_path = "tmp/aviutl2.zip"
-  puts "Downloading #{zip_url}..."
-  URI.open(zip_url) do |remote_file|
-    File.open(zip_path, "wb") { |file| file.write(remote_file.read) }
-  end
-  puts "Downloaded to #{zip_path}."
-
+  installer_url = "https://api.aviutl2.jp/download?version=latest&type=installer"
   installer_path = "tmp/aviutl2_setup.exe"
-  installer_filename =
-    html_content.match(/<A HREF="(AviUtl2beta[0-9a-z]+_setup\.exe)">/)[1]
-  installer_url = html_url + installer_filename
+
   puts "Downloading installer #{installer_url}..."
   URI.open(installer_url) do |remote_file|
     File.open(installer_path, "wb") { |file| file.write(remote_file.read) }
   end
   puts "Downloaded installer to #{installer_path}."
 
+  zip_url = "https://api.aviutl2.jp/download?version=latest&type=zip"
+  zip_path = "tmp/aviutl2.zip"
+  puts "Downloading ZIP #{zip_url}..."
   Zip::File.open(zip_path) do |zip_file|
     zip_file.each do |entry|
       dest_path = File.join("tmp", "aviutl2", entry.name)
@@ -70,19 +62,42 @@ end
 task :extract_locale do
   require "open3"
   require "fileutils"
+  require "zip"
 
   puts "Extracting locale data..."
   # ; ProgramData\aviutl2\Language
   installer_path = "tmp/aviutl2_setup.exe"
   output = File.read(installer_path, mode: "rb")
-  locale_pattern = "; ProgramData\\aviutl2\\Language"
-  starting_index = output.index(locale_pattern)
-  raise "Failed to find locale pattern in installer." unless starting_index
-  ending_index = output.index("\x00", starting_index)
-  raise "Failed to find end of locale pattern in installer." unless ending_index
-  locale = output[starting_index..ending_index - 1]
-  puts "Found English locale"
-  File.write("../locales/original_english.aul2", locale)
+  last_offset = 0
+  zip_signature = "PK\x03\x04"
+  found = false
+  while (offset = output.index(zip_signature, last_offset))
+    begin
+      zip_data = output[offset..-1]
+      puts "Found potential ZIP at offset #{offset}. Attempting to parse..."
+      Zip::File.open_buffer(zip_data) do |zip_file|
+        zip_file.each do |entry|
+          if entry.name == "English.aul2"
+            dest_path = "tmp/original_english.aul2"
+            puts "Extracting #{entry.name} to #{dest_path}..."
+            entry.extract(dest_path) { true }
+            puts "Extracted English.aul2 to #{dest_path}."
+            content = File.read(dest_path)
+            File.write("../locales/original_english.aul2", content.gsub("\r\n", "\n"), mode: "wb")
+            found = true
+          end
+        end
+      end
+      puts "Successfully parsed ZIP at offset #{offset}."
+    rescue Zip::Error => e
+      puts "Failed to parse ZIP at offset #{offset}: #{e.message}"
+    end
+    last_offset = offset + 4
+  end
+
+  unless found
+    raise "Failed to find and extract English.aul2 from installer. ZIP signature search exhausted."
+  end
 end
 
 task :extract_effects do
