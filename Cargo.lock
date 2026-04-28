@@ -298,6 +298,8 @@ version = "0.1.0"
 dependencies = [
  "aviutl2",
  "process_path",
+ "serde",
+ "serde_json",
 ]
 
 [[package]]

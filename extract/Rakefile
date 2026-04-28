@@ -124,30 +124,23 @@ task :list_effects do
   require "inifile"
   puts "Listing extracted effects..."
   effects_dir = "./tmp/extracted_effects"
-  common_effects = {}
   effects = {}
   Dir
-    .glob("#{effects_dir}/*.object")
+    .glob("#{effects_dir}/*.json")
     .each do |path|
-      ini = IniFile.load(path)
-      object_0 = ini["Object.0"].to_h
-      effect_name = object_0.delete("effect.name")
-      object_0.delete("Group")
-      object_0.delete("Group2")
-      effects[effect_name] = object_0.keys
-
-      object_1 = ini["Object.1"]
-      unless object_1.empty?
-        effect_name_1 = object_1.delete("effect.name")
-        object_1.delete("Group")
-        object_1.delete("Group2")
-        effects[effect_name_1] = object_1.keys
+      effect_data = JSON.parse(File.read(path))
+      effect_name = effect_data["name"]
+      effect_keys = effect_data["parameters"]
+      if effect_data["common"]
+        common_effects[effect_name] = effect_keys
+      else
+        effects[effect_name] = effect_keys
       end
     end
 
   File.write(
     "./effects.json",
-    JSON.pretty_generate({ **common_effects, **effects })
+    JSON.pretty_generate({ **effects })
   )
   puts "Wrote effects list to ./tmp/effects.json."
 end

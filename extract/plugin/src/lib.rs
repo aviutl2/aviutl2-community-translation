@@ -98,21 +98,27 @@ impl GenericPlugin for ExtractPlugin {
     }
 }
 
+#[derive(serde::Serialize)]
+struct EffectData {
+    name: String,
+    parameters: Vec<String>,
+}
+
 fn collect_effects(edit_handle: Arc<EditHandle>, effects_path: &Path) {
     let _ = fs::create_dir_all(effects_path);
     for (index, effect) in edit_handle.get_effects().into_iter().enumerate() {
-        let output_path = effects_path.join(format!("{}.object", index + 1));
-        let _ = edit_handle.call_edit_section(move |edit| {
-            let Ok(object) = edit.create_object(&effect.name, 0, 0, Some(1)) else {
-                return;
-            };
-
-            if let Ok(alias) = edit.get_object_alias(object) {
-                let _ = fs::write(output_path, alias);
-            }
-
-            let _ = edit.delete_object(object);
-        });
+        let output_path = effects_path.join(format!("{}.json", index + 1));
+        let mut names = vec![];
+        for param in edit_handle.get_effect_items(&effect.name).unwrap() {
+            names.push(param.name.clone());
+        }
+        let data = EffectData {
+            name: effect.name.clone(),
+            parameters: names,
+        };
+        if let Ok(json) = serde_json::to_string_pretty(&data) {
+            let _ = fs::write(output_path, json);
+        }
     }
 }
 
