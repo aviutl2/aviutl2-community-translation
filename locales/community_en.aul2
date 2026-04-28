@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1367 of 1494 entries (91.5%).
+; Translated 1361 of 1495 entries (91.04%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -66,9 +66,9 @@
 シーンチェンジ=SceneChange
 振動=Quake
 スクリプト制御=ScriptControl
-並行光源(カメラ制御)=Parallel Light (Camera Control)
-環境光(カメラ制御)=Ambient Light (Camera Control)
-ライトブルーム(カメラ制御)=Light Bloom (Camera Control)
+並行光源(カメラ制御)=Light(Camera)
+環境光(カメラ制御)=AmbientLight(Camera)
+ライトブルーム(カメラ制御)=LightBloom(Camera)
 材質設定(カメラ制御)=Material(Camera)
 カメラ制御オプション=CameraOption
 座標=Position
@@ -142,9 +142,9 @@
 図形で隠す(放射)(シーンチェンジ)=HideFigureRadial(SceneChange)
 砕け散る(シーンチェンジ)=Shatter(SceneChange)
 ページめくり(シーンチェンジ)=Page(SceneChange)
-手ぶれ=Camera Shake
-目標中心回転=Target Center Rotation
-目標サイズ固定視野角=Fixed FOV for Target Size
+手ぶれ=CameraShake
+目標中心回転=RotateBaseTarget
+目標サイズ固定視野角=ViewAngleBaseTarget
 メッシュ変形=Mesh Distortion
 基本効果=Basic Effects
 音声効果=Audio Effects
@@ -985,6 +985,7 @@ YUVレンジ=YUV Range
 現在以外のレイヤーを表示/非表示=Show/hide Layers except selected
 レイアウト=Layout
 レイアウトを作成=CreateLayout
+ファイル出力を中断=InterruptFileOutput
 
 [Message]
 ファイル出力中=Exporting File
@@ -1367,6 +1368,9 @@ Z軸回転=Z Rotation
 ランダム回転=Random rotation
 ランダム方向=Random direction
 
+[音声再生]
+音量=Volume
+
 [点滅]
 点滅=Blink
 速さ=Blink Speed
@@ -1385,9 +1389,6 @@ Z軸回転=Z Rotation
 時間経過=Elapsed Time
 分割数=Division Count
 座標=Coordinates
-
-[音声再生]
-音量=Volume
 
 [簡易変形(カメラ制御)]
 簡易変形(カメラ制御)=Simple variant (camera control)
@@ -1448,15 +1449,6 @@ Z軸回転=Z Rotation
 起点Y=Origin Y
 ぼかし=Blur
 
-[メッシュ変形]
-メッシュ変形=Mesh Distortion
-
-[発光(シーンチェンジ)]
-明るさ=Brightness
-
-[レンズブラー(シーンチェンジ)]
-レンズブラー(シーンチェンジ)=Lens Blur (Transition)
-
 [映像再生]
 映像再生=Video Mode
 X=X Position
@@ -1474,6 +1466,15 @@ Z軸回転=Z Rotation
 合成モード=Blend Mode
 音量=Volume
 左右=Panning Left/Right
+
+[メッシュ変形]
+メッシュ変形=Mesh Distortion
+
+[発光(シーンチェンジ)]
+明るさ=Brightness
+
+[レンズブラー(シーンチェンジ)]
+レンズブラー(シーンチェンジ)=Lens Blur (Transition)
 
 [ドア(シーンチェンジ)]
 ドア(シーンチェンジ)=Door (Transition)

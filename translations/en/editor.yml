@@ -1,25 +1,7 @@
 Effect:
-  # Light(Camera)
-  '並行光源(カメラ制御)': |
-    Parallel Light (Camera Control)
-  # AmbientLight(Camera)
-  '環境光(カメラ制御)': |
-    Ambient Light (Camera Control)
-  # LightBloom(Camera)
-  'ライトブルーム(カメラ制御)': |
-    Light Bloom (Camera Control)
   # TempBuffer
   '仮想バッファ': |
     Temporal Buffer
-  # CameraShake
-  '手ぶれ': |
-    Camera Shake
-  # RotateBaseTarget
-  '目標中心回転': |
-    Target Center Rotation
-  # ViewAngleBaseTarget
-  '目標サイズ固定視野角': |
-    Fixed FOV for Target Size
   # BasicEffect
   '基本効果': |
     Basic Effects

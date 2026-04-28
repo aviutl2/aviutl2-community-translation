@@ -1,31 +1,7 @@
 Effect:
-  # Light(Camera)
-  '並行光源(カメラ制御)': |
-    並行光源(カメラ制御)
-
-  # AmbientLight(Camera)
-  '環境光(カメラ制御)': |
-    環境光(カメラ制御)
-
-  # LightBloom(Camera)
-  'ライトブルーム(カメラ制御)': |
-    ライトブルーム(カメラ制御)
-
   # TempBuffer
   '仮想バッファ': |
     仮想バッファ
-
-  # CameraShake
-  '手ぶれ': |
-    手ぶれ
-
-  # RotateBaseTarget
-  '目標中心回転': |
-    目標中心回転
-
-  # ViewAngleBaseTarget
-  '目標サイズ固定視野角': |
-    目標サイズ固定視野角
 
   # BasicEffect
   '基本効果': |
@@ -3367,6 +3343,10 @@ Menu:
   # CreateLayout
   'レイアウトを作成': |
     レイアウトを作成
+
+  # InterruptFileOutput
+  'ファイル出力を中断': |
+    ファイル出力を中断
 
 Message:
   # outputting file

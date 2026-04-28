@@ -21,6 +21,102 @@
   # BeforeObject
   '直前オブジェクト': |
     直前オブジェクト
+'周辺ボケ光量':
+  # BokehLightAmount
+  '周辺ボケ光量': |
+    周辺ボケ光量
+  # Bokeh
+  'ボケ': |
+    ボケ
+  # LightLevel
+  '光量': |
+    光量
+  # Radius
+  '半径': |
+    半径
+  # Border
+  '境界': |
+    境界
+  # LuminanceLevel
+  '光の強さ': |
+    光の強さ
+  # ColorShift
+  '色ずれ量': |
+    色ずれ量
+  # AdjustAspect
+  '縦横比補正': |
+    縦横比補正
+'フレア':
+  # Flare
+  'フレア': |
+    フレア
+  # Size
+  'サイズ': |
+    サイズ
+  # BeamLength
+  '光芒長さ': |
+    光芒長さ
+  # BeamNum
+  '光芒数': |
+    光芒数
+  # BeamLevel
+  '光芒強さ': |
+    光芒強さ
+  # BeamSpeed
+  '光芒変化速度': |
+    光芒変化速度
+  # HorizontalBeam
+  '水平光芒': |
+    水平光芒
+  # HorizontalBeamHeight
+  '水平光芒高さ': |
+    水平光芒高さ
+  # (No default text available)
+  '水平光芒数': |
+    水平光芒数
+  # Blink
+  '点滅': |
+    点滅
+  # BeamColor
+  '光芒色': |
+    光芒色
+'水面':
+  # WaterSurface
+  '水面': |
+    水面
+  # Speed
+  '速度': |
+    速度
+  # Direction
+  '方向': |
+    方向
+  # Ripple
+  '波紋': |
+    波紋
+  # Tilt
+  '傾き': |
+    傾き
+  # RippleWidth
+  '波紋幅': |
+    波紋幅
+  # RipplePosition
+  '波紋位置': |
+    波紋位置
+  # RippleSpeed
+  '波紋速度': |
+    波紋速度
+  # HorizontalBorderBlur
+  '水平境界ぼかし': |
+    水平境界ぼかし
+  # Resolution
+  '解像度': |
+    解像度
+  # PositionCorrect
+  '位置補正': |
+    位置補正
+  # Color
+  '色': |
+    色
 '震える':
   # Tremble
   '震える': |
@@ -121,45 +217,6 @@
   # EaseInOut
   '加減速': |
     加減速
-'ランダム間隔で落ちながら登場':
-  # FromAbove
-  'ランダム間隔で落ちながら登場': |
-    ランダム間隔で落ちながら登場
-  # Time
-  '時間': |
-    時間
-  # Interval
-  '間隔': |
-    間隔
-  # Distance
-  '距離': |
-    距離
-  # EaseInOut
-  '加減速': |
-    加減速
-'弾んで登場':
-  # FromBouncing
-  '弾んで登場': |
-    弾んで登場
-  # Time
-  '時間': |
-    時間
-  # Height
-  '高さ': |
-    高さ
-  # Count
-  '回数': |
-    回数
-'広がって登場':
-  # FromSpreading
-  '広がって登場': |
-    広がって登場
-  # Time
-  '時間': |
-    時間
-  # Vertical
-  '縦方向': |
-    縦方向
 '標準描画':
   # ImageOutput
   '標準描画': |
@@ -203,6 +260,45 @@
   # Blend
   '合成モード': |
     合成モード
+'ランダム間隔で落ちながら登場':
+  # FromAbove
+  'ランダム間隔で落ちながら登場': |
+    ランダム間隔で落ちながら登場
+  # Time
+  '時間': |
+    時間
+  # Interval
+  '間隔': |
+    間隔
+  # Distance
+  '距離': |
+    距離
+  # EaseInOut
+  '加減速': |
+    加減速
+'弾んで登場':
+  # FromBouncing
+  '弾んで登場': |
+    弾んで登場
+  # Time
+  '時間': |
+    時間
+  # Height
+  '高さ': |
+    高さ
+  # Count
+  '回数': |
+    回数
+'広がって登場':
+  # FromSpreading
+  '広がって登場': |
+    広がって登場
+  # Time
+  '時間': |
+    時間
+  # Vertical
+  '縦方向': |
+    縦方向
 '起き上がって登場':
   # FromRising
   '起き上がって登場': |
@@ -309,6 +405,16 @@
   # RandomDirection
   'ランダム方向': |
     ランダム方向
+'音声再生':
+  # AudioOutput
+  '音声再生': |
+    音声再生
+  # Volume
+  '音量': |
+    音量
+  # Balance
+  '左右': |
+    左右
 '点滅':
   # Blink
   '点滅': |
@@ -351,16 +457,6 @@
   # Position
   '座標': |
     座標
-'音声再生':
-  # AudioOutput
-  '音声再生': |
-    音声再生
-  # Volume
-  '音量': |
-    音量
-  # Balance
-  '左右': |
-    左右
 '簡易変形(カメラ制御)':
   # Transformation(Camera)
   '簡易変形(カメラ制御)': |
@@ -533,36 +629,6 @@
   # Blur
   'ぼかし': |
     ぼかし
-'メッシュ変形':
-  # MeshTransformation
-  'メッシュ変形': |
-    メッシュ変形
-  # TransformRatio
-  '変形率': |
-    変形率
-  # GridPointX
-  '横格子点': |
-    横格子点
-  # GridPointY
-  '縦格子点': |
-    縦格子点
-  # DivideNum
-  '分割数': |
-    分割数
-  # Position
-  '座標': |
-    座標
-'発光(シーンチェンジ)':
-  # Bloom(SceneChange)
-  '発光(シーンチェンジ)': |
-    発光(シーンチェンジ)
-  # Brightness
-  '明るさ': |
-    明るさ
-'レンズブラー(シーンチェンジ)':
-  # LensBlur(SceneChange)
-  'レンズブラー(シーンチェンジ)': |
-    レンズブラー(シーンチェンジ)
 '映像再生':
   # MovieOutput
   '映像再生': |
@@ -612,6 +678,69 @@
   # Balance
   '左右': |
     左右
+'メッシュ変形':
+  # MeshTransformation
+  'メッシュ変形': |
+    メッシュ変形
+  # TransformRatio
+  '変形率': |
+    変形率
+  # GridPointX
+  '横格子点': |
+    横格子点
+  # GridPointY
+  '縦格子点': |
+    縦格子点
+  # DivideNum
+  '分割数': |
+    分割数
+  # Position
+  '座標': |
+    座標
+'手ぶれ':
+  # CameraShake
+  '手ぶれ': |
+    手ぶれ
+  # Amplitude
+  '振幅': |
+    振幅
+  # Angle
+  '角度': |
+    角度
+  # Interval
+  '間隔': |
+    間隔
+'目標中心回転':
+  # RotateBaseTarget
+  '目標中心回転': |
+    目標中心回転
+  # RotateHorizontal
+  '水平回転': |
+    水平回転
+  # RoteteVertical
+  '垂直回転': |
+    垂直回転
+  # Distance
+  '距離': |
+    距離
+'目標サイズ固定視野角':
+  # ViewAngleBaseTarget
+  '目標サイズ固定視野角': |
+    目標サイズ固定視野角
+  # (No default text available)
+  '増減値': |
+    増減値
+'発光(シーンチェンジ)':
+  # Bloom(SceneChange)
+  '発光(シーンチェンジ)': |
+    発光(シーンチェンジ)
+  # Brightness
+  '明るさ': |
+    明るさ
+'レンズブラー(シーンチェンジ)':
+  # LensBlur(SceneChange)
+  'レンズブラー(シーンチェンジ)': |
+    レンズブラー(シーンチェンジ)
 'ドア(シーンチェンジ)':
   # Door(SceneChange)
   'ドア(シーンチェンジ)': |
@@ -664,6 +793,25 @@
   # Figure
   '図形名': |
     図形名
+'基本出力':
+  # BasicOutput
+  '基本出力': |
+    基本出力
+  # (No default text available)
+  'X': |
+    X
+  # (No default text available)
+  'Y': |
+    Y
+  # Zoom
+  '拡大率': |
+    拡大率
+  # Transparent
+  '透明度': |
+    透明度
+  # Blend
+  '合成モード': |
+    合成モード
 '図形で隠す(シーンチェンジ)':
   # HideFigure(SceneChange)
   '図形で隠す(シーンチェンジ)': |
@@ -779,25 +927,6 @@
   # Depth
   '奥行き': |
     奥行き
-'基本出力':
-  # BasicOutput
-  '基本出力': |
-    基本出力
-  # (No default text available)
-  'X': |
-    X
-  # (No default text available)
-  'Y': |
-    Y
-  # Zoom
-  '拡大率': |
-    拡大率
-  # Transparent
-  '透明度': |
-    透明度
-  # Blend
-  '合成モード': |
-    合成モード
 'パーティクル出力':
   # ParticleOutput
   'パーティクル出力': |
@@ -2085,6 +2214,51 @@
   # (No default text available)
   'スクリプト': |
     スクリプト
+'並行光源(カメラ制御)':
+  # Light(Camera)
+  '並行光源(カメラ制御)': |
+    並行光源(カメラ制御)
+  # Latitude
+  '緯度': |
+    緯度
+  # Longitude
+  '経度': |
+    経度
+  # Tilt
+  '傾き': |
+    傾き
+  # Brightness
+  '明るさ': |
+    明るさ
+  # Color
+  '色': |
+    色
+  # AddShadow
+  '影を付ける': |
+    影を付ける
+  # ShadowRange
+  '影の範囲': |
+    影の範囲
+'環境光(カメラ制御)':
+  # AmbientLight(Camera)
+  '環境光(カメラ制御)': |
+    環境光(カメラ制御)
+  # Brightness
+  '明るさ': |
+    明るさ
+  # Color
+  '色': |
+    色
+'ライトブルーム(カメラ制御)':
+  # LightBloom(Camera)
+  'ライトブルーム(カメラ制御)': |
+    ライトブルーム(カメラ制御)
+  # Level
+  '強さ': |
+    強さ
+  # Diffusion
+  '拡散': |
+    拡散
 '材質設定(カメラ制御)':
   # Material(Camera)
   '材質設定(カメラ制御)': |
@@ -2132,6 +2306,16 @@
   # Transparent
   '透明度': |
     透明度
+'フレームバッファ':
+  # FrameBuffer
+  'フレームバッファ': |
+    フレームバッファ
+  # KeepAlpha
+  'アルファチャンネルを維持': |
+    アルファチャンネルを維持
+  # ClearFrameBuffer
+  'フレームバッファをクリア': |
+    フレームバッファをクリア
 '回転':
   # Rotate
   '回転': |
@@ -2171,16 +2355,6 @@
   # Rotate90
   '90度回転': |
     90度回転
-'フレームバッファ':
-  # FrameBuffer
-  'フレームバッファ': |
-    フレームバッファ
-  # KeepAlpha
-  'アルファチャンネルを維持': |
-    アルファチャンネルを維持
-  # ClearFrameBuffer
-  'フレームバッファをクリア': |
-    フレームバッファをクリア
 '反転':
   # Invert
   '反転': |
@@ -2263,6 +2437,13 @@
   # Color
   '色': |
     色
+'オーディオバッファ':
+  # AudioBuffer
+  'オーディオバッファ': |
+    オーディオバッファ
+  # ClearAudioBuffer
+  'オーディオバッファをクリア': |
+    オーディオバッファをクリア
 'カウンター':
   # Counter
   'カウンター': |
@@ -2386,13 +2567,6 @@
   # Color
   '色': |
     色
-'オーディオバッファ':
-  # AudioBuffer
-  'オーディオバッファ': |
-    オーディオバッファ
-  # ClearAudioBuffer
-  'オーディオバッファをクリア': |
-    オーディオバッファをクリア
 '星':
   # Star
   '星': |
@@ -2595,99 +2769,3 @@
   # (No default text available)
   '簡易塗り潰し': |
     簡易塗り潰し
-'周辺ボケ光量':
-  # BokehLightAmount
-  '周辺ボケ光量': |
-    周辺ボケ光量
-  # Bokeh
-  'ボケ': |
-    ボケ
-  # LightLevel
-  '光量': |
-    光量
-  # Radius
-  '半径': |
-    半径
-  # Border
-  '境界': |
-    境界
-  # LuminanceLevel
-  '光の強さ': |
-    光の強さ
-  # ColorShift
-  '色ずれ量': |
-    色ずれ量
-  # AdjustAspect
-  '縦横比補正': |
-    縦横比補正
-'フレア':
-  # Flare
-  'フレア': |
-    フレア
-  # Size
-  'サイズ': |
-    サイズ
-  # BeamLength
-  '光芒長さ': |
-    光芒長さ
-  # BeamNum
-  '光芒数': |
-    光芒数
-  # BeamLevel
-  '光芒強さ': |
-    光芒強さ
-  # BeamSpeed
-  '光芒変化速度': |
-    光芒変化速度
-  # HorizontalBeam
-  '水平光芒': |
-    水平光芒
-  # HorizontalBeamHeight
-  '水平光芒高さ': |
-    水平光芒高さ
-  # (No default text available)
-  '水平光芒数': |
-    水平光芒数
-  # Blink
-  '点滅': |
-    点滅
-  # BeamColor
-  '光芒色': |
-    光芒色
-'水面':
-  # WaterSurface
-  '水面': |
-    水面
-  # Speed
-  '速度': |
-    速度
-  # Direction
-  '方向': |
-    方向
-  # Ripple
-  '波紋': |
-    波紋
-  # Tilt
-  '傾き': |
-    傾き
-  # RippleWidth
-  '波紋幅': |
-    波紋幅
-  # RipplePosition
-  '波紋位置': |
-    波紋位置
-  # RippleSpeed
-  '波紋速度': |
-    波紋速度
-  # HorizontalBorderBlur
-  '水平境界ぼかし': |
-    水平境界ぼかし
-  # Resolution
-  '解像度': |
-    解像度
-  # PositionCorrect
-  '位置補正': |
-    位置補正
-  # Color
-  '色': |
-    色

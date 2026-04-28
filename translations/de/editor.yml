@@ -1,22 +1,4 @@
 Effect:
-  # Light(Camera)
-  '並行光源(カメラ制御)': |
-    Paralleles Licht (Kamerasteuerung)
-  # AmbientLight(Camera)
-  '環境光(カメラ制御)': |
-    Ambientes-Licht (Kamerasteuerung)
-  # LightBloom(Camera)
-  'ライトブルーム(カメラ制御)': |
-    Lichtschein (Kamerasteuerung)
-  # CameraShake
-  '手ぶれ': |
-    Wackeln (Kamera)
-  # RotateBaseTarget
-  '目標中心回転': |
-    Rotation der Zielmitte
-  # ViewAngleBaseTarget
-  '目標サイズ固定視野角': |
-    Fixierte FOV für Zielgröße
   # BasicEffect
   '基本効果': |
     Basiseffekte
