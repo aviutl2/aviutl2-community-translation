@@ -1,19 +1,4 @@
 Effect:
-  # ParticleOutput
-  'パーティクル出力': |
-    Partikelausgabe
-  # PartEffect
-  '部分フィルタ': |
-    Partieller Filter
-  # GroupControl
-  'グループ制御': |
-    Gruppensteuerung
-  # GroupControl(Audio)
-  'グループ制御(音声)': |
-    Gruppensteuerung (Audio)
-  # CameraControl
-  'カメラ制御': |
-    Kamerasteuerung
   # Light(Camera)
   '並行光源(カメラ制御)': |
     Paralleles Licht (Kamerasteuerung)
@@ -23,9 +8,6 @@ Effect:
   # LightBloom(Camera)
   'ライトブルーム(カメラ制御)': |
     Lichtschein (Kamerasteuerung)
-  # TimeControl(Object)
-  '時間制御(オブジェクト)': |
-    Zeitsteuerung (Objekt)
   # CameraShake
   '手ぶれ': |
     Wackeln (Kamera)

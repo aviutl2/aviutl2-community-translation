@@ -1,28 +1,28 @@
 ; AviUtl2 Community Translation (de)
 ; Generated automatically. Do not edit directly.
-; Translated 123 of 1313 entries (9.37%).
+; Translated 115 of 1311 entries (8.77%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
 [Effect]
 動画ファイル=Videodatei
-画像ファイル=Image File
-音声ファイル=Audio File
+画像ファイル=ImageFile
+音声ファイル=AudioFile
 テキスト=Text
-図形=Shape
+図形=Figure
 シーン=Scene
-フレームバッファ=Frame Buffer
-直前オブジェクト=Previous Object
-標準描画=Standard Mode
-音声再生=Audio Playback
+フレームバッファ=FrameBuffer
+直前オブジェクト=BeforeObject
+標準描画=ImageOutput
+音声再生=AudioOutput
 映像再生=Videomodus
-基本出力=Basic Output
-パーティクル出力=Partikelausgabe
-部分フィルタ=Partieller Filter
-グループ制御=Gruppensteuerung
-グループ制御(音声)=Gruppensteuerung (Audio)
-カメラ制御=Kamerasteuerung
-音声波形表示=Show Audio Waveform
+基本出力=BasicOutput
+パーティクル出力=ParticleOutput
+部分フィルタ=PartEffect
+グループ制御=GroupControl
+グループ制御(音声)=GroupControl(Audio)
+カメラ制御=CameraControl
+音声波形表示=AudioWaveform
 色調補正=ColorCorrect
 グラデーション=Gradient
 単色化=Monochrome
@@ -79,7 +79,7 @@
 音量フェード=Fade(Audio)
 モノラル化=AudioMono
 音量調整=Volume
-時間制御(オブジェクト)=Zeitsteuerung (Objekt)
+時間制御(オブジェクト)=TimeControl(Object)
 オーディオバッファ=AudioBuffer
 モデルファイル=ModelFile
 枠線=FrameLine
@@ -89,7 +89,7 @@
 ローテーション=Rotate
 画像合成(オブジェクト)=ImageComposite(Object)
 仮想バッファ=Temporal Buffer
-仮想バッファ出力=Temporal Buffer Output
+仮想バッファ出力=TempBufferOutput
 震える=Tremble
 振り子=Pendulum
 弾む=Bound
@@ -1311,8 +1311,6 @@ OK=OK
 ファイル=Datei
 トラック=Track
 ループ再生=Wiederholen
-音声付き=Audio einbeziehen
-YUV=YUV
 
 [映像再生]
 映像再生=Videomodus

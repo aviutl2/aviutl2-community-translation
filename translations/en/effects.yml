@@ -17,12 +17,6 @@
   # Loop
   'ループ再生': |
     Loop
-  # (No default text available)
-  '音声付き': |
-    Include audio
-  # (No default text available)
-  'YUV': |
-    YUV
 '映像再生':
   # MovieOutput
   '映像再生': |
