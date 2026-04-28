@@ -42,13 +42,21 @@ task :download_aviutl2 do
 
   puts "Downloading installer #{installer_url}..."
   URI.open(installer_url) do |remote_file|
-    File.open(installer_path, "wb") { |file| file.write(remote_file.read) }
+    File.open(installer_path, "wb") do |file|
+      IO.copy_stream(remote_file, file)
+    end
   end
   puts "Downloaded installer to #{installer_path}."
 
   zip_url = "https://api.aviutl2.jp/download?version=latest&type=zip"
   zip_path = "tmp/aviutl2.zip"
   puts "Downloading ZIP #{zip_url}..."
+  URI.open(zip_url) do |remote_file|
+    File.open(zip_path, "wb") do |file|
+      IO.copy_stream(remote_file, file)
+    end
+  end
+
   Zip::File.open(zip_path) do |zip_file|
     zip_file.each do |entry|
       dest_path = File.join("tmp", "aviutl2", entry.name)
