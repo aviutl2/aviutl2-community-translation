@@ -2828,6 +2828,10 @@ Message:
   # default preset can not change
   '既定のプリセットは変更出来ません': |
     Default presets cannot be changed
+  # exist same name layout
+  # overwrite?
+  '同名のレイアウトが存在しています\n変更しますか？': |
+    \n
 Dialog:
   # NewScene
   'シーンを作成': |

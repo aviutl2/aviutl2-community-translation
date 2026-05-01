@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1361 of 1495 entries (91.04%).
+; Translated 1362 of 1495 entries (91.1%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -1092,7 +1092,7 @@ Z軸回転の変更=Change rotation on Z axis
 奥行き軸回転=rotate depth axis
 正面に向ける=Face to the front
 既定のプリセットは変更出来ません=Default presets cannot be changed
-同名のレイアウトが存在しています\n変更しますか？=exist same name layout\noverwrite?
+同名のレイアウトが存在しています\n変更しますか？=\n
 レイアウトの保存に失敗しました=failed save layout
 レイアウトの読み込みに失敗しました=failed load layout
 
