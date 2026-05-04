@@ -1001,6 +1001,7 @@ YUVレンジ=YUVColorRange
 レイアウト=Layout
 レイアウトを作成=CreateLayout
 ファイル出力を中断=InterruptFileOutput
+参照式=ReferenceExpression
 
 [Message]
 ; ツールチップ、メッセージボックス等のメッセージ
@@ -1111,6 +1112,11 @@ Z軸回転の変更=change rotate z
 同名のレイアウトが存在しています\n変更しますか？=exist same name layout\noverwrite?
 レイアウトの保存に失敗しました=failed save layout
 レイアウトの読み込みに失敗しました=failed load layout
+色を選択=select color
+プリセットを保存=save preset
+プリセットを保存しました=preset saved
+保存するプリセット名を指定してください=please set preset name to save
+参照式を編集=edit reference expression
 
 [Dialog]
 ; ダイアログ内の名称
@@ -1299,6 +1305,8 @@ Ctrlキーを押しながら=WithCtrlKeyDown
 Altキーを押しながら=WithAltKeyDown
 レイアウトを作成=CreateLayout
 レイアウト名=LayoutName
+プリセットから設定=SettingFromPreset
+参照式=ReferenceExpression
 ;OK=OK
 ;Cancel=Cancel
 

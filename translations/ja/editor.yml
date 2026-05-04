@@ -3348,6 +3348,10 @@ Menu:
   'ファイル出力を中断': |
     ファイル出力を中断
 
+  # ReferenceExpression
+  '参照式': |
+    参照式
+
 Message:
   # outputting file
   'ファイル出力中': |
@@ -3788,6 +3792,26 @@ Message:
   # failed load layout
   'レイアウトの読み込みに失敗しました': |
     レイアウトの読み込みに失敗しました
+
+  # select color
+  '色を選択': |
+    色を選択
+
+  # save preset
+  'プリセットを保存': |
+    プリセットを保存
+
+  # preset saved
+  'プリセットを保存しました': |
+    プリセットを保存しました
+
+  # please set preset name to save
+  '保存するプリセット名を指定してください': |
+    保存するプリセット名を指定してください
+
+  # edit reference expression
+  '参照式を編集': |
+    参照式を編集
 
 Dialog:
   # NewScene
@@ -4529,6 +4553,14 @@ Dialog:
   # LayoutName
   'レイアウト名': |
     レイアウト名
+
+  # SettingFromPreset
+  'プリセットから設定': |
+    プリセットから設定
+
+  # ReferenceExpression
+  '参照式': |
+    参照式
 
 Name:
   # Min

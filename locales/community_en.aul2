@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1362 of 1495 entries (91.1%).
+; Translated 1362 of 1503 entries (90.62%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -986,6 +986,7 @@ YUVレンジ=YUV Range
 レイアウト=Layout
 レイアウトを作成=CreateLayout
 ファイル出力を中断=InterruptFileOutput
+参照式=ReferenceExpression
 
 [Message]
 ファイル出力中=Exporting File
@@ -1095,6 +1096,11 @@ Z軸回転の変更=Change rotation on Z axis
 同名のレイアウトが存在しています\n変更しますか？=\n
 レイアウトの保存に失敗しました=failed save layout
 レイアウトの読み込みに失敗しました=failed load layout
+色を選択=select color
+プリセットを保存=save preset
+プリセットを保存しました=preset saved
+保存するプリセット名を指定してください=please set preset name to save
+参照式を編集=edit reference expression
 
 [Dialog]
 シーンを作成=Create Scene
@@ -1282,6 +1288,8 @@ Ctrlキーを押しながら=While holding Ctrl
 Altキーを押しながら=While holding Alt
 レイアウトを作成=CreateLayout
 レイアウト名=LayoutName
+プリセットから設定=SettingFromPreset
+参照式=ReferenceExpression
 
 [Name]
 最小=Minimum
