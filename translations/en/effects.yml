@@ -24,7 +24,7 @@
 '周辺ボケ光量':
   # ColorShift
   '色ずれ量': |
-    Color Shift
+    Chromatic Abberation
   # AdjustAspect
   '縦横比補正': |
     Adjust Aspect Ratio
@@ -518,6 +518,14 @@
   # Hue
   '色相': |
     Hue
+'特定色域変換':
+  # ColorConversion
+  '特定色域変換': |
+    Color Conversion
+'拡張色設定':
+  # ExtendedColorSetting
+  '拡張色設定': |
+    Extended Color Setting
 '音声ファイル':
   # AudioFile
   '音声ファイル': |
@@ -604,6 +612,18 @@
   # FixedSize
   'サイズ固定': |
     Lock Size
+'レンズブラー':
+  # LensBlur
+  'レンズブラー': |
+    Lens Blur
+'放射ブラー':
+  # RadialBlur
+  '放射ブラー': |
+    Radial Blur
+'方向ブラー':
+  # DirectionBlur
+  '方向ブラー': |
+    Directional Blur
 'モーションブラー':
   # MotionBlur
   'モーションブラー': |
@@ -611,6 +631,13 @@
   # Interval
   '間隔': |
     Interval
+'境界ぼかし':
+  # BorderBlur
+  '境界ぼかし': |
+    Border Blur
+  # BlurTransparencyEdge
+  '透明度の境界をぼかす': |
+    Feathering
 'グロー':
   # Glow
   'グロー': |
@@ -625,7 +652,7 @@
 'ドロップシャドウ':
   # DropShadow
   'ドロップシャドウ': |
-    Drop shadow
+    Drop Shadow
   # (No default text available)
   'X': |
     X Position
@@ -638,6 +665,10 @@
   # IndividualShadow
   '影を別オブジェクトで描画': |
     Draw Shadow as Separate Object
+'クロマキー':
+  # ChromaKey
+  'クロマキー': |
+    Chroma Key
 'テキスト':
   # Font
   'フォント': |
@@ -648,6 +679,18 @@
   # AutoScroll
   '自動スクロール': |
     Auto Scroll
+'ルミナンスキー':
+  # LuminanceKey
+  'ルミナンスキー': |
+    Luminance Key
+'カラーキー':
+  # ColorKey
+  'カラーキー': |
+    Color Key
+'ラスター':
+  # Raster
+  'ラスター': |
+    Wave Warp
 '極座標変換':
   # PolarTransform
   '極座標変換': |
@@ -656,6 +699,10 @@
   # Resize
   'リサイズ': |
     Resize
+'シャープ':
+  # Sharpe
+  'シャープ': |
+    Sharpen
 'ノイズ':
   # Noise
   'ノイズ': |

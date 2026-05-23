@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1372 of 1510 entries (90.86%).
+; Translated 1395 of 1522 entries (91.66%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -26,34 +26,34 @@
 色調補正=Color Correction
 グラデーション=Gradient
 単色化=Monochrome
-特定色域変換=ColorConversion
+特定色域変換=Color Conversion
 クリッピング=Clipping
 斜めクリッピング=Clipping(Angle)
 扇クリッピング=Circular Clipping
 マスク=Mask
 ぼかし=Blur
-レンズブラー=LensBlur
-放射ブラー=RadialBlur
-方向ブラー=DirectionBlur
-境界ぼかし=BorderBlur
+レンズブラー=Lens Blur
+放射ブラー=Radial Blur
+方向ブラー=Directional Blur
+境界ぼかし=Border Blur
 グロー=Glow
 発光=Bloom
 閃光=Flash
 拡散光=Diffusion
 色ずれ=ColorShift
 縁取り=Border
-ドロップシャドウ=Drop shadow
+ドロップシャドウ=Drop Shadow
 凸エッジ=Bevel
-クロマキー=ChromaKey
-ルミナンスキー=LuminanceKey
-カラーキー=ColorKey
+クロマキー=Chroma Key
+ルミナンスキー=Luminance Key
+カラーキー=Color Key
 エッジ抽出=EdgeExtract
 波紋=Ripple
-ラスター=Raster
+ラスター=Wave Warp
 極座標変換=Polar Transform
 ディスプレイスメントマップ=Displacement
 リサイズ=Resize
-シャープ=Sharpe
+シャープ=Sharpen
 ノイズ除去=NoiseReduction
 インターレース解除=Deinterlace
 ノイズ=Noise
@@ -83,7 +83,7 @@
 オーディオバッファ=AudioBuffer
 モデルファイル=ModelFile
 枠線=FrameLine
-拡張色設定=ExtendedColorSetting
+拡張色設定=Extended Color Setting
 画像合成=ImageComposite
 モーションブラー=Motion Blur
 ローテーション=Rotate
@@ -1325,7 +1325,7 @@ OK=OK
 直前オブジェクト=Above Object
 
 [周辺ボケ光量]
-色ずれ量=Color Shift
+色ずれ量=Chromatic Abberation
 縦横比補正=Adjust Aspect Ratio
 
 [フレア]
@@ -1548,6 +1548,12 @@ Z軸回転=Z Rotation
 コントラスト=Contrast
 色相=Hue
 
+[特定色域変換]
+特定色域変換=Color Conversion
+
+[拡張色設定]
+拡張色設定=Extended Color Setting
+
 [音声ファイル]
 音声ファイル=Audio File
 再生位置=Playback Position
@@ -1585,9 +1591,22 @@ Z軸回転=Z Rotation
 縦横比=Compression
 サイズ固定=Lock Size
 
+[レンズブラー]
+レンズブラー=Lens Blur
+
+[放射ブラー]
+放射ブラー=Radial Blur
+
+[方向ブラー]
+方向ブラー=Directional Blur
+
 [モーションブラー]
 モーションブラー=Motion Blur
 間隔=Interval
+
+[境界ぼかし]
+境界ぼかし=Border Blur
+透明度の境界をぼかす=Feathering
 
 [グロー]
 グロー=Glow
@@ -1597,22 +1616,37 @@ Z軸回転=Z Rotation
 パターン画像=Pattern Image
 
 [ドロップシャドウ]
-ドロップシャドウ=Drop shadow
+ドロップシャドウ=Drop Shadow
 X=X Position
 Y=Y Position
 影色=Shadow Color
 影を別オブジェクトで描画=Draw Shadow as Separate Object
+
+[クロマキー]
+クロマキー=Chroma Key
 
 [テキスト]
 フォント=Font
 文字色=Text Color
 自動スクロール=Auto Scroll
 
+[ルミナンスキー]
+ルミナンスキー=Luminance Key
+
+[カラーキー]
+カラーキー=Color Key
+
+[ラスター]
+ラスター=Wave Warp
+
 [極座標変換]
 極座標変換=Polar Transform
 
 [リサイズ]
 リサイズ=Resize
+
+[シャープ]
+シャープ=Sharpen
 
 [ノイズ]
 ノイズ=Noise
