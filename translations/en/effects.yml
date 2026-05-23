@@ -21,6 +21,17 @@
   # BeforeObject
   '直前オブジェクト': |
     Above Object
+'周辺ボケ光量':
+  # ColorShift
+  '色ずれ量': |
+    Color Shift
+  # AdjustAspect
+  '縦横比補正': |
+    Adjust Aspect Ratio
+'フレア':
+  # BeamLength
+  '光芒長さ': |
+    Beam Length
 '標準描画':
   # ImageOutput
   '標準描画': |
@@ -388,6 +399,10 @@
   # MeshTransformation
   'メッシュ変形': |
     Mesh Distortion
+'手ぶれ':
+  # CameraShake
+  '手ぶれ': |
+    Camera Shake
 '発光(シーンチェンジ)':
   # Brightness
   '明るさ': |
@@ -430,6 +445,13 @@
   # DelayTime
   'ディレイ時間': |
     Delay Time
+'基本出力':
+  # BasicOutput
+  '基本出力': |
+    Basic Output
+  # Blend
+  '合成モード': |
+    Blending Mode
 '図形で隠す(シーンチェンジ)':
   # RotateSpeed
   '回転速度': |
@@ -446,6 +468,10 @@
   # Color
   '色': |
     Color
+'図形で隠す(放射)(シーンチェンジ)':
+  # RotateSpeed
+  '回転速度': |
+    Rotation Speed
 '画像ファイル':
   # ImageFile
   '画像ファイル': |

@@ -2502,6 +2502,9 @@ Menu:
   # VisibleLayerOtherThanCursor
   '現在以外のレイヤーを表示/非表示': |
     Show/hide Layers except selected
+  # CreateLayout
+  'レイアウトを作成': |
+    Create Layout
 Message:
   # outputting file
   'ファイル出力中': |

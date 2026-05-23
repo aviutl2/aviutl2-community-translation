@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (de)
 ; Generated automatically. Do not edit directly.
-; Translated 109 of 1503 entries (7.25%).
+; Translated 109 of 1510 entries (7.22%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -16,7 +16,7 @@
 標準描画=Standard Mode
 音声再生=AudioOutput
 映像再生=Videomodus
-基本出力=BasicOutput
+基本出力=Basic Output
 パーティクル出力=ParticleOutput
 部分フィルタ=PartEffect
 グループ制御=GroupControl
@@ -142,7 +142,7 @@
 図形で隠す(放射)(シーンチェンジ)=HideFigureRadial(SceneChange)
 砕け散る(シーンチェンジ)=Shatter(SceneChange)
 ページめくり(シーンチェンジ)=Page(SceneChange)
-手ぶれ=CameraShake
+手ぶれ=Camera Shake
 目標中心回転=RotateBaseTarget
 目標サイズ固定視野角=ViewAngleBaseTarget
 メッシュ変形=Mesh Distortion
@@ -984,7 +984,7 @@ YUVレンジ=YUV Range
 フレーム範囲選択を再生範囲にする=Play the selected frames
 現在以外のレイヤーを表示/非表示=Show/hide Layers except selected
 レイアウト=Layout
-レイアウトを作成=CreateLayout
+レイアウトを作成=Create Layout
 ファイル出力を中断=InterruptFileOutput
 参照式=ReferenceExpression
 
@@ -1342,6 +1342,13 @@ Z軸回転=Z-Rotation
 [直前オブジェクト]
 直前オブジェクト=Above Object
 
+[周辺ボケ光量]
+色ずれ量=Color Shift
+縦横比補正=Adjust Aspect Ratio
+
+[フレア]
+光芒長さ=Beam Length
+
 [標準描画]
 標準描画=Standard Mode
 X=X Position
@@ -1478,6 +1485,9 @@ Z軸回転=Z Rotation
 [メッシュ変形]
 メッシュ変形=Mesh Distortion
 
+[手ぶれ]
+手ぶれ=Camera Shake
+
 [発光(シーンチェンジ)]
 明るさ=Brightness
 
@@ -1502,12 +1512,19 @@ Z軸回転=Z Rotation
 回転速度=Rotation Speed
 ディレイ時間=Delay Time
 
+[基本出力]
+基本出力=Basic Output
+合成モード=Blending Mode
+
 [図形で隠す(シーンチェンジ)]
 回転速度=Rotation Speed
 エッジ角度=Edge Angle
 エッジ幅=Edge Width
 エッジ高さ=Edge Height
 色=Color
+
+[図形で隠す(放射)(シーンチェンジ)]
+回転速度=Rotation Speed
 
 [画像ファイル]
 画像ファイル=Image File
