@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (es-ES)
 ; Generated automatically. Do not edit directly.
-; Translated 0 of 1522 entries (0.0%).
+; Translated 0 of 1523 entries (0.0%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -629,6 +629,7 @@ Z軸回転=Z Rotation
 オブジェクトのグループ化=Group Objects
 オブジェクトのグループ解除=Ungroup Objects
 現在のフレームのオブジェクトを選択=Select Objects at Current Frame
+現在のフレームのオブジェクトを選択(逆順)=SelectCurrentFrameObject(Reverse)
 切り取り=Cut
 コピー=Copy
 貼り付け=Paste

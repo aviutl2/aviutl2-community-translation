@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (ja)
 ; Generated automatically. Do not edit directly.
-; Translated 2174 of 2174 entries (100.0%).
+; Translated 2175 of 2175 entries (100.0%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -629,6 +629,7 @@ Z軸回転=Z軸回転
 オブジェクトのグループ化=オブジェクトのグループ化
 オブジェクトのグループ解除=オブジェクトのグループ解除
 現在のフレームのオブジェクトを選択=現在のフレームのオブジェクトを選択
+現在のフレームのオブジェクトを選択(逆順)=現在のフレームのオブジェクトを選択(逆順)
 切り取り=切り取り
 コピー=コピー
 貼り付け=貼り付け

@@ -643,6 +643,7 @@ Z軸回転=RotateZ
 オブジェクトのグループ化=GroupingObject
 オブジェクトのグループ解除=UngroupObject
 現在のフレームのオブジェクトを選択=SelectCurrentFrameObject
+現在のフレームのオブジェクトを選択(逆順)=SelectCurrentFrameObject(Reverse)
 切り取り=Cut
 コピー=Copy
 貼り付け=Paste
