@@ -25,6 +25,20 @@ AviUtl2 カタログから[AviUtl2 Community Translation Companion](https://aviu
 
 `./locales/`フォルダ内の`.aul2`を開き、右上のダウンロードボタンから翻訳ファイルをダウンロードしてください。
 
+## プラグインについて
+
+AviUtl2 Community Translation Companionは、翻訳ファイルを自動でダウンロードし、AviUtl2に適用するプラグインです。
+起動時に翻訳ファイルの更新を確認し、必要に応じてダウンロードと適用を行います。
+
+また、`English.<namespace>.aul2`を自動的に`community_en.<namespace>.copied.aul2`としてコピーし、
+既存のプラグイン・スクリプトが`English`でしか翻訳ファイルを提供していない場合でも、翻訳ファイルを適用できるようにしています。
+
+> [!TIP]
+> **プラグイン・スクリプト開発者へ：**
+> この挙動により、`community_en`用に翻訳ファイルを提供する必要はありません。
+> より一般的な`English`で提供することを推奨します。
+
+
 ## 翻訳の仕方
 
 <https://crowdin.com/project/aviutl2-community-translation> を利用してください。

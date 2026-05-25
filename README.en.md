@@ -24,6 +24,19 @@ Alternatively, you can download the latest release from [Releases](https://githu
 
 Open the `.aul2` file in the `./locales/` folder and download the translation files from the download button at the top right.
 
+## About the Plugin
+
+AviUtl2 Community Translation Companion is a plugin that automatically downloads and applies the translation files to AviUtl2.
+It checks for updates of the translation files at startup and downloads and applies them if necessary.
+
+It also automatically copies `English.<namespace>.aul2` to `community_en.<namespace>.copied.aul2`,
+allowing the translation files to be applied even if the existing plugins/scripts only provide translation files for `English`.
+
+> [!TIP]
+> **To plugin/script developers:**
+> With this behavior, there is no need to provide translation files for `community_en`.
+> It is recommended to provide them in the more general `English`.
+
 ## How to Translate
 
 Please use <https://crowdin.com/project/aviutl2-community-translation>.
