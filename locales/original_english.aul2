@@ -182,6 +182,7 @@
 瞬間移動=Teleportation
 直線移動(回転)=Linear(Rotate)
 補間移動(回転)=Interpolation(Rotate)
+移動量指定=Delta
 
 ; 設定項目
 中心X=CenterX
@@ -1308,6 +1309,8 @@ Altキーを押しながら=WithAltKeyDown
 レイアウト名=LayoutName
 プリセットから設定=SettingFromPreset
 参照式=ReferenceExpression
+ビデオ形式=VideoFormat
+オーディオ形式=AudioFormat
 ;OK=OK
 ;Cancel=Cancel
 

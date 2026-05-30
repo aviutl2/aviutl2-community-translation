@@ -103,6 +103,10 @@ Effect:
   '補間移動(回転)': |
     補間移動(回転)
 
+  # Delta
+  '移動量指定': |
+    移動量指定
+
   # CenterX
   '中心X': |
     中心X
@@ -4565,6 +4569,14 @@ Dialog:
   # ReferenceExpression
   '参照式': |
     参照式
+
+  # VideoFormat
+  'ビデオ形式': |
+    ビデオ形式
+
+  # AudioFormat
+  'オーディオ形式': |
+    オーディオ形式
 
 Name:
   # Min

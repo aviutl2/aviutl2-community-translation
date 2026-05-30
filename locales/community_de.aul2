@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (de)
 ; Generated automatically. Do not edit directly.
-; Translated 109 of 1523 entries (7.16%).
+; Translated 109 of 1526 entries (7.14%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -171,6 +171,7 @@
 瞬間移動=Sofortige Bewegung
 直線移動(回転)=Linear Movement (Rotation)
 補間移動(回転)=Interpolated Movement (Rotation)
+移動量指定=Delta
 中心X=X Zentrieren
 中心Y=Y Zentrieren
 中心Z=Z Zentrieren
@@ -1291,6 +1292,8 @@ Altキーを押しながら=While holding Alt
 レイアウト名=LayoutName
 プリセットから設定=SettingFromPreset
 参照式=ReferenceExpression
+ビデオ形式=VideoFormat
+オーディオ形式=AudioFormat
 
 [Name]
 最小=Minimum

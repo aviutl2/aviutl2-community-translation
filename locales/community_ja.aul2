@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (ja)
 ; Generated automatically. Do not edit directly.
-; Translated 2175 of 2175 entries (100.0%).
+; Translated 2178 of 2178 entries (100.0%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -171,6 +171,7 @@
 瞬間移動=瞬間移動
 直線移動(回転)=直線移動(回転)
 補間移動(回転)=補間移動(回転)
+移動量指定=移動量指定
 中心X=中心X
 中心Y=中心Y
 中心Z=中心Z
@@ -1291,6 +1292,8 @@ Altキーを押しながら=Altキーを押しながら
 レイアウト名=レイアウト名
 プリセットから設定=プリセットから設定
 参照式=参照式
+ビデオ形式=ビデオ形式
+オーディオ形式=オーディオ形式
 
 [Name]
 最小=最小
