@@ -2506,7 +2506,7 @@ Menu:
   'レイアウトを作成': |
     Create Layout
 Message:
-  # outputting file
+  # exporting file
   'ファイル出力中': |
     Exporting File
   # change palette
@@ -2662,10 +2662,10 @@ Message:
   # delete scene?
   'シーンを削除しますか？': |
     Delete scene?
-  # interrupt file output?
+  # interrupt export file?
   'ファイル出力を中断しますか？': |
     Abort file export?
-  # file output is complete
+  # export file is complete
   'ファイル出力が完了しました': |
     File export completed
   # project file path has changed
@@ -2767,7 +2767,7 @@ Message:
     The application did not close properly last time.
 
     Would you like to restore the project?
-  # interrupt file output
+  # interrupt export file
   'ファイル出力を中断': |
     Abort Export File
   # buffering

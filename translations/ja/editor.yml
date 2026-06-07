@@ -3352,7 +3352,7 @@ Menu:
   'レイアウトを作成': |
     レイアウトを作成
 
-  # InterruptFileOutput
+  # InterruptExportFile
   'ファイル出力を中断': |
     ファイル出力を中断
 
@@ -3360,8 +3360,48 @@ Menu:
   '参照式': |
     参照式
 
+  # CodecSetting
+  'コーデックの設定': |
+    コーデックの設定
+
+  # Repeat
+  '繰り返し': |
+    繰り返し
+
+  # FontFileFolder
+  'フォントファイルフォルダ': |
+    フォントファイルフォルダ
+
+  # BatchExport
+  'バッチ出力': |
+    バッチ出力
+
+  # State
+  '状態': |
+    状態
+
+  # NotExported
+  '未出力': |
+    未出力
+
+  # OnHold
+  '保留': |
+    保留
+
+  # DeleteAllCompleted
+  '完了を全て削除': |
+    完了を全て削除
+
+  # DeleteAllFailed
+  '失敗を全て削除': |
+    失敗を全て削除
+
+  # AutomaticallyDeleteCompletedBatch
+  '正常に完了したバッチを自動的に削除': |
+    正常に完了したバッチを自動的に削除
+
 Message:
-  # outputting file
+  # exporting file
   'ファイル出力中': |
     ファイル出力中
 
@@ -3559,11 +3599,11 @@ Message:
   'シーンを削除しますか？': |
     シーンを削除しますか？
 
-  # interrupt file output?
+  # interrupt export file?
   'ファイル出力を中断しますか？': |
     ファイル出力を中断しますか？
 
-  # file output is complete
+  # export file is complete
   'ファイル出力が完了しました': |
     ファイル出力が完了しました
 
@@ -3695,7 +3735,7 @@ Message:
   '前回アプリケーションが正常に終了しませんでした\n\nプロジェクトを復元しますか？': |
     前回アプリケーションが正常に終了しませんでした\n\nプロジェクトを復元しますか？
 
-  # interrupt file output
+  # interrupt export file
   'ファイル出力を中断': |
     ファイル出力を中断
 
@@ -3820,6 +3860,26 @@ Message:
   # edit reference expression
   '参照式を編集': |
     参照式を編集
+
+  # set each section
+  '区間毎に設定': |
+    区間毎に設定
+
+  # export file is failed
+  'ファイル出力に失敗しました': |
+    ファイル出力に失敗しました
+
+  # delete?
+  '削除しますか？': |
+    削除しますか？
+
+  # can not delete
+  '削除出来ません': |
+    削除出来ません
+
+  # can not change
+  '変更出来ません': |
+    変更出来ません
 
 Dialog:
   # NewScene
@@ -4577,6 +4637,78 @@ Dialog:
   # AudioFormat
   'オーディオ形式': |
     オーディオ形式
+
+  # CodecSetting
+  'コーデックの設定': |
+    コーデックの設定
+
+  # Codec
+  'コーデック': |
+    コーデック
+
+  # YUV Compress
+  'YUV展開': |
+    YUV展開
+
+  # YUV Decompress
+  'YUV圧縮': |
+    YUV圧縮
+
+  # Codec setting for AVI file input/output of main unit function.
+  '本体機能のAVIファイル入出力時のコーデック設定になります': |
+    本体機能のAVIファイル入出力時のコーデック設定になります
+
+  # Also apply to font list box
+  'フォントのリストボックス一覧にも適用する': |
+    フォントのリストボックス一覧にも適用する
+
+  # AddBatch
+  'バッチ登録': |
+    バッチ登録
+
+  # BatchExport
+  'バッチ出力': |
+    バッチ出力
+
+  # NotExported
+  '未出力': |
+    未出力
+
+  # Completed
+  '完了': |
+    完了
+
+  # Failed
+  '失敗': |
+    失敗
+
+  # OnHold
+  '保留': |
+    保留
+
+  # Exporting
+  '出力中': |
+    出力中
+
+  # List
+  'リスト': |
+    リスト
+
+  # Export
+  '出力': |
+    出力
+
+  # State
+  '状態': |
+    状態
+
+  # Start
+  '開始': |
+    開始
+
+  # Interrupt
+  '中断': |
+    中断
 
 Name:
   # Min

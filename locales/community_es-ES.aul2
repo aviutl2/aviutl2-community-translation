@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (es-ES)
 ; Generated automatically. Do not edit directly.
-; Translated 0 of 1526 entries (0.0%).
+; Translated 0 of 1559 entries (0.0%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -987,8 +987,18 @@ YUVレンジ=YUV Range
 現在以外のレイヤーを表示/非表示=Show/hide Layers except selected
 レイアウト=Layout
 レイアウトを作成=Create Layout
-ファイル出力を中断=InterruptFileOutput
+ファイル出力を中断=InterruptExportFile
 参照式=ReferenceExpression
+コーデックの設定=CodecSetting
+繰り返し=Repeat
+フォントファイルフォルダ=FontFileFolder
+バッチ出力=BatchExport
+状態=State
+未出力=NotExported
+保留=OnHold
+完了を全て削除=DeleteAllCompleted
+失敗を全て削除=DeleteAllFailed
+正常に完了したバッチを自動的に削除=AutomaticallyDeleteCompletedBatch
 
 [Message]
 ファイル出力中=Exporting File
@@ -1103,6 +1113,11 @@ Z軸回転の変更=Change rotation on Z axis
 プリセットを保存しました=preset saved
 保存するプリセット名を指定してください=please set preset name to save
 参照式を編集=edit reference expression
+区間毎に設定=set each section
+ファイル出力に失敗しました=export file is failed
+削除しますか？=delete?
+削除出来ません=can not delete
+変更出来ません=can not change
 
 [Dialog]
 シーンを作成=Create Scene
@@ -1294,6 +1309,24 @@ Altキーを押しながら=While holding Alt
 参照式=ReferenceExpression
 ビデオ形式=VideoFormat
 オーディオ形式=AudioFormat
+コーデックの設定=CodecSetting
+コーデック=Codec
+YUV展開=YUV Compress
+YUV圧縮=YUV Decompress
+本体機能のAVIファイル入出力時のコーデック設定になります=Codec setting for AVI file input/output of main unit function.
+フォントのリストボックス一覧にも適用する=Also apply to font list box
+バッチ登録=AddBatch
+バッチ出力=BatchExport
+未出力=NotExported
+完了=Completed
+失敗=Failed
+保留=OnHold
+出力中=Exporting
+リスト=List
+出力=Export
+状態=State
+開始=Start
+中断=Interrupt
 
 [Name]
 最小=Minimum
