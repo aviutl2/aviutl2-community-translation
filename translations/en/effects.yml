@@ -24,7 +24,7 @@
 '周辺ボケ光量':
   # ColorShift
   '色ずれ量': |
-    Chromatic Abberation
+    Chromatic Aberration
   # AdjustAspect
   '縦横比補正': |
     Adjust Aspect Ratio
@@ -32,6 +32,9 @@
   # BeamLength
   '光芒長さ': |
     Beam Length
+  # BeamColor
+  '光芒色': |
+    Light Streak Color
 '標準描画':
   # ImageOutput
   '標準描画': |

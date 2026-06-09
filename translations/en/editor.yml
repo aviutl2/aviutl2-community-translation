@@ -2279,7 +2279,7 @@ Menu:
     Snap cursor to items
   # ScenePlayback
   'シーン再生': |
-
+    Scene Player
   # ShowVolumeLevelMeter(Preview)
   '音量レベルメーターの表示(プレビュー)': |
     Display volume level (in main player)

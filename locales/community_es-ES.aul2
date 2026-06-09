@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (es-ES)
 ; Generated automatically. Do not edit directly.
-; Translated 0 of 1559 entries (0.0%).
+; Translated 0 of 1560 entries (0.0%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -910,7 +910,7 @@ YUVレンジ=YUV Range
 メディアを右回転=Rotate item clockwise
 テキストを編集=Edit Text
 カーソル移動のスナップ(レイヤー)=Snap cursor to items
-シーン再生=ScenePlayback
+シーン再生=Scene Player
 音量レベルメーターの表示(プレビュー)=Display volume level (in main player)
 音量レベルメーターの表示(シーン再生)=Display volume level (in scene player)
 シーン再生・停止=Play/Stop Scene
@@ -1362,11 +1362,12 @@ OK=OK
 直前オブジェクト=Above Object
 
 [周辺ボケ光量]
-色ずれ量=Chromatic Abberation
+色ずれ量=Chromatic Aberration
 縦横比補正=Adjust Aspect Ratio
 
 [フレア]
 光芒長さ=Beam Length
+光芒色=Light Streak Color
 
 [標準描画]
 標準描画=Standard Mode

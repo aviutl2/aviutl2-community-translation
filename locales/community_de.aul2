@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (de)
 ; Generated automatically. Do not edit directly.
-; Translated 109 of 1559 entries (6.99%).
+; Translated 109 of 1560 entries (6.99%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -1380,11 +1380,12 @@ Z軸回転=Z-Rotation
 直前オブジェクト=Above Object
 
 [周辺ボケ光量]
-色ずれ量=Chromatic Abberation
+色ずれ量=Chromatic Aberration
 縦横比補正=Adjust Aspect Ratio
 
 [フレア]
 光芒長さ=Beam Length
+光芒色=Light Streak Color
 
 [標準描画]
 標準描画=Standard Mode
