@@ -1,3 +1,8 @@
+Language:
+  # Simple English Language by Kenkun
+  'Information': |
+    Information
+
 Effect:
   # TempBuffer
   '仮想バッファ': |
@@ -3400,6 +3405,10 @@ Menu:
   '正常に完了したバッチを自動的に削除': |
     正常に完了したバッチを自動的に削除
 
+  # LanguageFileInformation
+  '言語ファイル情報': |
+    言語ファイル情報
+
 Message:
   # exporting file
   'ファイル出力中': |
@@ -4709,6 +4718,34 @@ Dialog:
   # Interrupt
   '中断': |
     中断
+
+  # Action on batch completion
+  'バッチ出力完了時の動作': |
+    バッチ出力完了時の動作
+
+  # None
+  '何もしない': |
+    何もしない
+
+  # ExitApplication
+  'アプリケーションを終了': |
+    アプリケーションを終了
+
+  # ShutdownPC
+  'PCをシャットダウン': |
+    PCをシャットダウン
+
+  # SleepPC
+  'PCをスリープ': |
+    PCをスリープ
+
+  # LanguageFileInformation
+  '言語ファイル情報': |
+    言語ファイル情報
+
+  # Information
+  '情報': |
+    情報
 
 Name:
   # Min

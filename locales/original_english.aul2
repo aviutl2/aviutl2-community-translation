@@ -8,6 +8,12 @@
 ; フィルタ名やスクリプト名のセクションが存在すると優先して参照される
 ; 「ぼかし」フィルタの名称や設定項目名は [ぼかし] セクションを先に参照する
 
+[Language]
+; 言語ファイルの情報
+Information=Simple English Language by Kenkun
+; サブ言語設定 ※メイン言語に対応項目が存在しない時に参照される
+;SubLanguage=English
+
 [Effect]
 ; オブジェクト、フィルタ効果の名称
 動画ファイル=VideoFile
@@ -1014,6 +1020,7 @@ YUVレンジ=YUVColorRange
 完了を全て削除=DeleteAllCompleted
 失敗を全て削除=DeleteAllFailed
 正常に完了したバッチを自動的に削除=AutomaticallyDeleteCompletedBatch
+言語ファイル情報=LanguageFileInformation
 
 [Message]
 ; ツールチップ、メッセージボックス等のメッセージ
@@ -1344,6 +1351,13 @@ YUV圧縮=YUV Decompress
 状態=State
 開始=Start
 中断=Interrupt
+バッチ出力完了時の動作=Action on batch completion
+何もしない=None
+アプリケーションを終了=ExitApplication
+PCをシャットダウン=ShutdownPC
+PCをスリープ=SleepPC
+言語ファイル情報=LanguageFileInformation
+情報=Information
 ;OK=OK
 ;Cancel=Cancel
 

@@ -1,8 +1,11 @@
 ; AviUtl2 Community Translation (de)
 ; Generated automatically. Do not edit directly.
-; Translated 109 of 1560 entries (6.99%).
+; Translated 109 of 1569 entries (6.95%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
+
+[Language]
+Information=Simple English Language by Kenkun
 
 [Effect]
 動画ファイル=Videodatei
@@ -999,6 +1002,7 @@ YUVレンジ=YUV Range
 完了を全て削除=DeleteAllCompleted
 失敗を全て削除=DeleteAllFailed
 正常に完了したバッチを自動的に削除=AutomaticallyDeleteCompletedBatch
+言語ファイル情報=LanguageFileInformation
 
 [Message]
 ファイル出力中=Exporting File
@@ -1327,6 +1331,13 @@ YUV圧縮=YUV Decompress
 状態=State
 開始=Start
 中断=Interrupt
+バッチ出力完了時の動作=Action on batch completion
+何もしない=None
+アプリケーションを終了=ExitApplication
+PCをシャットダウン=ShutdownPC
+PCをスリープ=SleepPC
+言語ファイル情報=LanguageFileInformation
+情報=Information
 
 [Name]
 最小=Minimum

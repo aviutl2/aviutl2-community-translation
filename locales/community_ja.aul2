@@ -1,8 +1,11 @@
 ; AviUtl2 Community Translation (ja)
 ; Generated automatically. Do not edit directly.
-; Translated 2211 of 2211 entries (100.0%).
+; Translated 2220 of 2220 entries (100.0%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
+
+[Language]
+Information=Information
 
 [Effect]
 動画ファイル=動画ファイル
@@ -999,6 +1002,7 @@ YUVレンジ=YUVレンジ
 完了を全て削除=完了を全て削除
 失敗を全て削除=失敗を全て削除
 正常に完了したバッチを自動的に削除=正常に完了したバッチを自動的に削除
+言語ファイル情報=言語ファイル情報
 
 [Message]
 ファイル出力中=ファイル出力中
@@ -1327,6 +1331,13 @@ YUV圧縮=YUV圧縮
 状態=状態
 開始=開始
 中断=中断
+バッチ出力完了時の動作=バッチ出力完了時の動作
+何もしない=何もしない
+アプリケーションを終了=アプリケーションを終了
+PCをシャットダウン=PCをシャットダウン
+PCをスリープ=PCをスリープ
+言語ファイル情報=言語ファイル情報
+情報=情報
 
 [Name]
 最小=最小
