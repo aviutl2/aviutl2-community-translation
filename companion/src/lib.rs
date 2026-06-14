@@ -103,7 +103,7 @@ fn run_update_task() -> anyhow::Result<()> {
         changed = true;
     }
 
-    if copy_language_overlay_files_if_needed(&language_dir)? {
+    if remove_copied_language_overlay_files(&language_dir)? {
         changed = true;
     }
 
@@ -153,99 +153,24 @@ fn temp_path_for(path: &Path) -> PathBuf {
     path.with_file_name(format!("{file_name}.tmp"))
 }
 
-fn copy_language_overlay_files_if_needed(language_dir: &Path) -> anyhow::Result<bool> {
-    let mut copied = false;
+fn remove_copied_language_overlay_files(language_dir: &Path) -> anyhow::Result<bool> {
+    let mut removed = false;
     for entry in fs::read_dir(language_dir)? {
         let entry = entry?;
         if !entry.file_type()?.is_file() {
             continue;
         }
-        tracing::debug!(file_name = ?entry.file_name(), "checking for language overlay file");
 
         let file_name = entry.file_name();
         let file_name = file_name.to_string_lossy();
-        let Some((language_code, suffix)) = parse_language_overlay(&file_name) else {
-            tracing::debug!(?file_name, "not a recognized language overlay file, skipping");
-            continue;
-        };
-
-        let source_path = entry.path();
-        let dest_path =
-            language_dir.join(format!("community_{language_code}.{suffix}.copied.aul2"));
-
-        let source_hash = hash_file_hex(&source_path)?;
-        let dest_hash = hash_file_hex(&dest_path).ok();
-        if dest_hash.as_deref() == Some(source_hash.as_str()) {
-            tracing::debug!(
-                ?file_name,
-                "compatible language overlay file already exists, skipping copy"
-            );
+        if !file_name.ends_with(".copied.aul2") {
             continue;
         }
 
-        tracing::info!(?file_name, "copying language overlay file");
-        let source_bytes = fs::read(&source_path)?;
-        write_atomic(&dest_path, &source_bytes)?;
-        copied = true;
+        tracing::info!(?file_name, "removing copied language overlay file");
+        fs::remove_file(entry.path())?;
+        removed = true;
     }
 
-    Ok(copied)
-}
-
-fn parse_language_overlay(file_name: &str) -> Option<(&'static str, &str)> {
-    if !file_name.ends_with(".aul2") {
-        return None;
-    }
-
-    let end = file_name.len() - ".aul2".len();
-    let dot_index = file_name.find('.')?;
-    let language_name = &file_name[..dot_index];
-    let language_code = map_language_name_to_code(language_name)?;
-    let start = dot_index + ".".len();
-
-    if start >= end {
-        return None;
-    }
-
-    Some((language_code, &file_name[start..end]))
-}
-
-fn map_language_name_to_code(language_name: &str) -> Option<&'static str> {
-    match language_name {
-        "English" => Some("en"),
-        "Japanese" => Some("ja"),
-        _ => None,
-    }
-}
-
-#[cfg(test)]
-mod tests {
-    use super::{map_language_name_to_code, parse_language_overlay};
-
-    #[test]
-    fn parses_known_language_overlay() {
-        assert_eq!(
-            parse_language_overlay("English.script.aul2"),
-            Some(("en", "script"))
-        );
-        assert_eq!(
-            parse_language_overlay("German.plugin.patch.aul2"),
-            Some(("de", "plugin.patch"))
-        );
-    }
-
-    #[test]
-    fn rejects_unknown_or_invalid_overlay() {
-        assert_eq!(parse_language_overlay("French.script.aul2"), None);
-        assert_eq!(parse_language_overlay("English.aul2"), None);
-        assert_eq!(parse_language_overlay("English.script.txt"), None);
-    }
-
-    #[test]
-    fn maps_language_names_to_codes() {
-        assert_eq!(map_language_name_to_code("English"), Some("en"));
-        assert_eq!(map_language_name_to_code("Japanese"), Some("ja"));
-        assert_eq!(map_language_name_to_code("German"), Some("de"));
-        assert_eq!(map_language_name_to_code("Spanish"), Some("es-ES"));
-    }
+    Ok(removed)
 }

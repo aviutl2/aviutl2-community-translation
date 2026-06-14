@@ -1,4 +1,9 @@
-LANGUAGES = %i[ja en de es-ES]
+LANGUAGES = {
+  ja: "Japanese",
+  en: "English",
+  de: "German",
+  "es-ES": "Spanish (Spain)"
+}
 TRANSLATE_PLACEHOLDER = "(translate here)"
 COMPANION_SECTION = "AviUtl2 Community Translation"
 
@@ -173,7 +178,7 @@ task :update_source do
   require "yaml"
   require "json"
 
-  LANGUAGES.each do |lang|
+  LANGUAGES.keys.each do |lang|
     unless Dir.exist?("../translations/#{lang}")
       mkdir_p "../translations/#{lang}"
     end
@@ -185,7 +190,7 @@ task :update_source do
   companion_texts = YAML.load_file("../companion/texts.yml")
   effects = JSON.parse(File.read("./effects.json"))
   effect_keys = effects.keys.to_set
-  LANGUAGES.each do |lang|
+  LANGUAGES.keys.each do |lang|
     editor_file_path = "../translations/#{lang}/editor.yml"
     current_translations =
       (
@@ -353,7 +358,8 @@ task :update_aul2 do
         {}
       end
     ).to_h
-  LANGUAGES.each do |lang|
+  LANGUAGES.each do |lang, lang_name|
+    next if lang == :ja
     puts "Building localized .aul2 for #{lang}..."
     editor_file_path = "../translations/#{lang}/editor.yml"
     effect_file_path = "../translations/#{lang}/effects.yml"
@@ -445,13 +451,19 @@ task :update_aul2 do
 
     output_path = "../locales/community_#{lang}.aul2"
     File.open(output_path, "w") do |file|
-      file.puts "; AviUtl2 Community Translation (#{lang})"
+      file.puts "; AviUtl2 Community Translation - #{lang_name} (#{lang})"
       file.puts "; Generated automatically. Do not edit directly."
       file.puts "; Translated #{num_translated} of #{num_total} entries (#{
                   (num_translated.to_f / num_total * 100).round(2)
                 }%)."
       file.puts "; Source:"
       file.puts ";   https://github.com/aviutl2/aviutl2_community_translation"
+      file.puts
+      file.puts "[Language]"
+      file.puts "Information=AviUtl2 Community Translation: #{lang_name} (#{lang}) - https://github.com/aviutl2/aviutl2_community_translation"
+      # NOTE: SubLanguageは常にEnglishにしておく（現在English以外で翻訳が充実している言語がないため）。
+      # 将来的に翻訳が充実してきたり、カンマ区切りで複数指定できるようになったりしたら、適宜変更する。
+      file.puts "SubLanguage=English"
       file.puts
       sections.each do |section_name, section_content|
         next if section_content.empty?
