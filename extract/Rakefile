@@ -381,6 +381,7 @@ task :update_aul2 do
     num_translated = 0
     num_total = 0
     main_translations.each_section do |section|
+      next if section == "Language"
       sections[section] = {}
       main_translations[section].each do |key, value|
         translated_value = editor_translations.dig(section, key)
