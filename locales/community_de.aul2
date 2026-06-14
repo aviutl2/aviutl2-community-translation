@@ -1,8 +1,12 @@
-; AviUtl2 Community Translation (de)
+; AviUtl2 Community Translation - German (de)
 ; Generated automatically. Do not edit directly.
 ; Translated 109 of 1569 entries (6.95%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
+
+[Language]
+Information=AviUtl2 Community Translation: German (de) - https://github.com/aviutl2/aviutl2_community_translation
+SubLanguage=English
 
 [Language]
 Information=Simple English Language by Kenkun
