@@ -198,6 +198,7 @@ task :update_source do
       ).to_h
     translations = {}
     main_translations.each_section do |section|
+      next if section == "Language"
       translations[section] = {}
       main_translations[section].each do |key, value|
         translate_in_effect = section == "Effect" && effect_keys.include?(key)
