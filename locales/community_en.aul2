@@ -1,15 +1,12 @@
 ; AviUtl2 Community Translation - English (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1397 of 1569 entries (89.04%).
+; Translated 1397 of 1568 entries (89.09%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
 [Language]
 Information=AviUtl2 Community Translation: English (en) - https://github.com/aviutl2/aviutl2_community_translation
 SubLanguage=English
-
-[Language]
-Information=Simple English Language by Kenkun
 
 [Effect]
 動画ファイル=Video File

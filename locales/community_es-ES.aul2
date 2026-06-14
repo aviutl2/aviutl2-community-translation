@@ -1,15 +1,12 @@
 ; AviUtl2 Community Translation - Spanish (Spain) (es-ES)
 ; Generated automatically. Do not edit directly.
-; Translated 0 of 1569 entries (0.0%).
+; Translated 0 of 1568 entries (0.0%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
 [Language]
 Information=AviUtl2 Community Translation: Spanish (Spain) (es-ES) - https://github.com/aviutl2/aviutl2_community_translation
 SubLanguage=English
-
-[Language]
-Information=Simple English Language by Kenkun
 
 [Effect]
 動画ファイル=Video File
