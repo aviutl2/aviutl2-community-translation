@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation - English (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1397 of 1568 entries (89.09%).
+; Translated 1397 of 1570 entries (88.98%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -70,7 +70,6 @@ SubLanguage=English
 シーンチェンジ=SceneChange
 振動=Quake
 スクリプト制御=ScriptControl
-並行光源(カメラ制御)=Light(Camera)
 環境光(カメラ制御)=AmbientLight(Camera)
 ライトブルーム(カメラ制御)=LightBloom(Camera)
 材質設定(カメラ制御)=Material(Camera)
@@ -94,6 +93,9 @@ SubLanguage=English
 画像合成(オブジェクト)=Image composition (object)
 仮想バッファ=Temporal Buffer
 仮想バッファ出力=TempBufferOutput
+点光源(カメラ制御)=PointLight(Camera)
+スポット光源(カメラ制御)=SpotLight(Camera)
+平行光源(カメラ制御)=DirectionalLight(Camera)
 震える=Tremble
 振り子=Pendulum
 弾む=Bound
@@ -1414,6 +1416,9 @@ Z軸回転=Z Rotation
 立方体(カメラ制御)=Cube (camera controlled)
 サイズ=Size
 
+[音声再生]
+音量=Volume
+
 [球体(カメラ制御)]
 球体(カメラ制御)=Sphere (camera controlled)
 サイズ=Size
@@ -1432,9 +1437,6 @@ Z軸回転=Z Rotation
 距離影響=Effects of distance
 ランダム回転=Random rotation
 ランダム方向=Random direction
-
-[音声再生]
-音量=Volume
 
 [点滅]
 点滅=Blink
@@ -1502,18 +1504,6 @@ Z軸回転=Z Rotation
 ランダム角度=Random Angle
 カメラの方向を向く=Face Camera Direction
 
-[ミラー]
-ミラー=Mirror
-透明度=Transparency
-境目調整=Boundary Adjustment
-ミラーの方向=Mirror Direction
-
-[粒子化]
-再生速度=Playback Speed
-起点X=Origin X
-起点Y=Origin Y
-ぼかし=Blur
-
 [映像再生]
 映像再生=Video Mode
 X=X Position
@@ -1531,6 +1521,18 @@ Z軸回転=Z Rotation
 合成モード=Blend Mode
 音量=Volume
 左右=Panning Left/Right
+
+[ミラー]
+ミラー=Mirror
+透明度=Transparency
+境目調整=Boundary Adjustment
+ミラーの方向=Mirror Direction
+
+[粒子化]
+再生速度=Playback Speed
+起点X=Origin X
+起点Y=Origin Y
+ぼかし=Blur
 
 [メッシュ変形]
 メッシュ変形=Mesh Distortion
@@ -1551,6 +1553,10 @@ Z軸回転=Z Rotation
 起き上がる(シーンチェンジ)=Pop Up (Transition)
 勢い=Elasticity
 
+[基本出力]
+基本出力=Basic Output
+合成モード=Blending Mode
+
 [リール回転(シーンチェンジ)]
 リール回転(シーンチェンジ)=Reel Rotation (Transition)
 ブラー=Blur
@@ -1561,10 +1567,6 @@ Z軸回転=Z Rotation
 サイズ=Size
 回転速度=Rotation Speed
 ディレイ時間=Delay Time
-
-[基本出力]
-基本出力=Basic Output
-合成モード=Blending Mode
 
 [図形で隠す(シーンチェンジ)]
 回転速度=Rotation Speed

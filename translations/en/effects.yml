@@ -114,6 +114,10 @@
   # Size
   'サイズ': |
     Size
+'音声再生':
+  # Volume
+  '音量': |
+    Volume
 '球体(カメラ制御)':
   # Sphere(Camera)
   '球体(カメラ制御)': |
@@ -161,10 +165,6 @@
   # RandomDirection
   'ランダム方向': |
     Random direction
-'音声再生':
-  # Volume
-  '音量': |
-    Volume
 '点滅':
   # Blink
   '点滅': |
@@ -323,32 +323,6 @@
   # Billboard
   'カメラの方向を向く': |
     Face Camera Direction
-'ミラー':
-  # Mirror
-  'ミラー': |
-    Mirror
-  # Transparent
-  '透明度': |
-    Transparency
-  # BoarderAdjust
-  '境目調整': |
-    Boundary Adjustment
-  # MirrorDirection
-  'ミラーの方向': |
-    Mirror Direction
-'粒子化':
-  # PlaybackSpeed
-  '再生速度': |
-    Playback Speed
-  # BaseX
-  '起点X': |
-    Origin X
-  # BaseY
-  '起点Y': |
-    Origin Y
-  # Blur
-  'ぼかし': |
-    Blur
 '映像再生':
   # MovieOutput
   '映像再生': |
@@ -398,6 +372,32 @@
   # Balance
   '左右': |
     Panning Left/Right
+'ミラー':
+  # Mirror
+  'ミラー': |
+    Mirror
+  # Transparent
+  '透明度': |
+    Transparency
+  # BoarderAdjust
+  '境目調整': |
+    Boundary Adjustment
+  # MirrorDirection
+  'ミラーの方向': |
+    Mirror Direction
+'粒子化':
+  # PlaybackSpeed
+  '再生速度': |
+    Playback Speed
+  # BaseX
+  '起点X': |
+    Origin X
+  # BaseY
+  '起点Y': |
+    Origin Y
+  # Blur
+  'ぼかし': |
+    Blur
 'メッシュ変形':
   # MeshTransformation
   'メッシュ変形': |
@@ -425,6 +425,13 @@
   # Force
   '勢い': |
     Elasticity
+'基本出力':
+  # BasicOutput
+  '基本出力': |
+    Basic Output
+  # Blend
+  '合成モード': |
+    Blending Mode
 'リール回転(シーンチェンジ)':
   # ReelRotation(SceneChange)
   'リール回転(シーンチェンジ)': |
@@ -448,13 +455,6 @@
   # DelayTime
   'ディレイ時間': |
     Delay Time
-'基本出力':
-  # BasicOutput
-  '基本出力': |
-    Basic Output
-  # Blend
-  '合成モード': |
-    Blending Mode
 '図形で隠す(シーンチェンジ)':
   # RotateSpeed
   '回転速度': |

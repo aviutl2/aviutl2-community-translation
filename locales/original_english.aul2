@@ -11,7 +11,7 @@
 [Language]
 ; 言語ファイルの情報
 Information=Simple English Language by Kenkun
-; サブ言語設定 ※メイン言語に対応項目が存在しない時に参照される
+; サブ言語設定(カンマ区切りで複数指定可) ※メイン言語に対応項目が存在しない時に参照される
 ;SubLanguage=English
 
 [Effect]
@@ -77,7 +77,6 @@ Information=Simple English Language by Kenkun
 シーンチェンジ=SceneChange
 振動=Quake
 スクリプト制御=ScriptControl
-並行光源(カメラ制御)=Light(Camera)
 環境光(カメラ制御)=AmbientLight(Camera)
 ライトブルーム(カメラ制御)=LightBloom(Camera)
 材質設定(カメラ制御)=Material(Camera)
@@ -101,6 +100,9 @@ Information=Simple English Language by Kenkun
 画像合成(オブジェクト)=ImageComposite(Object)
 仮想バッファ=TempBuffer
 仮想バッファ出力=TempBufferOutput
+点光源(カメラ制御)=PointLight(Camera)
+スポット光源(カメラ制御)=SpotLight(Camera)
+平行光源(カメラ制御)=DirectionalLight(Camera)
 
 ; スクリプトの名称
 震える=Tremble

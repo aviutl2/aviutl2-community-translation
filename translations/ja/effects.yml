@@ -21,6 +21,53 @@
   # BeforeObject
   '直前オブジェクト': |
     直前オブジェクト
+'扇型':
+  # FanShape
+  '扇型': |
+    扇型
+  # CenterAngle
+  '中心角': |
+    中心角
+  # Size
+  'サイズ': |
+    サイズ
+  # LineSize
+  'ライン幅': |
+    ライン幅
+  # Color
+  '色': |
+    色
+'多角形':
+  # Polygon
+  '多角形': |
+    多角形
+  # Color
+  '色': |
+    色
+  # LineSize
+  'ライン幅': |
+    ライン幅
+  # (No default text available)
+  '頂点数': |
+    頂点数
+  # (No default text available)
+  '固定ｻｲｽﾞ': |
+    固定ｻｲｽﾞ
+  # Aspect
+  '縦横比': |
+    縦横比
+  # (No default text available)
+  '繰り返し描画数': |
+    繰り返し描画数
+  # (No default text available)
+  '繰り返し分周': |
+    繰り返し分周
+  # Position
+  '座標': |
+    座標
+  # (No default text available)
+  '簡易塗り潰し': |
+    簡易塗り潰し
 '周辺ボケ光量':
   # BokehLightAmount
   '周辺ボケ光量': |
@@ -188,35 +235,6 @@
   # RandomDirection
   'ランダム方向': |
     ランダム方向
-'ランダム方向から登場':
-  # FromRandom
-  'ランダム方向から登場': |
-    ランダム方向から登場
-  # Time
-  '時間': |
-    時間
-  # Rotate
-  '回転': |
-    回転
-  # Light
-  'ライト': |
-    ライト
-  # EaseInOut
-  '加減速': |
-    加減速
-'拡大縮小して登場':
-  # FromReducing
-  '拡大縮小して登場': |
-    拡大縮小して登場
-  # Time
-  '時間': |
-    時間
-  # Zoom
-  '拡大率': |
-    拡大率
-  # EaseInOut
-  '加減速': |
-    加減速
 '標準描画':
   # ImageOutput
   '標準描画': |
@@ -260,6 +278,35 @@
   # Blend
   '合成モード': |
     合成モード
+'ランダム方向から登場':
+  # FromRandom
+  'ランダム方向から登場': |
+    ランダム方向から登場
+  # Time
+  '時間': |
+    時間
+  # Rotate
+  '回転': |
+    回転
+  # Light
+  'ライト': |
+    ライト
+  # EaseInOut
+  '加減速': |
+    加減速
+'拡大縮小して登場':
+  # FromReducing
+  '拡大縮小して登場': |
+    拡大縮小して登場
+  # Time
+  '時間': |
+    時間
+  # Zoom
+  '拡大率': |
+    拡大率
+  # EaseInOut
+  '加減速': |
+    加減速
 'ランダム間隔で落ちながら登場':
   # FromAbove
   'ランダム間隔で落ちながら登場': |
@@ -358,6 +405,16 @@
   # Size
   'サイズ': |
     サイズ
+'音声再生':
+  # AudioOutput
+  '音声再生': |
+    音声再生
+  # Volume
+  '音量': |
+    音量
+  # Balance
+  '左右': |
+    左右
 '球体(カメラ制御)':
   # Sphere(Camera)
   '球体(カメラ制御)': |
@@ -405,16 +462,6 @@
   # RandomDirection
   'ランダム方向': |
     ランダム方向
-'音声再生':
-  # AudioOutput
-  '音声再生': |
-    音声再生
-  # Volume
-  '音量': |
-    音量
-  # Balance
-  '左右': |
-    左右
 '点滅':
   # Blink
   '点滅': |
@@ -573,6 +620,55 @@
   # Billboard
   'カメラの方向を向く': |
     カメラの方向を向く
+'映像再生':
+  # MovieOutput
+  '映像再生': |
+    映像再生
+  # (No default text available)
+  'X': |
+    X
+  # (No default text available)
+  'Y': |
+    Y
+  # (No default text available)
+  'Z': |
+    Z
+  # CenterX
+  '中心X': |
+    中心X
+  # CenterY
+  '中心Y': |
+    中心Y
+  # CenterZ
+  '中心Z': |
+    中心Z
+  # RotateX
+  'X軸回転': |
+    X軸回転
+  # RotateY
+  'Y軸回転': |
+    Y軸回転
+  # RotateZ
+  'Z軸回転': |
+    Z軸回転
+  # Zoom
+  '拡大率': |
+    拡大率
+  # Aspect
+  '縦横比': |
+    縦横比
+  # Transparent
+  '透明度': |
+    透明度
+  # Blend
+  '合成モード': |
+    合成モード
+  # Volume
+  '音量': |
+    音量
+  # Balance
+  '左右': |
+    左右
 'ミラー':
   # Mirror
   'ミラー': |
@@ -629,55 +725,6 @@
   # Blur
   'ぼかし': |
     ぼかし
-'映像再生':
-  # MovieOutput
-  '映像再生': |
-    映像再生
-  # (No default text available)
-  'X': |
-    X
-  # (No default text available)
-  'Y': |
-    Y
-  # (No default text available)
-  'Z': |
-    Z
-  # CenterX
-  '中心X': |
-    中心X
-  # CenterY
-  '中心Y': |
-    中心Y
-  # CenterZ
-  '中心Z': |
-    中心Z
-  # RotateX
-  'X軸回転': |
-    X軸回転
-  # RotateY
-  'Y軸回転': |
-    Y軸回転
-  # RotateZ
-  'Z軸回転': |
-    Z軸回転
-  # Zoom
-  '拡大率': |
-    拡大率
-  # Aspect
-  '縦横比': |
-    縦横比
-  # Transparent
-  '透明度': |
-    透明度
-  # Blend
-  '合成モード': |
-    合成モード
-  # Volume
-  '音量': |
-    音量
-  # Balance
-  '左右': |
-    左右
 'メッシュ変形':
   # MeshTransformation
   'メッシュ変形': |
@@ -755,6 +802,25 @@
   # Force
   '勢い': |
     勢い
+'基本出力':
+  # BasicOutput
+  '基本出力': |
+    基本出力
+  # (No default text available)
+  'X': |
+    X
+  # (No default text available)
+  'Y': |
+    Y
+  # Zoom
+  '拡大率': |
+    拡大率
+  # Transparent
+  '透明度': |
+    透明度
+  # Blend
+  '合成モード': |
+    合成モード
 'リール回転(シーンチェンジ)':
   # ReelRotation(SceneChange)
   'リール回転(シーンチェンジ)': |
@@ -793,25 +859,6 @@
   # Figure
   '図形名': |
     図形名
-'基本出力':
-  # BasicOutput
-  '基本出力': |
-    基本出力
-  # (No default text available)
-  'X': |
-    X
-  # (No default text available)
-  'Y': |
-    Y
-  # Zoom
-  '拡大率': |
-    拡大率
-  # Transparent
-  '透明度': |
-    透明度
-  # Blend
-  '合成モード': |
-    合成モード
 '図形で隠す(シーンチェンジ)':
   # HideFigure(SceneChange)
   '図形で隠す(シーンチェンジ)': |
@@ -2214,10 +2261,10 @@
   # (No default text available)
   'スクリプト': |
     スクリプト
-'並行光源(カメラ制御)':
-  # Light(Camera)
-  '並行光源(カメラ制御)': |
-    並行光源(カメラ制御)
+'平行光源(カメラ制御)':
+  # DirectionalLight(Camera)
+  '平行光源(カメラ制御)': |
+    平行光源(カメラ制御)
   # Latitude
   '緯度': |
     緯度
@@ -2239,6 +2286,68 @@
   # ShadowRange
   '影の範囲': |
     影の範囲
+'スポット光源(カメラ制御)':
+  # SpotLight(Camera)
+  'スポット光源(カメラ制御)': |
+    スポット光源(カメラ制御)
+  # (No default text available)
+  'X': |
+    X
+  # (No default text available)
+  'Y': |
+    Y
+  # (No default text available)
+  'Z': |
+    Z
+  # TargetX
+  '目標X': |
+    目標X
+  # TargetY
+  '目標Y': |
+    目標Y
+  # TargetZ
+  '目標Z': |
+    目標Z
+  # Brightness
+  '明るさ': |
+    明るさ
+  # Decay
+  '減衰': |
+    減衰
+  # Range
+  '範囲': |
+    範囲
+  # Blur
+  'ぼかし': |
+    ぼかし
+  # Color
+  '色': |
+    色
+  # AddShadow
+  '影を付ける': |
+    影を付ける
+'点光源(カメラ制御)':
+  # PointLight(Camera)
+  '点光源(カメラ制御)': |
+    点光源(カメラ制御)
+  # (No default text available)
+  'X': |
+    X
+  # (No default text available)
+  'Y': |
+    Y
+  # (No default text available)
+  'Z': |
+    Z
+  # Brightness
+  '明るさ': |
+    明るさ
+  # Decay
+  '減衰': |
+    減衰
+  # Color
+  '色': |
+    色
 '環境光(カメラ制御)':
   # AmbientLight(Camera)
   '環境光(カメラ制御)': |
@@ -2289,6 +2398,16 @@
   # (No default text available)
   'Z': |
     Z
+'フレームバッファ':
+  # FrameBuffer
+  'フレームバッファ': |
+    フレームバッファ
+  # KeepAlpha
+  'アルファチャンネルを維持': |
+    アルファチャンネルを維持
+  # ClearFrameBuffer
+  'フレームバッファをクリア': |
+    フレームバッファをクリア
 '拡大率':
   # Zoom
   '拡大率': |
@@ -2306,16 +2425,6 @@
   # Transparent
   '透明度': |
     透明度
-'フレームバッファ':
-  # FrameBuffer
-  'フレームバッファ': |
-    フレームバッファ
-  # KeepAlpha
-  'アルファチャンネルを維持': |
-    アルファチャンネルを維持
-  # ClearFrameBuffer
-  'フレームバッファをクリア': |
-    フレームバッファをクリア
 '回転':
   # Rotate
   '回転': |
@@ -2405,6 +2514,13 @@
   # (No default text available)
   'フィルタオブジェクト': |
     フィルタオブジェクト
+'オーディオバッファ':
+  # AudioBuffer
+  'オーディオバッファ': |
+    オーディオバッファ
+  # ClearAudioBuffer
+  'オーディオバッファをクリア': |
+    オーディオバッファをクリア
 '集中線':
   # ConcentrationLine
   '集中線': |
@@ -2437,13 +2553,6 @@
   # Color
   '色': |
     色
-'オーディオバッファ':
-  # AudioBuffer
-  'オーディオバッファ': |
-    オーディオバッファ
-  # ClearAudioBuffer
-  'オーディオバッファをクリア': |
-    オーディオバッファをクリア
 'カウンター':
   # Counter
   'カウンター': |
@@ -2722,50 +2831,3 @@
   # Color
   '色': |
     色
-'扇型':
-  # FanShape
-  '扇型': |
-    扇型
-  # CenterAngle
-  '中心角': |
-    中心角
-  # Size
-  'サイズ': |
-    サイズ
-  # LineSize
-  'ライン幅': |
-    ライン幅
-  # Color
-  '色': |
-    色
-'多角形':
-  # Polygon
-  '多角形': |
-    多角形
-  # Color
-  '色': |
-    色
-  # LineSize
-  'ライン幅': |
-    ライン幅
-  # (No default text available)
-  '頂点数': |
-    頂点数
-  # (No default text available)
-  '固定ｻｲｽﾞ': |
-    固定ｻｲｽﾞ
-  # Aspect
-  '縦横比': |
-    縦横比
-  # (No default text available)
-  '繰り返し描画数': |
-    繰り返し描画数
-  # (No default text available)
-  '繰り返し分周': |
-    繰り返し分周
-  # Position
-  '座標': |
-    座標
-  # (No default text available)
-  '簡易塗り潰し': |
-    簡易塗り潰し
