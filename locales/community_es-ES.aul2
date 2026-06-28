@@ -1365,110 +1365,120 @@ OK=OK
 別のアプリケーションにファイルがロックされています=The file is locked by another application
 該当アプリケーションを終了して再試行してください=Please close the application and try again
 
-[動画ファイル]
-動画ファイル=Video File
-再生位置=Playback Position
-再生速度=Playback Speed
-ファイル=File
-トラック=Track
-ループ再生=Loop
+[ぼかし]
+ぼかし=Blur
+範囲=Range
+縦横比=Compression
+サイズ固定=Lock Size
 
-[直前オブジェクト]
-直前オブジェクト=Above Object
+[カラーキー]
+カラーキー=Color Key
 
-[周辺ボケ光量]
-色ずれ量=Chromatic Aberration
-縦横比補正=Adjust Aspect Ratio
+[クロマキー]
+クロマキー=Chroma Key
+
+[グロー]
+グロー=Glow
+強さ=Intensity
+
+[シャープ]
+シャープ=Sharpen
+
+[テキスト]
+フォント=Font
+文字色=Text Color
+自動スクロール=Auto Scroll
+
+[ドア(シーンチェンジ)]
+ドア(シーンチェンジ)=Door (Transition)
+
+[ドロップシャドウ]
+ドロップシャドウ=Drop Shadow
+X=X Position
+Y=Y Position
+影色=Shadow Color
+影を別オブジェクトで描画=Draw Shadow as Separate Object
+
+[ノイズ]
+ノイズ=Noise
+
+[フェード]
+フェード=Fade
+イン=In
+アウト=Out
 
 [フレア]
 光芒長さ=Beam Length
 光芒色=Light Streak Color
 
-[標準描画]
-標準描画=Standard Mode
-X=X Position
-Y=Y Position
-Z=Z Position
-中心X=X Offset
-中心Y=Y Offset
-中心Z=Z Offset
-X軸回転=X Rotation
-Y軸回転=Y Rotation
-Z軸回転=Z Rotation
-拡大率=Size
+[マスク]
+マスク=Mask
+回転=Rotation
+サイズ=Size
 縦横比=Compression
+ぼかし=Blur
+マスクの種類=Mask Type
+シーンの長さを合わせる=Match Scene Length
+マスクの反転=Invert Mask
+元のサイズに合わせる=Match Original Size
+
+[ミラー]
+ミラー=Mirror
 透明度=Transparency
-合成モード=Blend Mode
+境目調整=Boundary Adjustment
+ミラーの方向=Mirror Direction
 
-[反復移動]
-反復移動=Repeat movement
-速さ=Speed
-距離=Distance
-角度=Angle
-ずらし=Offset
+[メッシュ変形]
+メッシュ変形=Mesh Distortion
 
-[座標の回転(個別オブジェクト)]
-座標の回転(個別オブジェクト)=Rotate Coordinate (Individual)
-角度=Angle
-中心X=X Offset
-中心Y=Y Offset
+[モーションブラー]
+モーションブラー=Motion Blur
+間隔=Interval
 
-[立方体(カメラ制御)]
-立方体(カメラ制御)=Cube (camera controlled)
-サイズ=Size
+[ラスター]
+ラスター=Wave Warp
 
-[音声再生]
-音量=Volume
+[ランダム配置]
+ランダム配置=Random arrangement
+数=Qty
+範囲=Range
+回転=Rotation
+拡散=Diffusion
+3D配置(カメラ制御)=3D Arrangement (Camera Control)
+ランダム角度=Random Angle
+カメラの方向を向く=Face Camera Direction
 
-[球体(カメラ制御)]
-球体(カメラ制御)=Sphere (camera controlled)
-サイズ=Size
-
-[砕け散る]
-砕け散る=Shatter
-開始時間=Time Offset
-再生速度=Animation Speed
-中心X=X Offset
-中心Y=Y Offset
-中心Z=Z Offset
-破片サイズ=Size of Shards
-速度=Speed
-重力=Gravity
-時間差=Time difference
-距離影響=Effects of distance
-ランダム回転=Random rotation
-ランダム方向=Random direction
-
-[点滅]
-点滅=Blink
-速さ=Blink Speed
-点滅割合=Display Ratio
-点灯速度=Light On Speed
-消灯速度=Light Off Speed
-
-[点滅して登場]
-点滅して登場=Blink In/Out
-時間=Duration
-点滅間隔=Blink Cycle
-点滅間隔を一定にする=Fixed Blink Interval
-
-[簡易変形]
-簡易変形=Simple variant
-時間経過=Elapsed Time
-分割数=Division Count
-座標=Coordinates
-
-[簡易変形(カメラ制御)]
-簡易変形(カメラ制御)=Simple variant (camera control)
-時間経過=Elapsed Time
-分割数=Segment count
-座標=Coordinates
+[リサイズ]
+リサイズ=Resize
 
 [リール回転]
 リール回転=Reel Rotation
 回転数=Rotation Count
 ブラー=Blur
 横回転=Horizontal Rotation
+
+[リール回転(シーンチェンジ)]
+リール回転(シーンチェンジ)=Reel Rotation (Transition)
+ブラー=Blur
+横回転=Horizontal Rotation
+
+[ルミナンスキー]
+ルミナンスキー=Luminance Key
+
+[レンズブラー]
+レンズブラー=Lens Blur
+
+[レンズブラー(シーンチェンジ)]
+レンズブラー(シーンチェンジ)=Lens Blur (Transition)
+
+[ローテーション]
+90度回転=Rotate 90°
+
+[ワイプ]
+ワイプ=Wipe
+イン=In
+アウト=Out
+ぼかし=Blur
 
 [万華鏡]
 万華鏡=Kaleidoscopes
@@ -1495,15 +1505,78 @@ Z軸回転=Z Rotation
 向き反転=Reverse Direction
 回転無し=No Rotation
 
-[ランダム配置]
-ランダム配置=Random arrangement
-数=Qty
-範囲=Range
-回転=Rotation
-拡散=Diffusion
-3D配置(カメラ制御)=3D Arrangement (Camera Control)
-ランダム角度=Random Angle
-カメラの方向を向く=Face Camera Direction
+[動画ファイル]
+動画ファイル=Video File
+再生位置=Playback Position
+再生速度=Playback Speed
+ファイル=File
+トラック=Track
+ループ再生=Loop
+
+[反復移動]
+反復移動=Repeat movement
+速さ=Speed
+距離=Distance
+角度=Angle
+ずらし=Offset
+
+[周辺ボケ光量]
+色ずれ量=Chromatic Aberration
+縦横比補正=Adjust Aspect Ratio
+
+[図形で隠す(シーンチェンジ)]
+回転速度=Rotation Speed
+エッジ角度=Edge Angle
+エッジ幅=Edge Width
+エッジ高さ=Edge Height
+色=Color
+
+[図形で隠す(放射)(シーンチェンジ)]
+回転速度=Rotation Speed
+
+[図形ワイプ(シーンチェンジ)]
+図形ワイプ(シーンチェンジ)=Wipe (Transition)
+サイズ=Size
+回転速度=Rotation Speed
+ディレイ時間=Delay Time
+
+[基本出力]
+基本出力=Basic Output
+合成モード=Blending Mode
+
+[境界ぼかし]
+境界ぼかし=Border Blur
+透明度の境界をぼかす=Feathering
+
+[座標の回転(個別オブジェクト)]
+座標の回転(個別オブジェクト)=Rotate Coordinate (Individual)
+角度=Angle
+中心X=X Offset
+中心Y=Y Offset
+
+[扇クリッピング]
+扇クリッピング=Circular Clipping
+中心X=X Offset
+中心Y=Y Offset
+基準角=Base Angle
+ぼかし=Blur
+
+[手ぶれ]
+手ぶれ=Camera Shake
+
+[拡張色設定]
+拡張色設定=Extended Color Setting
+
+[放射ブラー]
+放射ブラー=Radial Blur
+
+[斜めクリッピング]
+中心X=X Offset
+中心Y=Y Offset
+角度=Angle
+
+[方向ブラー]
+方向ブラー=Directional Blur
 
 [映像再生]
 映像再生=Video Mode
@@ -1523,61 +1596,47 @@ Z軸回転=Z Rotation
 音量=Volume
 左右=Panning Left/Right
 
-[ミラー]
-ミラー=Mirror
+[枠線]
+パターン画像=Pattern Image
+
+[極座標変換]
+極座標変換=Polar Transform
+
+[標準描画]
+標準描画=Standard Mode
+X=X Position
+Y=Y Position
+Z=Z Position
+中心X=X Offset
+中心Y=Y Offset
+中心Z=Z Offset
+X軸回転=X Rotation
+Y軸回転=Y Rotation
+Z軸回転=Z Rotation
+拡大率=Size
+縦横比=Compression
 透明度=Transparency
-境目調整=Boundary Adjustment
-ミラーの方向=Mirror Direction
+合成モード=Blend Mode
 
-[粒子化]
-再生速度=Playback Speed
-起点X=Origin X
-起点Y=Origin Y
-ぼかし=Blur
+[点滅]
+点滅=Blink
+速さ=Blink Speed
+点滅割合=Display Ratio
+点灯速度=Light On Speed
+消灯速度=Light Off Speed
 
-[メッシュ変形]
-メッシュ変形=Mesh Distortion
+[点滅して登場]
+点滅して登場=Blink In/Out
+時間=Duration
+点滅間隔=Blink Cycle
+点滅間隔を一定にする=Fixed Blink Interval
 
-[手ぶれ]
-手ぶれ=Camera Shake
+[特定色域変換]
+特定色域変換=Color Conversion
 
-[発光(シーンチェンジ)]
-明るさ=Brightness
-
-[レンズブラー(シーンチェンジ)]
-レンズブラー(シーンチェンジ)=Lens Blur (Transition)
-
-[ドア(シーンチェンジ)]
-ドア(シーンチェンジ)=Door (Transition)
-
-[起き上がる(シーンチェンジ)]
-起き上がる(シーンチェンジ)=Pop Up (Transition)
-勢い=Elasticity
-
-[基本出力]
-基本出力=Basic Output
-合成モード=Blending Mode
-
-[リール回転(シーンチェンジ)]
-リール回転(シーンチェンジ)=Reel Rotation (Transition)
-ブラー=Blur
-横回転=Horizontal Rotation
-
-[図形ワイプ(シーンチェンジ)]
-図形ワイプ(シーンチェンジ)=Wipe (Transition)
+[球体(カメラ制御)]
+球体(カメラ制御)=Sphere (camera controlled)
 サイズ=Size
-回転速度=Rotation Speed
-ディレイ時間=Delay Time
-
-[図形で隠す(シーンチェンジ)]
-回転速度=Rotation Speed
-エッジ角度=Edge Angle
-エッジ幅=Edge Width
-エッジ高さ=Edge Height
-色=Color
-
-[図形で隠す(放射)(シーンチェンジ)]
-回転速度=Rotation Speed
 
 [画像ファイル]
 画像ファイル=Image File
@@ -1589,23 +1648,57 @@ Z軸回転=Z Rotation
 画像合成(オブジェクト)=Image composition (object)
 対象レイヤー数=Number of Target Layers
 
-[音声波形表示]
-高さ=Height
-再生位置=Playback Position
+[発光(シーンチェンジ)]
+明るさ=Brightness
+
+[直前オブジェクト]
+直前オブジェクト=Above Object
+
+[砕け散る]
+砕け散る=Shatter
+開始時間=Time Offset
+再生速度=Animation Speed
+中心X=X Offset
+中心Y=Y Offset
+中心Z=Z Offset
+破片サイズ=Size of Shards
+速度=Speed
+重力=Gravity
+時間差=Time difference
+距離影響=Effects of distance
+ランダム回転=Random rotation
+ランダム方向=Random direction
+
+[立方体(カメラ制御)]
+立方体(カメラ制御)=Cube (camera controlled)
+サイズ=Size
+
+[簡易変形]
+簡易変形=Simple variant
+時間経過=Elapsed Time
+分割数=Division Count
+座標=Coordinates
+
+[簡易変形(カメラ制御)]
+簡易変形(カメラ制御)=Simple variant (camera control)
+時間経過=Elapsed Time
+分割数=Segment count
+座標=Coordinates
+
+[粒子化]
 再生速度=Playback Speed
-音量=Volume
-ファイル=File
+起点X=Origin X
+起点Y=Origin Y
+ぼかし=Blur
 
 [色調補正]
 色調補正=Color Correction
 コントラスト=Contrast
 色相=Hue
 
-[特定色域変換]
-特定色域変換=Color Conversion
-
-[拡張色設定]
-拡張色設定=Extended Color Setting
+[起き上がる(シーンチェンジ)]
+起き上がる(シーンチェンジ)=Pop Up (Transition)
+勢い=Elasticity
 
 [音声ファイル]
 音声ファイル=Audio File
@@ -1615,108 +1708,15 @@ Z軸回転=Z Rotation
 トラック=Track
 ループ再生=Loop
 
-[斜めクリッピング]
-中心X=X Offset
-中心Y=Y Offset
-角度=Angle
+[音声再生]
+音量=Volume
 
-[扇クリッピング]
-扇クリッピング=Circular Clipping
-中心X=X Offset
-中心Y=Y Offset
-基準角=Base Angle
-ぼかし=Blur
-
-[マスク]
-マスク=Mask
-回転=Rotation
-サイズ=Size
-縦横比=Compression
-ぼかし=Blur
-マスクの種類=Mask Type
-シーンの長さを合わせる=Match Scene Length
-マスクの反転=Invert Mask
-元のサイズに合わせる=Match Original Size
-
-[ぼかし]
-ぼかし=Blur
-範囲=Range
-縦横比=Compression
-サイズ固定=Lock Size
-
-[レンズブラー]
-レンズブラー=Lens Blur
-
-[放射ブラー]
-放射ブラー=Radial Blur
-
-[方向ブラー]
-方向ブラー=Directional Blur
-
-[モーションブラー]
-モーションブラー=Motion Blur
-間隔=Interval
-
-[境界ぼかし]
-境界ぼかし=Border Blur
-透明度の境界をぼかす=Feathering
-
-[グロー]
-グロー=Glow
-強さ=Intensity
-
-[枠線]
-パターン画像=Pattern Image
-
-[ドロップシャドウ]
-ドロップシャドウ=Drop Shadow
-X=X Position
-Y=Y Position
-影色=Shadow Color
-影を別オブジェクトで描画=Draw Shadow as Separate Object
-
-[クロマキー]
-クロマキー=Chroma Key
-
-[テキスト]
-フォント=Font
-文字色=Text Color
-自動スクロール=Auto Scroll
-
-[ルミナンスキー]
-ルミナンスキー=Luminance Key
-
-[カラーキー]
-カラーキー=Color Key
-
-[ラスター]
-ラスター=Wave Warp
-
-[極座標変換]
-極座標変換=Polar Transform
-
-[リサイズ]
-リサイズ=Resize
-
-[シャープ]
-シャープ=Sharpen
-
-[ノイズ]
-ノイズ=Noise
-
-[フェード]
-フェード=Fade
-イン=In
-アウト=Out
-
-[ワイプ]
-ワイプ=Wipe
-イン=In
-アウト=Out
-ぼかし=Blur
-
-[ローテーション]
-90度回転=Rotate 90°
+[音声波形表示]
+高さ=Height
+再生位置=Playback Position
+再生速度=Playback Speed
+音量=Volume
+ファイル=File
 
 [AviUtl2 Community Translation]
 翻訳ファイルが更新されました。AviUtl2を再起動すると反映されます。=The translation files have been updated, restart AviUtl2 to apply.

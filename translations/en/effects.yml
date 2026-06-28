@@ -1,33 +1,79 @@
-'動画ファイル':
-  # VideoFile
-  '動画ファイル': |
-    Video File
-  # PlaybackPosition
-  '再生位置': |
-    Playback Position
-  # PlaybackSpeed
-  '再生速度': |
-    Playback Speed
-  # File
-  'ファイル': |
-    File
-  # Track
-  'トラック': |
-    Track
-  # Loop
-  'ループ再生': |
-    Loop
-'直前オブジェクト':
-  # BeforeObject
-  '直前オブジェクト': |
-    Above Object
-'周辺ボケ光量':
-  # ColorShift
-  '色ずれ量': |
-    Chromatic Aberration
-  # AdjustAspect
-  '縦横比補正': |
-    Adjust Aspect Ratio
+'ぼかし':
+  # Blur
+  'ぼかし': |
+    Blur
+  # Range
+  '範囲': |
+    Range
+  # Aspect
+  '縦横比': |
+    Compression
+  # FixedSize
+  'サイズ固定': |
+    Lock Size
+'カラーキー':
+  # ColorKey
+  'カラーキー': |
+    Color Key
+'クロマキー':
+  # ChromaKey
+  'クロマキー': |
+    Chroma Key
+'グロー':
+  # Glow
+  'グロー': |
+    Glow
+  # Level
+  '強さ': |
+    Intensity
+'シャープ':
+  # Sharpe
+  'シャープ': |
+    Sharpen
+'テキスト':
+  # Font
+  'フォント': |
+    Font
+  # TextColor
+  '文字色': |
+    Text Color
+  # AutoScroll
+  '自動スクロール': |
+    Auto Scroll
+'ドア(シーンチェンジ)':
+  # Door(SceneChange)
+  'ドア(シーンチェンジ)': |
+    Door (Transition)
+'ドロップシャドウ':
+  # DropShadow
+  'ドロップシャドウ': |
+    Drop Shadow
+  # (No default text available)
+  'X': |
+    X Position
+  # (No default text available)
+  'Y': |
+    Y Position
+  # ShadowColor
+  '影色': |
+    Shadow Color
+  # IndividualShadow
+  '影を別オブジェクトで描画': |
+    Draw Shadow as Separate Object
+'ノイズ':
+  # Noise
+  'ノイズ': |
+    Noise
+'フェード':
+  # Fade
+  'フェード': |
+    Fade
+  # In
+  'イン': |
+    In
+  # Out
+  'アウト': |
+    Out
 'フレア':
   # BeamLength
   '光芒長さ': |
@@ -35,191 +81,91 @@
   # BeamColor
   '光芒色': |
     Light Streak Color
-'標準描画':
-  # ImageOutput
-  '標準描画': |
-    Standard Mode
-  # (No default text available)
-  'X': |
-    X Position
-  # (No default text available)
-  'Y': |
-    Y Position
-  # (No default text available)
-  'Z': |
-    Z Position
-  # CenterX
-  '中心X': |
-    X Offset
-  # CenterY
-  '中心Y': |
-    Y Offset
-  # CenterZ
-  '中心Z': |
-    Z Offset
-  # RotateX
-  'X軸回転': |
-    X Rotation
-  # RotateY
-  'Y軸回転': |
-    Y Rotation
-  # RotateZ
-  'Z軸回転': |
-    Z Rotation
-  # Zoom
-  '拡大率': |
+'マスク':
+  # Mask
+  'マスク': |
+    Mask
+  # Rotate
+  '回転': |
+    Rotation
+  # Size
+  'サイズ': |
     Size
   # Aspect
   '縦横比': |
     Compression
+  # Blur
+  'ぼかし': |
+    Blur
+  # MaskType
+  'マスクの種類': |
+    Mask Type
+  # FitSceneLength
+  'シーンの長さを合わせる': |
+    Match Scene Length
+  # InvertMask
+  'マスクの反転': |
+    Invert Mask
+  # FitSize
+  '元のサイズに合わせる': |
+    Match Original Size
+'ミラー':
+  # Mirror
+  'ミラー': |
+    Mirror
   # Transparent
   '透明度': |
     Transparency
-  # Blend
-  '合成モード': |
-    Blend Mode
-'反復移動':
-  # RepeatMove
-  '反復移動': |
-    Repeat movement
-  # Speed
-  '速さ': |
-    Speed
-  # Distance
-  '距離': |
-    Distance
-  # Angle
-  '角度': |
-    Angle
-  # Shift
-  'ずらし': |
-    Offset
-'座標の回転(個別オブジェクト)':
-  # RotateCoordinate(Individual)
-  '座標の回転(個別オブジェクト)': |
-    Rotate Coordinate (Individual)
-  # Angle
-  '角度': |
-    Angle
-  # CenterX
-  '中心X': |
-    X Offset
-  # CenterY
-  '中心Y': |
-    Y Offset
-'立方体(カメラ制御)':
-  # Cube(Camera)
-  '立方体(カメラ制御)': |
-    Cube (camera controlled)
-  # Size
-  'サイズ': |
-    Size
-'音声再生':
-  # Volume
-  '音量': |
-    Volume
-'球体(カメラ制御)':
-  # Sphere(Camera)
-  '球体(カメラ制御)': |
-    Sphere (camera controlled)
-  # Size
-  'サイズ': |
-    Size
-'砕け散る':
-  # Shatter
-  '砕け散る': |
-    Shatter
-  # StartTime
-  '開始時間': |
-    Time Offset
-  # PlaybackSpeed
-  '再生速度': |
-    Animation Speed
-  # CenterX
-  '中心X': |
-    X Offset
-  # CenterY
-  '中心Y': |
-    Y Offset
-  # CenterZ
-  '中心Z': |
-    Z Offset
-  # FragmentSize
-  '破片サイズ': |
-    Size of Shards
-  # Speed
-  '速度': |
-    Speed
-  # Gravity
-  '重力': |
-    Gravity
-  # TimeLag
-  '時間差': |
-    Time difference
-  # DistanceEffect
-  '距離影響': |
-    Effects of distance
-  # RandomRotate
-  'ランダム回転': |
-    Random rotation
-  # RandomDirection
-  'ランダム方向': |
-    Random direction
-'点滅':
-  # Blink
-  '点滅': |
-    Blink
-  # Speed
-  '速さ': |
-    Blink Speed
-  # BlinkRatio
-  '点滅割合': |
-    Display Ratio
-  # LightOnSpeed
-  '点灯速度': |
-    Light On Speed
-  # LightOffSpeed
-  '消灯速度': |
-    Light Off Speed
-'点滅して登場':
-  # FromBlinking
-  '点滅して登場': |
-    Blink In/Out
-  # Time
-  '時間': |
-    Duration
-  # BlinkCycle
-  '点滅間隔': |
-    Blink Cycle
-  # FixedBlinkInterval
-  '点滅間隔を一定にする': |
-    Fixed Blink Interval
-'簡易変形':
-  # Transformation
-  '簡易変形': |
-    Simple variant
-  # TimePassage
-  '時間経過': |
-    Elapsed Time
-  # DivideNum
-  '分割数': |
-    Division Count
-  # Position
-  '座標': |
-    Coordinates
-'簡易変形(カメラ制御)':
-  # Transformation(Camera)
-  '簡易変形(カメラ制御)': |
-    Simple variant (camera control)
-  # TimePassage
-  '時間経過': |
-    Elapsed Time
-  # DivideNum
-  '分割数': |
-    Segment count
-  # Position
-  '座標': |
-    Coordinates
+  # BoarderAdjust
+  '境目調整': |
+    Boundary Adjustment
+  # MirrorDirection
+  'ミラーの方向': |
+    Mirror Direction
+'メッシュ変形':
+  # MeshTransformation
+  'メッシュ変形': |
+    Mesh Distortion
+'モーションブラー':
+  # MotionBlur
+  'モーションブラー': |
+    Motion Blur
+  # Interval
+  '間隔': |
+    Interval
+'ラスター':
+  # Raster
+  'ラスター': |
+    Wave Warp
+'ランダム配置':
+  # RandomLayout
+  'ランダム配置': |
+    Random arrangement
+  # Num
+  '数': |
+    Qty
+  # Range
+  '範囲': |
+    Range
+  # Rotate
+  '回転': |
+    Rotation
+  # Diffusion
+  '拡散': |
+    Diffusion
+  # 3DLayout(Camera)
+  '3D配置(カメラ制御)': |
+    3D Arrangement (Camera Control)
+  # RandomAngle
+  'ランダム角度': |
+    Random Angle
+  # Billboard
+  'カメラの方向を向く': |
+    Face Camera Direction
+'リサイズ':
+  # Resize
+  'リサイズ': |
+    Resize
 'リール回転':
   # ReelRotation
   'リール回転': |
@@ -233,6 +179,45 @@
   # HorizontalRotate
   '横回転': |
     Horizontal Rotation
+'リール回転(シーンチェンジ)':
+  # ReelRotation(SceneChange)
+  'リール回転(シーンチェンジ)': |
+    Reel Rotation (Transition)
+  # Blur
+  'ブラー': |
+    Blur
+  # HorizontalRotate
+  '横回転': |
+    Horizontal Rotation
+'ルミナンスキー':
+  # LuminanceKey
+  'ルミナンスキー': |
+    Luminance Key
+'レンズブラー':
+  # LensBlur
+  'レンズブラー': |
+    Lens Blur
+'レンズブラー(シーンチェンジ)':
+  # LensBlur(SceneChange)
+  'レンズブラー(シーンチェンジ)': |
+    Lens Blur (Transition)
+'ローテーション':
+  # Rotate90
+  '90度回転': |
+    Rotate 90°
+'ワイプ':
+  # Wipe
+  'ワイプ': |
+    Wipe
+  # In
+  'イン': |
+    In
+  # Out
+  'アウト': |
+    Out
+  # Blur
+  'ぼかし': |
+    Blur
 '万華鏡':
   # Kaleidoscope
   '万華鏡': |
@@ -298,31 +283,150 @@
   # NoRotate
   '回転無し': |
     No Rotation
-'ランダム配置':
-  # RandomLayout
-  'ランダム配置': |
-    Random arrangement
-  # Num
-  '数': |
-    Qty
-  # Range
-  '範囲': |
-    Range
-  # Rotate
-  '回転': |
-    Rotation
-  # Diffusion
-  '拡散': |
-    Diffusion
-  # 3DLayout(Camera)
-  '3D配置(カメラ制御)': |
-    3D Arrangement (Camera Control)
-  # RandomAngle
-  'ランダム角度': |
-    Random Angle
-  # Billboard
-  'カメラの方向を向く': |
-    Face Camera Direction
+'動画ファイル':
+  # VideoFile
+  '動画ファイル': |
+    Video File
+  # PlaybackPosition
+  '再生位置': |
+    Playback Position
+  # PlaybackSpeed
+  '再生速度': |
+    Playback Speed
+  # File
+  'ファイル': |
+    File
+  # Track
+  'トラック': |
+    Track
+  # Loop
+  'ループ再生': |
+    Loop
+'反復移動':
+  # RepeatMove
+  '反復移動': |
+    Repeat movement
+  # Speed
+  '速さ': |
+    Speed
+  # Distance
+  '距離': |
+    Distance
+  # Angle
+  '角度': |
+    Angle
+  # Shift
+  'ずらし': |
+    Offset
+'周辺ボケ光量':
+  # ColorShift
+  '色ずれ量': |
+    Chromatic Aberration
+  # AdjustAspect
+  '縦横比補正': |
+    Adjust Aspect Ratio
+'図形で隠す(シーンチェンジ)':
+  # RotateSpeed
+  '回転速度': |
+    Rotation Speed
+  # EdgeAngle
+  'エッジ角度': |
+    Edge Angle
+  # EdgeWidth
+  'エッジ幅': |
+    Edge Width
+  # EdgeHeight
+  'エッジ高さ': |
+    Edge Height
+  # Color
+  '色': |
+    Color
+'図形で隠す(放射)(シーンチェンジ)':
+  # RotateSpeed
+  '回転速度': |
+    Rotation Speed
+'図形ワイプ(シーンチェンジ)':
+  # Wipe(SceneChange)
+  '図形ワイプ(シーンチェンジ)': |
+    Wipe (Transition)
+  # Size
+  'サイズ': |
+    Size
+  # RotateSpeed
+  '回転速度': |
+    Rotation Speed
+  # DelayTime
+  'ディレイ時間': |
+    Delay Time
+'基本出力':
+  # BasicOutput
+  '基本出力': |
+    Basic Output
+  # Blend
+  '合成モード': |
+    Blending Mode
+'境界ぼかし':
+  # BorderBlur
+  '境界ぼかし': |
+    Border Blur
+  # BlurTransparencyEdge
+  '透明度の境界をぼかす': |
+    Feathering
+'座標の回転(個別オブジェクト)':
+  # RotateCoordinate(Individual)
+  '座標の回転(個別オブジェクト)': |
+    Rotate Coordinate (Individual)
+  # Angle
+  '角度': |
+    Angle
+  # CenterX
+  '中心X': |
+    X Offset
+  # CenterY
+  '中心Y': |
+    Y Offset
+'扇クリッピング':
+  # Clipping(Fan)
+  '扇クリッピング': |
+    Circular Clipping
+  # CenterX
+  '中心X': |
+    X Offset
+  # CenterY
+  '中心Y': |
+    Y Offset
+  # BaseAngle
+  '基準角': |
+    Base Angle
+  # Blur
+  'ぼかし': |
+    Blur
+'手ぶれ':
+  # CameraShake
+  '手ぶれ': |
+    Camera Shake
+'拡張色設定':
+  # ExtendedColorSetting
+  '拡張色設定': |
+    Extended Color Setting
+'放射ブラー':
+  # RadialBlur
+  '放射ブラー': |
+    Radial Blur
+'斜めクリッピング':
+  # CenterX
+  '中心X': |
+    X Offset
+  # CenterY
+  '中心Y': |
+    Y Offset
+  # Angle
+  '角度': |
+    Angle
+'方向ブラー':
+  # DirectionBlur
+  '方向ブラー': |
+    Directional Blur
 '映像再生':
   # MovieOutput
   '映像再生': |
@@ -372,109 +476,97 @@
   # Balance
   '左右': |
     Panning Left/Right
-'ミラー':
-  # Mirror
-  'ミラー': |
-    Mirror
+'枠線':
+  # PatternImage
+  'パターン画像': |
+    Pattern Image
+'極座標変換':
+  # PolarTransform
+  '極座標変換': |
+    Polar Transform
+'標準描画':
+  # ImageOutput
+  '標準描画': |
+    Standard Mode
+  # (No default text available)
+  'X': |
+    X Position
+  # (No default text available)
+  'Y': |
+    Y Position
+  # (No default text available)
+  'Z': |
+    Z Position
+  # CenterX
+  '中心X': |
+    X Offset
+  # CenterY
+  '中心Y': |
+    Y Offset
+  # CenterZ
+  '中心Z': |
+    Z Offset
+  # RotateX
+  'X軸回転': |
+    X Rotation
+  # RotateY
+  'Y軸回転': |
+    Y Rotation
+  # RotateZ
+  'Z軸回転': |
+    Z Rotation
+  # Zoom
+  '拡大率': |
+    Size
+  # Aspect
+  '縦横比': |
+    Compression
   # Transparent
   '透明度': |
     Transparency
-  # BoarderAdjust
-  '境目調整': |
-    Boundary Adjustment
-  # MirrorDirection
-  'ミラーの方向': |
-    Mirror Direction
-'粒子化':
-  # PlaybackSpeed
-  '再生速度': |
-    Playback Speed
-  # BaseX
-  '起点X': |
-    Origin X
-  # BaseY
-  '起点Y': |
-    Origin Y
-  # Blur
-  'ぼかし': |
-    Blur
-'メッシュ変形':
-  # MeshTransformation
-  'メッシュ変形': |
-    Mesh Distortion
-'手ぶれ':
-  # CameraShake
-  '手ぶれ': |
-    Camera Shake
-'発光(シーンチェンジ)':
-  # Brightness
-  '明るさ': |
-    Brightness
-'レンズブラー(シーンチェンジ)':
-  # LensBlur(SceneChange)
-  'レンズブラー(シーンチェンジ)': |
-    Lens Blur (Transition)
-'ドア(シーンチェンジ)':
-  # Door(SceneChange)
-  'ドア(シーンチェンジ)': |
-    Door (Transition)
-'起き上がる(シーンチェンジ)':
-  # Rising(SceneChange)
-  '起き上がる(シーンチェンジ)': |
-    Pop Up (Transition)
-  # Force
-  '勢い': |
-    Elasticity
-'基本出力':
-  # BasicOutput
-  '基本出力': |
-    Basic Output
   # Blend
   '合成モード': |
-    Blending Mode
-'リール回転(シーンチェンジ)':
-  # ReelRotation(SceneChange)
-  'リール回転(シーンチェンジ)': |
-    Reel Rotation (Transition)
-  # Blur
-  'ブラー': |
-    Blur
-  # HorizontalRotate
-  '横回転': |
-    Horizontal Rotation
-'図形ワイプ(シーンチェンジ)':
-  # Wipe(SceneChange)
-  '図形ワイプ(シーンチェンジ)': |
-    Wipe (Transition)
+    Blend Mode
+'点滅':
+  # Blink
+  '点滅': |
+    Blink
+  # Speed
+  '速さ': |
+    Blink Speed
+  # BlinkRatio
+  '点滅割合': |
+    Display Ratio
+  # LightOnSpeed
+  '点灯速度': |
+    Light On Speed
+  # LightOffSpeed
+  '消灯速度': |
+    Light Off Speed
+'点滅して登場':
+  # FromBlinking
+  '点滅して登場': |
+    Blink In/Out
+  # Time
+  '時間': |
+    Duration
+  # BlinkCycle
+  '点滅間隔': |
+    Blink Cycle
+  # FixedBlinkInterval
+  '点滅間隔を一定にする': |
+    Fixed Blink Interval
+'特定色域変換':
+  # ColorConversion
+  '特定色域変換': |
+    Color Conversion
+'球体(カメラ制御)':
+  # Sphere(Camera)
+  '球体(カメラ制御)': |
+    Sphere (camera controlled)
   # Size
   'サイズ': |
     Size
-  # RotateSpeed
-  '回転速度': |
-    Rotation Speed
-  # DelayTime
-  'ディレイ時間': |
-    Delay Time
-'図形で隠す(シーンチェンジ)':
-  # RotateSpeed
-  '回転速度': |
-    Rotation Speed
-  # EdgeAngle
-  'エッジ角度': |
-    Edge Angle
-  # EdgeWidth
-  'エッジ幅': |
-    Edge Width
-  # EdgeHeight
-  'エッジ高さ': |
-    Edge Height
-  # Color
-  '色': |
-    Color
-'図形で隠す(放射)(シーンチェンジ)':
-  # RotateSpeed
-  '回転速度': |
-    Rotation Speed
 '画像ファイル':
   # ImageFile
   '画像ファイル': |
@@ -495,22 +587,100 @@
   # LayerRange
   '対象レイヤー数': |
     Number of Target Layers
-'音声波形表示':
-  # Height
-  '高さ': |
-    Height
-  # PlaybackPosition
-  '再生位置': |
-    Playback Position
+'発光(シーンチェンジ)':
+  # Brightness
+  '明るさ': |
+    Brightness
+'直前オブジェクト':
+  # BeforeObject
+  '直前オブジェクト': |
+    Above Object
+'砕け散る':
+  # Shatter
+  '砕け散る': |
+    Shatter
+  # StartTime
+  '開始時間': |
+    Time Offset
+  # PlaybackSpeed
+  '再生速度': |
+    Animation Speed
+  # CenterX
+  '中心X': |
+    X Offset
+  # CenterY
+  '中心Y': |
+    Y Offset
+  # CenterZ
+  '中心Z': |
+    Z Offset
+  # FragmentSize
+  '破片サイズ': |
+    Size of Shards
+  # Speed
+  '速度': |
+    Speed
+  # Gravity
+  '重力': |
+    Gravity
+  # TimeLag
+  '時間差': |
+    Time difference
+  # DistanceEffect
+  '距離影響': |
+    Effects of distance
+  # RandomRotate
+  'ランダム回転': |
+    Random rotation
+  # RandomDirection
+  'ランダム方向': |
+    Random direction
+'立方体(カメラ制御)':
+  # Cube(Camera)
+  '立方体(カメラ制御)': |
+    Cube (camera controlled)
+  # Size
+  'サイズ': |
+    Size
+'簡易変形':
+  # Transformation
+  '簡易変形': |
+    Simple variant
+  # TimePassage
+  '時間経過': |
+    Elapsed Time
+  # DivideNum
+  '分割数': |
+    Division Count
+  # Position
+  '座標': |
+    Coordinates
+'簡易変形(カメラ制御)':
+  # Transformation(Camera)
+  '簡易変形(カメラ制御)': |
+    Simple variant (camera control)
+  # TimePassage
+  '時間経過': |
+    Elapsed Time
+  # DivideNum
+  '分割数': |
+    Segment count
+  # Position
+  '座標': |
+    Coordinates
+'粒子化':
   # PlaybackSpeed
   '再生速度': |
     Playback Speed
-  # Volume
-  '音量': |
-    Volume
-  # File
-  'ファイル': |
-    File
+  # BaseX
+  '起点X': |
+    Origin X
+  # BaseY
+  '起点Y': |
+    Origin Y
+  # Blur
+  'ぼかし': |
+    Blur
 '色調補正':
   # ColorCorrect
   '色調補正': |
@@ -521,14 +691,13 @@
   # Hue
   '色相': |
     Hue
-'特定色域変換':
-  # ColorConversion
-  '特定色域変換': |
-    Color Conversion
-'拡張色設定':
-  # ExtendedColorSetting
-  '拡張色設定': |
-    Extended Color Setting
+'起き上がる(シーンチェンジ)':
+  # Rising(SceneChange)
+  '起き上がる(シーンチェンジ)': |
+    Pop Up (Transition)
+  # Force
+  '勢い': |
+    Elasticity
 '音声ファイル':
   # AudioFile
   '音声ファイル': |
@@ -548,192 +717,23 @@
   # Loop
   'ループ再生': |
     Loop
-'斜めクリッピング':
-  # CenterX
-  '中心X': |
-    X Offset
-  # CenterY
-  '中心Y': |
-    Y Offset
-  # Angle
-  '角度': |
-    Angle
-'扇クリッピング':
-  # Clipping(Fan)
-  '扇クリッピング': |
-    Circular Clipping
-  # CenterX
-  '中心X': |
-    X Offset
-  # CenterY
-  '中心Y': |
-    Y Offset
-  # BaseAngle
-  '基準角': |
-    Base Angle
-  # Blur
-  'ぼかし': |
-    Blur
-'マスク':
-  # Mask
-  'マスク': |
-    Mask
-  # Rotate
-  '回転': |
-    Rotation
-  # Size
-  'サイズ': |
-    Size
-  # Aspect
-  '縦横比': |
-    Compression
-  # Blur
-  'ぼかし': |
-    Blur
-  # MaskType
-  'マスクの種類': |
-    Mask Type
-  # FitSceneLength
-  'シーンの長さを合わせる': |
-    Match Scene Length
-  # InvertMask
-  'マスクの反転': |
-    Invert Mask
-  # FitSize
-  '元のサイズに合わせる': |
-    Match Original Size
-'ぼかし':
-  # Blur
-  'ぼかし': |
-    Blur
-  # Range
-  '範囲': |
-    Range
-  # Aspect
-  '縦横比': |
-    Compression
-  # FixedSize
-  'サイズ固定': |
-    Lock Size
-'レンズブラー':
-  # LensBlur
-  'レンズブラー': |
-    Lens Blur
-'放射ブラー':
-  # RadialBlur
-  '放射ブラー': |
-    Radial Blur
-'方向ブラー':
-  # DirectionBlur
-  '方向ブラー': |
-    Directional Blur
-'モーションブラー':
-  # MotionBlur
-  'モーションブラー': |
-    Motion Blur
-  # Interval
-  '間隔': |
-    Interval
-'境界ぼかし':
-  # BorderBlur
-  '境界ぼかし': |
-    Border Blur
-  # BlurTransparencyEdge
-  '透明度の境界をぼかす': |
-    Feathering
-'グロー':
-  # Glow
-  'グロー': |
-    Glow
-  # Level
-  '強さ': |
-    Intensity
-'枠線':
-  # PatternImage
-  'パターン画像': |
-    Pattern Image
-'ドロップシャドウ':
-  # DropShadow
-  'ドロップシャドウ': |
-    Drop Shadow
-  # (No default text available)
-  'X': |
-    X Position
-  # (No default text available)
-  'Y': |
-    Y Position
-  # ShadowColor
-  '影色': |
-    Shadow Color
-  # IndividualShadow
-  '影を別オブジェクトで描画': |
-    Draw Shadow as Separate Object
-'クロマキー':
-  # ChromaKey
-  'クロマキー': |
-    Chroma Key
-'テキスト':
-  # Font
-  'フォント': |
-    Font
-  # TextColor
-  '文字色': |
-    Text Color
-  # AutoScroll
-  '自動スクロール': |
-    Auto Scroll
-'ルミナンスキー':
-  # LuminanceKey
-  'ルミナンスキー': |
-    Luminance Key
-'カラーキー':
-  # ColorKey
-  'カラーキー': |
-    Color Key
-'ラスター':
-  # Raster
-  'ラスター': |
-    Wave Warp
-'極座標変換':
-  # PolarTransform
-  '極座標変換': |
-    Polar Transform
-'リサイズ':
-  # Resize
-  'リサイズ': |
-    Resize
-'シャープ':
-  # Sharpe
-  'シャープ': |
-    Sharpen
-'ノイズ':
-  # Noise
-  'ノイズ': |
-    Noise
-'フェード':
-  # Fade
-  'フェード': |
-    Fade
-  # In
-  'イン': |
-    In
-  # Out
-  'アウト': |
-    Out
-'ワイプ':
-  # Wipe
-  'ワイプ': |
-    Wipe
-  # In
-  'イン': |
-    In
-  # Out
-  'アウト': |
-    Out
-  # Blur
-  'ぼかし': |
-    Blur
-'ローテーション':
-  # Rotate90
-  '90度回転': |
-    Rotate 90°
+'音声再生':
+  # Volume
+  '音量': |
+    Volume
+'音声波形表示':
+  # Height
+  '高さ': |
+    Height
+  # PlaybackPosition
+  '再生位置': |
+    Playback Position
+  # PlaybackSpeed
+  '再生速度': |
+    Playback Speed
+  # Volume
+  '音量': |
+    Volume
+  # File
+  'ファイル': |
+    File
