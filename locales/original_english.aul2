@@ -994,6 +994,7 @@ YUVレンジ=YUVColorRange
 太字(&B)=Bold(&B)
 斜体(&I)=Italic(&I)
 取り消し線(&S)=Strikethrough(&S)
+絵文字(&E)=Emoji(&E)
 プリセット適用(&P)=ApplyPreset(&P)
 ふりがな(&R)=Ruby(&R)
 字間変更(&G)=ChangeLetterSpacing(&G)

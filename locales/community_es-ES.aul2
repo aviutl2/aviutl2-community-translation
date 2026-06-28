@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation - Spanish (Spain) (es-ES)
 ; Generated automatically. Do not edit directly.
-; Translated 0 of 1570 entries (0.0%).
+; Translated 0 of 1571 entries (0.0%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -977,6 +977,7 @@ YUVレンジ=YUV Range
 太字(&B)=Bold (&B)
 斜体(&I)=Italic (&I)
 取り消し線(&S)=Strike-through(&S)
+絵文字(&E)=Emoji(&E)
 プリセット適用(&P)=Apply Preset(&P)
 ふりがな(&R)=Furigana(&R)
 字間変更(&G)=Change letter spacing(&G)
