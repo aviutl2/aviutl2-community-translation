@@ -168,7 +168,7 @@ task :list_effects do
 
   File.write(
     "./effects.json",
-    JSON.pretty_generate({ **effects })
+    JSON.pretty_generate(effects.to_a.sort.to_h)
   )
   puts "Wrote effects list to ./tmp/effects.json."
 end
