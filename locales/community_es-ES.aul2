@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation - Spanish (Spain) (es-ES)
 ; Generated automatically. Do not edit directly.
-; Translated 0 of 1571 entries (0.0%).
+; Translated 0 of 1574 entries (0.0%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -1007,6 +1007,8 @@ YUVレンジ=YUV Range
 失敗を全て削除=DeleteAllFailed
 正常に完了したバッチを自動的に削除=AutomaticallyDeleteCompletedBatch
 言語ファイル情報=LanguageFileInformation
+クリップボードにPNG形式でコピー=CopyClipboardInPngFormat
+現在のシーンのグリッド(BPM)を設定=SettingCurrentSceneGrid(BPM)
 
 [Message]
 ファイル出力中=Exporting File
@@ -1342,6 +1344,7 @@ PCをシャットダウン=ShutdownPC
 PCをスリープ=SleepPC
 言語ファイル情報=LanguageFileInformation
 情報=Information
+トラックバー移動=MoveMode
 
 [Name]
 最小=Minimum

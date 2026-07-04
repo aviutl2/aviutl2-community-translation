@@ -3408,6 +3408,14 @@ Menu:
   '言語ファイル情報': |
     言語ファイル情報
 
+  # CopyClipboardInPngFormat
+  'クリップボードにPNG形式でコピー': |
+    クリップボードにPNG形式でコピー
+
+  # SettingCurrentSceneGrid(BPM)
+  '現在のシーンのグリッド(BPM)を設定': |
+    現在のシーンのグリッド(BPM)を設定
+
 Message:
   # exporting file
   'ファイル出力中': |
@@ -4745,6 +4753,10 @@ Dialog:
   # Information
   '情報': |
     情報
+
+  # MoveMode
+  'トラックバー移動': |
+    トラックバー移動
 
 Name:
   # Min

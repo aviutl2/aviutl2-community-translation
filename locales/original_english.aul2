@@ -1024,6 +1024,8 @@ YUVレンジ=YUVColorRange
 失敗を全て削除=DeleteAllFailed
 正常に完了したバッチを自動的に削除=AutomaticallyDeleteCompletedBatch
 言語ファイル情報=LanguageFileInformation
+クリップボードにPNG形式でコピー=CopyClipboardInPngFormat
+現在のシーンのグリッド(BPM)を設定=SettingCurrentSceneGrid(BPM)
 
 [Message]
 ; ツールチップ、メッセージボックス等のメッセージ
@@ -1361,6 +1363,7 @@ PCをシャットダウン=ShutdownPC
 PCをスリープ=SleepPC
 言語ファイル情報=LanguageFileInformation
 情報=Information
+トラックバー移動=MoveMode
 ;OK=OK
 ;Cancel=Cancel
 
