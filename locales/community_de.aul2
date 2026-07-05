@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation - German (de)
 ; Generated automatically. Do not edit directly.
-; Translated 109 of 1574 entries (6.93%).
+; Translated 109 of 1576 entries (6.92%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -1345,6 +1345,8 @@ PCをスリープ=SleepPC
 言語ファイル情報=LanguageFileInformation
 情報=Information
 トラックバー移動=MoveMode
+開始位置=StartPosition
+オフセット=Offset
 
 [Name]
 最小=Minimum

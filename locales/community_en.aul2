@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation - English (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1397 of 1574 entries (88.75%).
+; Translated 1397 of 1576 entries (88.64%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -1345,6 +1345,8 @@ PCをスリープ=SleepPC
 言語ファイル情報=LanguageFileInformation
 情報=Information
 トラックバー移動=MoveMode
+開始位置=StartPosition
+オフセット=Offset
 
 [Name]
 最小=Minimum

@@ -1364,6 +1364,8 @@ PCをスリープ=SleepPC
 言語ファイル情報=LanguageFileInformation
 情報=Information
 トラックバー移動=MoveMode
+開始位置=StartPosition
+オフセット=Offset
 ;OK=OK
 ;Cancel=Cancel
 
