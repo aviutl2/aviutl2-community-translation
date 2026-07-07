@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation - German (de)
 ; Generated automatically. Do not edit directly.
-; Translated 109 of 1576 entries (6.92%).
+; Translated 112 of 1576 entries (7.11%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -592,7 +592,7 @@ Z軸回転=Z Rotieren
 分解能=Auflösung
 残像=Nachbild
 パーティクル=Particle
-出力終了調整=Adjust ending output
+出力終了調整=Endausgabe anpassen
 焦点レイヤー=Schicht fokussieren
 深度ぼけ=Tiefenunschärfe
 水平回転=Horizontal rotieren
@@ -886,8 +886,8 @@ YUVレンジ=YUV Range
 小=Schmal
 中=Mittel
 大=Breit
-レイヤーの縦幅を大きく=Increase Layer Height
-レイヤーの縦幅を小さく=Decrease Layer Height
+レイヤーの縦幅を大きく=Schicht höher bewegen
+レイヤーの縦幅を小さく=Schicht tiefer bewegen
 オブジェクトプリセットフォルダ=Objektvorgabenordner
 パレット名を変更=Palette umbenennen
 選択範囲を切り取り=Cut Selected Range

@@ -123,6 +123,9 @@ Effect:
   # Afterimage
   '残像': |
     Nachbild
+  # AdjustEnd
+  '出力終了調整': |
+    Endausgabe anpassen
   # FocusLayer
   '焦点レイヤー': |
     Schicht fokussieren
@@ -169,6 +172,12 @@ Menu:
   # Large
   '大': |
     Breit
+  # IncreaseLayerHeight
+  'レイヤーの縦幅を大きく': |
+    Schicht höher bewegen
+  # DecreaseLayerHeight
+  'レイヤーの縦幅を小さく': |
+    Schicht tiefer bewegen
   # ObjectPresetFolder
   'オブジェクトプリセットフォルダ': |
     Objektvorgabenordner
