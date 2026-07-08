@@ -42,14 +42,13 @@ task :download_aviutl2 do
   require "zip"
   require "json"
 
-  installer_url = "https://api.aviutl2.jp/download?version=latest&type=installer"
+  installer_url =
+    "https://api.aviutl2.jp/download?version=latest&type=installer"
   installer_path = "tmp/aviutl2_setup.exe"
 
   puts "Downloading installer #{installer_url}..."
   URI.open(installer_url) do |remote_file|
-    File.open(installer_path, "wb") do |file|
-      IO.copy_stream(remote_file, file)
-    end
+    File.open(installer_path, "wb") { |file| IO.copy_stream(remote_file, file) }
   end
   puts "Downloaded installer to #{installer_path}."
 
@@ -57,9 +56,7 @@ task :download_aviutl2 do
   zip_path = "tmp/aviutl2.zip"
   puts "Downloading ZIP #{zip_url}..."
   URI.open(zip_url) do |remote_file|
-    File.open(zip_path, "wb") do |file|
-      IO.copy_stream(remote_file, file)
-    end
+    File.open(zip_path, "wb") { |file| IO.copy_stream(remote_file, file) }
   end
 
   Zip::File.open(zip_path) do |zip_file|
@@ -79,6 +76,7 @@ task :extract_locale do
 
   puts "Extracting locale data..."
   # ; ProgramData\aviutl2\Language
+  FileUtils.cp("tmp/aviutl2/Default.aul2", "../locales/original_tips.aul2")
   installer_path = "tmp/aviutl2_setup.exe"
   output = File.read(installer_path, mode: "rb")
   last_offset = 0
@@ -96,7 +94,11 @@ task :extract_locale do
             entry.extract(dest_path) { true }
             puts "Extracted English.aul2 to #{dest_path}."
             content = File.read(dest_path)
-            File.write("../locales/original_english.aul2", content.gsub("\r\n", "\n"), mode: "wb")
+            File.write(
+              "../locales/original_english.aul2",
+              content.gsub("\r\n", "\n"),
+              mode: "wb"
+            )
             found = true
           end
         end
@@ -166,10 +168,7 @@ task :list_effects do
       end
     end
 
-  File.write(
-    "./effects.json",
-    JSON.pretty_generate(effects.to_a.sort.to_h)
-  )
+  File.write("./effects.json", JSON.pretty_generate(effects.to_a.sort.to_h))
   puts "Wrote effects list to ./tmp/effects.json."
 end
 
@@ -187,15 +186,13 @@ task :update_source do
   puts "Updating translation source..."
 
   main_translations = IniFile.load("../locales/original_english.aul2")
+  tips_translations = IniFile.load("../locales/original_tips.aul2")
   companion_texts = YAML.load_file("../companion/texts.yml")
   effects = JSON.parse(File.read("./effects.json"))
   effect_keys = effects.keys.to_set
   LANGUAGES.keys.each do |lang|
     editor_file_path = "../translations/#{lang}/editor.yml"
-    current_translations =
-      (
-        File.exist?(editor_file_path) ? YAML.load_file(editor_file_path) : {}
-      ).to_h
+    current_translations = load_yaml_hash(editor_file_path)
     translations = {}
     main_translations.each_section do |section|
       next if section == "Language"
@@ -213,35 +210,15 @@ task :update_source do
         end
       end
     end
-    File.open(editor_file_path, "w") do |file|
-      translations.each do |section_name, section_content|
-        file.puts "#{section_name}:"
-        section_content.each do |key, value|
-          main_translations[section_name][key].lines.each do |line|
-            file.puts "  # #{line.chomp}".rstrip
-          end
-          file.puts "  '#{key}': |"
-          if value.nil?
-            file.puts "    #{TRANSLATE_PLACEHOLDER}"
-          else
-            value.lines.each { |line| file.puts "    #{line.chomp}".rstrip }
-          end
-          file.puts
-        end
-      end
-    end
+    write_translation_yaml(
+      editor_file_path,
+      translations
+    ) { |section_name, key| main_translations[section_name][key].lines }
 
     puts "Updated translation source for #{lang} at #{editor_file_path}."
 
     companion_file_path = "../translations/#{lang}/companion.yml"
-    current_companion_translations =
-      (
-        if File.exist?(companion_file_path)
-          YAML.load_file(companion_file_path)
-        else
-          {}
-        end
-      ).to_h
+    current_companion_translations = load_yaml_hash(companion_file_path)
     companion_translations = { COMPANION_SECTION => {} }
     companion_texts.each do |text|
       if lang == :ja
@@ -257,27 +234,36 @@ task :update_source do
       end
     end
 
-    File.open(companion_file_path, "w") do |file|
-      companion_translations.each do |section_name, section_content|
-        file.puts "'#{section_name}':"
-        section_content.each do |key, value|
-          file.puts "  '#{key}': |"
-          if value.nil?
-            file.puts "    #{TRANSLATE_PLACEHOLDER}"
-          else
-            value.lines.each { |line| file.puts "    #{line.chomp}".rstrip }
-          end
-          file.puts
+    write_translation_yaml(companion_file_path, companion_translations)
+    puts "Updated companion translation source for #{lang} at #{companion_file_path}."
+
+    tips_file_path = "../translations/#{lang}/tips.yml"
+    current_tips_translations = load_yaml_hash(tips_file_path)
+    translations = {}
+    tips_translations.each_section do |section|
+      next if section == "Language"
+      translations[section] = {}
+      tips_translations[section].each do |key, value|
+        if lang == :ja
+          translations[section][key] = value
+        elsif is_translated?(current_tips_translations.dig(section, key))
+          translations[section][key] = current_tips_translations.dig(
+            section,
+            key
+          )
+        else
+          translations[section][key] = nil
         end
       end
     end
-    puts "Updated companion translation source for #{lang} at #{companion_file_path}."
+
+    write_translation_yaml(tips_file_path, translations) do |section_name, key|
+      tips_translations[section_name][key].lines
+    end
+    puts "Updated tips translation source for #{lang} at #{tips_file_path}."
 
     effect_file_path = "../translations/#{lang}/effects.yml"
-    current_effect_translations =
-      (
-        File.exist?(effect_file_path) ? YAML.load_file(effect_file_path) : {}
-      ).to_h
+    current_effect_translations = load_yaml_hash(effect_file_path)
     effect_translations = {}
     effects.each do |effect_name, keys|
       effect_translations[effect_name] = { effect_name => nil }
@@ -303,25 +289,14 @@ task :update_source do
       end
     end
 
-    File.open(effect_file_path, "w") do |file|
-      effect_translations.each do |effect_name, section_content|
-        file.puts "'#{effect_name}':"
-        section_content.each do |key, value|
-          if main_translations["Effect"].key?(key)
-            main_translations["Effect"][key].lines.each do |line|
-              file.puts "  # #{line.chomp}".rstrip
-            end
-          else
-            file.puts "  # (No default text available)"
-          end
-          file.puts "  '#{key}': |"
-          if value.nil?
-            file.puts "    #{TRANSLATE_PLACEHOLDER}"
-          else
-            value.lines.each { |line| file.puts "    #{line.chomp}" }
-          end
-          # file.puts
-        end
+    write_translation_yaml(
+      effect_file_path,
+      effect_translations
+    ) do |_section_name, key|
+      if main_translations["Effect"].key?(key)
+        main_translations["Effect"][key].lines
+      else
+        ["(No default text available)"]
       end
     end
     puts "Updated effect translation source for #{lang} at #{effect_file_path}."
@@ -335,46 +310,23 @@ task :update_aul2 do
   require "digest/xxhash"
 
   main_translations = IniFile.load("../locales/original_english.aul2")
-  english_editor_translations =
-    (
-      if File.exist?("../translations/en/editor.yml")
-        YAML.load_file("../translations/en/editor.yml")
-      else
-        {}
-      end
-    ).to_h
-  english_effect_translations =
-    (
-      if File.exist?("../translations/en/effects.yml")
-        YAML.load_file("../translations/en/effects.yml")
-      else
-        {}
-      end
-    ).to_h
+  tips_translations = IniFile.load("../locales/original_tips.aul2")
+  english_editor_translations = load_yaml_hash("../translations/en/editor.yml")
+  english_effect_translations = load_yaml_hash("../translations/en/effects.yml")
   english_companion_translations =
-    (
-      if File.exist?("../translations/en/companion.yml")
-        YAML.load_file("../translations/en/companion.yml")
-      else
-        {}
-      end
-    ).to_h
+    load_yaml_hash("../translations/en/companion.yml")
+  english_tips_translations = load_yaml_hash("../translations/en/tips.yml")
   LANGUAGES.each do |lang, lang_name|
     next if lang == :ja
     puts "Building localized .aul2 for #{lang}..."
     editor_file_path = "../translations/#{lang}/editor.yml"
     effect_file_path = "../translations/#{lang}/effects.yml"
     companion_file_path = "../translations/#{lang}/companion.yml"
-    editor_translations = YAML.load_file(editor_file_path).to_h
-    effect_translations = YAML.load_file(effect_file_path).to_h
-    companion_translations =
-      (
-        if File.exist?(companion_file_path)
-          YAML.load_file(companion_file_path)
-        else
-          {}
-        end
-      ).to_h
+    tips_file_path = "../translations/#{lang}/tips.yml"
+    editor_translations = load_yaml_hash(editor_file_path)
+    effect_translations = load_yaml_hash(effect_file_path)
+    companion_translations = load_yaml_hash(companion_file_path)
+    tips_source_translations = load_yaml_hash(tips_file_path)
     use_english_fallback = !%i[en ja].include?(lang)
 
     sections = {}
@@ -428,6 +380,25 @@ task :update_aul2 do
       end
     end
 
+    tips_translations.each_section do |section|
+      next if section == "Language"
+      sections[section] ||= {}
+      tips_translations[section].each do |key, value|
+        translated_value = tips_source_translations.dig(section, key)
+        fallback_value =
+          english_tips_translations.dig(section, key) if use_english_fallback
+        num_total += 1
+        if is_translated?(translated_value&.chomp)
+          num_translated += 1
+          sections[section][key] = translated_value.chomp.gsub("\n", "\\n")
+        elsif is_translated?(fallback_value&.chomp)
+          sections[section][key] = fallback_value.chomp.gsub("\n", "\\n")
+        else
+          sections[section][key] = value
+        end
+      end
+    end
+
     companion_entries = companion_translations.fetch(COMPANION_SECTION, {})
     english_companion_entries =
       english_companion_translations.fetch(COMPANION_SECTION, {})
@@ -467,7 +438,9 @@ task :update_aul2 do
       # 将来的に翻訳が充実してきたり、カンマ区切りで複数指定できるようになったりしたら、適宜変更する。
       file.puts "SubLanguage=English"
       file.puts
-      sections.each do |section_name, section_content|
+      sections
+        .sort
+        .each do |section_name, section_content|
         next if section_content.empty?
         file.puts "[#{section_name}]"
         section_content.each do |key, value|
@@ -531,6 +504,34 @@ def xxh3_64_hex(path)
   digest.rjust(16, "0")[-16..]
 end
 
+def load_yaml_hash(path)
+  return {} unless File.exist?(path)
+
+  YAML.load_file(path).to_h
+end
+
+def write_translation_yaml(path, translations)
+  File.open(path, "w") do |file|
+    translations.each do |section_name, section_content|
+      file.puts "'#{section_name}':"
+      section_content.each do |key, value|
+        if block_given?
+          Array(yield(section_name, key)).each do |line|
+            file.puts "  # #{line.chomp}".rstrip
+          end
+        end
+        file.puts "  '#{key}': |"
+        if value.nil?
+          file.puts "    #{TRANSLATE_PLACEHOLDER}"
+        else
+          value.lines.each { |line| file.puts "    #{line.chomp}".rstrip }
+        end
+        file.puts
+      end
+    end
+  end
+end
+
 def is_translated?(text)
   return false if text.nil?
 
@@ -568,9 +569,15 @@ namespace :crowdin do
     editor_file_path = "../translations/ja/editor.yml"
     companion_file_path = "../translations/ja/companion.yml"
     effect_file_path = "../translations/ja/effects.yml"
+    tips_file_path = "../translations/ja/tips.yml"
 
     files = crowdin.list_files
-    [editor_file_path, companion_file_path, effect_file_path].each do |path|
+    [
+      editor_file_path,
+      companion_file_path,
+      effect_file_path,
+      tips_file_path
+    ].each do |path|
       puts "Uploading #{path} to Crowdin..."
       storage_id = crowdin.add_storage(File.open(path, "r"))["data"]["id"]
       existing_file_id =

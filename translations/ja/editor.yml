@@ -1,4 +1,4 @@
-Effect:
+'Effect':
   # TempBuffer
   '仮想バッファ': |
     仮想バッファ
@@ -1799,7 +1799,7 @@ Effect:
   '縦格子点': |
     縦格子点
 
-Menu:
+'Menu':
   # File
   'ファイル': |
     ファイル
@@ -3416,7 +3416,7 @@ Menu:
   '現在のシーンのグリッド(BPM)を設定': |
     現在のシーンのグリッド(BPM)を設定
 
-Message:
+'Message':
   # exporting file
   'ファイル出力中': |
     ファイル出力中
@@ -3897,7 +3897,7 @@ Message:
   '変更出来ません': |
     変更出来ません
 
-Dialog:
+'Dialog':
   # NewScene
   'シーンを作成': |
     シーンを作成
@@ -4766,7 +4766,7 @@ Dialog:
   'オフセット': |
     オフセット
 
-Name:
+'Name':
   # Min
   '最小': |
     最小
@@ -4783,7 +4783,7 @@ Name:
   '中央': |
     中央
 
-Setup:
+'Setup':
   # Update {app}
   '{app}を更新インストールします': |
     {app}を更新インストールします

@@ -1,12 +1,234 @@
 ; AviUtl2 Community Translation - English (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1397 of 1576 entries (88.64%).
+; Translated 1397 of 2334 entries (59.85%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
 [Language]
 Information=AviUtl2 Community Translation: English (en) - https://github.com/aviutl2/aviutl2_community_translation
 SubLanguage=English
+
+[AviUtl2 Community Translation]
+翻訳ファイルが更新されました。AviUtl2を再起動すると反映されます。=The translation files have been updated, restart AviUtl2 to apply.
+
+[Dialog]
+シーンを作成=Create Scene
+シーンの設定=Scene Settings
+名前=Name
+解像度=Resolution
+フレームレート=Frame Rate
+サンプリングレート=Sampling Rate
+バックアップ履歴の設定=Backup History
+編集レジューム=Edit Resume
+自動バックアップ=Auto Backup
+バックアップの間隔(分)=Backup Interval (minutes)
+バックアップファイルの最大数=Max Backup Files
+ファイル履歴の最大数=Max File History
+有効=Enable
+無効=Disable
+キャッシュサイズの設定=Cache Size
+画像キャッシュサイズ [MB]=Image Cache Size [MB]
+音声キャッシュサイズ [MB]=Audio Cache Size [MB]
+ファイルハンドルキャッシュ数=File Handle Cache Count
+プレビュー再生のバッファリング時間 [ms]=Preview Playback Buffering Time [ms]
+空のフレームを挿入=Insert Empty Frame
+オブジェクトの長さを変更=Change Object Length
+指定時間に移動=Go to Specified Time
+秒数指定=Specify Seconds
+フレーム数指定=Specify Frames
+グリッド(カメラ制御)の設定=Grid (Camera Control)
+表示間隔=Display Interval
+表示範囲=Display Range
+グリッド(BPM)の設定=Grid (BPM) Settings
+テンポ=Tempo
+拍子=Time Signature
+基準時間=Reference Time
+入力プラグインの設定=Input Plugin
+プラグイン(優先順位)=Plugin (Priority)
+拡張子=Extension
+言語の設定=Language
+言語=Language
+ログの設定=Log
+ログウィンドウの表示対象レベル=Log Window Display Level
+ログファイルの記録対象レベル=Log File Recording Level
+OutputDebugStringの出力対象レベル=OutputDebugString Output Level
+ログウィンドウの最大行数=Log Window Max Lines
+ログファイルの最大ファイル数=Log File Max Count
+項目(表示順)=Item (Display Order)
+ラベル=Label
+カラーサークルの基準角度=Color Circle Reference Angle
+基準角度=Reference Angle
+オブジェクト追加メニューの設定=Object Add Menu
+トラックバー移動メニューの設定=Trackbar Move Menu
+時間制御メニューの設定=Time Control Menu
+プリセット色メニューの設定=Preset Color Menu
+フォントメニューの設定=Font Menu
+ショートカットキーの設定=Shortcut Key
+操作=Operation
+ショートカットキー=Shortcut Key
+全てのショートカットキーを標準に戻す=Reset all to default
+パレットを作成 - 色設定=Create Palette - Color Settings
+パレット名=Palette Name
+プリセット名を設定 - 色設定=Set Preset Name - Color Settings
+プリセット名=Preset Name
+プリセットを作成 - 時間制御=Create Preset - Time Control
+エイリアスを作成=Create Alias
+エイリアス名=Alias Name
+オブジェクト=Object
+全体=All
+設定=Settings
+種別=Type
+設定値=Setting Value
+AVIファイル出力=AVI File Output
+PNGファイル出力=PNG File Output
+JPEGファイル出力=JPEG File Output
+JPEG品質=JPEG Quality
+プラグイン情報=Plugin
+プラグイン=Plugin
+入力プラグイン=Input Plugin
+出力プラグイン=Output Plugin
+スクリプト情報=Script
+フィルタ効果=Filter Effect
+カメラ効果=Camera Effect
+トラックバー=Trackbar
+シーン名を変更=Rename Scene
+自動=Auto
+高DPI表示=High DPI Display
+固定サイズ表示=Fixed Size Display
+拡大サイズ表示=Zoomed Size Display
+アプリケーションの再起動後に反映されます=Will take effect after AviUtl ExEdit2 restart
+共通操作の設定=Common Operation
+フレーム移動時の範囲選択=Select Range When Moving Frames
+する=Enable
+しない=Disable
+Shiftキーを押しながらフレーム移動した時=When Moving Frames with Shift Key Pressed
+カスタムフレーム移動A=Custom Frame Move A
+カスタムフレーム移動B=Custom Frame Move B
+カスタムフレーム移動C=Custom Frame Move C
+カスタムフレーム移動D=Custom Frame Move D
+移動量は秒数もしくはフレーム数("5f")で指定出来ます=Set movement in seconds or frames ("5f")
+スライダーの移動量の設定=Slider Movement Settings
+スライダーの移動量の基準=Slider Movement Reference
+固定の移動量=Fixed Movement Value
+数値の範囲とスクリーンの幅=Value Range and Screen Width
+数値の範囲とスライダーの幅=Value Range and Slider Width
+スライダーの移動量の感度=Slider Movement Sensitivity
+音声波形キャッシュサイズ [MB]=Audio Waveform Cache Size [MB]
+音量レベルメーターの設定=Volume Level Meter
+音量レベル(赤)のしきい値 [dB]=Threshold for red volume level [dB]
+音量レベル(黄)のしきい値 [dB]=Threshold for yellow volume level [dB]
+YUV色空間=YUV Color Space
+YUVレンジ=YUV Range
+ファイル出力時にYUVが利用される場合の設定です=Settings for YUV used in file output
+プロジェクトを新規作成=New Project
+スクリプト・プラグインの追加=Add Plugin/Script
+下記のプラグインまたはスクリプトのファイルが追加されています=New Plugin/Script files detected!
+プラグインやスクリプトは有用ですがマルウェア等のプログラムが含まれるリスクがあります=Plugins and scripts are useful, but may contain malware!
+信頼できる開発元から提供されていることを確認して使用してください=Only use plugins and scripts from trusted sources.
+※使用しない場合はファイルを削除してください=If you don't use it, we recommend deleting the file.
+このプラグイン・スクリプトを信頼して使用する=I trust this Plugin/Script
+使用しない=Don't use
+グリッド(XY軸)の設定=Grid (X/Y Axis) Settings
+横幅=Width
+縦幅=Height
+任意X軸=Custom X-Axis
+任意Y軸=Custom Y-Axis
+連番ファイル出力=Output Files in Sequence
+PNG透明色=PNG Transparency Color
+あり=Enable
+なし=Disable
+モデルデータキャッシュサイズ [MB]=Model Data Cache Size [MB]
+VRAMデータキャッシュサイズ [MB]=VRAM Data Cache Size [MB]
+画面の設定=Display
+ファイル出力の設定=Export File
+ファイル出力完了時のサウンド=Export Completion Sound
+ファイル=Browse
+決定ボタンが無い時のみ=Only When There Is No Confirm Button
+ダイアログをEnterキーで決定=Confirm Dialog with Enter Key
+シーンを複製=Duplicate Scene
+Alt+左クリックドラックで右クリックドラック操作=Assign right-drag to Alt + left-drag
+キーを入力してください=Input the key
+フィルタプラグイン=Filter Plugin
+スクリプトモジュール=Script Module
+プラグイン項目の右クリックメニューから設定が出来ます=Access settings via the right-click menu on the plugin item.
+選択範囲=Selected Range
+汎用プラグイン=Generic Plugin
+プラグイン・スクリプトのインストール=Install Plugin/Script
+下記のプラグインまたはスクリプトのファイルをインストールします=You are about to install the following plugin or script files.
+※インストール後にアプリケーションを再起動します=Application restarts after installation.
+インストールしない=Don't Install
+プリセットを作成=New preset
+対象範囲=Scope
+自身の項目のみ=Only your own items
+自身以降のフィルタ効果を含める=Include filter effects applied after itself
+対象項目=Target Items
+対象項目から外すとプリセット適用時に元の値が維持されます=When unchecked, the original value remains when applying presets.
+背景色=Background Color
+パレット名を変更=Rename Palette
+レイヤー名を変更=Rename Layer
+オブジェクト名を変更=Rename Object
+メディア移動量(ショートカットキー)=Media Move Amount (Shortcut Key)
+メディア拡大量(ショートカットキー)=Media Zoom Amount (Shortcut Key)
+メディア回転量(ショートカットキー)=Media Rotation Amount (Shortcut Key)
+ドラッグ時の自動スクロール速度=Auto-scroll speed when dragging
+透明=Transparent
+出力リサイズ=Resize output
+音声出力=Export audio
+出力設定はファイル出力時に適用されます=Apply output settings when exporting file
+基準フレーム上のオブジェクトを伸長する=Stretch objects on base frame
+上書き=Overwrite
+日付=Date
+パッケージ情報=Package Information
+パッケージ項目の右クリックメニューからアンインストールが出来ます=Right-click the entry to uninstall.
+プラグイン・スクリプトのアンインストール=Uninstall plugins and scripts
+下記のプラグインまたはスクリプトのファイルをアンインストールします=You are about to uninstall the following plugin or script files.
+※アンインストール後にアプリケーションを再起動します=Application restarts after uninstallation.
+このプラグイン・スクリプトをアンインストールする=Uninstall this Plugin/Script
+アンインストールしない=Don't Uninstall
+増減ボタンの移動単位=SliderButtonMoveStep
+ホイール操作の移動単位=MouseWheelMoveStep
+パッケージの競合=Package Conflict
+検索=Search
+重複=Duplicate
+キーの設定時にマウスの右クリックで設定を解除出来ます=While setting key, right click to clear setting.
+レイヤー編集のみ=Only edit layers
+入力補助のキーの組み合わせ=InputAssistKey
+Ctrlキーを押しながら=While holding Ctrl
+Altキーを押しながら=While holding Alt
+レイアウトを作成=CreateLayout
+レイアウト名=LayoutName
+プリセットから設定=SettingFromPreset
+参照式=ReferenceExpression
+ビデオ形式=VideoFormat
+オーディオ形式=AudioFormat
+コーデックの設定=CodecSetting
+コーデック=Codec
+YUV展開=YUV Compress
+YUV圧縮=YUV Decompress
+本体機能のAVIファイル入出力時のコーデック設定になります=Codec setting for AVI file input/output of main unit function.
+フォントのリストボックス一覧にも適用する=Also apply to font list box
+バッチ登録=AddBatch
+バッチ出力=BatchExport
+未出力=NotExported
+完了=Completed
+失敗=Failed
+保留=OnHold
+出力中=Exporting
+リスト=List
+出力=Export
+状態=State
+開始=Start
+中断=Interrupt
+バッチ出力完了時の動作=Action on batch completion
+何もしない=None
+アプリケーションを終了=ExitApplication
+PCをシャットダウン=ShutdownPC
+PCをスリープ=SleepPC
+言語ファイル情報=LanguageFileInformation
+情報=Information
+トラックバー移動=MoveMode
+開始位置=StartPosition
+オフセット=Offset
 
 [Effect]
 動画ファイル=Video File
@@ -1129,225 +1351,6 @@ Z軸回転の変更=Change rotation on Z axis
 削除出来ません=can not delete
 変更出来ません=can not change
 
-[Dialog]
-シーンを作成=Create Scene
-シーンの設定=Scene Settings
-名前=Name
-解像度=Resolution
-フレームレート=Frame Rate
-サンプリングレート=Sampling Rate
-バックアップ履歴の設定=Backup History
-編集レジューム=Edit Resume
-自動バックアップ=Auto Backup
-バックアップの間隔(分)=Backup Interval (minutes)
-バックアップファイルの最大数=Max Backup Files
-ファイル履歴の最大数=Max File History
-有効=Enable
-無効=Disable
-キャッシュサイズの設定=Cache Size
-画像キャッシュサイズ [MB]=Image Cache Size [MB]
-音声キャッシュサイズ [MB]=Audio Cache Size [MB]
-ファイルハンドルキャッシュ数=File Handle Cache Count
-プレビュー再生のバッファリング時間 [ms]=Preview Playback Buffering Time [ms]
-空のフレームを挿入=Insert Empty Frame
-オブジェクトの長さを変更=Change Object Length
-指定時間に移動=Go to Specified Time
-秒数指定=Specify Seconds
-フレーム数指定=Specify Frames
-グリッド(カメラ制御)の設定=Grid (Camera Control)
-表示間隔=Display Interval
-表示範囲=Display Range
-グリッド(BPM)の設定=Grid (BPM) Settings
-テンポ=Tempo
-拍子=Time Signature
-基準時間=Reference Time
-入力プラグインの設定=Input Plugin
-プラグイン(優先順位)=Plugin (Priority)
-拡張子=Extension
-言語の設定=Language
-言語=Language
-ログの設定=Log
-ログウィンドウの表示対象レベル=Log Window Display Level
-ログファイルの記録対象レベル=Log File Recording Level
-OutputDebugStringの出力対象レベル=OutputDebugString Output Level
-ログウィンドウの最大行数=Log Window Max Lines
-ログファイルの最大ファイル数=Log File Max Count
-項目(表示順)=Item (Display Order)
-ラベル=Label
-カラーサークルの基準角度=Color Circle Reference Angle
-基準角度=Reference Angle
-オブジェクト追加メニューの設定=Object Add Menu
-トラックバー移動メニューの設定=Trackbar Move Menu
-時間制御メニューの設定=Time Control Menu
-プリセット色メニューの設定=Preset Color Menu
-フォントメニューの設定=Font Menu
-ショートカットキーの設定=Shortcut Key
-操作=Operation
-ショートカットキー=Shortcut Key
-全てのショートカットキーを標準に戻す=Reset all to default
-パレットを作成 - 色設定=Create Palette - Color Settings
-パレット名=Palette Name
-プリセット名を設定 - 色設定=Set Preset Name - Color Settings
-プリセット名=Preset Name
-プリセットを作成 - 時間制御=Create Preset - Time Control
-エイリアスを作成=Create Alias
-エイリアス名=Alias Name
-オブジェクト=Object
-全体=All
-設定=Settings
-種別=Type
-設定値=Setting Value
-AVIファイル出力=AVI File Output
-PNGファイル出力=PNG File Output
-JPEGファイル出力=JPEG File Output
-JPEG品質=JPEG Quality
-プラグイン情報=Plugin
-プラグイン=Plugin
-入力プラグイン=Input Plugin
-出力プラグイン=Output Plugin
-スクリプト情報=Script
-フィルタ効果=Filter Effect
-カメラ効果=Camera Effect
-トラックバー=Trackbar
-シーン名を変更=Rename Scene
-自動=Auto
-高DPI表示=High DPI Display
-固定サイズ表示=Fixed Size Display
-拡大サイズ表示=Zoomed Size Display
-アプリケーションの再起動後に反映されます=Will take effect after AviUtl ExEdit2 restart
-共通操作の設定=Common Operation
-フレーム移動時の範囲選択=Select Range When Moving Frames
-する=Enable
-しない=Disable
-Shiftキーを押しながらフレーム移動した時=When Moving Frames with Shift Key Pressed
-カスタムフレーム移動A=Custom Frame Move A
-カスタムフレーム移動B=Custom Frame Move B
-カスタムフレーム移動C=Custom Frame Move C
-カスタムフレーム移動D=Custom Frame Move D
-移動量は秒数もしくはフレーム数("5f")で指定出来ます=Set movement in seconds or frames ("5f")
-スライダーの移動量の設定=Slider Movement Settings
-スライダーの移動量の基準=Slider Movement Reference
-固定の移動量=Fixed Movement Value
-数値の範囲とスクリーンの幅=Value Range and Screen Width
-数値の範囲とスライダーの幅=Value Range and Slider Width
-スライダーの移動量の感度=Slider Movement Sensitivity
-音声波形キャッシュサイズ [MB]=Audio Waveform Cache Size [MB]
-音量レベルメーターの設定=Volume Level Meter
-音量レベル(赤)のしきい値 [dB]=Threshold for red volume level [dB]
-音量レベル(黄)のしきい値 [dB]=Threshold for yellow volume level [dB]
-YUV色空間=YUV Color Space
-YUVレンジ=YUV Range
-ファイル出力時にYUVが利用される場合の設定です=Settings for YUV used in file output
-プロジェクトを新規作成=New Project
-スクリプト・プラグインの追加=Add Plugin/Script
-下記のプラグインまたはスクリプトのファイルが追加されています=New Plugin/Script files detected!
-プラグインやスクリプトは有用ですがマルウェア等のプログラムが含まれるリスクがあります=Plugins and scripts are useful, but may contain malware!
-信頼できる開発元から提供されていることを確認して使用してください=Only use plugins and scripts from trusted sources.
-※使用しない場合はファイルを削除してください=If you don't use it, we recommend deleting the file.
-このプラグイン・スクリプトを信頼して使用する=I trust this Plugin/Script
-使用しない=Don't use
-グリッド(XY軸)の設定=Grid (X/Y Axis) Settings
-横幅=Width
-縦幅=Height
-任意X軸=Custom X-Axis
-任意Y軸=Custom Y-Axis
-連番ファイル出力=Output Files in Sequence
-PNG透明色=PNG Transparency Color
-あり=Enable
-なし=Disable
-モデルデータキャッシュサイズ [MB]=Model Data Cache Size [MB]
-VRAMデータキャッシュサイズ [MB]=VRAM Data Cache Size [MB]
-画面の設定=Display
-ファイル出力の設定=Export File
-ファイル出力完了時のサウンド=Export Completion Sound
-ファイル=Browse
-決定ボタンが無い時のみ=Only When There Is No Confirm Button
-ダイアログをEnterキーで決定=Confirm Dialog with Enter Key
-シーンを複製=Duplicate Scene
-Alt+左クリックドラックで右クリックドラック操作=Assign right-drag to Alt + left-drag
-キーを入力してください=Input the key
-フィルタプラグイン=Filter Plugin
-スクリプトモジュール=Script Module
-プラグイン項目の右クリックメニューから設定が出来ます=Access settings via the right-click menu on the plugin item.
-選択範囲=Selected Range
-汎用プラグイン=Generic Plugin
-プラグイン・スクリプトのインストール=Install Plugin/Script
-下記のプラグインまたはスクリプトのファイルをインストールします=You are about to install the following plugin or script files.
-※インストール後にアプリケーションを再起動します=Application restarts after installation.
-インストールしない=Don't Install
-プリセットを作成=New preset
-対象範囲=Scope
-自身の項目のみ=Only your own items
-自身以降のフィルタ効果を含める=Include filter effects applied after itself
-対象項目=Target Items
-対象項目から外すとプリセット適用時に元の値が維持されます=When unchecked, the original value remains when applying presets.
-背景色=Background Color
-パレット名を変更=Rename Palette
-レイヤー名を変更=Rename Layer
-オブジェクト名を変更=Rename Object
-メディア移動量(ショートカットキー)=Media Move Amount (Shortcut Key)
-メディア拡大量(ショートカットキー)=Media Zoom Amount (Shortcut Key)
-メディア回転量(ショートカットキー)=Media Rotation Amount (Shortcut Key)
-ドラッグ時の自動スクロール速度=Auto-scroll speed when dragging
-透明=Transparent
-出力リサイズ=Resize output
-音声出力=Export audio
-出力設定はファイル出力時に適用されます=Apply output settings when exporting file
-基準フレーム上のオブジェクトを伸長する=Stretch objects on base frame
-上書き=Overwrite
-日付=Date
-パッケージ情報=Package Information
-パッケージ項目の右クリックメニューからアンインストールが出来ます=Right-click the entry to uninstall.
-プラグイン・スクリプトのアンインストール=Uninstall plugins and scripts
-下記のプラグインまたはスクリプトのファイルをアンインストールします=You are about to uninstall the following plugin or script files.
-※アンインストール後にアプリケーションを再起動します=Application restarts after uninstallation.
-このプラグイン・スクリプトをアンインストールする=Uninstall this Plugin/Script
-アンインストールしない=Don't Uninstall
-増減ボタンの移動単位=SliderButtonMoveStep
-ホイール操作の移動単位=MouseWheelMoveStep
-パッケージの競合=Package Conflict
-検索=Search
-重複=Duplicate
-キーの設定時にマウスの右クリックで設定を解除出来ます=While setting key, right click to clear setting.
-レイヤー編集のみ=Only edit layers
-入力補助のキーの組み合わせ=InputAssistKey
-Ctrlキーを押しながら=While holding Ctrl
-Altキーを押しながら=While holding Alt
-レイアウトを作成=CreateLayout
-レイアウト名=LayoutName
-プリセットから設定=SettingFromPreset
-参照式=ReferenceExpression
-ビデオ形式=VideoFormat
-オーディオ形式=AudioFormat
-コーデックの設定=CodecSetting
-コーデック=Codec
-YUV展開=YUV Compress
-YUV圧縮=YUV Decompress
-本体機能のAVIファイル入出力時のコーデック設定になります=Codec setting for AVI file input/output of main unit function.
-フォントのリストボックス一覧にも適用する=Also apply to font list box
-バッチ登録=AddBatch
-バッチ出力=BatchExport
-未出力=NotExported
-完了=Completed
-失敗=Failed
-保留=OnHold
-出力中=Exporting
-リスト=List
-出力=Export
-状態=State
-開始=Start
-中断=Interrupt
-バッチ出力完了時の動作=Action on batch completion
-何もしない=None
-アプリケーションを終了=ExitApplication
-PCをシャットダウン=ShutdownPC
-PCをスリープ=SleepPC
-言語ファイル情報=LanguageFileInformation
-情報=Information
-トラックバー移動=MoveMode
-開始位置=StartPosition
-オフセット=Offset
-
 [Name]
 最小=Minimum
 最大=Maximum
@@ -1369,6 +1372,133 @@ OK=OK
 アンインストールが完了しました=Uninstallation is completed
 別のアプリケーションにファイルがロックされています=The file is locked by another application
 該当アプリケーションを終了して再試行してください=Please close the application and try again
+
+[Tips.オーディオバッファ]
+effect.name=現在の音声バッファのデータを取り込みます\n音声全体にフィルタ効果を適用する場合に利用します
+オーディオバッファをクリア=取り込んだ後に音声バッファをクリアします
+
+[Tips.カメラ制御]
+effect.name=下位のレイヤーにあるオブジェクトをカメラの座標と目標点の方向にあわせて描画します
+目標X=目標レイヤーの基準点にこの値を加えた座標がカメラの目標方向の座標になります
+目標Y=目標レイヤーの基準点にこの値を加えた座標がカメラの目標方向の座標になります
+目標Z=目標レイヤーの基準点にこの値を加えた座標がカメラの目標方向の座標になります
+傾き=カメラの傾きを指定します
+目標レイヤー=目標点の基準になるオブジェクトのレイヤーを指定します\n未指定の場合は原点が目標基準になります\nカメラ制御のあるレイヤーを指定するとカメラの位置が目標基準になります\n移動指定すると基準オブジェクト間で補間移動します
+焦点レイヤー=焦点の基準になるオブジェクトのレイヤーを指定します\n深度ぼけの焦点に利用されます\n未指定の場合は目標点が焦点になります\n移動指定すると基準オブジェクト間で補間移動します
+深度ぼけ=被写界深度によるぼけの強さを指定します
+視野角=カメラの視野角を指定します
+対象レイヤー数=カメラ制御の対象とする下位レイヤーの範囲を指定します
+
+[Tips.グループ制御]
+effect.name=下位のレイヤーにあるオブジェクトの座標を纏めて制御します
+対象レイヤー数=グループ制御の対象とする下位レイヤーの範囲を指定します
+
+[Tips.グループ制御(音声)]
+effect.name=下位のレイヤーにあるオブジェクトの音声を纏めて制御します
+対象レイヤー数=グループ制御の対象とする下位レイヤーの範囲を指定します
+
+[Tips.シーン]
+effect.name=指定したシーンの映像を読み込みます
+再生位置=再生範囲の場合はシーンの再生範囲を指定します\nそれ以外では表示するシーンの位置を指定します
+
+[Tips.テキスト]
+effect.name=テキストを表示します\nテキストには各種制御文字が利用出来ます
+表示速度=1秒間に表示する文字数を指定します\n未指定の場合は常にすべてのテキストが表示されます
+文字装飾=文字の装飾方法を選択します
+文字揃え=文字の揃え方や縦書きを選択します
+文字色=文字の色を指定します
+影・縁色=文字装飾した時の影や縁の色を指定します
+B=太文字にするかを切り替えます
+I=斜体にするかを切り替えます
+文字毎に個別オブジェクト=文字毎に個別オブジェクトとして処理します\nフェード効果等が文字毎に処理されるようになります
+自動スクロール=オブジェクトの長さに合わせて上方向にスクロールします\nテキストに改行が含まれない場合は左方向にスクロールします
+移動座標上に表示=テキストの文字をオブジェクトの移動座標を基準に表示するようにします
+オブジェクトの長さを自動調節=文字の表示時間に合わせてオブジェクトの長さを自動調節します\n最初のフレームで全て表示される場合は自動調節しません
+
+[Tips.パーティクル出力]
+出力頻度=1秒間に出力するパーティクルの数を指定します
+出力速度=出力時の速度を指定します
+加速度=出力後の加速度を指定します
+出力方向=出力する方向を指定します
+拡散角度=出力する方向を拡散させる角度を指定します
+透過率=出力時の透過率を指定します
+透過速度=出力後の透過率の変化速度を指定します
+拡大率=出力時の拡大率を指定します
+拡大速度=出力後の拡大率の変化速度を指定します
+回転角=出力時のパーティクルの角度を指定します
+回転速度=出力後のパーティクルの回転速度を指定します
+重力=重力加速度を指定します
+生存時間=出力後のパーティクルが生存する時間を指定します
+出力終了調整=パーティクルの出力終了をオブジェクトの終了の何秒前にするかを指定します
+合成モード=画像の合成方法を指定します
+移動範囲の座標からランダムに出力=オブジェクトの移動範囲の座標からランダムに出力します
+出力方向の基準を移動方向にする=オブジェクトの移動方向を出力方向の基準角度にします
+回転角の基準を移動方向にする=オブジェクトの移動方向を回転角の基準角度にします
+3Dランダム回転=回転速度の設定を最大速度としてランダムに3軸回転させます
+
+[Tips.フレームバッファ]
+effect.name=現在の描画バッファのデータを取り込みます\n画面全体にフィルタ効果を適用する場合に利用します
+アルファチャンネルを維持=描画バッファの透過情報を維持します
+フレームバッファをクリア=取り込んだ後に描画バッファをクリアします
+
+[Tips.モデルファイル]
+effect.name=指定したモデルファイルを読み込みます\nobjファイルのみ対応しています
+座標系を調整=モデルの座標系を調整します
+
+[Tips.動画ファイル]
+effect.name=指定した映像ファイルを読み込みます
+再生位置=再生範囲の場合は映像の再生範囲を指定します\nそれ以外では表示する映像の位置を指定します
+再生速度=再生速度を指定します\nマイナス値を設定すると逆再生になります\n再生速度を変化させた場合は中間点のみで速度が変更されます
+トラック=マルチトラック映像のトラックを選択します
+
+[Tips.図形]
+effect.name=単色の図形を作成します\nsvgファイルから読み込むことも出来ます
+図形の種類=図形の種類を選択します\nボタンクリックでsvgファイルを選択出来ます
+ライン幅=図形を描画するラインの幅を指定します\nsvgファイルでは利用出来ません
+角を丸くする=図形の角を丸くします\nライン幅が大きいと反映されません
+
+[Tips.基本出力]
+合成モード=画像の合成方法を指定します
+
+[Tips.映像再生]
+合成モード=画像の合成方法を指定します
+
+[Tips.時間制御(オブジェクト)]
+effect.name=下位のレイヤーにあるオブジェクトの時間軸を制御します
+位置=再生する時間位置の範囲を指定します
+繰り返し=位置の指定範囲を繰り返し再生するようにします
+コマ落ち=映像をコマ落ちしているように再生します
+対象レイヤー数=時間制御の対象とする下位レイヤーの範囲を指定します
+
+[Tips.標準描画]
+effect.name=標準描画
+合成モード=画像の合成方法を指定します
+
+[Tips.画像ファイル]
+effect.name=指定した画像ファイルを読み込みます
+連番ファイル=指定した画像ファイルを起点とした連番ファイルとして読み込みます
+表示番号=再生範囲の場合は表示対象とする連番範囲を指定します\nそれ以外では表示する番号を指定します
+再生速度=再生速度を指定します\nマイナス値を設定すると逆再生になります\n再生速度を変化させた場合は中間点のみで速度が変更されます
+
+[Tips.画像合成(オブジェクト)]
+effect.name=下位のレイヤーにあるオブジェクトを1つの画像オブジェクトとして合成します\n合成後の画像にフィルタ効果を適用することが出来ます
+対象レイヤー数=画像合成の対象とする下位レイヤーの範囲を指定します
+
+[Tips.直前オブジェクト]
+effect.name=上位のレイヤーで直前に描画されたメディアオブジェクトの描画データを取り込みます
+
+[Tips.部分フィルタ]
+effect.name=追加されたフィルタ効果を画面の一部分のみに反映させます\n指定したマスクの部分のみフィルタ効果が反映されます
+ぼかし=マスクをぼかして境界を滑らかにします
+マスクの種類=マスクの種類を選択します\nボタンクリックで画像ファイルやシーンをマスク画像として選択出来ます
+シーンの長さを合わせる=オブジェクトの範囲にシーン全体が収まるように時間位置を調整します
+マスクの反転=マスクを反転させます
+
+[Tips.音声ファイル]
+effect.name=指定した音声ファイルを読み込みます
+再生位置=再生範囲の場合は音声の再生範囲を指定します\nそれ以外では再生する音声の位置を指定します
+再生速度=再生速度を指定します\nマイナス値を設定すると逆再生になります\n再生速度を変化させた場合は中間点のみで速度が変更されます
+トラック=マルチトラック音声のトラックを選択します
 
 [ぼかし]
 ぼかし=Blur
@@ -1722,7 +1852,4 @@ Z軸回転=Z Rotation
 再生速度=Playback Speed
 音量=Volume
 ファイル=File
-
-[AviUtl2 Community Translation]
-翻訳ファイルが更新されました。AviUtl2を再起動すると反映されます。=The translation files have been updated, restart AviUtl2 to apply.
 
