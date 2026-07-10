@@ -2505,6 +2505,12 @@
   # CreateLayout
   'レイアウトを作成': |
     Create Layout
+  # CodecSetting
+  'コーデックの設定': |
+    Codec Settings
+  # LanguageFileInformation
+  '言語ファイル情報': |
+    Language File Information
 'Message':
   # exporting file
   'ファイル出力中': |

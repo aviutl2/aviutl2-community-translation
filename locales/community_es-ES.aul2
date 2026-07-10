@@ -1218,7 +1218,7 @@ YUVレンジ=YUV Range
 レイアウトを作成=Create Layout
 ファイル出力を中断=InterruptExportFile
 参照式=ReferenceExpression
-コーデックの設定=CodecSetting
+コーデックの設定=Codec Settings
 繰り返し=Repeat
 フォントファイルフォルダ=FontFileFolder
 バッチ出力=BatchExport
@@ -1228,7 +1228,7 @@ YUVレンジ=YUV Range
 完了を全て削除=DeleteAllCompleted
 失敗を全て削除=DeleteAllFailed
 正常に完了したバッチを自動的に削除=AutomaticallyDeleteCompletedBatch
-言語ファイル情報=LanguageFileInformation
+言語ファイル情報=Language File Information
 クリップボードにPNG形式でコピー=CopyClipboardInPngFormat
 現在のシーンのグリッド(BPM)を設定=SettingCurrentSceneGrid(BPM)
 
