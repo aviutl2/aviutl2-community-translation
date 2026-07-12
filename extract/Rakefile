@@ -354,7 +354,7 @@ task :update_aul2 do
         elsif is_translated?(fallback_value&.chomp)
           sections[section][key] = fallback_value.chomp
         else
-          sections[section][key] = value
+          sections[section][key] = value.gsub(/(?<=[a-z])[A-Z]/, ' \0')
         end
       end
     end
@@ -438,9 +438,7 @@ task :update_aul2 do
       # 将来的に翻訳が充実してきたり、カンマ区切りで複数指定できるようになったりしたら、適宜変更する。
       file.puts "SubLanguage=English"
       file.puts
-      sections
-        .sort
-        .each do |section_name, section_content|
+      sections.sort.each do |section_name, section_content|
         next if section_content.empty?
         file.puts "[#{section_name}]"
         section_content.each do |key, value|
