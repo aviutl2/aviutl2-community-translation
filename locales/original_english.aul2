@@ -1033,6 +1033,7 @@ YUVレンジ=YUVColorRange
 言語ファイル情報=LanguageFileInformation
 クリップボードにPNG形式でコピー=CopyClipboardInPngFormat
 現在のシーンのグリッド(BPM)を設定=SettingCurrentSceneGrid(BPM)
+中間点と制御点をリンク=LinkObjectPointAndControlPoint
 
 [Message]
 ; ツールチップ、メッセージボックス等のメッセージ

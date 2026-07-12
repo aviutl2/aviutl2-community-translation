@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation - Spanish (Spain) (es-ES)
 ; Generated automatically. Do not edit directly.
-; Translated 0 of 1663 entries (0.0%).
+; Translated 0 of 1676 entries (0.0%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -1231,6 +1231,7 @@ YUVレンジ=YUV Range
 言語ファイル情報=Language File Information
 クリップボードにPNG形式でコピー=CopyClipboardInPngFormat
 現在のシーンのグリッド(BPM)を設定=SettingCurrentSceneGrid(BPM)
+中間点と制御点をリンク=LinkObjectPointAndControlPoint
 
 [Message]
 ファイル出力中=Exporting File
@@ -1499,6 +1500,20 @@ effect.name=指定した音声ファイルを読み込みます
 再生位置=再生範囲の場合は音声の再生範囲を指定します\nそれ以外では再生する音声の位置を指定します
 再生速度=再生速度を指定します\nマイナス値を設定すると逆再生になります\n再生速度を変化させた場合は中間点のみで速度が変更されます
 トラック=マルチトラック音声のトラックを選択します
+
+[Tips.音声波形表示]
+effect.name=指定の音声ファイルや編集している音声の波形を表示します
+横幅=波形の横サイズを指定します
+高さ=波形の縦サイズを指定します
+再生位置=再生範囲の場合は音声の再生範囲を指定します\nそれ以外では再生する音声の位置を指定します
+再生速度=再生速度を指定します\nマイナス値を設定すると逆再生になります\n再生速度を変化させた場合は中間点のみで速度が変更されます
+波形のプリセット=波形のプリセット設定を反映します
+スペクトラム表示=波形を周波数毎の音量グラフで表示するかを切り替えます
+ミラー表示=スペクトラム表示の場合に上下対称のグラフで表示するかを切り替えます
+横解像度=波形情報の横解像度を指定します
+縦解像度=波形情報の縦解像度を指定します
+横スペース=波形の解像度毎の横間隔を指定します
+縦スペース=波形の解像度毎の縦間隔を指定します
 
 [ぼかし]
 ぼかし=Blur

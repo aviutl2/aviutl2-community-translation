@@ -3416,6 +3416,10 @@
   '現在のシーンのグリッド(BPM)を設定': |
     現在のシーンのグリッド(BPM)を設定
 
+  # LinkObjectPointAndControlPoint
+  '中間点と制御点をリンク': |
+    中間点と制御点をリンク
+
 'Message':
   # exporting file
   'ファイル出力中': |
