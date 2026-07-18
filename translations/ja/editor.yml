@@ -3420,6 +3420,30 @@
   '中間点と制御点をリンク': |
     中間点と制御点をリンク
 
+  # HorizontalOnly
+  '横方向のみ': |
+    横方向のみ
+
+  # GroupSliderButtons
+  'スライダーの増減ボタンを纏める': |
+    スライダーの増減ボタンを纏める
+
+  # FrameRate
+  'フレームレート': |
+    フレームレート
+
+  # Normal
+  '標準': |
+    標準
+
+  # AdjustToAudioDuration
+  'オーディオの長さに合わせて調整': |
+    オーディオの長さに合わせて調整
+
+  # ForceConstantFrameRate
+  '強制フレームレート固定': |
+    強制フレームレート固定
+
 'Message':
   # exporting file
   'ファイル出力中': |
@@ -3720,10 +3744,6 @@
   'ファイルの読み込みに失敗しました': |
     ファイルの読み込みに失敗しました
 
-  # setting YUV
-  'YUVの設定': |
-    YUVの設定
-
   # invalid format
   'フォーマットが正しくありません': |
     フォーマットが正しくありません
@@ -3900,6 +3920,10 @@
   # can not change
   '変更出来ません': |
     変更出来ません
+
+  # setting input
+  '入力設定': |
+    入力設定
 
 'Dialog':
   # NewScene
@@ -4769,6 +4793,10 @@
   # Offset
   'オフセット': |
     オフセット
+
+  # SaveMainWindowPosition
+  'メインウィンドウの位置も保存する': |
+    メインウィンドウの位置も保存する
 
 'Name':
   # Min

@@ -2744,9 +2744,6 @@
   # failed load file
   'ファイルの読み込みに失敗しました': |
     Failed to load file
-  # setting YUV
-  'YUVの設定': |
-    YUV Settings
   # invalid format
   'フォーマットが正しくありません': |
     Invalid format

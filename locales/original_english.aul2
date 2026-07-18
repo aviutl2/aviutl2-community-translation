@@ -1034,6 +1034,12 @@ YUVレンジ=YUVColorRange
 クリップボードにPNG形式でコピー=CopyClipboardInPngFormat
 現在のシーンのグリッド(BPM)を設定=SettingCurrentSceneGrid(BPM)
 中間点と制御点をリンク=LinkObjectPointAndControlPoint
+横方向のみ=HorizontalOnly
+スライダーの増減ボタンを纏める=GroupSliderButtons
+フレームレート=FrameRate
+標準=Normal
+オーディオの長さに合わせて調整=AdjustToAudioDuration
+強制フレームレート固定=ForceConstantFrameRate
 
 [Message]
 ; ツールチップ、メッセージボックス等のメッセージ
@@ -1110,7 +1116,6 @@ YUVレンジ=YUVColorRange
 プレビュー一時停止=preview pause
 テキストを追加=add text
 ファイルの読み込みに失敗しました=failed load file
-YUVの設定=setting YUV
 フォーマットが正しくありません=invalid format
 ファイル・シーンから選択=select file/scene
 ファイルから選択=select file
@@ -1154,6 +1159,7 @@ Z軸回転の変更=change rotate z
 削除しますか？=delete?
 削除出来ません=can not delete
 変更出来ません=can not change
+入力設定=setting input
 
 [Dialog]
 ; ダイアログ内の名称
@@ -1374,6 +1380,7 @@ PCをスリープ=SleepPC
 トラックバー移動=MoveMode
 開始位置=StartPosition
 オフセット=Offset
+メインウィンドウの位置も保存する=SaveMainWindowPosition
 ;OK=OK
 ;Cancel=Cancel
 

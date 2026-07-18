@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation - English (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1399 of 1676 entries (83.47%).
+; Translated 1398 of 1683 entries (83.07%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -229,6 +229,7 @@ PCをスリープ=Sleep PC
 トラックバー移動=Move Mode
 開始位置=Start Position
 オフセット=Offset
+メインウィンドウの位置も保存する=Save Main Window Position
 
 [Effect]
 動画ファイル=Video File
@@ -1232,6 +1233,12 @@ YUVレンジ=YUV Range
 クリップボードにPNG形式でコピー=Copy Clipboard In Png Format
 現在のシーンのグリッド(BPM)を設定=Setting Current Scene Grid(BPM)
 中間点と制御点をリンク=Link Object Point And Control Point
+横方向のみ=Horizontal Only
+スライダーの増減ボタンを纏める=Group Slider Buttons
+フレームレート=Frame Rate
+標準=Normal
+オーディオの長さに合わせて調整=Adjust To Audio Duration
+強制フレームレート固定=Force Constant Frame Rate
 
 [Message]
 ファイル出力中=Exporting File
@@ -1307,7 +1314,6 @@ YUVレンジ=YUV Range
 プレビュー一時停止=Pause
 テキストを追加=Add text
 ファイルの読み込みに失敗しました=Failed to load file
-YUVの設定=YUV Settings
 フォーマットが正しくありません=Invalid format
 ファイル・シーンから選択=Select from File or Scene
 ファイルから選択=Select from File
@@ -1351,6 +1357,7 @@ Z軸回転の変更=Change rotation on Z axis
 削除しますか？=delete?
 削除出来ません=can not delete
 変更出来ません=can not change
+入力設定=setting input
 
 [Name]
 最小=Minimum
