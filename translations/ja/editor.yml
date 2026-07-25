@@ -3444,6 +3444,30 @@
   '強制フレームレート固定': |
     強制フレームレート固定
 
+  # EnableObjectPointAndControlPointLinkWhenChangeToTimeControl
+  '時間制御へ変更した時に中間点と制御点のリンクを有効にする': |
+    時間制御へ変更した時に中間点と制御点のリンクを有効にする
+
+  # ClippingObject
+  'クリッピングオブジェクト': |
+    クリッピングオブジェクト
+
+  # CameraTargetObject
+  'カメラ制御の対象': |
+    カメラ制御の対象
+
+  # EnableClippingObject
+  'クリッピングオブジェクトの有効・無効': |
+    クリッピングオブジェクトの有効・無効
+
+  # EnableCameraTargetObject
+  'カメラ制御の対象オブジェクトの有効・無効': |
+    カメラ制御の対象オブジェクトの有効・無効
+
+  # ClickToStopPreview
+  'プレビュー再生をクリックで停止': |
+    プレビュー再生をクリックで停止
+
 'Message':
   # exporting file
   'ファイル出力中': |

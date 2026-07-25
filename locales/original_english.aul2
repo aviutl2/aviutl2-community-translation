@@ -1040,6 +1040,12 @@ YUVレンジ=YUVColorRange
 標準=Normal
 オーディオの長さに合わせて調整=AdjustToAudioDuration
 強制フレームレート固定=ForceConstantFrameRate
+時間制御へ変更した時に中間点と制御点のリンクを有効にする=EnableObjectPointAndControlPointLinkWhenChangeToTimeControl
+クリッピングオブジェクト=ClippingObject
+カメラ制御の対象=CameraTargetObject
+クリッピングオブジェクトの有効・無効=EnableClippingObject
+カメラ制御の対象オブジェクトの有効・無効=EnableCameraTargetObject
+プレビュー再生をクリックで停止=ClickToStopPreview
 
 [Message]
 ; ツールチップ、メッセージボックス等のメッセージ
