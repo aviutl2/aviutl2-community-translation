@@ -3468,6 +3468,46 @@
   'プレビュー再生をクリックで停止': |
     プレビュー再生をクリックで停止
 
+  # MarkFrame
+  'フレームをマーク': |
+    フレームをマーク
+
+  # DeleteMark
+  'マークを削除': |
+    マークを削除
+
+  # ChangeMarkMemo
+  'マークのメモを変更': |
+    マークのメモを変更
+
+  # NextMark
+  '次のマークに移動': |
+    次のマークに移動
+
+  # PreviousMark
+  '前のマークに移動': |
+    前のマークに移動
+
+  # MarkCursorFrame
+  '現在のフレームをマーク': |
+    現在のフレームをマーク
+
+  # MarkList
+  'マークリスト': |
+    マークリスト
+
+  # AddGrid(BPM)Section
+  'グリッド(BPM)区間を追加': |
+    グリッド(BPM)区間を追加
+
+  # DeleteGrid(BPM)Section
+  'グリッド(BPM)区間を削除': |
+    グリッド(BPM)区間を削除
+
+  # SettingGrid(BPM)Section
+  'グリッド(BPM)区間を設定': |
+    グリッド(BPM)区間を設定
+
 'Message':
   # exporting file
   'ファイル出力中': |
@@ -3948,6 +3988,14 @@
   # setting input
   '入力設定': |
     入力設定
+
+  # mark cursor frame
+  '現在のフレームをマーク': |
+    現在のフレームをマーク
+
+  # switch audio output
+  '音声出力を切替': |
+    音声出力を切替
 
 'Dialog':
   # NewScene
@@ -4821,6 +4869,14 @@
   # SaveMainWindowPosition
   'メインウィンドウの位置も保存する': |
     メインウィンドウの位置も保存する
+
+  # Mark
+  'マーク': |
+    マーク
+
+  # Memo
+  'メモ': |
+    メモ
 
 'Name':
   # Min

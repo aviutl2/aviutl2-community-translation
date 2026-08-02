@@ -110,6 +110,7 @@ Information=Simple English Language by Kenkun
 点光源(カメラ制御)=PointLight(Camera)
 スポット光源(カメラ制御)=SpotLight(Camera)
 平行光源(カメラ制御)=DirectionalLight(Camera)
+フィルタオブジェクト=FilterObject
 
 ; スクリプトの名称
 震える=Tremble
@@ -1046,6 +1047,16 @@ YUVレンジ=YUVColorRange
 クリッピングオブジェクトの有効・無効=EnableClippingObject
 カメラ制御の対象オブジェクトの有効・無効=EnableCameraTargetObject
 プレビュー再生をクリックで停止=ClickToStopPreview
+フレームをマーク=MarkFrame
+マークを削除=DeleteMark
+マークのメモを変更=ChangeMarkMemo
+次のマークに移動=NextMark
+前のマークに移動=PreviousMark
+現在のフレームをマーク=MarkCursorFrame
+マークリスト=MarkList
+グリッド(BPM)区間を追加=AddGrid(BPM)Section
+グリッド(BPM)区間を削除=DeleteGrid(BPM)Section
+グリッド(BPM)区間を設定=SettingGrid(BPM)Section
 
 [Message]
 ; ツールチップ、メッセージボックス等のメッセージ
@@ -1166,6 +1177,8 @@ Z軸回転の変更=change rotate z
 削除出来ません=can not delete
 変更出来ません=can not change
 入力設定=setting input
+現在のフレームをマーク=mark cursor frame
+音声出力を切替=switch audio output
 
 [Dialog]
 ; ダイアログ内の名称
@@ -1387,6 +1400,8 @@ PCをスリープ=SleepPC
 開始位置=StartPosition
 オフセット=Offset
 メインウィンドウの位置も保存する=SaveMainWindowPosition
+マーク=Mark
+メモ=Memo
 ;OK=OK
 ;Cancel=Cancel
 

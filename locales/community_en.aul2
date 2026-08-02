@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation - English (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1398 of 1689 entries (82.77%).
+; Translated 1398 of 1704 entries (82.04%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -230,6 +230,8 @@ PCをスリープ=Sleep PC
 開始位置=Start Position
 オフセット=Offset
 メインウィンドウの位置も保存する=Save Main Window Position
+マーク=Mark
+メモ=Memo
 
 [Effect]
 動画ファイル=Video File
@@ -319,6 +321,7 @@ PCをスリープ=Sleep PC
 点光源(カメラ制御)=Point Light(Camera)
 スポット光源(カメラ制御)=Spot Light(Camera)
 平行光源(カメラ制御)=Directional Light(Camera)
+フィルタオブジェクト=Filter Object
 震える=Tremble
 振り子=Pendulum
 弾む=Bound
@@ -1245,6 +1248,16 @@ YUVレンジ=YUV Range
 クリッピングオブジェクトの有効・無効=Enable Clipping Object
 カメラ制御の対象オブジェクトの有効・無効=Enable Camera Target Object
 プレビュー再生をクリックで停止=Click To Stop Preview
+フレームをマーク=Mark Frame
+マークを削除=Delete Mark
+マークのメモを変更=Change Mark Memo
+次のマークに移動=Next Mark
+前のマークに移動=Previous Mark
+現在のフレームをマーク=Mark Cursor Frame
+マークリスト=Mark List
+グリッド(BPM)区間を追加=Add Grid(BPM)Section
+グリッド(BPM)区間を削除=Delete Grid(BPM)Section
+グリッド(BPM)区間を設定=Setting Grid(BPM)Section
 
 [Message]
 ファイル出力中=Exporting File
@@ -1364,6 +1377,8 @@ Z軸回転の変更=Change rotation on Z axis
 削除出来ません=can not delete
 変更出来ません=can not change
 入力設定=setting input
+現在のフレームをマーク=mark cursor frame
+音声出力を切替=switch audio output
 
 [Name]
 最小=Minimum
