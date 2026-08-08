@@ -1057,6 +1057,8 @@ YUVレンジ=YUVColorRange
 グリッド(BPM)区間を追加=AddGrid(BPM)Section
 グリッド(BPM)区間を削除=DeleteGrid(BPM)Section
 グリッド(BPM)区間を設定=SettingGrid(BPM)Section
+オブジェクトのフォーカス時にウィンドウを表示=OpenWindowWhenFocusObject
+オブジェクトのクリック時にレイヤーを選択=SelectLayerWhenClickObject
 
 [Message]
 ; ツールチップ、メッセージボックス等のメッセージ
@@ -1316,7 +1318,7 @@ VRAMデータキャッシュサイズ [MB]=VramDataCacheSize[MB]
 決定ボタンが無い時のみ=When no OK button
 ダイアログをEnterキーで決定=ConfirmDialogEnterKey
 シーンを複製=DuplicateScene
-Alt+左クリックドラックで右クリックドラック操作=Alt+LeftClickDragToRghtClickDrag
+Alt+左クリックドラッグで右クリックドラッグ操作=Alt+LeftClickDragToRghtClickDrag
 キーを入力してください=Please enter key
 フィルタプラグイン=FilterPlugin
 スクリプトモジュール=ScriptModule

@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation - German (de)
 ; Generated automatically. Do not edit directly.
-; Translated 112 of 1704 entries (6.57%).
+; Translated 112 of 1706 entries (6.57%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -146,7 +146,7 @@ VRAMデータキャッシュサイズ [MB]=VRAM Data Cache Size [MB]
 決定ボタンが無い時のみ=Only When There Is No Confirm Button
 ダイアログをEnterキーで決定=Confirm Dialog with Enter Key
 シーンを複製=Duplicate Scene
-Alt+左クリックドラックで右クリックドラック操作=Assign right-drag to Alt + left-drag
+Alt+左クリックドラッグで右クリックドラッグ操作=Alt+Left Click Drag To Rght Click Drag
 キーを入力してください=Input the key
 フィルタプラグイン=Filter Plugin
 スクリプトモジュール=Script Module
@@ -1258,6 +1258,8 @@ YUVレンジ=YUV Range
 グリッド(BPM)区間を追加=Add Grid(BPM)Section
 グリッド(BPM)区間を削除=Delete Grid(BPM)Section
 グリッド(BPM)区間を設定=Setting Grid(BPM)Section
+オブジェクトのフォーカス時にウィンドウを表示=Open Window When Focus Object
+オブジェクトのクリック時にレイヤーを選択=Select Layer When Click Object
 
 [Message]
 ファイル出力中=Exporting File

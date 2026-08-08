@@ -3508,6 +3508,14 @@
   'グリッド(BPM)区間を設定': |
     グリッド(BPM)区間を設定
 
+  # OpenWindowWhenFocusObject
+  'オブジェクトのフォーカス時にウィンドウを表示': |
+    オブジェクトのフォーカス時にウィンドウを表示
+
+  # SelectLayerWhenClickObject
+  'オブジェクトのクリック時にレイヤーを選択': |
+    オブジェクトのクリック時にレイヤーを選択
+
 'Message':
   # exporting file
   'ファイル出力中': |
@@ -4535,8 +4543,8 @@
     シーンを複製
 
   # Alt+LeftClickDragToRghtClickDrag
-  'Alt+左クリックドラックで右クリックドラック操作': |
-    Alt+左クリックドラックで右クリックドラック操作
+  'Alt+左クリックドラッグで右クリックドラッグ操作': |
+    Alt+左クリックドラッグで右クリックドラッグ操作
 
   # Please enter key
   'キーを入力してください': |
