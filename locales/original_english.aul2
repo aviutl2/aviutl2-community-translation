@@ -111,6 +111,7 @@ Information=Simple English Language by Kenkun
 スポット光源(カメラ制御)=SpotLight(Camera)
 平行光源(カメラ制御)=DirectionalLight(Camera)
 フィルタオブジェクト=FilterObject
+拡張色調補正=ExtendedColorCorrect
 
 ; スクリプトの名称
 震える=Tremble
@@ -626,6 +627,13 @@ Z軸回転=RotateZ
 変形率=TransformRatio
 横格子点=GridPointX
 縦格子点=GridPointY
+赤=Red
+緑=Green
+青=Blue
+ゲイン=Gain
+ガンマ=Gamma
+リフト=Lift 
+オフセット=Offset
 
 [Menu]
 ; ウィンドウメニュー、ポップアップメニューの項目名
@@ -1059,6 +1067,13 @@ YUVレンジ=YUVColorRange
 グリッド(BPM)区間を設定=SettingGrid(BPM)Section
 オブジェクトのフォーカス時にウィンドウを表示=OpenWindowWhenFocusObject
 オブジェクトのクリック時にレイヤーを選択=SelectLayerWhenClickObject
+上のオブジェクトでクリッピング=ClippingWithUpperObject
+上のオブジェクトでクリッピングの有効・無効=EnableClippingWithUpperObject
+現在のフレームにメディアオブジェクトを追加=AddMediaObjectToCursorFrame
+現在のフレームにフィルタオブジェクトを追加=AddFilterObjectToCursorFrame
+オブジェクトにフィルタ効果を追加=AddFilterToObject
+オブジェクトにプリセットを適用=ApplyPresetToObject
+カラーコードを常に表示=AlwaysDisplayColorCode
 
 [Message]
 ; ツールチップ、メッセージボックス等のメッセージ

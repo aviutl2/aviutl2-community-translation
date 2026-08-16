@@ -2278,6 +2278,99 @@
   'B': |
     B
 
+'拡張色調補正':
+  # ExtendedColorCorrect
+  '拡張色調補正': |
+    拡張色調補正
+
+  # (No default text available)
+  '輝度::ゲイン': |
+    輝度::ゲイン
+
+  # (No default text available)
+  '輝度::ガンマ': |
+    輝度::ガンマ
+
+  # (No default text available)
+  '輝度::リフト': |
+    輝度::リフト
+
+  # (No default text available)
+  '輝度::オフセット': |
+    輝度::オフセット
+
+  # (No default text available)
+  '彩度::ゲイン': |
+    彩度::ゲイン
+
+  # (No default text available)
+  '彩度::ガンマ': |
+    彩度::ガンマ
+
+  # (No default text available)
+  '彩度::リフト': |
+    彩度::リフト
+
+  # (No default text available)
+  '彩度::オフセット': |
+    彩度::オフセット
+
+  # (No default text available)
+  '色相::オフセット': |
+    色相::オフセット
+
+  # (No default text available)
+  '赤::ゲイン': |
+    赤::ゲイン
+
+  # (No default text available)
+  '赤::ガンマ': |
+    赤::ガンマ
+
+  # (No default text available)
+  '赤::リフト': |
+    赤::リフト
+
+  # (No default text available)
+  '赤::オフセット': |
+    赤::オフセット
+
+  # (No default text available)
+  '緑::ゲイン': |
+    緑::ゲイン
+
+  # (No default text available)
+  '緑::ガンマ': |
+    緑::ガンマ
+
+  # (No default text available)
+  '緑::リフト': |
+    緑::リフト
+
+  # (No default text available)
+  '緑::オフセット': |
+    緑::オフセット
+
+  # (No default text available)
+  '青::ゲイン': |
+    青::ゲイン
+
+  # (No default text available)
+  '青::ガンマ': |
+    青::ガンマ
+
+  # (No default text available)
+  '青::リフト': |
+    青::リフト
+
+  # (No default text available)
+  '青::オフセット': |
+    青::オフセット
+
+  # Saturate
+  '飽和する': |
+    飽和する
+
 '拡散光':
   # Diffusion
   '拡散光': |
@@ -3281,6 +3374,10 @@
   # Contrast
   'コントラスト': |
     コントラスト
+
+  # Gamma
+  'ガンマ': |
+    ガンマ
 
   # Hue
   '色相': |

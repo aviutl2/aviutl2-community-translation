@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation - German (de)
 ; Generated automatically. Do not edit directly.
-; Translated 112 of 1706 entries (6.57%).
+; Translated 112 of 1721 entries (6.51%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -322,6 +322,7 @@ PCをスリープ=Sleep PC
 スポット光源(カメラ制御)=Spot Light(Camera)
 平行光源(カメラ制御)=Directional Light(Camera)
 フィルタオブジェクト=Filter Object
+拡張色調補正=Extended Color Correct
 震える=Tremble
 振り子=Pendulum
 弾む=Bound
@@ -829,6 +830,13 @@ Z軸回転=Z Rotieren
 変形率=Application Rate
 横格子点=# of Horizontal Points
 縦格子点=# of Vertical Points
+赤=Red
+緑=Green
+青=Blue
+ゲイン=Gain
+ガンマ=Gamma
+リフト=Lift
+オフセット=Offset
 
 [Menu]
 ファイル=File
@@ -1260,6 +1268,13 @@ YUVレンジ=YUV Range
 グリッド(BPM)区間を設定=Setting Grid(BPM)Section
 オブジェクトのフォーカス時にウィンドウを表示=Open Window When Focus Object
 オブジェクトのクリック時にレイヤーを選択=Select Layer When Click Object
+上のオブジェクトでクリッピング=Clipping With Upper Object
+上のオブジェクトでクリッピングの有効・無効=Enable Clipping With Upper Object
+現在のフレームにメディアオブジェクトを追加=Add Media Object To Cursor Frame
+現在のフレームにフィルタオブジェクトを追加=Add Filter Object To Cursor Frame
+オブジェクトにフィルタ効果を追加=Add Filter To Object
+オブジェクトにプリセットを適用=Apply Preset To Object
+カラーコードを常に表示=Always Display Color Code
 
 [Message]
 ファイル出力中=Exporting File

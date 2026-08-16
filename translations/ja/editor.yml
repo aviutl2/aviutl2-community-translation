@@ -1799,6 +1799,34 @@
   '縦格子点': |
     縦格子点
 
+  # Red
+  '赤': |
+    赤
+
+  # Green
+  '緑': |
+    緑
+
+  # Blue
+  '青': |
+    青
+
+  # Gain
+  'ゲイン': |
+    ゲイン
+
+  # Gamma
+  'ガンマ': |
+    ガンマ
+
+  # Lift
+  'リフト': |
+    リフト
+
+  # Offset
+  'オフセット': |
+    オフセット
+
 'Menu':
   # File
   'ファイル': |
@@ -3515,6 +3543,34 @@
   # SelectLayerWhenClickObject
   'オブジェクトのクリック時にレイヤーを選択': |
     オブジェクトのクリック時にレイヤーを選択
+
+  # ClippingWithUpperObject
+  '上のオブジェクトでクリッピング': |
+    上のオブジェクトでクリッピング
+
+  # EnableClippingWithUpperObject
+  '上のオブジェクトでクリッピングの有効・無効': |
+    上のオブジェクトでクリッピングの有効・無効
+
+  # AddMediaObjectToCursorFrame
+  '現在のフレームにメディアオブジェクトを追加': |
+    現在のフレームにメディアオブジェクトを追加
+
+  # AddFilterObjectToCursorFrame
+  '現在のフレームにフィルタオブジェクトを追加': |
+    現在のフレームにフィルタオブジェクトを追加
+
+  # AddFilterToObject
+  'オブジェクトにフィルタ効果を追加': |
+    オブジェクトにフィルタ効果を追加
+
+  # ApplyPresetToObject
+  'オブジェクトにプリセットを適用': |
+    オブジェクトにプリセットを適用
+
+  # AlwaysDisplayColorCode
+  'カラーコードを常に表示': |
+    カラーコードを常に表示
 
 'Message':
   # exporting file
