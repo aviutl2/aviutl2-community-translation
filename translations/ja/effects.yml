@@ -291,6 +291,10 @@
   '形状': |
     形状
 
+  # ColorInterp
+  '色補間': |
+    色補間
+
   # StartColor
   '開始色': |
     開始色
@@ -298,6 +302,35 @@
   # EndColor
   '終了色': |
     終了色
+
+  # PatternImage
+  'パターン画像': |
+    パターン画像
+
+'グラデーションマップ':
+  # GradientMap
+  'グラデーションマップ': |
+    グラデーションマップ
+
+  # Level
+  '強さ': |
+    強さ
+
+  # ColorInterp
+  '色補間': |
+    色補間
+
+  # ShadowColor
+  '暗部色': |
+    暗部色
+
+  # HighlightColor
+  '明部色': |
+    明部色
+
+  # PatternImage
+  'パターン画像': |
+    パターン画像
 
 'グループ制御':
   # GroupControl
@@ -2371,6 +2404,10 @@
   '飽和する': |
     飽和する
 
+  # (No default text available)
+  '色空間': |
+    色空間
+
 '拡散光':
   # Diffusion
   '拡散光': |
@@ -3394,6 +3431,10 @@
   # Saturate
   '飽和する': |
     飽和する
+
+  # (No default text available)
+  '色空間': |
+    色空間
 
 '走査線':
   # ScanLine

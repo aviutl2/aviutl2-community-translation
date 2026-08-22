@@ -1827,6 +1827,18 @@
   'オフセット': |
     オフセット
 
+  # ColorInterp
+  '色補間': |
+    色補間
+
+  # ShadowColor
+  '暗部色': |
+    暗部色
+
+  # HighlightColor
+  '明部色': |
+    明部色
+
 'Menu':
   # File
   'ファイル': |

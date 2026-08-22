@@ -112,6 +112,7 @@ Information=Simple English Language by Kenkun
 平行光源(カメラ制御)=DirectionalLight(Camera)
 フィルタオブジェクト=FilterObject
 拡張色調補正=ExtendedColorCorrect
+グラデーションマップ=GradientMap
 
 ; スクリプトの名称
 震える=Tremble
@@ -634,6 +635,9 @@ Z軸回転=RotateZ
 ガンマ=Gamma
 リフト=Lift 
 オフセット=Offset
+色補間=ColorInterp
+暗部色=ShadowColor
+明部色=HighlightColor
 
 [Menu]
 ; ウィンドウメニュー、ポップアップメニューの項目名
