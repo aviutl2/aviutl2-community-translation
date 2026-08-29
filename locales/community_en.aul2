@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation - English (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1397 of 1743 entries (80.15%).
+; Translated 1397 of 1748 entries (79.92%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -197,7 +197,7 @@ Ctrlキーを押しながら=While holding Ctrl
 Altキーを押しながら=While holding Alt
 レイアウトを作成=Create Layout
 レイアウト名=Layout Name
-プリセットから設定=Setting From Preset
+設定のプリセットから読込=Load Setting From Preset
 参照式=Reference Expression
 ビデオ形式=Video Format
 オーディオ形式=Audio Format
@@ -232,6 +232,7 @@ PCをスリープ=Sleep PC
 メインウィンドウの位置も保存する=Save Main Window Position
 マーク=Mark
 メモ=Memo
+プリセットを作成 - シーン=New Preset(Scene)
 
 [Effect]
 動画ファイル=Video File
@@ -1279,6 +1280,10 @@ YUVレンジ=YUV Range
 オブジェクトにフィルタ効果を追加=Add Filter To Object
 オブジェクトにプリセットを適用=Apply Preset To Object
 カラーコードを常に表示=Always Display Color Code
+全て表示=Show All
+ラベルなし=Unlabeled
+シーンをプリセットから追加=Add Scene From Preset
+シーンのプリセットを作成=Create Scene Preset
 
 [Message]
 ファイル出力中=Exporting File
@@ -1388,8 +1393,8 @@ Z軸回転の変更=Change rotation on Z axis
 レイアウトの保存に失敗しました=failed save layout
 レイアウトの読み込みに失敗しました=failed load layout
 色を選択=select color
-プリセットを保存=save preset
-プリセットを保存しました=preset saved
+設定のプリセットを保存=save setting preset
+設定のプリセットを保存しました=setting preset saved
 保存するプリセット名を指定してください=please set preset name to save
 参照式を編集=edit reference expression
 区間毎に設定=set each section

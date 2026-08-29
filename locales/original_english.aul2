@@ -1078,6 +1078,10 @@ YUVレンジ=YUVColorRange
 オブジェクトにフィルタ効果を追加=AddFilterToObject
 オブジェクトにプリセットを適用=ApplyPresetToObject
 カラーコードを常に表示=AlwaysDisplayColorCode
+全て表示=ShowAll
+ラベルなし=Unlabeled
+シーンをプリセットから追加=AddSceneFromPreset
+シーンのプリセットを作成=CreateScenePreset
 
 [Message]
 ; ツールチップ、メッセージボックス等のメッセージ
@@ -1188,8 +1192,8 @@ Z軸回転の変更=change rotate z
 レイアウトの保存に失敗しました=failed save layout
 レイアウトの読み込みに失敗しました=failed load layout
 色を選択=select color
-プリセットを保存=save preset
-プリセットを保存しました=preset saved
+設定のプリセットを保存=save setting preset
+設定のプリセットを保存しました=setting preset saved
 保存するプリセット名を指定してください=please set preset name to save
 参照式を編集=edit reference expression
 区間毎に設定=set each section
@@ -1388,7 +1392,7 @@ Ctrlキーを押しながら=WithCtrlKeyDown
 Altキーを押しながら=WithAltKeyDown
 レイアウトを作成=CreateLayout
 レイアウト名=LayoutName
-プリセットから設定=SettingFromPreset
+設定のプリセットから読込=LoadSettingFromPreset
 参照式=ReferenceExpression
 ビデオ形式=VideoFormat
 オーディオ形式=AudioFormat
@@ -1423,6 +1427,7 @@ PCをスリープ=SleepPC
 メインウィンドウの位置も保存する=SaveMainWindowPosition
 マーク=Mark
 メモ=Memo
+プリセットを作成 - シーン=NewPreset(Scene)
 ;OK=OK
 ;Cancel=Cancel
 

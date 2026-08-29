@@ -3584,6 +3584,22 @@
   'カラーコードを常に表示': |
     カラーコードを常に表示
 
+  # ShowAll
+  '全て表示': |
+    全て表示
+
+  # Unlabeled
+  'ラベルなし': |
+    ラベルなし
+
+  # AddSceneFromPreset
+  'シーンをプリセットから追加': |
+    シーンをプリセットから追加
+
+  # CreateScenePreset
+  'シーンのプリセットを作成': |
+    シーンのプリセットを作成
+
 'Message':
   # exporting file
   'ファイル出力中': |
@@ -4025,13 +4041,13 @@
   '色を選択': |
     色を選択
 
-  # save preset
-  'プリセットを保存': |
-    プリセットを保存
+  # save setting preset
+  '設定のプリセットを保存': |
+    設定のプリセットを保存
 
-  # preset saved
-  'プリセットを保存しました': |
-    プリセットを保存しました
+  # setting preset saved
+  '設定のプリセットを保存しました': |
+    設定のプリセットを保存しました
 
   # please set preset name to save
   '保存するプリセット名を指定してください': |
@@ -4814,9 +4830,9 @@
   'レイアウト名': |
     レイアウト名
 
-  # SettingFromPreset
-  'プリセットから設定': |
-    プリセットから設定
+  # LoadSettingFromPreset
+  '設定のプリセットから読込': |
+    設定のプリセットから読込
 
   # ReferenceExpression
   '参照式': |
@@ -4953,6 +4969,10 @@
   # Memo
   'メモ': |
     メモ
+
+  # NewPreset(Scene)
+  'プリセットを作成 - シーン': |
+    プリセットを作成 - シーン
 
 'Name':
   # Min
