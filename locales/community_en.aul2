@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation - English (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1396 of 1782 entries (78.34%).
+; Translated 1397 of 1782 entries (78.4%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -1281,7 +1281,7 @@ YUVレンジ=YUV Range
 グリッド(BPM)区間を削除=Delete Grid(BPM)Section
 グリッド(BPM)区間を設定=Setting Grid(BPM)Section
 オブジェクトのフォーカス時にウィンドウを表示=Open Window When Focus Object
-オブジェクトのクリック時にレイヤーを選択=Select Layer When Click Object
+オブジェクトのクリック時にレイヤーを選択=Select Layer When Object is Clicked
 上のオブジェクトでクリッピング=Clipping With Upper Object
 上のオブジェクトでクリッピングの有効・無効=Enable Clipping With Upper Object
 現在のフレームにメディアオブジェクトを追加=Add Media Object To Cursor Frame

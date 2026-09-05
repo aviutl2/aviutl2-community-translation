@@ -2508,6 +2508,9 @@
   # LanguageFileInformation
   '言語ファイル情報': |
     Language File Information
+  # SelectLayerWhenClickObject
+  'オブジェクトのクリック時にレイヤーを選択': |
+    Select Layer When Object is Clicked
 'Message':
   # exporting file
   'ファイル出力中': |
