@@ -347,9 +347,6 @@
   # OutputToMovingDirection
   '出力方向の基準を移動方向にする': |
     Set Output Direction Based on Movement Direction
-  # RotateToMovingDirection
-  '回転角の基準を移動方向にする': |
-    Set Rotation Angle Based on Movement Direction
   # RandomRotation
   '3Dランダム回転': |
     3D Random Rotation

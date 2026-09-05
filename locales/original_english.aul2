@@ -113,6 +113,7 @@ Information=Simple English Language by Kenkun
 フィルタオブジェクト=FilterObject
 拡張色調補正=ExtendedColorCorrect
 グラデーションマップ=GradientMap
+パーティクル出力(カメラ制御)=ParticleOutput(Camera)
 
 ; スクリプトの名称
 震える=Tremble
@@ -293,7 +294,7 @@ Z軸回転=RotateZ
 生存時間=LiveTime
 移動範囲の座標からランダムに出力=RandomOutputMovingPosition
 出力方向の基準を移動方向にする=OutputToMovingDirection 
-回転角の基準を移動方向にする=RotateToMovingDirection 
+回転角の基準を出力方向にする=RotateToOutputDirection 
 3Dランダム回転=RandomRotation
 波形の色=Color
 波形のプリセット=Preset
@@ -638,6 +639,14 @@ Z軸回転=RotateZ
 色補間=ColorInterp
 暗部色=ShadowColor
 明部色=HighlightColor
+出力方向X=DirectionX
+出力方向Y=DirectionY
+出力方向Z=DirectionZ
+X軸回転速度=RotateXSpeed
+Y軸回転速度=RotateYSpeed
+Z軸回転速度=RotateZSpeed
+回転角の基準=RotateAngle
+回転角の基準をカメラ方向にする=RotateToCameraDirection
 
 [Menu]
 ; ウィンドウメニュー、ポップアップメニューの項目名
@@ -1204,6 +1213,7 @@ Z軸回転の変更=change rotate z
 入力設定=setting input
 現在のフレームをマーク=mark cursor frame
 音声出力を切替=switch audio output
+{file}を設定=set {file}
 
 [Dialog]
 ; ダイアログ内の名称

@@ -467,9 +467,9 @@
   '出力方向の基準を移動方向にする': |
     出力方向の基準を移動方向にする
 
-  # RotateToMovingDirection
-  '回転角の基準を移動方向にする': |
-    回転角の基準を移動方向にする
+  # RotateToOutputDirection
+  '回転角の基準を出力方向にする': |
+    回転角の基準を出力方向にする
 
   # RandomRotation
   '3Dランダム回転': |
@@ -1838,6 +1838,38 @@
   # HighlightColor
   '明部色': |
     明部色
+
+  # DirectionX
+  '出力方向X': |
+    出力方向X
+
+  # DirectionY
+  '出力方向Y': |
+    出力方向Y
+
+  # DirectionZ
+  '出力方向Z': |
+    出力方向Z
+
+  # RotateXSpeed
+  'X軸回転速度': |
+    X軸回転速度
+
+  # RotateYSpeed
+  'Y軸回転速度': |
+    Y軸回転速度
+
+  # RotateZSpeed
+  'Z軸回転速度': |
+    Z軸回転速度
+
+  # RotateAngle
+  '回転角の基準': |
+    回転角の基準
+
+  # RotateToCameraDirection
+  '回転角の基準をカメラ方向にする': |
+    回転角の基準をカメラ方向にする
 
 'Menu':
   # File
@@ -4088,6 +4120,10 @@
   # switch audio output
   '音声出力を切替': |
     音声出力を切替
+
+  # set {file}
+  '{file}を設定': |
+    {file}を設定
 
 'Dialog':
   # NewScene

@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation - English (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1397 of 1748 entries (79.92%).
+; Translated 1396 of 1782 entries (78.34%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -325,6 +325,7 @@ PCをスリープ=Sleep PC
 フィルタオブジェクト=Filter Object
 拡張色調補正=Extended Color Correct
 グラデーションマップ=Gradient Map
+パーティクル出力(カメラ制御)=Particle Output(Camera)
 震える=Tremble
 振り子=Pendulum
 弾む=Bound
@@ -497,7 +498,7 @@ Z軸回転=Z Rotation
 生存時間=Lifetime
 移動範囲の座標からランダムに出力=Random Output from Movement Range Coordinates
 出力方向の基準を移動方向にする=Set Output Direction Based on Movement Direction
-回転角の基準を移動方向にする=Set Rotation Angle Based on Movement Direction
+回転角の基準を出力方向にする=Rotate To Output Direction
 3Dランダム回転=3D Random Rotation
 波形の色=Waveform Color
 波形のプリセット=Waveform Preset
@@ -842,6 +843,14 @@ Z軸回転=Z Rotation
 色補間=Color Interp
 暗部色=Shadow Color
 明部色=Highlight Color
+出力方向X=Direction X
+出力方向Y=Direction Y
+出力方向Z=Direction Z
+X軸回転速度=Rotate XSpeed
+Y軸回転速度=Rotate YSpeed
+Z軸回転速度=Rotate ZSpeed
+回転角の基準=Rotate Angle
+回転角の基準をカメラ方向にする=Rotate To Camera Direction
 
 [Menu]
 ファイル=File
@@ -1405,6 +1414,7 @@ Z軸回転の変更=Change rotation on Z axis
 入力設定=setting input
 現在のフレームをマーク=mark cursor frame
 音声出力を切替=switch audio output
+{file}を設定=set {file}
 
 [Name]
 最小=Minimum
@@ -1499,13 +1509,39 @@ I=斜体にするかを切り替えます
 回転角=出力時のパーティクルの角度を指定します
 回転速度=出力後のパーティクルの回転速度を指定します
 重力=重力加速度を指定します
-生存時間=出力後のパーティクルが生存する時間を指定します
+生存時間=出力後のパーティクルが生存する時間を指定します(透過・縮小のタイミングを調整します)
 出力終了調整=パーティクルの出力終了をオブジェクトの終了の何秒前にするかを指定します
 合成モード=画像の合成方法を指定します
 移動範囲の座標からランダムに出力=オブジェクトの移動範囲の座標からランダムに出力します
 出力方向の基準を移動方向にする=オブジェクトの移動方向を出力方向の基準角度にします
-回転角の基準を移動方向にする=オブジェクトの移動方向を回転角の基準角度にします
+回転角の基準を出力方向にする=オブジェクトの出力方向を回転角の基準角度にします
 3Dランダム回転=回転速度の設定を最大速度としてランダムに3軸回転させます
+
+[Tips.パーティクル出力(カメラ制御)]
+出力頻度=1秒間に出力するパーティクルの数を指定します
+出力速度=出力時の速度を指定します
+加速度=出力後の加速度を指定します
+出力方向X=出力するX軸方向を指定します
+出力方向Y=出力するY軸方向を指定します
+出力方向Z=出力するZ軸方向を指定します
+拡散角度=出力する方向を拡散させる角度を指定します
+透過率=出力時の透過率を指定します
+透過速度=出力後の透過率の変化速度を指定します
+拡大率=出力時の拡大率を指定します
+拡大速度=出力後の拡大率の変化速度を指定します
+X軸回転=出力時のパーティクルのX軸角度を指定します
+Y軸回転=出力時のパーティクルのY軸角度を指定します
+Z軸回転=出力時のパーティクルのZ軸角度を指定します
+X軸回転速度=出力後のパーティクルのX軸回転速度を指定します
+Y軸回転速度=出力後のパーティクルのY軸回転速度を指定します
+Z軸回転速度=出力後のパーティクルのZ軸回転速度を指定します
+重力=重力加速度を指定します
+生存時間=出力後のパーティクルが生存する時間を指定します(透過・縮小のタイミングを調整します)
+出力終了調整=パーティクルの出力終了をオブジェクトの終了の何秒前にするかを指定します
+合成モード=画像の合成方法を指定します
+回転角の基準=パーティクルの回転角の基準を指定します
+移動範囲の座標からランダムに出力=オブジェクトの移動範囲の座標からランダムに出力します
+出力方向の基準を移動方向にする=オブジェクトの移動方向を出力方向の基準角度にします
 
 [Tips.フレームバッファ]
 effect.name=現在の描画バッファのデータを取り込みます\n画面全体にフィルタ効果を適用する場合に利用します

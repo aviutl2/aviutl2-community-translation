@@ -871,13 +871,126 @@
   '出力方向の基準を移動方向にする': |
     出力方向の基準を移動方向にする
 
-  # RotateToMovingDirection
-  '回転角の基準を移動方向にする': |
-    回転角の基準を移動方向にする
+  # RotateToOutputDirection
+  '回転角の基準を出力方向にする': |
+    回転角の基準を出力方向にする
 
   # RandomRotation
   '3Dランダム回転': |
     3Dランダム回転
+
+'パーティクル出力(カメラ制御)':
+  # ParticleOutput(Camera)
+  'パーティクル出力(カメラ制御)': |
+    パーティクル出力(カメラ制御)
+
+  # (No default text available)
+  'X': |
+    X
+
+  # (No default text available)
+  'Y': |
+    Y
+
+  # (No default text available)
+  'Z': |
+    Z
+
+  # Frequency
+  '出力頻度': |
+    出力頻度
+
+  # Speed
+  '出力速度': |
+    出力速度
+
+  # Acceleration
+  '加速度': |
+    加速度
+
+  # DirectionX
+  '出力方向X': |
+    出力方向X
+
+  # DirectionY
+  '出力方向Y': |
+    出力方向Y
+
+  # DirectionZ
+  '出力方向Z': |
+    出力方向Z
+
+  # SpreadAngle
+  '拡散角度': |
+    拡散角度
+
+  # RotateX
+  'X軸回転': |
+    X軸回転
+
+  # RotateY
+  'Y軸回転': |
+    Y軸回転
+
+  # RotateZ
+  'Z軸回転': |
+    Z軸回転
+
+  # RotateXSpeed
+  'X軸回転速度': |
+    X軸回転速度
+
+  # RotateYSpeed
+  'Y軸回転速度': |
+    Y軸回転速度
+
+  # RotateZSpeed
+  'Z軸回転速度': |
+    Z軸回転速度
+
+  # Transparent
+  '透過率': |
+    透過率
+
+  # TransparentRate
+  '透過速度': |
+    透過速度
+
+  # Zoom
+  '拡大率': |
+    拡大率
+
+  # ZoomSpeed
+  '拡大速度': |
+    拡大速度
+
+  # Gravity
+  '重力': |
+    重力
+
+  # LiveTime
+  '生存時間': |
+    生存時間
+
+  # AdjustEnd
+  '出力終了調整': |
+    出力終了調整
+
+  # Blend
+  '合成モード': |
+    合成モード
+
+  # RotateAngle
+  '回転角の基準': |
+    回転角の基準
+
+  # OutputToMovingDirection
+  '出力方向の基準を移動方向にする': |
+    出力方向の基準を移動方向にする
+
+  # RandomOutputMovingPosition
+  '移動範囲の座標からランダムに出力': |
+    移動範囲の座標からランダムに出力
 
 'フィルタオブジェクト':
   # FilterObject
@@ -3047,6 +3160,10 @@
   # Zoom
   '拡大率': |
     拡大率
+
+  # Layout
+  '配置': |
+    配置
 
   # Blend
   '合成モード': |
